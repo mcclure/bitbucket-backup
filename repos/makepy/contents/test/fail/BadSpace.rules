@@ -1,0 +1,7 @@
+y = 1 2 3
+
+forx iny:
+    do:
+        print( y )
+
+all:

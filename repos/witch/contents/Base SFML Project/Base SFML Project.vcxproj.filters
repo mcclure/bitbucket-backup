@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Plaid">
+      <UniqueIdentifier>{9a7619b2-0746-46c2-8efb-5bed1245996e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plaid">
+      <UniqueIdentifier>{bddebd32-2bbc-4e37-ab2d-7b4ba60e593a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audioObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\amp.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\audio.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\util\binary.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\chunk.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\clip.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\codec.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\driver.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\analysis\envelope.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\filter.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\util\memory.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\mixer.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\synth\oscillator.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\pan.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\pitch.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\reverb.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\scheduler.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\scratch.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\signal.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\splicer.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\splitter.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\transcoder.cpp">
+      <Filter>Source Files\Plaid</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="postprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphicsObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\effects.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\geometry\2d.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\analysis.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\attribute.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\audio.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\bimap.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\binary.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\bindings.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\clip.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\core.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\implementation.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\thread\lockfree.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\memory.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\ref.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\scratch.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\stream.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\stringmap.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\synth.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\traits.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\util\types.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\plaid\plaid\audio\util.h">
+      <Filter>Header Files\Plaid</Filter>
+    </ClInclude>
+    <ClInclude Include="audioObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="goals.txt" />
+  </ItemGroup>
+</Project>

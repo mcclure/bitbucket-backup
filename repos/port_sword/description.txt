@@ -1,0 +1,3 @@
+Quick mac port of Sword In Hand by Jeff Lait. Download playable version at http://vote.grumpybumpers.com/j/sword/1/sword_in_hand.zip
+
+See mac/compile.txt for build instructions.

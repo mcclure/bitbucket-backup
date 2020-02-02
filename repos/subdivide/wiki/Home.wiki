@@ -1,0 +1,33 @@
+Table of contents:
+
+<<toc>>
+
+== Introduction ==
+
+This is the complete source code to a program called "A Cube For You", created by [[http://runhello.com/|Run Hello]]. Included are the Mac, Windows, and Linux versions. If you just want to try the program, see [[http://vote.grumpybumpers.com/j/cube/1/|here]].
+
+The project is hosted here on Bitbucket, so you can download the source yourself by doing one of the following:
+
+* {{{hg clone https://bitbucket.org/runhello/subdivide}}}
+* {{{svn co https://bitbucket.org/runhello/subdivide/trunk}}}
+* Select the "download repository" link from the [[https://bitbucket.org/runhello/subdivide/downloads|downloads page]].
+
+== Licensing ==
+
+This is a working source code repository, so NOTHING IN THE REPOSITORY SHOULD BE TAKEN AS GRANTING A LICENSE TO REUSE THE CODE OR SOFTWARE. There is no license information in the repository itself. Rather, here is the licensing information:
+
+The contents of this repository are available under the Creative Commons [[http://creativecommons.org/licenses/by-nc/3.0/|Attribution-NonCommercial 3.0 Unported]] license. This means you are free to use the code and resources from this game for any noncommercial purpose as long as you clearly credit the original creator (Andi McClure). You may alternately, if you choose, use the code under the terms of the [[http://www.gnu.org/licenses/gpl-2.0.html|GNU GPL 2.0]], any later version of the GNU GPL, or the Creative Commons [[http://creativecommons.org/licenses/by-sa/3.0/|Attribution-ShareAlike 3.0 Unported]] license. These licenses essentially say you may use the code and resources from this game for any purpose including commercial ones as long as you clearly credit the original creator and also make your source code available. This program also incorporates a number of open source libraries or resources with their own license terms, as described in the file package/readme.txt.
+
+Also please note: Nothing here should be taken as granting permission to use the Run Hello name or logo.
+
+If you would like to use something here under different terms, or have any questions, you can contact andi DOT m DOT mcclure AT gmail DOT com.
+
+== How to use ==
+
+Before compiling, you will need to build Polycode. You can do this by running {{{./manage.py load -b -d --bindings-only --no-tools}}} from the repository root. Once you have done this, to compile:
+
+* For Mac, run ./package/pkg_mac.sh
+* For Windows, enter ./package/win and perform make (you will need MinGW).
+* For Linux, enter ./package/lin and perform make.
+
+For more detailed instructions on building both Polycode and this project, see the help for [[https://bitbucket.org/runhello/polyconsole|Polyconsole]].

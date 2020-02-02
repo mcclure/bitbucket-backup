@@ -1,0 +1,14 @@
+This is a fork of hg-git. It lets you download stuff from git repositories using hg. The difference between this fork and mainline hg-git is that git revision hashes get listed along with the mercurial ones when using hg commands, and mercurial revisions can be referred to by their equivalent git hash names. It has not been successfully merged with the mainline repo in some time.
+
+Don't have any idea what these nonsense words mean? Then this software isn't for you. 
+
+Here's how you install this:
+
+{{{
+sudo easy_install dulwich
+cd /some/sensible/path
+hg clone https://bitbucket.org/runhello/hg-git
+echo "[extensions]\nhggit=/some/sensible/path/hg-git/hggit" > ~/.hgrc
+}}}
+
+Obviously replace /some/sensible/path with some sensible path.

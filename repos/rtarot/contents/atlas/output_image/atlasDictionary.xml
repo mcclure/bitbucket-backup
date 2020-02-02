@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<list name="textureAtlas">
+    <atlas basename="interface" filename="interface-1.png" index="1">
+        <image bottom="0.1328125" left="0.0" name="_woodblock" right="0.1328125" top="0.0"/>
+        <image bottom="0.1328125" left="0.1328125" name="_tambourine" right="0.265625" top="0.0"/>
+        <image bottom="0.1328125" left="0.265625" name="_snare2" right="0.3984375" top="0.0"/>
+        <image bottom="0.1328125" left="0.3984375" name="_snare" right="0.53125" top="0.0"/>
+        <image bottom="0.1328125" left="0.53125" name="_sing" right="0.6640625" top="0.0"/>
+        <image bottom="0.1328125" left="0.6640625" name="_piano" right="0.796875" top="0.0"/>
+        <image bottom="0.1328125" left="0.796875" name="_maraca" right="0.9296875" top="0.0"/>
+        <image bottom="0.265625" left="0.0" name="_harp" right="0.1328125" top="0.1328125"/>
+        <image bottom="0.265625" left="0.1328125" name="_hand" right="0.265625" top="0.1328125"/>
+        <image bottom="0.265625" left="0.265625" name="_garbage" right="0.3984375" top="0.1328125"/>
+        <image bottom="0.265625" left="0.3984375" name="_fba_guitar" right="0.53125" top="0.1328125"/>
+        <image bottom="0.265625" left="0.53125" name="_e_guitar" right="0.6640625" top="0.1328125"/>
+        <image bottom="0.265625" left="0.6640625" name="_drums" right="0.796875" top="0.1328125"/>
+        <image bottom="0.265625" left="0.796875" name="_door" right="0.9296875" top="0.1328125"/>
+        <image bottom="0.3984375" left="0.0" name="_dog" right="0.1328125" top="0.265625"/>
+        <image bottom="0.3984375" left="0.1328125" name="_d_guitar" right="0.265625" top="0.265625"/>
+        <image bottom="0.3984375" left="0.265625" name="_cymbal2" right="0.3984375" top="0.265625"/>
+        <image bottom="0.3984375" left="0.3984375" name="_cymbal" right="0.53125" top="0.265625"/>
+        <image bottom="0.3984375" left="0.53125" name="_cowbell" right="0.6640625" top="0.265625"/>
+        <image bottom="0.3984375" left="0.6640625" name="_bongo2" right="0.796875" top="0.265625"/>
+        <image bottom="0.3984375" left="0.796875" name="_bongo" right="0.9296875" top="0.265625"/>
+        <image bottom="0.53125" left="0.0" name="_auto1" right="0.1328125" top="0.3984375"/>
+        <image bottom="0.53125" left="0.1328125" name="_a_guitar" right="0.265625" top="0.3984375"/>
+        <image bottom="0.5234375" left="0.265625" name="sync" right="0.390625" top="0.3984375"/>
+        <image bottom="0.5234375" left="0.390625" name="settings" right="0.515625" top="0.3984375"/>
+        <image bottom="0.5234375" left="0.515625" name="save" right="0.640625" top="0.3984375"/>
+        <image bottom="0.5234375" left="0.640625" name="rightarrow" right="0.765625" top="0.3984375"/>
+        <image bottom="0.5234375" left="0.765625" name="reset" right="0.890625" top="0.3984375"/>
+        <image bottom="0.65625" left="0.0" name="rand" right="0.125" top="0.53125"/>
+        <image bottom="0.65625" left="0.125" name="nosync" right="0.25" top="0.53125"/>
+        <image bottom="0.65625" left="0.25" name="nogrid" right="0.375" top="0.53125"/>
+        <image bottom="0.65625" left="0.375" name="load" right="0.5" top="0.53125"/>
+        <image bottom="0.65625" left="0.5" name="leftarrow" right="0.625" top="0.53125"/>
+        <image bottom="0.65625" left="0.625" name="gs" right="0.75" top="0.53125"/>
+        <image bottom="0.65625" left="0.75" name="grid" right="0.875" top="0.53125"/>
+        <image bottom="0.65625" left="0.875" name="fs" right="1.0" top="0.53125"/>
+        <image bottom="0.78125" left="0.0" name="esc" right="0.125" top="0.65625"/>
+        <image bottom="0.78125" left="0.125" name="dupe" right="0.25" top="0.65625"/>
+        <image bottom="0.78125" left="0.25" name="ds" right="0.375" top="0.65625"/>
+        <image bottom="0.78125" left="0.375" name="drag" right="0.5" top="0.65625"/>
+        <image bottom="0.78125" left="0.5" name="downarrow" right="0.625" top="0.65625"/>
+        <image bottom="0.78125" left="0.625" name="cs" right="0.75" top="0.65625"/>
+        <image bottom="0.78125" left="0.75" name="clear" right="0.875" top="0.65625"/>
+        <image bottom="0.78125" left="0.875" name="as" right="1.0" top="0.65625"/>
+        <image bottom="0.90625" left="0.0" name="_timpani" right="0.125" top="0.78125"/>
+        <image bottom="0.90625" left="0.125" name="_kickdrum" right="0.25" top="0.78125"/>
+        <image bottom="0.0625" left="0.9296875" name="question" right="0.9921875" top="0.0"/>
+        <image bottom="0.125" left="0.9296875" name="g" right="0.9921875" top="0.0625"/>
+        <image bottom="0.1953125" left="0.9296875" name="f" right="0.9921875" top="0.1328125"/>
+        <image bottom="0.2578125" left="0.9296875" name="e" right="0.9921875" top="0.1953125"/>
+        <image bottom="0.328125" left="0.9296875" name="d" right="0.9921875" top="0.265625"/>
+        <image bottom="0.390625" left="0.9296875" name="circle3" right="0.9921875" top="0.328125"/>
+        <image bottom="0.4609375" left="0.890625" name="circle2" right="0.953125" top="0.3984375"/>
+        <image bottom="0.5234375" left="0.890625" name="circle1" right="0.953125" top="0.4609375"/>
+        <image bottom="0.84375" left="0.25" name="c" right="0.3125" top="0.78125"/>
+        <image bottom="0.84375" left="0.3125" name="b" right="0.375" top="0.78125"/>
+        <image bottom="0.84375" left="0.375" name="a" right="0.4375" top="0.78125"/>
+    </atlas>
+</list>

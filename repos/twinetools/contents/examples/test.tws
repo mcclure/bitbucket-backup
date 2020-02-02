@@ -1,0 +1,572 @@
+(dp0
+S'buildDestination'
+p1
+V/Users/mcc/work/h/twinetools/examples/test.html
+p2
+sS'saveDestination'
+p3
+S'/Users/mcc/work/h/twinetools/examples/test.tws'
+p4
+sS'target'
+p5
+S'jonah'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+F138.75
+aF177.5
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+V<<display "begin">>\u000a\u000a<<silently>>\u000a\u000a// character //\u000a<<set $body = {}>>\u000a<<set $body.texture = "shadowy">>\u000a<<set $body.color = "translucent">>\u000a\u000a// resources //\u000a<<set $green = 0>>\u000a<<set $purple = 0>>\u000a<<set $red = 0>>\u000a\u000a// items //\u000a\u000a<<set $amulet = 0>>\u000a\u000a<<set $cup = 0>>\u000a\u000a\u000a// puzzles //\u000a\u000a<<set $idol1 = "">>\u000a<<set $idol2 = "">>\u000a<<set $idol3 = "">>\u000a\u000a<<endsilently>>
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I4
+I26
+I5
+I17
+I35
+I4
+I116
+I1
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+VStart
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+F154.99999999999994
+aF425.0
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+VYou are Angela Merkel, President of Germany. What do you do?\u000a\u000a[[Count to ten|Looptest]]\u000a\u000a[[Inspect your magical pantsuit.|Randomtest]]\u000a\u000a[[Bang on the keyboard.|Noisetest]]\u000a\u000a[[Enter the labyrinth of argük-hai|Roomtest00]]
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I4
+I26
+I21
+I17
+I36
+I4
+I116
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+Vbegin
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+F430.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+Va {text-decoration:none;color: white; !important}\u000abody { color:white !important }\u000abody { background-color:black !important }\u000abody { text-align:left; width:100% }\u000abody { font-size:100% !important }\u000a\u000aem {color:#00CC66;}\u000a\u000a\u000abody{background-color:black;color:grey;font-family:Verdana,sans-serif;font-size:80%;}\u000a\u000a.passage .title { display: none } \u000a\u000aa{color:#333;}#sidebar li a:hover{color:#fff;text-decoration:none;}#sidebar \u000a\u000a#title{color:#999;font-size:150%;cursor:auto;visibility:hidden}\u000a\u000a#sidebar #title a{color:#999;}\u000a\u000a#sidebar #title a:hover{color:#fff;}#sidebar \u000a#storySubtitle{font-size:75%; display:block;}\u000a#storyAuthor{font-size:50%;}#sidebar #storyMenu{display:none;line-height:2.5em;margin-bottom:.5em;}#sidebar #title:hover{color:#999;}\u000a#storyTitle{display:none!important;}\u000a\u000a#sidebar #credits:hover{color:#333;visibility:hidden;}#sidebar #credits a{text-decoration:none;visibility:hidden;}\u000a\u000ah1,h3{color:#3F4C6A;text-align:left}\u000a\u000a.passage{font-size:1.2em;line-height:200%;margin-bottom:2em;padding:2em;text-align:left;}\u000a\u000aa.internalLink,a.externalLink,a.back,a.return{color:#00CC66;font-weight:bold;text-decoration:none;text-align:left;font-size:120%}\u000a\u000a#footer {visibility:hidden}\u000a\u000aa.internalLink:hover,a.externalLink:hover,a.back:hover,a.return:hover{color:white;text-decoration:none;text-align:left;}\u000a\u000aa.brokenLink{background-color:red;text-decoration:none;color:#000;}.marked{background-color:red;color:#000;margin-right:12px;padding:3px;}\u000a\u000a.highlight {color:red;font-size:120%;font-weight:bold;}\u000a\u000a.passage {background-color:black;}\u000a\u000a#floater {background-color:black;\u000acolor: rgb(8, 8, 8);\u000afont-family: Verdana,sans-serif;\u000afont-size: 12.6px;\u000aline-height: 17.6px;\u000apadding-bottom: 0px;\u000apadding-left: 20px;\u000apadding-right: 20px;\u000apadding-top: 0px;\u000aposition: fixed;\u000aright: 0px;\u000atext-align: center;\u000atop: 0px;\u000aborder-bottom-width: 0px;\u000aborder-left-width: 0px;\u000a}
+p46
+sg22
+g23
+((I2012
+I10
+I26
+I15
+I33
+I52
+I4
+I300
+I1
+tp47
+(dp48
+tp49
+Rp50
+sg29
+Vcss
+p51
+sg28
+g50
+sg20
+(lp52
+Vstylesheet
+p53
+asbsa(dp54
+g12
+I00
+sg13
+(lp55
+F570.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p56
+(dp57
+g18
+V(function () {\u000a	version.extensions['runhello'] = {\u000a		major: 0,\u000a		minor: 1,\u000a		revision: 1\u000a	};\u000a	\u000a	function varname(str) {\u000a		var splut = str.split(".")\u000a		str = splut[splut.length-1]		\u000a		return str\u000a	}\u000a	\u000a	// Utility macros\u000a	\u000a	// Arbitrary (100 chars) amount of ASCII noise\u000a    macros['noise'] = {\u000a        handler: function (place, macroName, params, parser) {\u000a			var str = "";\u000a			for(var c = 0; c < 100; c++) {\u000a				str = str + String.fromCharCode(Math.floor(Math.random()*96)+32);\u000a			}\u000a			new Wikifier(place, str);\u000a		}\u000a    }\u000a		\u000a	// Macro to loop over a javascript array\u000a	macros['for'] = { // Loop over a list. Incorporates sections of L's "replace" macro\u000a		handler: function (place, macroName, params, parser) {\u000a			var afterTagIdx = parser.source.indexOf('>>', parser.matchStart) + 2;\u000a            var afterTag = parser.source.slice(afterTagIdx);\u000a            var endAt = -1;\u000a            var tagInner = '';\u000a            var depth = 0;\u000a            var macroNameLen = macroName.length\u000a            for(var i = 0; i < afterTag.length; i++) {\u000a                if(afterTag.substr(i, 7 + macroNameLen) == '<<end' + macroName + '>>') {\u000a                    if(depth == 0) {\u000a                        endAt = afterTagIdx + i + 7 + macroNameLen;\u000a                        break;\u000a                    }\u000a                    else {\u000a                        depth--;\u000a                        tagInner += afterTag.charAt(i);\u000a                    }\u000a                }\u000a                else {\u000a                    if(afterTag.substr(i, 2 + macroNameLen) == '<<' + macroName) {\u000a                        depth++;\u000a                    }\u000a                    tagInner += afterTag.charAt(i);\u000a                }\u000a            }\u000a			var rest = parser.source.slice(endAt)\u000a			\u000a			var into = varname(Wikifier.parse(params[0]))\u000a			var over = eval(Wikifier.parse(params[1]))\u000a\u000a			if (over) {\u000a				var before = state.history[0].variables[into]\u000a				for(var i = 0; i < over.length; i++) {\u000a					state.history[0].variables[into] = over[i]\u000a					new Wikifier(place, tagInner);\u000a				}\u000a				state.history[0].variables[into] = before\u000a			}\u000a			\u000a			new Wikifier(place, rest);\u000a			\u000a			parser.nextMatch = parser.source.length // We exhausted the string, so halt this parser.\u000a		}\u000a	}\u000a	macros['endfor'] = {\u000a		handler: function (place, macroName, params, parser) {}\u000a	}\u000a	\u000a	// Functions, can be used in <<set>> or <<print>>\u000a	\u000a	function sax(start, input) { // Support function for roompick\u000a		for(var i = 0; i < input.length; i++) {\u000a			start^=(start<<5) + (start>>2) + input.charCodeAt(i)\u000a			start = start % 256;\u000a		}\u000a		return start\u000a	}\u000a	\u000a	window.roompick = function(name, options) {\u000a		var hash = sax(sax(0, state.history[0].passage.title), name)\u000a		\u000a		return options[ hash % options.length ]\u000a	}\u000a	window.randompick = function(options) {\u000a		return options[Math.floor(Math.random()*options.length)]\u000a	}\u000a	\u000a}());\u000a
+p58
+sg20
+(lp59
+Vscript
+p60
+asg22
+g23
+((I2013
+I4
+I23
+I21
+I52
+I24
+I1
+I113
+I1
+tp61
+(dp62
+tp63
+Rp64
+sg28
+g64
+sg29
+Vrunhello_macros
+p65
+sbsa(dp66
+g12
+I00
+sg13
+(lp67
+F850.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p68
+(dp69
+g18
+V/* Force Jonah to display as one screen instead of an updating column */\u000a\u000aHistory.prototype.originalDisplay = History.prototype.display;\u000a\u000aHistory.prototype.display = function (title, link, render)\u000a{\u000a	if ((render != 'quietly') && (render != 'offscreen'))\u000a		removeChildren($('passages'));\u000a		\u000a	this.originalDisplay.apply(this, arguments);\u000a};\u000a
+p70
+sg22
+g23
+((I2012
+I10
+I21
+I15
+I32
+I0
+I6
+I295
+I1
+tp71
+(dp72
+tp73
+Rp74
+sg29
+Vtemplate
+p75
+sg28
+g74
+sg20
+(lp76
+Vscript
+p77
+asbsa(dp78
+g12
+I00
+sg13
+(lp79
+F-550.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p80
+(dp81
+g18
+S''
+p82
+sg20
+(lp83
+sg22
+g23
+((I2013
+I4
+I27
+I16
+I38
+I29
+I5
+I117
+I1
+tp84
+(dp85
+tp86
+Rp87
+sg28
+g87
+sg29
+S'Untitled Passage 28'
+p88
+sbsa(dp89
+g12
+I00
+sg13
+(lp90
+F417.5
+aF170.0
+asg15
+(itiddlywiki
+Tiddler
+p91
+(dp92
+S'text'
+p93
+VUsing your incredible temporal powers as head of state, you count to ten.\u000a\u000a<<set $toten = [1,2,3,4,5,6,7,8,9,10]>>\u000a\u000a<<for $n $toten>>\u000a<<print $n>>,\u000a<<endfor>>\u000a\u000a[[Done.|begin]]
+p94
+sS'tags'
+p95
+(lp96
+sS'created'
+p97
+g23
+((I2013
+I4
+I28
+I10
+I39
+I59
+I6
+I118
+I1
+tp98
+(dp99
+tp100
+Rp101
+sS'modified'
+p102
+g101
+sS'title'
+p103
+VLooptest
+p104
+sbsa(dp105
+g12
+I00
+sg13
+(lp106
+F572.5
+aF288.75
+asg15
+(itiddlywiki
+Tiddler
+p107
+(dp108
+S'text'
+p109
+VYou glance down at the pantsuit you are wearing. This pantsuit is of course magical; it is a different color every time you look at it. Right now it is <<print randompick(["red","blue","green"])>>.\u000a\u000a[[All right.|begin]]
+p110
+sS'tags'
+p111
+(lp112
+sS'created'
+p113
+g23
+((I2013
+I5
+I18
+I11
+I30
+I58
+I5
+I138
+I1
+tp114
+(dp115
+tp116
+Rp117
+sS'modified'
+p118
+g117
+sS'title'
+p119
+VRandomtest
+p120
+sbsa(dp121
+g12
+I00
+sg13
+(lp122
+F56.25
+aF591.25
+asg15
+(itiddlywiki
+Tiddler
+p123
+(dp124
+g109
+V<<display 'Roomtest_all'>>\u000a\u000a[[East.|Roomtest01]]\u000a\u000a[[South.|Roomtest10]]
+p125
+sg111
+(lp126
+sg113
+g23
+((I2013
+I5
+I18
+I11
+I31
+I13
+I5
+I138
+I1
+tp127
+(dp128
+tp129
+Rp130
+sg118
+g130
+sg119
+VRoomtest00
+p131
+sbsa(dp132
+g12
+I00
+sg13
+(lp133
+F342.5
+aF583.75
+asg15
+(itiddlywiki
+Tiddler
+p134
+(dp135
+g109
+V<<display 'Roomtest_all'>>\u000a\u000a[[West.|Roomtest00]]\u000a\u000a[[South.|Roomtest11]]
+p136
+sg111
+(lp137
+sg113
+g23
+((I2013
+I5
+I18
+I11
+I31
+I32
+I5
+I138
+I1
+tp138
+(dp139
+tp140
+Rp141
+sg118
+g141
+sg119
+VRoomtest01
+p142
+sbsa(dp143
+g12
+I00
+sg13
+(lp144
+F45.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g109
+V<<display 'Roomtest_all'>>\u000a\u000a[[North.|Roomtest00]]\u000a\u000a[[East.|Roomtest11]]
+p147
+sg111
+(lp148
+sg113
+g23
+((I2013
+I5
+I18
+I11
+I31
+I50
+I5
+I138
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg118
+g152
+sg119
+VRoomtest10
+p153
+sbsa(dp154
+g12
+I00
+sg13
+(lp155
+F348.75
+aF830.0
+asg15
+(itiddlywiki
+Tiddler
+p156
+(dp157
+g109
+V<<display 'Roomtest_all'>>\u000a\u000a[[North.|Roomtest01]]\u000a\u000a[[West.|Roomtest10]]
+p158
+sg111
+(lp159
+sg113
+g23
+((I2013
+I5
+I18
+I11
+I32
+I1
+I5
+I138
+I1
+tp160
+(dp161
+tp162
+Rp163
+sg118
+g163
+sg119
+VRoomtest11
+p164
+sbsa(dp165
+g12
+I00
+sg13
+(lp166
+F192.5
+aF707.5
+asg15
+(itiddlywiki
+Tiddler
+p167
+(dp168
+g109
+VYou stand in the labyrinth of argük-hai. It's not much of a labyrinth, frankly, but it's yours. You are in a room with <<set $color=roompick("color", ["mauve","purple","teal","orange","yellow","white"])>> <<print $color>> <<print roompick("walls_material", ["wood","spackle","stone","obsidian","ice"])>> walls. On a pedestal in the center of the room is a bust of <<print roompick("head", ["Emmy Noether","Erwin Schroedinger", "Kenzaburo Oe", "Jakob Boehme", "Leo Loewenthal", "Hannah Hoech"])>>. Your eyes are blinded by all of the <<print $color>>.
+p169
+sg111
+(lp170
+sg113
+g23
+((I2013
+I5
+I18
+I11
+I32
+I13
+I5
+I138
+I1
+tp171
+(dp172
+tp173
+Rp174
+sg118
+g174
+sg119
+VRoomtest_all
+p175
+sbsa(dp176
+g12
+I01
+sg13
+(lp177
+F470.0
+aF440.0
+asg15
+(itiddlywiki
+Tiddler
+p178
+(dp179
+S'text'
+p180
+VYou sit down before the computer you use for official business. With solemnity and incredible force, you type:\u000a\u000a<<noise>>\u000a\u000a[[Done.|begin]]
+p181
+sS'tags'
+p182
+(lp183
+sS'created'
+p184
+g23
+((I2013
+I5
+I18
+I12
+I0
+I0
+I5
+I138
+I1
+tp185
+(dp186
+tp187
+Rp188
+sS'modified'
+p189
+g188
+sS'title'
+p190
+VNoisetest
+p191
+sbsasS'scale'
+p192
+F0.80000000000000004
+ss.

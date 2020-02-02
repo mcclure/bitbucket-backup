@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<polycode>	
+	<shaders>
+		<shader type="glsl" name="FilterShader">		
+			<vp source="default/ScreenShader.vert" />
+			<fp source="media/ext_material/FilterShader.frag" />
+		</shader>
+	</shaders>
+	<materials>
+		<material name="FilterMaterial">
+			<rendertargets>
+				<rendertarget id="mid"  sizeMode="normalized" width="1.0" height="1.0"/>
+				<rendertarget id="mid2"  sizeMode="normalized" width="1.0" height="1.0"/>
+			</rendertargets>
+			<shader name="FilterShader">
+				<targettextures>
+					<targettexture mode="color" name="screenColorBuffer" />
+					<targettexture mode="in" name="screenTexture" id="mid2"/>
+					<targettexture mode="out" id="mid"/>
+				</targettextures>
+			</shader>
+			<shader name="PassThrough">
+				<targettextures>
+					<targettexture mode="in" name="screenColorBuffer" id="mid"/>
+					<targettexture mode="out" id="mid2"/>
+				</targettextures>													
+			</shader>
+			<shader name="PassThrough">
+				<targettextures>
+					<targettexture mode="in" name="screenColorBuffer" id="mid2"/>
+				</targettextures>													
+			</shader>	
+		</material>
+	</materials>
+</polycode>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Library\plaid\plaid\audio\analysis\envelope.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\audio.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\chunk.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\clip.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\codec.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\driver.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\amp.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\filter.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\pan.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\pitch.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\effect\reverb.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\scheduler.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\scratch.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\signal.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\synth\oscillator.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\mixer.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\splicer.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\splitter.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\audio\util\transcoder.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\util\binary.cpp" />
+    <ClCompile Include="..\Library\plaid\plaid\util\memory.cpp" />
+    <ClCompile Include="audioObjects.cpp" />
+    <ClCompile Include="Emitter.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="graphicsObjects.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="postprocess.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Library\plaid\plaid\audio.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\analysis.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\audio.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\bindings.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\clip.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\effects.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\implementation.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\scratch.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\stream.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\synth.h" />
+    <ClInclude Include="..\Library\plaid\plaid\audio\util.h" />
+    <ClInclude Include="..\Library\plaid\plaid\core.h" />
+    <ClInclude Include="..\Library\plaid\plaid\geometry\2d.h" />
+    <ClInclude Include="..\Library\plaid\plaid\thread\lockfree.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\attribute.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\bimap.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\binary.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\memory.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\ref.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\stringmap.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\traits.h" />
+    <ClInclude Include="..\Library\plaid\plaid\util\types.h" />
+    <ClInclude Include="audioObjects.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="Emitter.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="graphicsObjects.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="postprocess.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="goals.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB5CAB97-3E5E-4EE6-9F07-99DB13A62AF6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BaseSFMLProject</RootNamespace>
+    <ProjectName>Sea Anemone</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\witch2\Library\plaid\portaudio;C:\witch\Library;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\witch2\Library\plaid\portaudio;C:\witch\Library\plaid;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\witch2\Library\plaid\portaudio;C:\witch\Library\plaid;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\witch2\Library\plaid\portaudio;C:\witch\Library;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;_DEBUG;_CONSOLE;WINDOWS;PLAID_SFML;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFML-2.1\include;C:\witch\Library</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\SFML-2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-graphics-s-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;portaudio_x86_dbg.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;WINDOWS;PLAID_SFML;SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFML-2.1\include;C:\witch\Library</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-system-s.lib;sfml-window-s.lib;sfml-graphics-s.lib;kernel32.lib;user32.lib;portaudio_x86.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\SFML-2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

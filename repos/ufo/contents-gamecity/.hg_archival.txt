@@ -1,0 +1,6 @@
+repo: 0cd28d9af2f50a54df467ea59f81fc0188891579
+node: f9aa677eb62bf08c6b035247533d8988e488099b
+branch: default
+latesttag: expo_gamecity_2
+latesttagdistance: 3
+changessincelatesttag: 3

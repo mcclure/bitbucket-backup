@@ -1,0 +1,9 @@
+This is a sample project suitable for beginning a Polycode project from. It starts with a space populated with shapes from an SVG, and a console into which LUA commands can be typed. I suggest trying entering the Polycode LUA examples.
+
+This will hopefully be expanded with time to support platforms other than mac.
+
+Before compiling for the first time, run:
+ 
+./manage.py install
+
+You will need mercurial installed for this to work right.  

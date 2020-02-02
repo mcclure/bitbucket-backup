@@ -1,0 +1,56 @@
+<pack>
+	<row>
+		<c t="0" />
+		<c t="1" />
+		<c t="2" />
+		<c t="3" />
+		<c t="4" />
+		<c t="5" />
+		<c t="6" />
+	</row>
+	<row>
+		<c s="bassdrum" i="_kickdrum" />
+		<c s="toml" i="_bongo2" />
+		<c s="snaredrum" i="_snare" />
+		<c s="clap" i="_hand" />
+		<c s="cabasa" i="_maraca" />
+		<c s="hat_close" i="_cymbal2" />
+		<c s="hat_open" i="_cymbal" />
+	</row>
+	<row>
+		<c s="piano_D2" t="0" m="-5" i="_piano" />
+		<c s="piano_D2" t="1" m="-5" i="_piano" />
+		<c s="piano_D2" t="2" m="-5" i="_piano" />
+		<c s="piano_D2" t="3" m="-5" i="_piano" />
+		<c s="piano_D2" t="4" m="-5" i="_piano" />
+		<c s="piano_B4" t="5" m="-14" i="_piano" />
+		<c s="piano_B4" t="6" m="-14" i="_piano" />
+	</row>
+	<row>
+		<c s="jdrums23" i="_drums" />
+		<c s="jdrums8" i="_snare2" />
+		<c s="doorslam" i="_door" />
+		<c s="plasticjug" i="_garbage" />
+		<c s="woodblock" i="_woodblock" />
+		<c s="cowbell" i="_cowbell" />
+		<c s="tambourine" i="_tambourine" />
+	</row>
+	<row>
+		<c s="guitarE0" t="0" m="5" i="_a_guitar" />
+		<c s="guitarE0" t="1" m="5" i="_a_guitar" />
+		<c s="guitarE0" t="2" m="5" i="_a_guitar" />
+		<c s="guitarE1" t="3" m="-7" i="_a_guitar" />
+		<c s="guitarE1" t="4" m="-7" i="_a_guitar" />
+		<c s="guitarE1" t="5" m="-7" i="_a_guitar" />
+		<c s="guitarE2" t="6" m="-19" i="_a_guitar" />
+	</row>
+	<row>
+		<c s="longguitar" m="-10" p="10" i="_fba_guitar" />
+		<c s="elecmute" m="3" p="-3" i="_e_guitar" />
+		<c s="guitarchug" m="11" p="-11" i="_d_guitar" />
+		<c s="vocoder" m="-3" p="3" i="_auto1" />
+		<c s="sosumi" i="_harp" />
+		<c s="ma26" m="-1" p="1" i="_sing" />
+		<c s="dog" m="-14" p="14" i="_dog" />
+	</row>
+</pack>

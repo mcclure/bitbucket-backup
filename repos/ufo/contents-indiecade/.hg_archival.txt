@@ -1,0 +1,4 @@
+repo: 0cd28d9af2f50a54df467ea59f81fc0188891579
+node: 194db0e391889f68b321aa4c3a2e13fe98e7391b
+branch: default
+tag: expo_indiecade_2

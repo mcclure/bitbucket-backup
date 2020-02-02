@@ -1,0 +1,1 @@
+Polycode lua experiment -- a game called "Unplayable Asteroids". Self-explanatory. You are not granted any rights to this code, but feel free to contact me if you want some.

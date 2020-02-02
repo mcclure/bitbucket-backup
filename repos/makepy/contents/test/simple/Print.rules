@@ -1,0 +1,6 @@
+X = 3
+
+print Value of X is $X
+warn This should only appear"\n"in the stderr.
+
+all:

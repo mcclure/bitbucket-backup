@@ -1,0 +1,5 @@
+This is a quick mac port of Sword In Hand by Jeff Lait. You can download a playable version [[http://vote.grumpybumpers.com/j/sword/1/sword_in_hand.zip|here]]. You can find more information about Sword In Hand [[http://www.freeindiegam.es/2012/03/sword-in-hand-jeff-lait/|here]].
+
+See mac/compile.txt for build instructions.
+
+Any changes to the project made by me (Andi McClure) in the process of porting are under the [[http://creativecommons.org/publicdomain/zero/1.0/legalcode.txt|Creative Commons Zero]] license (may be used by anyone for any purpose without limitation).

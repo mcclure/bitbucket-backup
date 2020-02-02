@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>icons/eraser.png</file>
+    <file>icons/eyeDropper.png</file>
+    <file>icons/paintBucket.png</file>
+    <file>icons/pencil.png</file>
+    <file>icons/redo.png</file>
+    <file>icons/slab.png</file>
+    <file>icons/splat.png</file>
+    <file>icons/line.png</file>
+    <file>icons/undo.png</file>
+    <file>icons/layerEye.png</file>
+    <file>icons/layerNew.png</file>
+    <file>icons/layerDuplicate.png</file>
+    <file>icons/layerDelete.png</file>
+</qresource>
+</RCC>

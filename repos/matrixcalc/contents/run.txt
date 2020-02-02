@@ -1,0 +1,5 @@
+# Run once
+npm install
+
+# Run every time
+npx webpack

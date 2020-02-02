@@ -1,0 +1,5 @@
+media/overlay/startup
+media/overlay/attract
+media/attract.svg
+media/overlay/input
+media/overlay/shutdown

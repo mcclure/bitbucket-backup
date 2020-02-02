@@ -1,0 +1,4 @@
+# Execution error
+
+all:
+    print(q("$( x )"))

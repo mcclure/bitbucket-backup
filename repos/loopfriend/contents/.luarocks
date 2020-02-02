@@ -1,0 +1,2 @@
+rocks_servers={ 'rocks', 'http://luarocks.org/repositories/rocks' }
+lua_modules_path = ""

@@ -1,0 +1,5 @@
+changeset:   534:9d85642dfea0
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sun Jul 29 11:59:05 2012 -0700
+summary:     TiXmlNode::ToElement() can return NULL, for example in the case of an XML comment. Never call ToElement without first sanitizing for NULL.
+

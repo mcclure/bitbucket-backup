@@ -1,0 +1,9 @@
+media/overlay/startup
+media/example/title.svg
+media/overlay/keymap
+media/overlay/theme
+media/overlay/pregame
+media/overlay/editor
+media/overlay/script
+media/overlay/game
+media/overlay/shutdown

@@ -1,0 +1,51 @@
+Repository contents
+
+Makefile
+    Project makefile
+
+LICENSE.md
+    Project licensing and contributor information
+
+contents.txt
+    This file
+
+develop/
+    Utility scripts for use in development. Scripts should be run from project root.
+    See develop/contents.txt
+
+doc/
+    Language, build etc documentation. I recommend starting with "build.md" or "intro.md".
+    Files are in Markdown, I recommend the Markdown Preview plugin for Chrome.
+
+install/
+    After build, executable will go here
+
+library/
+    Files that will go into the built Emily standard library.
+    The "universal" directory tree will be merged with one or more optional directories.
+
+resources/
+    Static files to be incorporated into package during build
+
+sample/
+    Example Emily scripts (including automated tests)
+
+sample/example
+    Example Emily scripts (from manual, for humans)
+
+src/
+    All source code
+
+src/_tags
+    Configuration file for "ocamlbuild"
+
+src/main.ml
+    Program entry point
+
+myocamlbuild.ml
+    This is a source file which ocamlbuild requires at the root level for some reason
+
+_tags
+_build/
+_build_c/
+    Intermediate build products, automatically created by make

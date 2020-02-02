@@ -1,0 +1,1780 @@
+(dp0
+S'buildDestination'
+p1
+V/Users/mcc/work/h/spool/server/twine/cheat.html
+p2
+sS'saveDestination'
+p3
+S'/Users/mcc/work/h/spool/server/twine/cheat.tws'
+p4
+sS'target'
+p5
+S'jonah'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+F290.0
+aF1130.0
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+V[[begin]]\u000a\u000a\u000a<<set $body={}>>\u000a\u000a<<set $danger = 0>>\u000a\u000a<<set $ward = 0>>\u000a<<set $wardstring = "">>
+p19
+sS'created'
+p20
+ctime
+struct_time
+p21
+((I2013
+I4
+I29
+I5
+I42
+I21
+I0
+I119
+I1
+tp22
+(dp23
+tp24
+Rp25
+sS'title'
+p26
+VStart
+p27
+sS'modified'
+p28
+g25
+sS'tags'
+p29
+(lp30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+F430.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+Va {text-decoration:none;color: white; !important}\u000abody { color:white !important }\u000abody { text-align:left; width:70% !important }\u000abody { font-size:100% !important }\u000a\u000abody{background-color:#150517;color:grey;font-family:Verdana,sans-serif;font-size:80%;margin:4em 15% 5% 5em;}\u000a\u000a.passage{font-size:1.2em;line-height:200%;margin-bottom:2em;padding:2em;text-align:left;background-color:#150517;}\u000a\u000a.passage .title { display: none } \u000a\u000a#sidebar{position:fixed;top:4.2em;left:7.5em;width:12em;list-style:none;margin:0;padding:0 1em 0 0;font:bold 1.1em Verdana,sans-serif;}\u000a#sidebar li{color:#333;text-align:right;background-repeat:no-repeat;margin-bottom:1em; line-height:3.4em !important; list-style:none;}\u000a#sidebar li:hover{color:#fff;cursor:pointer;}#sidebar li a{color:#333;}#sidebar li a:hover{color:#fff;text-decoration:none;}#sidebar \u000a\u000a#title{color:#999;font-size:150%;cursor:auto;visibility:hidden}\u000a\u000a#sidebar #title a{color:#999;}\u000a\u000a#sidebar #title a:hover{color:#fff;}#sidebar \u000a#storySubtitle{font-size:75%; display:block;}\u000a#storyAuthor{font-size:50%;}#sidebar #storyMenu{display:none;line-height:2.5em;margin-bottom:.5em;}#sidebar #title:hover{color:#999;}\u000a#storyTitle{display:none!important;}\u000a\u000a#sidebar #credits:hover{color:#333;visibility:hidden;}#sidebar #credits a{text-decoration:none;visibility:hidden;}\u000a\u000ah1,h3{color:#3F4C6A;text-align:left}\u000a\u000a\u000a\u000aa.internalLink,a.externalLink,a.back,a.return{color:#7F38EC;font-weight:bold;text-decoration:none;text-align:left;font-size:120%}\u000a\u000a#footer {visibility:hidden}\u000a\u000aa.internalLink:hover,a.externalLink:hover,a.back:hover,a.return:hover{color:#81ed5a;text-decoration:none;text-align:left;}\u000a\u000aa.brokenLink{background-color:red;text-decoration:none;color:#000;}.marked{background-color:red;color:#000;margin-right:12px;padding:3px;}\u000a\u000a.highlight {color:red;font-size:120%;font-weight:bold;}\u000a\u000a\u000a\u000a#floater {background-color:black;\u000acolor: rgb(8, 8, 8);\u000afont-family: Verdana,sans-serif;\u000afont-size: 12.6px;\u000aline-height: 17.6px;\u000apadding-bottom: 0px;\u000apadding-left: 20px;\u000apadding-right: 20px;\u000apadding-top: 0px;\u000aposition: fixed;\u000aright: 0px;\u000atext-align: center;\u000atop: 0px;\u000aborder-bottom-width: 0px;\u000aborder-left-width: 0px;\u000a}
+p35
+sg26
+Vcss
+p36
+sg28
+g21
+((I2012
+I10
+I26
+I15
+I33
+I52
+I4
+I300
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg29
+(lp41
+Vstylesheet
+p42
+asg20
+g40
+sbsa(dp43
+g12
+I00
+sg13
+(lp44
+F150.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p45
+(dp46
+g18
+Vdeath is naked\u000a\u000adeath is starvation\u000a\u000adeath is again\u000a\u000ahow many times has it been?\u000a\u000a<html><a class="internalLink" href="javascript:restart()">Try again.</html>
+p47
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I48
+I30
+I0
+I119
+I1
+tp48
+(dp49
+tp50
+Rp51
+sg26
+Vdeath
+p52
+sg28
+g51
+sg29
+(lp53
+sbsa(dp54
+g12
+I00
+sg13
+(lp55
+F1270.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p56
+(dp57
+g18
+V<<room "danger">>\u000alamia's nest in the dirt, littered with scale and bone. your skin crawls.\u000a\u000a<<display 'LAMIA'>>\u000a\u000a<<if not $dead>>[[thorns]] to the north\u000a\u000a[[obsidian waste]] to the east\u000a\u000a[[dead field]] to the south<<else>><<corpse>><<endif>>
+p58
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I50
+I25
+I0
+I119
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg26
+Vnest 1
+p63
+sg28
+g62
+sg29
+(lp64
+sbsa(dp65
+g12
+I00
+sg13
+(lp66
+F1410.0
+aF570.0
+asg15
+(itiddlywiki
+Tiddler
+p67
+(dp68
+g18
+Vthe pavilion creaks under your step\u000a\u000aa piano rests at the center\u000a\u000a[[play piano|play]]\u000a\u000a-\u000a\u000a[[bamboo]] to the west\u000a\u000a[[swamp]] to the east
+p69
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I50
+I25
+I0
+I119
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg26
+Vpavilion
+p74
+sg28
+g73
+sg29
+(lp75
+sbsa(dp76
+g12
+I00
+sg13
+(lp77
+F1550.0
+aF570.0
+asg15
+(itiddlywiki
+Tiddler
+p78
+(dp79
+g18
+V<<room>>wading through swampwater\u000a\u000a<<display "ROOM">>\u000a\u000a[[pavilion]] to the west\u000a\u000a[[moondust field]] to the east
+p80
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I57
+I52
+I0
+I119
+I1
+tp81
+(dp82
+tp83
+Rp84
+sg26
+Vswamp
+p85
+sg28
+g84
+sg29
+(lp86
+sbsa(dp87
+g12
+I01
+sg13
+(lp88
+F430.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p89
+(dp90
+g18
+Vyou are nothing\u000a\u000ayou are shadow\u000a\u000ayou are less than human\u000a\u000anaked and hungry\u000a\u000ayou are dreaming of <<cyclinglink $starttrait "color" "skin" "gender" "name">> \u000a\u000a[[wake up|awake]]\u000a
+p91
+sg20
+g21
+((I2013
+I4
+I26
+I21
+I17
+I36
+I4
+I116
+I1
+tp92
+(dp93
+tp94
+Rp95
+sg26
+Vbegin
+p96
+sg28
+g95
+sg29
+(lp97
+sbsa(dp98
+g12
+I00
+sg13
+(lp99
+F150.0
+aF570.0
+asg15
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g18
+V<<piano>>\u000a\u000ayour song is <<print $body.color>>...\u000a\u000a<<print $body.skin>>...\u000a\u000a<<print $body.gender>>...\u000a\u000ait sounds like...\u000a\u000a<<print $body.name>>...\u000a\u000a<<if $body.color and $body.skin and $body.gender and $body.name>>[[keep playing|ascension]]<<else>>[[ah|pavilion]]<<endif>>
+p102
+sg20
+g21
+((I2013
+I4
+I29
+I6
+I56
+I42
+I0
+I119
+I1
+tp103
+(dp104
+tp105
+Rp106
+sg26
+Vplay
+p107
+sg28
+g106
+sg29
+(lp108
+sbsa(dp109
+g12
+I00
+sg13
+(lp110
+F710.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p111
+(dp112
+g18
+VHistory.prototype.originalDisplay = History.prototype.display;\u000a\u000aHistory.prototype.display = function (title, link, render)\u000a{\u000a	if ((render != 'quietly') && (render != 'offscreen'))\u000a		removeChildren($('passages'));\u000a		\u000a	this.originalDisplay.apply(this, arguments);\u000a};\u000a
+p113
+sg20
+g21
+((I2012
+I10
+I21
+I15
+I32
+I0
+I6
+I295
+I1
+tp114
+(dp115
+tp116
+Rp117
+sg26
+Vtemplate
+p118
+sg28
+g117
+sg29
+(lp119
+Vscript
+p120
+asbsa(dp121
+g12
+I00
+sg13
+(lp122
+F611.66666666666697
+aF1108.3333333333337
+asg15
+(itiddlywiki
+Tiddler
+p123
+(dp124
+g18
+V<<silently>>\u000a<<if $fixname>>\u000a<<set $body.name=$fixname>>\u000a<<set $fixname=null>>\u000a<<set $needfixname=null>>\u000a<<else>>\u000a<<set $body = {}>>\u000a\u000a<<set $traits = ["skin","color","gender","name"]>>\u000a<<if not $starttrait and not $needfixname>><<set $starttrait = randompick( $traits ) >><<endif>>\u000a\u000a<<set $colors = ["red","yellow","blue","green","purple"] >>\u000a<<set $skins = ["crystal","slimy","scaly","hairy","mossy"] >>\u000a<<set $genders = ["masculine","feminine","androgyne"] >>\u000a<<set $names = ["Porpy" ,"Sloane", "Merritt", "Erin", "Alicia", "Lilith", "Chastain", "Marras", "Andi", "Nic", "Micha", "Joe", "Jim", "Lance", "Chavon", "Jae", "Razi", "Brian", "Patrick", "Mel", "Jamie", "Diana", "Nabil", "Ashley", "Maddox"] >>\u000a\u000a<<if $starttrait eq "skin">>\u000a	<<set $body.skin = randompick($skins)>>\u000a<<endif>>\u000a\u000a<<if $starttrait eq "color">>\u000a	<<set $body.color = randompick($colors)>>\u000a<<endif>>\u000a\u000a<<if $starttrait eq "gender">>\u000a	<<set $body.gender = randompick($genders)>>\u000a<<endif>>\u000a	\u000a<<if $starttrait eq "name">>\u000a    <<set $needfixname=true>>	\u000a<<endif>>\u000a<<endif>>\u000a<<endsilently>>\u000a\u000aYou awake to find <<if $starttrait eq "name">>your name is <<if $needfixname>><html><br></html><<textinput "fixname" "awake" "this.">><<else>><<print $body.name>><<endif>><<else>>you have <<if $starttrait eq "gender">><<display "GENDER">><<else>><<print $body[ $starttrait ] >><<endif>> <<print $starttrait>><<endif>>.\u000a\u000a<<if not $needfixname>>[[swim upwards|swamp]]\u000a\u000a[[activate godmode|cheat]]\u000a\u000a[[free hope|a3]]\u000a\u000a[[provoke lamia|provoke]]<<endif>>
+p125
+sg29
+(lp126
+sg20
+g21
+((I2013
+I4
+I29
+I8
+I50
+I28
+I0
+I119
+I1
+tp127
+(dp128
+tp129
+Rp130
+sg28
+g130
+sg26
+Vawake
+p131
+sbsa(dp132
+g12
+I00
+sg13
+(lp133
+F563.33333333333337
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p134
+(dp135
+g18
+V(function () {\u000a	// First load jquery\u000a	var s = document.createElement('script');\u000a	s.src = '/support/jquery-1.9.1.min.js';\u000a	s.onload = function f(){ \u000a		jQuery.noConflict(); \u000a	}\u000a	document.body.appendChild(s);\u000a\u000a	version.extensions['athena'] = {\u000a		major: 0,\u000a		minor: 1,\u000a		revision: 1\u000a	};\u000a	\u000a	// Utility\u000a	function onesplit(str, sep) {\u000a		var at = str.indexOf(sep);\u000a		if (at < -1) return null\u000a		return [str.slice(0,at), str.slice(at+1)]\u000a	}\u000a	function varname(str) {\u000a		var splut = str.split(".")\u000a		str = splut[splut.length-1]		\u000a		return str\u000a	}\u000a	\u000a	// Handler objects. Start with "superclass"\u000a	function Handler() {\u000a	}\u000a	Handler.prototype.macroToSend = function(contents, session) {\u000a		return null\u000a	}\u000a	Handler.prototype.resultsToOutput = function(data, session) {\u000a		return null\u000a	}\u000a	Handler.prototype.handler = function (place, macroName, params, parser) {\u000a		if (jQuery) {\u000a			var tagEnd = parser.source.indexOf('>>', parser.matchStart) + 2;\u000a			var rest = parser.source.slice(tagEnd);\u000a			var session = {}\u000a\u000a			var send = this.macroToSend( parser.fullArgs(), session )\u000a			if (session.halt) return\u000a			\u000a			parser.nextMatch = parser.source.length // Skip to end. Continue only if AJAX returns.\u000a			\u000a			var outerThis = this\u000a			if (send != null) send = JSON.stringify(send)\u000a			\u000a			jQuery.post("/data", send, function(data) {\u000a				var output = outerThis.resultsToOutput(data, session)\u000a				if (output) { new Wikifier(place, output); }\u000a				new Wikifier(place, rest);\u000a			}, "json");\u000a\u000a		} else {\u000a			new Wikifier(place, ":(");\u000a		}\u000a	}\u000a	\u000a	// -- Examples of handler functions: Send and receive --\u000a	function SendHandler(action) {\u000a		if (action) this.action = action\u000a		else this.action = "send"\u000a	}\u000a	SendHandler.prototype = new Handler()\u000a	SendHandler.prototype.macroToSend = function (contents, session) {\u000a		var splut = onesplit(contents, "=")\u000a		if (splut) {\u000a			var name = splut[0].trim()\u000a			var val = eval(Wikifier.parse(splut[1]))\u000a			return {\u000a				action: this.action,\u000a				target: name,\u000a				value: val\u000a			}\u000a		}\u000a		session.halt = true\u000a		return null\u000a	}\u000a	\u000a	function ReceiveHandler(action) {\u000a	}\u000a	ReceiveHandler.prototype = new Handler()\u000a	ReceiveHandler.prototype.macroToSend = function (contents, session) {\u000a		var splut = onesplit(contents, "=")\u000a		if (splut) {\u000a			session.local = Wikifier.parse(splut[0])\u000a			var target = splut[1].trim()\u000a			return {\u000a				action: "receive",\u000a				target: target,\u000a			}\u000a		}\u000a		session.halt = true\u000a		return null\u000a	}\u000a	ReceiveHandler.prototype.resultsToOutput = function(data, session) {\u000a		var splut = varname(session.local)\u000a		state.history[0].variables[splut] = data.value\u000a		return null\u000a	}\u000a	\u000a	// -- Room handler --\u000a\u000a	var roomState = {room:{},remote:{},piano:{}}\u000a	\u000a	function RoomHandler() {\u000a	}\u000a	RoomHandler.prototype = new Handler()\u000a	RoomHandler.prototype.basicMacro = function() {\u000a		return {\u000a			action: this.action,\u000a			id:roomState.room.id,\u000a		}\u000a	}\u000a	RoomHandler.prototype.macroToSend = function (contents, session) {\u000a		return this.basicMacro()\u000a	}\u000a	\u000a	function CorpseHandler() {\u000a		this.action = "corpse"\u000a	}\u000a	CorpseHandler.prototype = new RoomHandler()\u000a	CorpseHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = this.basicMacro()\u000a		basicMacro.body = state.history[0].variables.body\u000a		return basicMacro\u000a	}\u000a	\u000a	function EatCorpseHandler() {\u000a		this.action = "eatcorpse"\u000a	}\u000a	EatCorpseHandler.prototype = new RoomHandler()\u000a	EatCorpseHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = this.basicMacro()\u000a		basicMacro.target = eval(Wikifier.parse(contents))\u000a		return basicMacro\u000a	}\u000a	\u000a	function PianoHandler(action) {\u000a	}\u000a	PianoHandler.prototype = new Handler()\u000a	PianoHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = {\u000a			action: "piano",\u000a		}\u000a		basicMacro.body = state.history[0].variables.body\u000a		\u000a		return basicMacro\u000a	}\u000a	PianoHandler.prototype.resultsToOutput = function(data, session) {\u000a		if (data.time) {\u000a			roomState.piano.body = null\u000a			roomState.piano.last = data.time\u000a		}\u000a		\u000a		return null\u000a	}\u000a	\u000a	function RoomlookHandler(action) {\u000a		this.action = "roomlook"\u000a	}\u000a	RoomlookHandler.prototype = new RoomHandler()\u000a	RoomlookHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = this.basicMacro()\u000a		basicMacro.kind = roomState.room.kind\u000a		if (roomState.piano.last)\u000a			basicMacro.time = roomState.piano.last;\u000a		return basicMacro\u000a	}\u000a	RoomlookHandler.prototype.resultsToOutput = function(data, session) {\u000a		roomState.remote = data\u000a		\u000a		if (state.history[0].variables.dangerprotect) { // hax for debugging\u000a			roomState.remote.danger = state.history[0].variables.danger\u000a			state.history[0].variables.dangerprotect = false\u000a		}\u000a		\u000a		if (data.piano && data.piano.length>0) {\u000a			roomState.piano.body = data.piano[0]\u000a			roomState.piano.last = roomState.piano.body.time\u000a		} else {\u000a			roomState.piano.body = null // Possibly clear out old body\u000a		}\u000a		\u000a		return null\u000a	}\u000a	\u000a	function HopeHandler() {\u000a	}\u000a	HopeHandler.prototype = new Handler()\u000a	HopeHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = {\u000a			action: "hope",\u000a			hope:state.history[0].variables.newhope\u000a		}\u000a		return basicMacro\u000a	}\u000a	\u000a	// Turn handlers into macros	\u000a	var receiveHandler = new ReceiveHandler()\u000a	macros['receive'] = {\u000a		handler: function (place, macroName, params, parser) { receiveHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	var sendHandler = new SendHandler()\u000a	macros['send'] = {\u000a		handler: function (place, macroName, params, parser) { sendHandler.handler(place,macroName,params,parser) }\u000a	}\u000a\u000a	var addHandler = new SendHandler("accumulate")\u000a	macros['add'] = {\u000a		handler: function (place, macroName, params, parser) { addHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	// Room related macros\u000a	window.roomState = roomState\u000a	\u000a	var roomlookHandler = new RoomlookHandler()\u000a	macros['room'] = {\u000a		handler: function (place, macroName, params, parser) {\u000a			var kind = params.length>0 ? params[0] : ""\u000a			roomState.room = {id:state.history[0].passage.title, kind:kind}\u000a			roomlookHandler.handler(place,macroName,params,parser)\u000a		}\u000a	}\u000a	\u000a	var corpseHandler = new CorpseHandler()\u000a	macros['corpse'] = {\u000a		handler: function (place, macroName, params, parser) { corpseHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	var eatCorpseHandler = new EatCorpseHandler()\u000a	macros['eatcorpse'] = {\u000a		handler: function (place, macroName, params, parser) { eatCorpseHandler.handler(place,macroName,params,parser) }\u000a	}\u000a\u000a	var pianoHandler = new PianoHandler()\u000a	macros['piano'] = {\u000a		handler: function (place, macroName, params, parser) { pianoHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	var hopeHandler = new HopeHandler()\u000a	macros['hope'] = {\u000a		handler: function (place, macroName, params, parser) { hopeHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	// e : macroName\u000a	// b : parser\u000a	// k : afterTagIdx\u000a	// a : afterTag\u000a	// d : endAt\u000a	// c : tagInner\u000a	// l : depth\u000a	// el : macroNameLen\u000a	// Utility macros\u000a	macros['for'] = { // Loop over a list. Incorporates sections of L's "replace" macro\u000a		handler: function (place, macroName, params, parser) {\u000a			var afterTagIdx = parser.source.indexOf('>>', parser.matchStart) + 2;\u000a            var afterTag = parser.source.slice(afterTagIdx);\u000a            var endAt = -1;\u000a            var tagInner = '';\u000a            var depth = 0;\u000a            var macroNameLen = macroName.length\u000a            for(var i = 0; i < afterTag.length; i++) {\u000a                if(afterTag.substr(i, 7 + macroNameLen) == '<<end' + macroName + '>>') {\u000a                    if(depth == 0) {\u000a                        endAt = afterTagIdx + i + 7 + macroNameLen;\u000a                        break;\u000a                    }\u000a                    else {\u000a                        depth--;\u000a                        tagInner += afterTag.charAt(i);\u000a                    }\u000a                }\u000a                else {\u000a                    if(afterTag.substr(i, 2 + macroNameLen) == '<<' + macroName) {\u000a                        depth++;\u000a                    }\u000a                    tagInner += afterTag.charAt(i);\u000a                }\u000a            }\u000a			var rest = parser.source.slice(endAt)\u000a			\u000a			var into = varname(Wikifier.parse(params[0]))\u000a			var over = eval(Wikifier.parse(params[1]))\u000a\u000a			if (over) {\u000a				var before = state.history[0].variables[into]\u000a				for(var i = 0; i < over.length; i++) {\u000a					state.history[0].variables[into] = over[i]\u000a					new Wikifier(place, tagInner);\u000a				}\u000a				state.history[0].variables[into] = before\u000a			}\u000a			\u000a			new Wikifier(place, rest);\u000a			\u000a			parser.nextMatch = parser.source.length // We exhausted the string, so halt this parser.\u000a		}\u000a	}\u000a	macros['endfor'] = {\u000a		handler: function (place, macroName, params, parser) { sendHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	// Ooh big hunk of game logic here. reads $corpse and $traits and $body leaves $trait\u000a	macros['trait'] = {\u000a		handler: function (place, macroName, params, parser) {\u000a			var body = state.history[0].variables.body\u000a			var corpse = state.history[0].variables.corpse\u000a			var traits = state.history[0].variables.traits\u000a			var candidates = []\u000a			\u000a			function real(t) {\u000a				return t\u000a			}\u000a			\u000a			for(var i = 0; i < traits.length; i++) {\u000a				var test = traits[i]\u000a				if (real(corpse[test]) && !real(body[test]))\u000a					candidates.push(test)\u000a			}\u000a			\u000a			var result = undefined\u000a			if (candidates.length > 0)\u000a				result = randompick(candidates)\u000a			state.history[0].variables.trait = result\u000a		}\u000a	}\u000a	\u000a	// User-visible utility functions\u000a	function sax(start, input) {\u000a		for(var i = 0; i < input.length; i++) {\u000a			start^=(start<<5) + (start>>2) + input.charCodeAt(i)\u000a			start = start % 256;\u000a		}\u000a		return start\u000a	}\u000a	window.roompick = function(name, options) {\u000a		var hash = sax(sax(0, roomState.room.id), name)\u000a		\u000a		return options[ hash % options.length ]\u000a	}\u000a	window.randompick = function(options) {\u000a		return options[Math.floor(Math.random()*options.length)]\u000a	}\u000a	\u000a}());\u000a\u000a\u000a
+p136
+sg29
+(lp137
+Vscript
+p138
+asg20
+g21
+((I2013
+I4
+I23
+I21
+I52
+I24
+I1
+I113
+I1
+tp139
+(dp140
+tp141
+Rp142
+sg28
+g142
+sg26
+VMacros
+p143
+sbsa(dp144
+g12
+I00
+sg13
+(lp145
+F1270.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p146
+(dp147
+g18
+V<<room "hope">>magic pool full of hopes n dreams\u000a\u000a<<if $ward eq 0>>[[drink from the pool|drink]]<<else>>hope runs through your veins<<endif>>\u000a\u000a<<display "ROOM">>\u000a\u000a[[dead field]] to the north\u000a\u000a[[ponds]] to the south
+p148
+sg26
+Vpool 1
+p149
+sg28
+g21
+((I2013
+I4
+I29
+I9
+I34
+I23
+I0
+I119
+I1
+tp150
+(dp151
+tp152
+Rp153
+sg29
+(lp154
+sg20
+g153
+sbsa(dp155
+g12
+I00
+sg13
+(lp156
+F150.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p157
+(dp158
+g18
+V<<set $wardstring = roomState.remote.hope>>you swallow the words "<<print $wardstring>>"\u000a\u000a[[return|return]]<<set $ward = 1>>
+p159
+sg26
+Vdrink
+p160
+sg28
+g21
+((I2013
+I4
+I29
+I9
+I37
+I0
+I0
+I119
+I1
+tp161
+(dp162
+tp163
+Rp164
+sg29
+(lp165
+sg20
+g164
+sbsa(dp166
+g12
+I00
+sg13
+(lp167
+F10.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p168
+(dp169
+g18
+V<<set $danger = roomState.remote.danger>><<if $danger eq 0>>silence<<endif>><<if $danger eq 1>>the lamia hisses<<endif>><<if $danger eq 2>>the lamia lifts her tail to crush the next intruder<<endif>><<if $danger gte 3>>\u000a<<if $ward eq 1>>the words "<<print $wardstring>>" shimmer in the air before you\u000a\u000athe lamia screams, fleeing to her nest<<set $danger = 0>><<set $ward = 0>><<else>><<set $dead=true>>the lamia sinks her teeth into your soul\u000a\u000a[[anguish|death]].<<endif>><<set $danger = 0>><<endif>>\u000a\u000a<<if !$dead>><<display "ROOM">><<endif>>
+p170
+sg26
+VLAMIA
+p171
+sg28
+g21
+((I2013
+I4
+I29
+I10
+I46
+I22
+I0
+I119
+I1
+tp172
+(dp173
+tp174
+Rp175
+sg29
+(lp176
+sg20
+g175
+sbsa(dp177
+g12
+I00
+sg13
+(lp178
+F10.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p179
+(dp180
+g18
+V<<display "ROOM">>
+p181
+sg26
+VPOOL
+p182
+sg28
+g21
+((I2013
+I4
+I29
+I10
+I47
+I20
+I0
+I119
+I1
+tp183
+(dp184
+tp185
+Rp186
+sg29
+(lp187
+sg20
+g186
+sbsa(dp188
+g12
+I00
+sg13
+(lp189
+F10.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p190
+(dp191
+g18
+V<<if $fixgender>><<set $body.gender=$fixgender>><<set $fixgender=null>><<endif>><<if roomState.remote.bodies and roomState.remote.bodies.length gt 0>>\u000a<<set $corpse=roomState.remote.bodies[0]>><<set $combined = $corpse.skin and $corpse.color>><<set $either = $corpse.skin or $corpse.color>>\u000aA [[corpse|cannibalize]] lies on the ground\u000a\u000a<<if $either>>It has <<if $corpse.skin>><<print $corpse.skin>> skin <<endif>> <<if $combined>>with<<endif>> <<if $corpse.color>>a <<print $corpse.color>> hue<<endif>>.<<endif>> <<if $corpse.gender>>it is <<print $corpse.gender>>.<<endif>> <<if $corpse.name>>the words <<print $corpse.name>> float inside its chest<<endif>>\u000a<<endif>>\u000a<<set $uncorpse = roomState.piano.body>>\u000a<<if $uncorpse>><<set $combined = $uncorpse.skin and $uncorpse.color>><<set $either = $uncorpse.skin or $uncorpse.color>><<set $all4 = $combined and $uncorpse.gender and $uncorpse.name>>\u000aYou hear a haunting melody, a piano being played somewhere nearby. listening you feel you know the player. you can see them in your mind. <<if $either>>they have <<if $uncorpse.skin>> <<print $uncorpse.skin>> skin<<endif>> <<if $combined>>with <<endif>> <<if $uncorpse.color>>a <<print $uncorpse.color>> hue. <<endif>><<endif>> <<if $uncorpse.gender>>they are <<print $uncorpse.gender>>.<<endif>> <<if $uncorpse.name>>you know their name. it is <<print $uncorpse.name>><<if $all4>><html><br><br></html>Then suddenly the music sounds very far away<<endif>><<endif>>\u000a<<endif>>
+p192
+sg26
+VROOM
+p193
+sg28
+g21
+((I2013
+I4
+I29
+I10
+I47
+I36
+I0
+I119
+I1
+tp194
+(dp195
+tp196
+Rp197
+sg29
+(lp198
+sg20
+g197
+sbsa(dp199
+g12
+I00
+sg13
+(lp200
+F10.0
+aF570.0
+asg15
+(itiddlywiki
+Tiddler
+p201
+(dp202
+g18
+V<<trait>>\u000a\u000a<<set $dangerprotect=1>>\u000a<<set $danger=0>>\u000a\u000a<<if $trait>>\u000a<<eatcorpse $corpse.id>><<set $body[$trait]=$corpse[$trait]>>\u000ayou pick at the corpse like a vulture\u000a\u000ayou feel drawn to its <<print $trait>>...\u000a\u000aso hungry\u000a\u000ayou put some <<if $trait eq "gender">><<display "GENDER">><<else>><<print $body[ $trait ] >><<endif>> on your <<print $trait>>\u000a\u000a[[ahhhhh|return]]\u000a<<else>>\u000aa naked shade, nothing of value\u000a\u000a[[eh|return]]\u000a<<endif>>
+p203
+sg26
+Vcannibalize
+p204
+sg28
+g21
+((I2013
+I4
+I29
+I11
+I4
+I14
+I0
+I119
+I1
+tp205
+(dp206
+tp207
+Rp208
+sg29
+(lp209
+sg20
+g208
+sbsa(dp210
+g12
+I00
+sg13
+(lp211
+F150.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p212
+(dp213
+g18
+V<<set state.display(roomState.room.id)>>
+p214
+sg26
+Vreturn
+p215
+sg28
+g21
+((I2013
+I4
+I29
+I11
+I7
+I53
+I0
+I119
+I1
+tp216
+(dp217
+tp218
+Rp219
+sg29
+(lp220
+sg20
+g219
+sbsa(dp221
+g12
+I00
+sg13
+(lp222
+F551.66666666666686
+aF1328.3333333333335
+asg15
+(itiddlywiki
+Tiddler
+p223
+(dp224
+g18
+V<<set $danger=100>>\u000a<<set $dangerprotect=true>>\u000a\u000a[[nest 1]]\u000a[[nest 2]]\u000a[[nest 3]]\u000a[[secret nest|roots]]\u000a
+p225
+sg26
+Vprovoke
+p226
+sg28
+g21
+((I2013
+I4
+I29
+I11
+I32
+I41
+I0
+I119
+I1
+tp227
+(dp228
+tp229
+Rp230
+sg29
+(lp231
+sg20
+g230
+sbsa(dp232
+g12
+I00
+sg13
+(lp233
+F1690.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p234
+(dp235
+g18
+V<<room "danger">>lamia's nest in the sand, littered with scale and seaweed. your skin crawls.\u000a\u000a<<display 'LAMIA'>>\u000a\u000a<<if not $dead>>[[palms]] to the north\u000a\u000a[[beach]] to the west<<else>><<corpse>><<endif>>
+p236
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I50
+I25
+I0
+I119
+I1
+tp237
+(dp238
+tp239
+Rp240
+sg26
+Vnest 2
+p241
+sg28
+g240
+sg29
+(lp242
+sbsa(dp243
+g12
+I00
+sg13
+(lp244
+F1550.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p245
+(dp246
+g18
+V<<room>>beach of silver dust\u000a\u000aclouds lap against the shore, rolling from a sea of vapor\u000a\u000adriftwood tumbles through the void\u000a\u000a<<display "ROOM">>\u000a\u000a[[meadow]] to the west\u000a\u000a[[nest|nest 2]] to the east
+p247
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I50
+I25
+I0
+I119
+I1
+tp248
+(dp249
+tp250
+Rp251
+sg26
+Vbeach
+p252
+sg28
+g251
+sg29
+(lp253
+sbsa(dp254
+g12
+I00
+sg13
+(lp255
+F1270.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p256
+(dp257
+g18
+V<<room>>you step through a circle of mushrooms all flecked with dewdrops\u000a\u000alight drizzles through the canopy\u000a\u000a<<display "ROOM">>\u000a\u000a[[roots]] to the east\u000a\u000a[[pillars]] to the south
+p258
+sg26
+Vshrooms
+p259
+sg28
+g21
+((I2013
+I4
+I29
+I10
+I22
+I56
+I0
+I119
+I1
+tp260
+(dp261
+tp262
+Rp263
+sg29
+(lp264
+sg20
+g263
+sbsa(dp265
+g12
+I00
+sg13
+(lp266
+F1270.0
+aF710.0
+asg15
+(itiddlywiki
+Tiddler
+p267
+(dp268
+g18
+V<<room>>tunnel of thorns\u000a\u000a<<display "ROOM">>\u000a\u000a[[bamboo]] to the north\u000a\u000a[[nest|nest 1]] to the south
+p269
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I32
+I22
+I0
+I119
+I1
+tp270
+(dp271
+tp272
+Rp273
+sg26
+Vthorns
+p274
+sg28
+g273
+sg29
+(lp275
+sbsa(dp276
+g12
+I00
+sg13
+(lp277
+F1410.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p278
+(dp279
+g18
+V<<room "danger">>water drips from tunnel roots\u000a\u000awet black dirt smell\u000a\u000a<<display 'LAMIA'>>\u000a\u000a<<if not $dead>>[[shrooms]] to the west\u000a\u000a[[pool|pool 2]] glows east<<else>><<corpse>><<endif>>\u000a\u000a\u000a\u000a\u000a
+p280
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I33
+I32
+I0
+I119
+I1
+tp281
+(dp282
+tp283
+Rp284
+sg26
+Vroots
+p285
+sg28
+g284
+sg29
+(lp286
+sbsa(dp287
+g12
+I00
+sg13
+(lp288
+F1690.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p289
+(dp290
+g18
+V<<room>>palm trees drag their hair through the sand\u000a\u000asmell of coconut milk and salt\u000a\u000a<<display "ROOM">>\u000a\u000a[[pool|pool 3]] glows north\u000a\u000a[[nest|nest 2]] to the south
+p291
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I36
+I29
+I0
+I119
+I1
+tp292
+(dp293
+tp294
+Rp295
+sg26
+Vpalms
+p296
+sg28
+g295
+sg29
+(lp297
+sbsa(dp298
+g12
+I00
+sg13
+(lp299
+F1410.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p300
+(dp301
+g18
+V<<room>>sand gives way to cracked obsidian\u000a\u000alava plumes light your way through the ashy dark\u000a\u000a<<display "ROOM">>\u000a\u000a[[nest|nest 1]] to the west\u000a\u000a[[geysers]] spew east
+p302
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I43
+I50
+I0
+I119
+I1
+tp303
+(dp304
+tp305
+Rp306
+sg26
+Vobsidian waste
+p307
+sg28
+g306
+sg29
+(lp308
+sbsa(dp309
+g12
+I00
+sg13
+(lp310
+F1550.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p311
+(dp312
+g18
+V<<room>>geysers spew hot water into the sky\u000a\u000achromatic pools gurgle in mineral frenzy\u000a\u000a<<display "ROOM">>\u000a\u000a[[obsidian waste]] to the west\u000a\u000a[[canyon]] to the east
+p313
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I45
+I26
+I0
+I119
+I1
+tp314
+(dp315
+tp316
+Rp317
+sg26
+Vgeysers
+p318
+sg28
+g317
+sg29
+(lp319
+sbsa(dp320
+g12
+I00
+sg13
+(lp321
+F1410.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p322
+(dp323
+g18
+V<<room>>meadow full of puddles\u000a\u000a<<display "ROOM">>\u000a\u000a[[ponds]] to the west\u000a\u000a[[beach]] to the east
+p324
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I48
+I14
+I0
+I119
+I1
+tp325
+(dp326
+tp327
+Rp328
+sg26
+Vmeadow
+p329
+sg28
+g328
+sg29
+(lp330
+sbsa(dp331
+g12
+I00
+sg13
+(lp332
+F1550.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p333
+(dp334
+g18
+V<<room "hope">>magic pool full of hopes n dreams\u000a\u000a<<display "ROOM">>\u000a\u000a<<if $ward eq 0>>[[drink from the pool|drink]]<<else>>hope runs through your veins<<endif>>\u000a\u000a[[roots]] to the west\u000a\u000a[[iron tree|tree]] to the east
+p335
+sg26
+Vpool 2
+p336
+sg28
+g21
+((I2013
+I4
+I29
+I9
+I34
+I23
+I0
+I119
+I1
+tp337
+(dp338
+tp339
+Rp340
+sg29
+(lp341
+sg20
+g340
+sbsa(dp342
+g12
+I00
+sg13
+(lp343
+F1690.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p344
+(dp345
+g18
+V<<room>>an iron tree spirals into the void\u000a\u000astars cascade from its branches\u000a\u000ahurtling off the edge of the world\u000a\u000a<<display "ROOM">>\u000a\u000a[[pool|pool 2]] glows to the west\u000a\u000a[[forest]] to the south
+p346
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I50
+I13
+I0
+I119
+I1
+tp347
+(dp348
+tp349
+Rp350
+sg26
+Vtree
+p351
+sg28
+g350
+sg29
+(lp352
+sbsa(dp353
+g12
+I00
+sg13
+(lp354
+F1690.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p355
+(dp356
+g18
+V<<room>>walking through the forest of night\u000a\u000ashards of the moon glow radioactively in the canopy\u000a\u000a<<display "ROOM">>\u000a\u000a[[iron tree|tree]] to the north\u000a\u000a[[moondust field]] to the south
+p357
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I53
+I32
+I0
+I119
+I1
+tp358
+(dp359
+tp360
+Rp361
+sg26
+Vforest
+p362
+sg28
+g361
+sg29
+(lp363
+sbsa(dp364
+g12
+I00
+sg13
+(lp365
+F1270.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p366
+(dp367
+g18
+V<<room>>puddles widen to ponds\u000a\u000athe meadow narrows to walkways of grass between still water\u000a\u000a<<display "ROOM">>\u000a\u000a[[pool|pool 1]] glows north\u000a\u000a[[meadow]] to the east
+p368
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I54
+I55
+I0
+I119
+I1
+tp369
+(dp370
+tp371
+Rp372
+sg26
+Vponds
+p373
+sg28
+g372
+sg29
+(lp374
+sbsa(dp375
+g12
+I00
+sg13
+(lp376
+F1270.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p377
+(dp378
+g18
+V<<room>>field of dead grass, withered by acid\u000a\u000adried mud full of big scaly grooves\u000a\u000a<<display "ROOM">>\u000a\u000a[[nest|nest 1]] to the north\u000a\u000a[[pool|pool 1]] glows south
+p379
+sg20
+g21
+((I2013
+I4
+I29
+I13
+I49
+I54
+I0
+I119
+I1
+tp380
+(dp381
+tp382
+Rp383
+sg26
+Vdead field
+p384
+sg28
+g383
+sg29
+(lp385
+sbsa(dp386
+g12
+I00
+sg13
+(lp387
+F1690.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p388
+(dp389
+g18
+V<<room>>canyon full of beggar's bowls\u000a\u000ain the cracks you see coins\u000a\u000a<<display "ROOM">>\u000a\u000a[[nest|nest 3]] to the north\u000a\u000a[[geysers]] spew to the west\u000a\u000a[[pool|pool 3]] glows south
+p390
+sg20
+g21
+((I2013
+I4
+I29
+I14
+I2
+I1
+I0
+I119
+I1
+tp391
+(dp392
+tp393
+Rp394
+sg26
+Vcanyon
+p395
+sg28
+g394
+sg29
+(lp396
+sbsa(dp397
+g12
+I00
+sg13
+(lp398
+F1690.0
+aF710.0
+asg15
+(itiddlywiki
+Tiddler
+p399
+(dp400
+g18
+V<<room "danger">>lamia's nest in the rocks, littered with scale and gems. your skin crawls.\u000a\u000a<<display 'LAMIA'>>\u000a\u000a<<if not $dead>>[[moondust field]] to the north\u000a\u000a[[canyon]] to the south<<else>><<corpse>><<endif>>
+p401
+sg20
+g21
+((I2013
+I4
+I29
+I5
+I50
+I25
+I0
+I119
+I1
+tp402
+(dp403
+tp404
+Rp405
+sg26
+Vnest 3
+p406
+sg28
+g405
+sg29
+(lp407
+sbsa(dp408
+g12
+I00
+sg13
+(lp409
+F1270.0
+aF570.0
+asg15
+(itiddlywiki
+Tiddler
+p410
+(dp411
+g18
+V<<room>>frozen bamboo forest\u000a\u000asnowflakes whirl past\u000a\u000a<<display "ROOM">>\u000a\u000a[[pillars]] to the north\u000a\u000a[[pavilion]] to the east\u000a\u000a[[thorns]] to the south
+p412
+sg20
+g21
+((I2013
+I4
+I29
+I14
+I7
+I59
+I0
+I119
+I1
+tp413
+(dp414
+tp415
+Rp416
+sg26
+Vbamboo
+p417
+sg28
+g416
+sg29
+(lp418
+sbsa(dp419
+g12
+I00
+sg13
+(lp420
+F1690.0
+aF570.0
+asg15
+(itiddlywiki
+Tiddler
+p421
+(dp422
+g18
+V<<room>>field of moondust under cottony clouds\u000a\u000ayour feet are sparkling\u000a\u000a<<display "ROOM">>\u000a\u000a[[forest]] to the north\u000a\u000a[[swamp]] to the west\u000a\u000a[[nest|nest 3]] to the south
+p423
+sg20
+g21
+((I2013
+I4
+I29
+I14
+I9
+I1
+I0
+I119
+I1
+tp424
+(dp425
+tp426
+Rp427
+sg26
+Vmoondust field
+p428
+sg28
+g427
+sg29
+(lp429
+sbsa(dp430
+g12
+I00
+sg13
+(lp431
+F1270.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p432
+(dp433
+g18
+V<<room>>maze of bark pillars and stoneskinned trees\u000a\u000athe dirt grows thick with mycelium the further north you travel\u000a\u000a<<display "ROOM">>\u000a\u000a[[shrooms]] to the north\u000a\u000a[[bamboo]] to the south
+p434
+sg20
+g21
+((I2013
+I4
+I29
+I14
+I9
+I18
+I0
+I119
+I1
+tp435
+(dp436
+tp437
+Rp438
+sg26
+Vpillars
+p439
+sg28
+g438
+sg29
+(lp440
+sbsa(dp441
+g12
+I00
+sg13
+(lp442
+F1690.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p443
+(dp444
+g18
+V<<room "hope">>magic pool full of hopes n dreams\u000a\u000a<<display "ROOM">>\u000a\u000a<<if $ward eq 0>>[[drink from the pool|drink]]<<else>>hope runs through your veins<<endif>>\u000a\u000a[[canyon]] to the north\u000a\u000a[[palms]] to the south
+p445
+sg29
+(lp446
+sg20
+g21
+((I2013
+I4
+I29
+I14
+I18
+I47
+I0
+I119
+I1
+tp447
+(dp448
+tp449
+Rp450
+sg28
+g450
+sg26
+Vpool 3
+p451
+sbsa(dp452
+g12
+I00
+sg13
+(lp453
+F1103.3333333333335
+aF11.666666666666666
+asg15
+(itiddlywiki
+Tiddler
+p454
+(dp455
+g18
+VNaked Shades
+p456
+sg29
+(lp457
+sg20
+g21
+((I2013
+I4
+I29
+I14
+I40
+I57
+I0
+I119
+I1
+tp458
+(dp459
+tp460
+Rp461
+sg28
+g461
+sg26
+VstoryTitle
+p462
+sbsa(dp463
+g12
+I00
+sg13
+(lp464
+F10.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p465
+(dp466
+g18
+Vthe notes feel impossibly rich\u000a\u000asyrupy, prismatic, dripping off the piano\u000a\u000athen bubbling into the [[sky|a2]]
+p467
+sg29
+(lp468
+sg20
+g21
+((I2013
+I4
+I29
+I16
+I19
+I38
+I0
+I119
+I1
+tp469
+(dp470
+tp471
+Rp472
+sg28
+g472
+sg26
+Vascension
+p473
+sbsa(dp474
+g12
+I00
+sg13
+(lp475
+F150.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p476
+(dp477
+g18
+Vyou're floating through the clouds\u000a\u000athe world is muddy and indistinct below\u000a\u000aa delirious patchwork of orphan dreams huddling for [[warmth|a3]]
+p478
+sg29
+(lp479
+sg20
+g21
+((I2013
+I4
+I29
+I17
+I4
+I18
+I0
+I119
+I1
+tp480
+(dp481
+tp482
+Rp483
+sg28
+g483
+sg26
+Va2
+p484
+sbsa(dp485
+g12
+I00
+sg13
+(lp486
+F290.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p487
+(dp488
+g18
+Vthe musicwind takes you higher\u000a\u000aas you spread your <<print $body.skin>> arms, exulting in your <<print $body.gender>> form,\u000a\u000asomething crystallizes in your heart\u000a\u000ahope? bravery? passion?\u000a\u000ayou speak it into the void:\u000a\u000a<<textinput "newhope" "a3" "speak">>\u000a\u000a[[fly higher|a4]]
+p489
+sg29
+(lp490
+sg20
+g21
+((I2013
+I4
+I29
+I17
+I4
+I25
+I0
+I119
+I1
+tp491
+(dp492
+tp493
+Rp494
+sg28
+g494
+sg26
+Va3
+p495
+sbsa(dp496
+g12
+I00
+sg13
+(lp497
+F430.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p498
+(dp499
+g18
+V<<hope>>\u000a\u000aa shard of <<print $body.color>> falls into the depths from where you came\u000a\u000a[[hope again|a3]]
+p500
+sg29
+(lp501
+sg20
+g21
+((I2013
+I4
+I29
+I17
+I4
+I58
+I0
+I119
+I1
+tp502
+(dp503
+tp504
+Rp505
+sg28
+g505
+sg26
+Va4
+p506
+sbsa(dp507
+g12
+I00
+sg13
+(lp508
+F861.66666666666663
+aF1396.6666666666665
+asg15
+(itiddlywiki
+Tiddler
+p509
+(dp510
+g18
+V<<set $body.skin="charcoal">>\u000a<<set $body.color="black">>\u000a<<set $body.gender="ungender">>\u000a<<set $body.name="night">>\u000a\u000a[[Everything is black|pavilion]]
+p511
+sg29
+(lp512
+sg20
+g21
+((I2013
+I4
+I29
+I18
+I1
+I21
+I0
+I119
+I1
+tp513
+(dp514
+tp515
+Rp516
+sg28
+g516
+sg26
+Vcheat
+p517
+sbsa(dp518
+g12
+I00
+sg13
+(lp519
+F848.33333333333326
+aF1203.3333333333333
+asg15
+(itiddlywiki
+Tiddler
+p520
+(dp521
+g18
+V<<if $body.gender eq "masculine">><<cyclinglink $fixgender "masculine" "feminine" "androgyne">><<else>><<if $body.gender eq "feminine">><<cyclinglink $fixgender "feminine" "androgyne" "masculine">><<else>><<cyclinglink $fixgender "androgyne" "masculine" "feminine">><<endif>><<endif>>
+p522
+sg29
+(lp523
+sg20
+g21
+((I2013
+I4
+I29
+I18
+I41
+I8
+I0
+I119
+I1
+tp524
+(dp525
+tp526
+Rp527
+sg28
+g527
+sg26
+VGENDER
+p528
+sbsa(dp529
+g12
+I00
+sg13
+(lp530
+F848.33333333333326
+aF10.000000000000002
+asg15
+(itiddlywiki
+Tiddler
+p531
+(dp532
+g18
+Vversion.extensions["cyclinglinkMacro"] = {\u000a  major: 3,\u000a  minor: 2,\u000a  revision: 0\u000a};\u000amacros.cyclinglink = {\u000a  handler: function (a, b, c) {\u000a    var rl = "cyclingLink";\u000a  	function toggleText(w) {\u000a		w.classList.toggle(rl + "Enabled");\u000a        w.classList.toggle(rl + "Disabled");\u000a		w.style.display = ((w.style.display == "none") ? "inline" : "none");\u000a	}\u000a    switch(c[c.length - 1]) {\u000a	    case "end":\u000a          var end = true;\u000a          c.pop();\u000a		  break;\u000a        case "out":\u000a          var out = true;\u000a          c.pop();\u000a		  break;\u000a    }\u000a    var v = "";\u000a    if(c.length && c[0][0] == "$") {\u000a      v = c[0].slice(1);\u000a      c.shift();\u000a    }\u000a    var h = state.history[0].variables;\u000a	if (out && h[v] === "") {\u000a	  return;\u000a	}\u000a    var l = Wikifier.createInternalLink(a, null);\u000a    l.className = "internalLink cyclingLink";\u000a    l.setAttribute("data-cycle", 0);\u000a    for(var i = 0; i < c.length; i++) {\u000a      var on = (i == Math.max(c.indexOf(h[v]), 0));\u000a      var d = insertElement(null, "span", null, "cyclingLink" + ((on) ? "En" : "Dis") + "abled");\u000a      if(on) {\u000a        h[v] = c[i];\u000a        l.setAttribute("data-cycle", i);\u000a      } else {\u000a	    d.style.display="none";\u000a	  }\u000a      insertText(d, c[i]);\u000a      if (on && end && i==c.length-1) {\u000a	    l.parentNode.replaceChild(d,l);\u000a	  } else l.appendChild(d);\u000a    }\u000a    l.onclick = function () {\u000a      var t = this.childNodes;\u000a      var u = this.getAttribute("data-cycle") - 0;\u000a      var m = t.length;\u000a      toggleText(t[u]);\u000a      u = (u + 1);\u000a	  if (!(out && u==m)) {\u000a	    u %= m;\u000a        if(v) {\u000a          h[v] = c[u];\u000a        }\u000a	  } else {\u000a	    h[v] = "";\u000a	  }\u000a      if((end || out) && u == m - (end ? 1 : 0)) {\u000a	    if (end) {\u000a          var n = this.removeChild(t[u]);\u000a          n.className = rl + "End";\u000a		  n.style.display="inline";\u000a          this.parentNode.replaceChild(n, this);\u000a		} else {\u000a		  this.parentNode.removeChild(this);\u000a		  return;\u000a		}\u000a        return;\u000a      }\u000a      toggleText(t[u]);\u000a      this.setAttribute("data-cycle", u);\u000a    };\u000a  }\u000a};\u000a
+p533
+sg29
+(lp534
+Vscript
+p535
+asg20
+g21
+((I2013
+I4
+I29
+I18
+I41
+I24
+I0
+I119
+I1
+tp536
+(dp537
+tp538
+Rp539
+sg28
+g539
+sg26
+VCycling
+p540
+sbsasS'scale'
+p541
+F0.60000000000000009
+ss.

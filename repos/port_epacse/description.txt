@@ -1,0 +1,1 @@
+Quick mac port of epacse by Marach. I do not know if this is allowed or if the way I redistribute fmod.dylib is allowed.

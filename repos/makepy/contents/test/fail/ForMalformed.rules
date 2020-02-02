@@ -1,0 +1,4 @@
+for x y z w:
+    x = z
+
+all:

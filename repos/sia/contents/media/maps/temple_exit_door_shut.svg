@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:polycode="http://msm.runhello.com/local/svg/polycode0"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="temple_exit_door_shut.svg"
+   xrule="center">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="830.86017"
+     inkscape:cy="326.36217"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1271"
+     inkscape:window-height="744"
+     inkscape:window-x="10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-nodes="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2996"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,1280"
+       id="guide2998" />
+    <sodipodi:guide
+       position="1280,0"
+       orientation="-800,0"
+       id="guide3000" />
+    <sodipodi:guide
+       position="1280,800"
+       orientation="0,-1280"
+       id="guide3002" />
+    <sodipodi:guide
+       position="0,800"
+       orientation="800,0"
+       id="guide3004" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+    <polycode:dummy />
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.7142857,-248.57143)">
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="door_shut"
+       width="486.89352"
+       height="767.71594"
+       x="388.44824"
+       y="377.17172" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3854"
+       width="76.771591"
+       height="80.812202"
+       x="352.00381"
+       y="535.38916"
+       transform="matrix(0.98224316,-0.18761229,0.18761229,0.98224316,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3856"
+       width="76.771591"
+       height="74.751289"
+       x="-758.04932"
+       y="653.34167"
+       transform="matrix(-0.12821067,-0.99174696,0.99174696,-0.12821067,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3858"
+       width="78.791901"
+       height="86.873116"
+       x="996.86633"
+       y="233.63589"
+       transform="matrix(0.70335563,0.71083814,-0.71083814,0.70335563,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3860"
+       width="10.101525"
+       height="14.142136"
+       x="640.92688"
+       y="605.11957" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3862"
+       width="18.182745"
+       height="18.182745"
+       x="187.47008"
+       y="827.44281"
+       transform="matrix(0.76687016,-0.64180227,0.64180227,0.76687016,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3864"
+       width="18.182745"
+       height="16.162441"
+       x="192.61259"
+       y="893.3125"
+       transform="matrix(0.9553321,-0.29553439,0.29553439,0.9553321,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3866"
+       width="30.304577"
+       height="36.36549"
+       x="792.1377"
+       y="207.25093"
+       transform="matrix(0.78693856,0.61703136,-0.61703136,0.78693856,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3868"
+       width="10.101525"
+       height="10.101525"
+       x="1110.1602"
+       y="-19.362722"
+       transform="matrix(0.61394061,0.78935222,-0.78935222,0.61394061,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3870"
+       width="6.060915"
+       height="20.203051"
+       x="229.66753"
+       y="1194.5148"
+       transform="matrix(0.90417227,-0.42716801,0.42716801,0.90417227,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3872"
+       width="14.142136"
+       height="16.162441"
+       x="1183.7964"
+       y="253.50835"
+       transform="matrix(0.81336936,0.58174762,-0.58174762,0.81336936,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3874"
+       width="10.101525"
+       height="14.142136"
+       x="1043.2686"
+       y="4.9252582"
+       transform="matrix(0.68368555,0.72977672,-0.72977672,0.68368555,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3876"
+       width="10.101525"
+       height="4.0406103"
+       x="306.75058"
+       y="1039.6002"
+       transform="matrix(0.99083017,-0.13511321,0.13511321,0.99083017,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3878"
+       width="14.142136"
+       height="14.142136"
+       x="908.7041"
+       y="-103.11325"
+       transform="matrix(0.82746615,0.5615156,-0.5615156,0.82746615,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3880"
+       width="10.101525"
+       height="10.101525"
+       x="745.16254"
+       y="99.247429"
+       transform="matrix(0.90432271,0.42684944,-0.42684944,0.90432271,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3882"
+       width="6.060915"
+       height="8.0812206"
+       x="1100.7057"
+       y="0.72357482"
+       transform="matrix(0.73343028,0.67976468,-0.67976468,0.73343028,0,0)" />
+    <rect
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3884"
+       width="20.203051"
+       height="20.203051"
+       x="840.099"
+       y="397.98056"
+       transform="matrix(0.91036648,0.41380295,-0.41380295,0.91036648,0,0)" />
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+A = "A"
+B = " A  B"
+C = ( A  B)
+D = "  x \"()\""
+E = (  x \"()")
+F=(()(((())))) "x"      #OK
+G = (x\nyz\tq\\) "x\nyz\tq\\"
+H = "\x444\u4e3CC\U000100000"
+I =$(   'X'*3   )
+J = $"'X'*3"
+K = X"3"
+L = 1"2"3$("4").gif $A.gif
+
+# Verify parser isn't cramming symbols together
+envx = "Q"
+all: ifx
+
+ifx:
+    print( A )
+    print( B )
+    print( C )
+    print( D )
+    print( E )
+    print( F )
+    print( G )
+    print( H )
+    print( I )
+    print( J )
+    print( K )
+    print( L )
+    print( envx )

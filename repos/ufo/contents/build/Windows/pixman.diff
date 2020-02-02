@@ -1,0 +1,19 @@
+diff --git a/pixman/pixman-compiler.h b/pixman/pixman-compiler.h
+index a978acc..8cfcde4 100644
+--- a/pixman/pixman-compiler.h
++++ b/pixman/pixman-compiler.h
+@@ -108,10 +108,13 @@
+ #   define PIXMAN_GET_THREAD_LOCAL(name)				\
+     (&name)
+ 
+-#elif defined(__MINGW32__)
++#elif defined(__MINGW32__) || defined(_MSC_VER) /* XP Support */
+ 
+ #   define _NO_W32_PSEUDO_MODIFIERS
+ #   include <windows.h>
++#   ifdef IN
++#   undef IN /* windows.h defines IN, OUT, IN_OUT */
++#   endif
+ 
+ #   define PIXMAN_DEFINE_THREAD_LOCAL(type, name)			\
+     static volatile int tls_ ## name ## _initialized = 0;		\

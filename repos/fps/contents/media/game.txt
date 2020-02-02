@@ -1,0 +1,8 @@
+media/title.svg
+media/overlay/startup
+media/overlay/world
+media/overlay/theme
+media/overlay/mapmaker
+media/overlay/soundload
+media/overlay/game
+media/overlay/shutdown

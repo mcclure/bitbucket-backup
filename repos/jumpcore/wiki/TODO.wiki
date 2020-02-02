@@ -1,0 +1,47 @@
+<<toc>>
+
+==Things that absolutely must get fixed==
+
+* Android version has a long pause at startup while it does some file operations, this could be easily optimized out but I haven't gotten to it yet
+* Android version does not support OpenGL 2.0-- it's currently hardwired into OpenGL 1.0 mode. It ought to discern if OpenGL 2.0 is available and set either 2.0 or 1.0 depending on what it can get (frustratingly, only OpenGL 2.0 is available on all extant Android 2.3 devices, but the simulator only supports 1.0!).
+* Sleep/Wake in general seems grody. The Android version quits instantly when you press the "home" button. The iPhone version stays open and running in the background if you press the "home" button. I'm not sure what the correct behavior here is but it should probably be the same on both platforms. Also the //reason// the Android version quits on home is because I put a call to exit(0) right there. If you remove the call to exit(0) the program immediately crashes.
+
+==Things that I'm pretty sure I can fix, soonish==
+
+* Directory layout in Jumpcore is currently messy. Lots of things shared by all 5 platforms are inside desktop/. The root level is too cluttered. Program.cpp and Display.cpp, which are supposed to be the sanctum of the end user, contain a certain amount of random junk that could probably be moved into a util.cpp or something.
+* [[glCommon]] needs serious rethinking around the function interface. Using it seriously requires you to basically read glCommon.cpp and understand everything it's doing-- in particular adding new shaders requires modifying an arcane-looking function named gl2Basic, which specifies several shaders more or less entirely in code. Shader programs should be described using something like an XML file, and FTGL ES should have its own designated shader.
+* iPhone version has a serious incompatibility with iOS version 4.x running on a pre-3GS iPhone. If you run iOS version 3 on an iPhone 3G, it works great. If you run iOS version 4 on an iPhone 3GS, it works great. But if you run iOS version 4 on an iPhone 3G, it will freak out and you will have serious input lag. This is a problem that has affected a number of iPhone games and I believe I know how to fix it in Jumpcore (explanation available on demand) but I have not yet had time to implement it.
+* BombBox doesn't work on Android
+* Android version requires editing the Android.mk by hand in order to switch between debug and release mode
+* Need a "get path of user directory" function, badly
+* Pre/WebOS version does not support OpenGL 1.0-- it's currently hardwired into OpenGL 2.0 mode. It ought to discern if OpenGL 2.0 is available and set either 2.0 or 1.0 depending on what it can get (yup, this is the opposite of the situation on Android).
+
+==Things that I don't know if I'll ever get to, but would be nice==
+
+* Telling Windows users to compile using mingw from the command line is kind of crazy. It would be nice if there were a Visual Studio solution for Jumpcore. This might not be possible since one of the reasons I use mingw is because it provides additional compatibility with POSIX. But maybe it would be possible to use Code::Blocks, then Windows users could get a GUI and still use mingw.
+* The way framerate is imposed in Jumpcore could maybe be improved. VSync is turned off by default, for example.
+* Jumpcore2 has an ES 2.0 port of FTGL ES, but apparently sometime in the last month the FTGL ES developer released a first attempt at his own ES 2.0 port. Should I switch to this?
+* More things that bother me about glCommon: The ES1-surrogate shader doesn't support a LOT of stuff, for example normals are missing. I still don't understand what happens to clientstate enable/disable when you switch shader Programs in OpenGL 2, and I may be doing some incorrect things in glCommon because of this.
+* ControlBase has a text entry widget; it would maybe be nice if the Android/iPhone versions could use the builtin keyboard when this widget is in use.
+* With the original Jumpcore, I distributed two versions, a full version and a "minimal" one that left out some of the more potentially superfluous libraries like ControlBase and Chipmunk. Now that I have access to bitbucket maybe I should bring back that division and make the "minimal" version a branch or something.
+* For that matter it wouldn't be too hard to also make branches that come with cocos2d, OGRE, whatever set up for you for all five compile targets.
+* Maybe I should swap out LodePNG for SIL (Can SIL generate PNGs?)
+* It would be cool to support NaCL. I don't know if this would be hard or not.
+* I have, sitting around in some of my other projects: a small set of "Thread Pool" type classes for passing discrete tasks off to worker threads and then monitoring them; a small (doesn't work on all platforms yet) localization library; and a simple http fetch library adapted from http-tiny (doesn't work on windows yet). I would like, eventually, to move these things into Jumpcore.
+* Could the mobile platforms be done with SDL 1.3, thus simplifying the programming interface?
+
+==About that Android 2.3 thing==
+
+This is nearly a "must get fixed", but I do not think I'll be fixing it unless I can get some help. Basically: Because it uses NativeActivity and NativeAudio, the Android target for Jumpcore will only run on Android 2.3 or better. This is a big problem. Here is a graph of the current state of the Android market.
+
+{{http://upload.wikimedia.org/wikipedia/commons/9/95/Android_os_distribution.png}}
+
+At the moment I'm writing this, there are //no// phones on the market which support 2.3, other than the Nexus One and Nexus S; since the only Android phone I have access to is a G2, I actually haven't personally been able to run my own library here on Android yet! I've been testing using the simulator and relying on a mysterious masked Canadian to ensure it functions on a real-world device.
+
+So: I'm willing to put up with this, personally. The application I'm developing for Android targets tablets, and on tablets penetration of 2.3 is much better; also as time passes, Android 3.0 is released etc. 2.3 will become more common. You might feel differently.
+
+What would have to be done in order to support Android 2.1/2.2? Well, there are two ways to write a C++ Android app. One is to use the native APIs, which as mentioned were only introduced in 2.3. The other is the "original" way to use the NDK: write a normal Java app, and call into your C++ component (built as a shared object) whenever you need to call C++ code. I started off doing things this second way; however I quickly found that this was a lot of work and required a fair amount of familiarity with Java Android programming (which I do not have), so I switched to NativeActivity. 
+
+To make this second option work, you need to write an android app that sets itself up to draw opengl and generate pcm audio data. When it's time to draw an opengl frame, generate a pcm frame, on app-focus gain/loss, or when a touch or tilt event is received, you need to call a callback in that C++ shared object which would then trigger the appropriate Jumpcore callback. You would also need to reimplement a small thing I do in the C++ code, where at startup I scan over all the assets in the app and save them as standalone files in the user-storage directory so that you can get to them with C file APIs. An app written this way would actually be superior to one written using native-activity like I did, since it would avoid certain bugs that can come up when you're using NativeActivity. And it would very possibly work all the way back to Android 1.x! However, it might be less performant than the native-activity version.
+
+If someone who actually already knows java android programming could step forward and take a crack at implementing the simple Java program described above, it would I think be possible to write a non-NativeActivity-based Android port for Jumpcore very quickly. The problem is if I did it totally myself I would have to spend a large amount of time just getting familiar with Java Android programming, and I just don't have the time to commit to this specific project (since, as I mentioned above, the 2.3 version is good enough for my personal use).

@@ -1,0 +1,17 @@
+-- PolyConsole 1.0b -- "esc" reloads SVG -- Things to try:
+print(objs())
+print(id("ball"))
+setPosition(id("ball"), 100, 100)
+screen():applyImpulse(id("ball"), -100, -100)
+clear()
+
+-- Typing gets repetitive so I like to write tiny functions
+function a(r) return ScreenShape(SHAPE_CIRCLE, r, r) end
+function b(s) screen():addPhysicsChild(s, ENTITY_CIRCLE, false) end
+function c(x,y,r) s = a(r) b(s) setPosition(s,x,y) end
+for i = 1,8 do c(50*i, 50*i, 10*i) end
+
+-- Use "Help" function for class/function definitions
+help("classes")
+help("PhysicsScreen")
+help("PhysicsScreen:addPhysicsChild") 

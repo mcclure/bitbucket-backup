@@ -1,0 +1,3 @@
+version = "%{version}%"
+description = "Compile-time \"if\" statement for conditional inclusion of code."
+ppx = "./ppx_const"

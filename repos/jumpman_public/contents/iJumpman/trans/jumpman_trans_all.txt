@@ -1,0 +1,1025 @@
+en
+es
+fr
+de
+
+Guide Jumpman to the exit.
+Lleva a Jumpman a la salida.
+Guide Jumpman vers la sortie.
+Führe Jumpman zum Ausgang.
+
+By the way, don't touch the lava.
+A propósito, no toques la lava.
+À ta place, j'éviterais la lave.
+Ach ja, berühre nicht die Lava!
+
+Superball is death.
+La pelota es fatal.
+Et j'eviterais aussi la balle d'ailleurs.
+Superball bringt den Tod.
+
+Beware the Hunter.
+Cuidado con el cazador.
+Attention au chasseur.
+Hüte dich vor dem Jäger.
+
+Just a little further...
+¡Solo un poco más!
+Allez, t'y es presque!
+Nur noch ein bisschen weiter...
+
+Careful!
+¡Peligro!
+Attention!
+Vorsicht!
+
+No Rotating in the No Rotating Zone
+Prohibido rotar en la zona de no rotar.
+Pas de rotation dans la zone anti-rotation.
+Drehen verboten in der Kein-Drehen-Zone.
+
+Orange is a friend to orange.
+El naranjo es amigo del naranjo.
+Cette balle-ci est ton amie.
+Orange ist mit orange befreundet.
+
+Hope
+Sí se puede
+Espoir
+Hoffnung
+
+A paintbrush?
+¿Un pincel?
+Un pinceau?
+Ein Farbpinsel?
+
+WHAT DID YOU DO
+¿¿¿QUE HAZ HECHO???
+MAIS... QU'AS TU FAIS?!
+WAS HAST DU GETAN???
+
+Turn your %s sideways	to rotate the level.
+Pon tu %s de lado	para rotar el nivel.
+Tourne ton %s de coté,	et le niveau suivra.
+%s seitlich halten	um das Level zu drehen.
+
+Pinch the screen with two fingers	and twist to rotate.
+Presiona la pantalla con dos dedos	y gira para rotar el nivel.
+Met deux doigts sur l'écran et	tourne pour tourner le niveau.
+Drück den Bildschirm mit zwei	Fingern und drehe sie um zu drehen.
+
+Finished path %d
+Serie %d terminada
+Course %d finie
+Beende Pfad %d
+
+ in 
+ en 
+ en 
+ in 
+
+%d minutes, 
+%d minutos, 
+%d minutes et 
+%d Minuten und
+
+%d seconds; died %d times
+%d segundos; haz muerto %d veces
+%d secondes; tu es mort %d fois
+%d Sekunden; %d mal gestorben
+
+%d lives
+Haz muerto %d veces
+Tu es mort %d fois
+%d mal gestorben
+
+. Progress saved
+. Progreso salvado
+. Sauvegarde effectuée
+. Fortschritt gespeichert
+
+. New high score
+. Nuevo puntaje máximo
+. Nouveau record
+. Neuer High Score
+
+						Created by mcc
+						Creado por mcc
+						Créé par mcc
+						Entworden von mcc
+
+Featuring art by
+Incluyendo arte por
+Graphismes par
+Mit dem Design von
+
+Music by
+Música por
+Musique par 
+Musik von
+
+'Chipmunk' physics library by Scott Lembcke
+Traducción por Juan Pablo Núñez
+Traduction par Maxime Cogney
+Übersetzung von Jens Scherer
+
+  	  
+				Librería física Chipmunk por	Scott Lembcke
+				Bibliotheque physique Chipmunk par	Scott Lembcke
+				Physiksammlung der Chipmunks von	Scott Lembcke
+
+Thanks to
+Gracias a
+Merci à
+Mit Dank an
+
+							for support and feedback
+							por su apoyo y comentarios.
+							pour votre aide et vos réactions.
+							für die Unterstützung und das Feedback.
+
+Everything broke
+Todo se rompió.
+Tout est cassé...
+Alles kaputt
+
+This level pack requires Jumpman version 
+Este paquete de niveles requiere Jumpman versión 
+Ce pack de niveaux nécessites Jumpman version 
+Dieses Level-Paket benötigt Jumpman Version 
+
+.	Right now you're using version 
+.	Ahora estás en la versión 
+.	Vous utilisez la version 
+.	Im Moment benutzt du Version 
+
+The level pack appears to be horribly corrupted.
+Este paquete de niveles parece estar horriblemente corrupto.
+Le pack de niveaux semble horriblement corrompu.
+Das Level-Paket ist übelst beschädigt.
+
+An internal file could not be opened.
+Un archivo interno no pudo ser abierto.
+Un fichier internet n'as pas pu être ouvert.
+Eine interne Datei konnte nicht geöffnet werden.
+
+Could not open file:	
+No se pudo abrir el archivo:	
+Impossible d'ouvrir le fichier:	
+Datei konnte nicht geöffnet werden:	
+
+Tap and press
+Toca y presiona
+Appuis à droite
+Tippe und halte
+
+the left or right side
+al lado izquierdo o derecho
+ou à gauche de l'écran
+die linke oder rechte Seite des
+
+of the screen to move left or right
+de la pantalla para moverte a la izquierda o la derecha.
+pour te déplacer.
+Bildschirms um dich nach links oder rechts zu bewegen.
+
+Or
+O
+Ou
+Oder
+
+swipe left or right
+arrastra a la izquierda
+glisse rapidement vers
+nach links oder rechts
+
+with one finger
+o la derecha
+la droite ou la gauche
+ 
+
+to dash left or right.
+para correr a la izquierda o la derecha.
+avec un doigt pour faire un élan.
+um nach links oder rechts zu rennen.
+
+Swipe up
+Arrastra
+Glisse avec
+Nach oben
+
+with one
+hacia arriba
+un doigt vers
+ 
+
+finger to jump.
+para saltar.
+le haut pour sauter.
+um zu springen.
+
+Turn your iPhone on its side
+Pon tu iPhone de lado para
+Tourne ton Iphone sur le coté
+Dreh dein iPhone auf die Seite
+
+to rotate the current level.
+rotar el nivel actual.
+pour tourner le niveau.
+um das momentane Level zu drehen.
+
+Put two fingers on the screen
+Presiona la pantalla con dos dedos
+Met deux doigts sur l'écran et
+Drück den Bildschirm mit zwei
+
+and twist to rotate the level.
+y gira para rotar el nivel.
+tourne pour tourner le niveau.
+Fingern und drehe sie um zu drehen.
+
+Tap this triangle anytime to pause
+Toca este triángulo en cualquier momento, para pausar
+Touche ce triangle pour mettre le
+Berühre diese Dreieck jederzeit um zu pausieren
+
+(or set control and music options)
+(o cambiar las opciones de control y música)
+jeu en pause, et accéder aux options.
+oder zu den Bedienungs- und Musik-Optionen zu kommen
+
+Ready to start?
+¿Listo para empezar?
+Prêt?
+Bereit?
+
+Ready?
+¿Listo para empezar?
+Prêt?
+Bereit?
+
+I can't beat this!
+¡No puedo pasar esto!
+J'y arrives pas!
+Ich schaffe es einfach nicht!
+
+Would you like to skip this level?
+¿Quieres saltarte este nivel?
+Voulez-vous passer ce niveau?
+Möchtest du das Level überspringen?
+
+Yes, skip it
+Si, saltemos este nivel.
+Oui, passer.
+Ja, überspringen.
+
+No, never mind
+No, no importa.
+Non, laisse tomber.
+Nein, schon gut.
+
+You already skipped a level, before.
+Ya te saltaste un nivel.
+Vous avez déjà passé un niveau auparavant.
+Du hast schon mal ein Level übersprungen.
+
+You have to go back and beat that
+Tienes que volver y pasar
+Il faut revenir en arriere et réussir
+Du musst zurück und es schaffen um
+
+one before skipping any more.
+ese antes de saltar más.
+ce niveau pour en passer un autre.
+wieder ein Level überspringen zu können.
+
+Let's do this
+Hagamos eso.
+Ok, faisons ça.
+Lasst es uns tun!
+
+No, never mind
+No, no importa.
+Non, laisse tomber.
+Nein, schon gut.
+
+Off
+Apagada
+Non
+Aus
+
+Music: Unknown
+Música: ???
+Musique: ???
+Musik: ???
+
+Music: Off
+Música: Apagada
+Musique: Non
+Musik aus
+
+Music: Soundtrack
+Música: Banda sonora
+Musique: Oui
+Musik Soundtrack
+
+Music: iTunes library
+Música: Librería de iTunes
+Musique: bibliotheque iTunes
+Musik iTunes Bibliothek
+
+Controls: Unknown
+Controles: ???
+Contrôles: ???
+Bedienung: ???
+
+Controls: Finger gestures
+Controles: Gestos con los dedos
+Contrôles: Doigts
+Bedienung: Fingerbewegungen
+
+Controls: Buttons
+Controles: Botones
+Contrôles: Boutons
+Bedienung: Knöpfe
+
+Tilt with: Unknown
+Para rotar: ???
+Tourner: ???
+zum Drehen: ???
+
+To rotate: Rotate Phone
+Para rotar: Arrastrar
+Tourner: Tourner l'appareil
+zum Drehen: Drehe Phone
+
+To rotate: Flick Phone
+Para rotar: Arrastrar
+Tourner : Donner un coup bref
+zum Drehen: Phone antippen
+
+To rotate: Finger twist
+Para rotar: Girar los dedos
+Tourner : Doigts
+Zum Drehen: Finger verdrehen
+
+I'm colorblind
+Soy daltónico
+Je suis daltonien
+Ich bin farbenblind
+
+Splatter mode
+Modo splat
+Mode éclaboussure
+Splatter Modus
+
+Best time
+Mejor tiempo
+Meilleur temps
+Bestzeit
+
+Best score
+Mejor puntaje
+Meilleur score
+Beste Wertung
+
+Best time (total)
+Mejor tiempo (total)
+Meileur temps (total)
+Beste Gesamtzeit
+
+Best score (total)
+Mejor puntaje (total)
+Meilleur score (total)
+Beste Gesamtwertung
+
+(Not completed)
+(Sin completar)
+(Non completé)
+(Nicht vollendet)
+
+(Path %d not completed)
+(Serie %d sin completar)
+(Course %d non completée)
+(Pfad %d nicht vollendet)
+
+Path %d
+Serie %d
+Course %d
+Pfad %d
+
+(Playtest mode, no scores)
+(Modo de prueba, sin puntaje)
+(Mode libre, pas de scores)
+(Spieletest Modus, keine Wertung)
+
+Tap or drag with one finger to draw.								Drag with two fingers to scroll or zoom.
+Toca o arrastra con un dedo para dibujar.								Arrastra con dos dedos para hacer scroll o aumentar.
+Utilisez un doigt pour déssiner.								Utilisez deux doigts pour zoomer ou vous déplacer.
+Berühre oder Ziehe mit einem Finger zum ziehen.								Zieh mit zwei Fingern um zu scrollen oder zoomen.
+
+Enter a name for your level pack:
+Pon un nombre a tu paquete de niveles:
+Entrez un nom pour votre pack de niveau:
+Gib deinem Level-Paket einen Namen:
+
+Really delete this level?
+¿Realmente quieres borrar este nivel?
+Voulez-vous vraiment supprimer ce niveau?
+Level wirklich löschen?
+
+Yes, delete
+Si, borrarlo.
+Oui, supprimer.
+Ja, löschen
+
+No, don't
+No, no lo borres.
+Non, ne pas supprimer.
+Nein, nicht löschen.
+
+Really delete forever your level pack
+¿Realmente borrar para siempre tu paquete de niveles
+Voulez-vous vraiment supprimer votre pack niveau
+Wirklich für immer dein Level-Paket
+
+Really delete forever the level pack
+¿Realmente borrar para siempre el paquete de niveles
+Voulez-vous vraiment supprimer le pack niveau
+Wirklich für immer dein Level-Paket
+
+"?
+"?
+"?
+" löschen?
+
+Yes, delete it
+Si, borrarlo.
+Oui, supprimer.
+Ja, löschen
+
+Level
+Nivel
+Niveau
+Level
+
+(Level %d)
+(Nivel %d)
+(Niveau %d)
+(Level %d)
+
+Level Name:
+Nombre del nivel:
+Nom du niveau:
+Level name:
+
+Message (optional)
+Mensaje (opcional)
+Message (optionnel)
+Nachricht (optional)
+
+Fixed Camera
+Cámara fija
+Camera fixe
+Fest installierte Kamera
+
+Die on \"fall out\"
+Muerte por caída libre
+Mourir en sortant du niveau
+Beim Herausfallen sterben
+
+Flag
+Bandera
+Drapeau
+Flagge
+
+Next level distance:
+Distancia al siguiente nivel:
+Prochain niveau dans:
+Abstand zum nächsten Level:
+
+Place two fingers on the screen
+Pon dos dedos en la pantalla y
+Utilisez deux doigts sur
+Mit zwei Fingern den Bildschirm berühren
+
+and pinch or pull to adjust zoom.
+aprieta o abre para ajustar el zoom.
+l'écran pour zoomer.
+und drücken oder ziehen um Zoom zu justieren.
+
+Yellow boxes are rotation points.
+Las cajas amarillas son puntos de rotación.
+Les boites jaunes sont des points de rotation.
+Gelbe Kisten sind Drehpunkte.
+
+Red blocks are barriers.
+Las cajas rojas son barreras.
+Celles rouges sont des barrieres.
+Rote Kisten sind Hindernisse.
+
+Tap to switch.
+Tócalas para cambiarlas.
+Appuyez pour changer.
+Antippen zum wechseln.
+
+Level color
+Color del nivel
+Couleur du niveau
+Level-farbe
+
+How many layers?
+¿Cuantas capas?
+Nombre de calques?
+Wie viele Schichten?
+
+(Unused layers will be deleted.)
+(Las capas sin usar serán borradas.)
+(Les calques inutilisés seront supprimés.)
+(Unbenutzte Schichten werden gelöscht.)
+
+Splatter mode
+Modo Splat
+Mode éclaboussure
+Splatter Modus
+
+<------- unlocked
+<------- disponible
+<------- débloqué
+<------- freigeschaltet
+
+Enter a name for your level pack:
+Ingresa un nombre para tu paquete de niveles.
+Entrez un nom pour votre pack niveau:
+Gib deinem Level Paket einen Namen:
+
+Enter a brief description here:
+Una breve descripción aquí:
+Entrez une description breve:
+Kurzbeschreibung eingeben:
+
+Easy mode
+Modo fácil
+Mode facile
+Leicht
+
+Please pick a username:
+Por favor elige un nombre de usuario:
+Choisissez un nom:
+Bitte wähle einen Benutzernamen:
+
+Pick a password:
+Elige un password:
+Choisissez un mot de passe:
+Wähle Passwort:
+
+And enter your e-mail address:
+e ingresa tu e-mail:
+Entrez votre adresse e-mail:
+Und gib deine e-mail Adresse ein:
+
+(Optional)
+(Opcional)
+(Optionnel)
+(Optional)
+
+This will sign you up to use the
+Esto te inscribirá para usar el servicio
+Cela va vous permettre d'acceder
+Level-Handel-Service angemeldet.
+
+Jumpman level trading service.
+de intercambio de niveles de Jumpman.
+au service de partage de niveau.
+Level-Handel-Service angemeldet.
+
+These terms of service apply
+Estos términos de servicio aplican:
+Conditions d'utilisation:
+Die Service-Bedingungen gelten:
+
+Cancel
+No
+Non
+Nein
+
+Get more:
+Traer más:
+Plus:
+Hol dir mehr:
+
+Download...
+Descargar...
+Téléchargement...
+Download...
+
+Downloaded level packs:
+Paquetes de niveles descargados:
+Packs de niveaux téléchargés:
+Runtergeladene Level Pakete:
+
+Your level packs:
+Tus paquetes de niveles:
+Vos packs de niveaux:
+Eigene Level Pakete:
+
+Load level pack:
+Cargar paquete:
+Charger un pack de niveaux:
+Level Paket laden:
+
+Create level pack:
+Crear paquete de niveles:
+Créer un pack de niveau:
+L.P. erstellen:
+
+New...
+Nuevo...
+Nouveau...
+Neu…
+
+Objects:
+Objetos:
+Objets:
+Objekte:
+
+Spiny
+Picudo
+Spiny
+Spiny
+
+Hunter
+Cazador
+Hunter
+Jäger
+
+Sticky
+Pegote
+Sticky
+Klebrig
+
+Swoopy
+Pajarraco
+Swoopy
+Swoopy
+
+Invisible Wall
+Muro invisible
+Mur invisible
+Unsichtbare Wand
+
+Entrance
+Entrada
+Entrée
+Eingang
+
+Exit
+Salida
+Sortie
+Ausgang
+
+Lava
+Lava
+Lave
+Lava
+
+Superball
+Pelota
+Superballe
+Superball
+
+Bomb
+Bomba
+Bombe
+Bombe
+
+Shrapnel
+Metralla
+Obus
+Shrapnel
+
+Paintbrush
+Brocha
+Pinceau
+Farbpinsel
+
+No Rotation Zone
+Zona de No Rotar
+Zone anti-rotation
+Kein Drehen-Zone
+
+Happy Ball
+Pelota feliz
+Gentille balle
+Happy Ball
+
+Angry Ball
+Pelota enojada
+Mechante balle
+Zorniger Ball
+
+Superbomb
+Super bomba
+Superbombe
+Superbombe
+
+Tools:
+Herramientas:
+Outils:
+Werkzeuge:
+
+Eraser
+Goma
+Gomme
+Radierer
+
+Line tool
+Lineas
+Ligne
+Linien-hilfe
+Main
+
+Scroll tool
+Scroll
+Main
+Scroll-Hilfe
+
+Resize tool (even)
+Ajuste de Tamaño (par)
+Redimensionnement (paire)
+Werkzeugröße ändern (gerade)
+
+Resize tool (odd)
+Ajuste de tamaño (impar)
+Redimensionnement (impaire)
+W. ä. (ungerade)
+
+Advanced:
+Avanzado:
+Avancé
+Fortgeschritten:
+
+Arrow
+Flecha
+Fleche
+Pfeil
+
+Unexit
+Retroceso
+Antisortie
+Hinterausgang
+
+Checkpoint
+Chequeo
+Checkpoint
+Checkpoint
+
+Evaporating Shrapnel
+Metralla evaporable
+Obus désintégrant
+Verdampfendes Shrapnel
+
+Invisible Shrapnel
+Metralla invisible
+Obus invisible
+Unsichtbares Shrapnel
+
+Basic
+Básico
+Basique
+Grundeinstellungen
+
+Repeat
+Repetir
+Repeter
+Wiederholen
+
+Zoom
+Zoom
+Zoom
+Zoom
+
+Angles
+Ángulos
+Angles
+Winkel
+
+Color
+Color
+Couleur
+Farben
+
+Layers
+Capas
+Calques
+Schichten
+
+Layers:
+Capas:
+Calques:
+Schichten:
+
+Clockwise
+↻
+↻
+↻
+
+Counter
+↺
+↺
+↺
+
+Flip X
+Invertir X
+Retourner X
+X drehen
+
+Flip Y
+Invertir Y
+Retourner Y
+Y drehen
+
+Mirror
+Espejo
+Miroir
+Spiegel
+
+Mirror X
+Espejo X
+Miroir X
+X spiegeln
+
+Mirror Y
+Espejo Y
+Miroir Y
+Y spiegeln
+
+Could not connect to the level server (error %d).
+No fue posible conectarse al servidor (error %d).
+Impossible de se connecter au server (erreur %d).
+Konnte nicht mit dem Level Server verbinden (Error %d).
+
+Downloading...
+Bajando...
+Telechargement...
+Lädt herunter…
+
+Loading...
+Cargando...
+Chargement...
+Lädt…
+
+Save
+Grabar
+Sauvegarder
+Speichern
+
+Edit
+Editar
+Modifier
+Bearbeiten
+
+Done
+Hecho
+Fini
+Fertig
+
+Back
+Volver
+Retour
+Zurück
+
+Revert
+Deshacer
+Revenir
+Rückgängig
+
+Pause
+Pausar
+Pause
+Pause
+
+Unpause
+Despausar
+Enlever la pause
+Weiter
+
+Palette
+Paleta
+Palette
+Palette
+
+OK
+OK
+OK
+OK
+
+Move Up
+Subir
+Haut
+Nach oben
+
+Move Down
+Bajar
+Bas
+Nach unten
+
+Duplicate
+Duplicar
+Dupliquer
+Duplizieren
+
+Delete
+Borrar
+Supprimer
+Löschen
+
+New Level
+Nuevo nivel
+Nouveau niveau
+Neuer Level
+
+Pack Settings
+Opciones
+Configuration
+Einstellungen
+
+Main Menu
+Menú principal
+Menu principale
+Hauptmenü
+
+Test
+Juego de prueba
+Lancer
+Test spielen
+
+Play test
+Juego de prueba
+Lancer
+Test spielen
+
+Edit
+Editar
+Modifier
+Bearbeiten
+
+Options
+Opciones
+Options
+Optionen
+
+Setup
+Opciones
+Options
+Optionen
+
+Index
+Índice
+Index
+Verzeichnis
+
+Game
+Juego
+Lancer
+Spiel
+
+Editor
+Editor
+Éditeur
+Bearbeitung
+
+Download
+Bajar
+Télécharger
+Herunterladen
+
+Help
+Ayuda
+Aide
+Hilfe
+
+Edit levels
+Editar niveles
+Modifier les niveaux
+Levels bearbeiten
+
+Upload
+Subir
+Envois
+Hochladen
+
+Quit
+Salir
+Quitter
+Aufhören
+
+Start
+Start
+Commencer
+Anfangen
+
+Your name here
+Tu nombre
+Votre nom
+Ihr Name

@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'ÇPROJECTNAMEÈ' target in the 'ÇPROJECTNAMEÈ' project
+//
+
+#include "SDL/SDL.h"
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+// Mac doesn't support __thread. So... just.. define it out?
+// This could break a lot of stuff, I guess.
+#define __thread 

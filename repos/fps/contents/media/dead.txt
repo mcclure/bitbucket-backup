@@ -1,0 +1,4 @@
+media/red.svg
+media/overlay/startup
+media/overlay/dead
+media/overlay/shutdown

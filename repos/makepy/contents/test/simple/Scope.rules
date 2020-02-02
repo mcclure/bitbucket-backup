@@ -1,0 +1,92 @@
+# These test to verify that "global" does not work and global scope is in effect to start
+# (These tests are actually artifacts of when targets/do ran in class-definition scope)
+do:
+    def idk():
+        x = 1
+        global y
+        y = 2
+
+        def sub1():
+            global x
+            x = 3
+
+        global set1
+        def set1():
+            sub1()
+            global y
+            y = 4
+
+        global get1
+        def get1():
+            return [x,y]
+    idk()
+
+global:
+    x = 5
+    global y
+    y = 6
+
+    def sub2():
+        global x
+        x = 7
+
+    def set2():
+        sub2()
+        global y
+        y = 8
+
+    def get2():
+        return [x,y]
+
+# One last global-scope test
+do:
+    def sub1():
+        pass
+
+    def sub2():
+        pass
+
+    sub2()
+
+# Test for uses global scope
+z = 10
+w = 11
+for z in 12 13 14:
+    w = $z
+
+# Test leakage between rules
+global:
+    t = [1]
+    u = 3
+    v = 4
+do:
+    t.append(2) # Leaks
+    u = 5       # Does not leak
+x:
+    t.append(3) # Leaks
+    v = 6       # Does not leak
+
+all: x
+    try:
+        set1
+    except NameError:
+        print( "No set1" )
+    else:
+        set1()
+
+    set2()
+
+    try:
+        get1
+    except NameError:
+        print( "No get1" )
+    else:
+        print( get1() )
+
+    print( get2() )
+
+    print(z)
+    print(w)
+    print(t)
+    print(u)
+    print(v)

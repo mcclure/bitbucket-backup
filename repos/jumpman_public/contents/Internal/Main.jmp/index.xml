@@ -1,0 +1,607 @@
+<?xml version="1.0" ?>
+<Jumpman version="1.0" ending="2" author="mcc">
+    <Level name="Hello" flag="1">
+        <!-- 1 -->
+        <Message text="Guide Jumpman to the exit." />
+        <Message text="Press !XZLEFT and !XZRIGHT to move, !XZJUMP to jump." />
+        <Type camera="0" rots="85" rspeed="2" repeat="0" zoom="1.000000" after="1" />
+        <Color r="0" g="0.5" b="1.0" />
+        <File src="level 1.png" />
+    </Level>
+    <Level name="level 2.png">
+        <Type camera="0" rots="85" rspeed="2" repeat="0" />
+        <Color r="0.5" g="1.0" b="0.5" />
+        <File src="level 2.png" />
+    </Level>
+    <Level>
+        <Type camera="0" rots="85" rspeed="2" />
+        <Color r="1.0" g="0.5" b="1.0" />
+        <File src="level 3.png" />
+    </Level>
+    <Level name="level 4.png">
+        <Type camera="0" rots="85" rspeed="2" repeat="0" />
+        <Color r="1.0" g="1.0" b="0.0" />
+        <File src="level 4.png" />
+    </Level>
+    <Level>
+        <Type camera="0" rots="85" rspeed="2" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="level 5.png" />
+    </Level>
+    <Level>
+        <Message text="Use !XZROTL and !XZROTR to rotate." />
+        <Type camera="1" rots="255" />
+        <Color r="0" g="0.5" b="1.0" />
+        <File src="level 1 1.png" />
+        <File src="level 1 2.png" rot="1" />
+    </Level>
+    <Level>
+        <Type camera="1" rots="255" />
+        <Color r="0.5" g="1.0" b="0.5" />
+        <File src="level 2 1.png" />
+        <File src="level 2 2.png" rot="1" />
+    </Level>
+    <Level>
+        <Type camera="1" rots="255" />
+        <Color r="1.0" g="0.5" b="1.0" />
+        <File src="level 3 1.png" />
+        <File src="level 3 2.png" rot="1" />
+    </Level>
+    <Level>
+        <Type camera="1" rots="255" />
+        <Color r="1.0" g="1.0" b="0.0" />
+        <File src="level 4 1.png" />
+        <File src="level 4 2.png" rot="1" />
+    </Level>
+    <Level>
+        <Type camera="1" rots="255" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="level 5 1.png" />
+        <File src="level 5 2.png" rot="1" />
+    </Level>
+    <Level name="Lavalandia-1" flag="1">
+        <!-- Lavalandia -->
+        <Type camera="0" rots="255" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="2038013176.png" rot="0" />
+        <File src="523279382.png" rot="1" />
+    </Level>
+    <Level name="Lavalandia-2">
+        <Type camera="0" rots="255" rspeed="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1668540572.png" rot="0" />
+        <File src="1319931078.png" rot="1" />
+    </Level>
+    <Level name="Lavalandia-3">
+        <Type camera="0" rots="255" rspeed="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1645941328.png" rot="0" />
+        <File src="1599042689.png" rot="1" />
+    </Level>
+    <Level name="Lavalandia-4">
+        <Type camera="0" rots="255" rspeed="1" fallout="WHAT DID YOU DO" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1403975776.png" rot="0" />
+        <File src="70553996.png" rot="1" />
+    </Level>
+    <Level name="Lavalandia-5">
+        <Type camera="0" rots="255" rspeed="1" />
+        <Message text="By the way, don&apos;t touch the lava." />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="981028717.png" rot="0" />
+        <File src="1917688600.png" rot="1" />
+    </Level>
+    <Level name="Superball">
+        <Type camera="1" rots="131" rspeed="1" dontrot="68" repeat="0" />
+        <Color r="0.650000" g="0.750000" b="0.950000" />
+        <File src="1137594661.png" rot="0" />
+        <File src="506558186.png" rot="1" />
+        <Message text="Superball is death." />
+    </Level>
+    <Level name="Jigsaw">
+        <Type camera="0" rots="255" rspeed="1" repeat="0" />
+        <Color r="1.000000" g="0.500000" b="0.500000" />
+        <File src="165490352.png" rot="0" />
+        <Message text="Beware the Hunter." />
+    </Level>
+    <Level name="Up against">
+        <!-- Being chased -->
+        <Type camera="0" rots="1" dontrot="0" rspeed="8" />
+        <Color r="0.000000" g="1.000000" b="1.000000" />
+        <File src="test.png" />
+    </Level>
+    <Level name="Oreos">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" />
+        <Color r="0.000000" g="0.000000" b="0.000000" />
+        <File src="12591632.png" rot="0" />
+    </Level>
+    <Level name="Flipper">
+        <Type camera="0" rots="17" dontrot="0" rspeed="4" />
+        <Color r="0.000000" g="1.000000" b="0.000000" />
+        <File src="1579071286.png" rot="0" />
+    </Level>
+    <Level name="Being Chased" flag="1">
+        <Type camera="1" rots="255" rspeed="1" repeat="0" zoom="1.000000" after="1" />
+        <Color r="0.500000" g="0.500000" b="1.000000" />
+        <File src="368861491.png" rot="0" />
+        <File src="1817273995.png" rot="1" />
+    </Level>
+    <Level name="Serrated">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" />
+        <Color r="0.800000" g="0.720000" b="0.560000" />
+        <File src="1643497100.png" rot="0" />
+        <File src="1321091986.png" rot="1" />
+    </Level>
+    <Level name="Sample-GOOD">
+        <Type camera="1" rots="255" rspeed="1" repeat="0" dontrot="0" />
+        <Color r="0" g="1" b="1" />
+        <File src="687818590.png" rot="0" />
+    </Level>
+    <Level name="Rotlava">
+        <Type camera="1" rots="255" rspeed="1" repeat="0" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="2019974956.png" rot="0" />
+        <File src="150110069.png" rot="1" />
+    </Level>
+    <Level name="Spiral">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" />
+        <Color r="1.000000" g="1.000000" b="0.000000" />
+        <File src="1930226760.png" rot="0" />
+        <File src="1433183738.png" rot="1" />
+    </Level>
+    <Level name="Lava">
+        <Type camera="0" rots="255" rspeed="1" repeat="0" />
+        <Color r="0.500000" g="0.500000" b="0.500000" />
+        <File src="295179940.png" rot="0" />
+        <Message text="Just a little further..." />
+    </Level>
+    <Level name="Spectators">
+        <Type camera="1" rots="0" rspeed="1" repeat="0" />
+        <Color r="0.750000" g="1.000000" b="1.000000" />
+        <File src="1946236841.png" rot="0" />
+    </Level>
+    <Level name="Mondrian">
+        <Type camera="0" rots="255" rspeed="1" repeat="0" zoom="1.000000" after="3" />
+        <Color r="0.050000" g="0.050000" b="0.300000" />
+        <File src="60323.png" rot="0" />
+        <File src="1013848661.png" rot="1" />
+    </Level>
+    <Level name="Level 1" flag="1">
+        <!-- "Gimmicks" -->
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" repeat="1" zoom="1.000000" after="1" />
+        <Color r="1.000000" g="0.500000" b="1.000000" />
+        <File src="1717753384.png" rot="0" />
+        <File src="1658458267.png" rot="1" />
+    </Level>
+    <Level name="Level 1">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" repeat="0" />
+        <Color r="1.000000" g="1.000000" b="0.500000" />
+        <File src="229622318.png" rot="0" />
+        <File src="234184967.png" rot="1" />
+    </Level>
+    <Level name="Level 11">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1114429669.png" rot="0" />
+        <File src="1724451181.png" rot="1" />
+    </Level>
+    <Level name="Level 10">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1148864640.png" rot="0" />
+        <File src="498990370.png" rot="1" />
+    </Level>
+    <Level name="Level 4">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="0" />
+        <Color r="1.000000" g="0.500000" b="1.000000" />
+        <File src="1774191290.png" rot="0" />
+        <File src="1022572435.png" rot="1" />
+    </Level>
+    <Level name="Level 3">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" />
+        <Color r="0.400000" g="1.000000" b="1.000000" />
+        <File src="1761804531.png" rot="0" />
+        <File src="1144227681.png" rot="1" />
+    </Level>
+    <Level name="Level 5">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1895162549.png" rot="0" />
+        <File src="519508739.png" rot="1" />
+    </Level>
+    <Level name="Level 2">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" reprot="0" />
+        <Color r="0.150000" g="0.350000" b="1.000000" />
+        <File src="449259899.png" rot="0" />
+        <File src="158619641.png" rot="1" />
+    </Level>
+    <Level name="Level 3">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" repeat="0" zoom="1.000000" after="2" />
+        <Color r="1.000000" g="1.000000" b="0.700000" />
+        <File src="1896433946.png" rot="0" />
+        <File src="413041648.png" rot="1" />
+    </Level>
+    <Level name="Level 4">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="0" zoom="1.000000" after="2" />
+        <Color r="0.500000" g="1.000000" b="0.500000" />
+        <File src="1337458872.png" rot="0" />
+        <File src="959928555.png" rot="1" />
+        <Message text="Careful!" />
+    </Level>
+    <Level name="Level 2">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" repeat="1" zoom="1.000000" after="2" />
+        <Color r="0.400000" g="0.400000" b="1.000000" />
+        <File src="321299830.png" rot="0" />
+        <File src="1312354252.png" rot="1" />
+    </Level>
+    <Level name="Level 14" flag="1">
+        <!-- Last minute -->
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="1" reprot="12593" after="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="712620846.png" rot="0" />
+        <File src="502259403.png" rot="1" />
+    </Level>
+    <Level name="Cross">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" repeat="1" repref="0" reprot="8738" after="1" zoom="0.700000" />
+        <Color r="1.000000" g="0.500000" b="1.000000" />
+        <File src="679467790.png" rot="0" />
+        <File src="1644595431.png" rot="1" />
+    </Level>
+    <Level name="Chute">
+        <Type camera="0" rots="199" dontrot="40" rspeed="1" zoom="1.000000" repeat="1" reprot="17476" after="4" />
+        <Color r="0.600000" g="0.000000" b="0.000000" />
+        <File src="358838534.png" rot="0" />
+        <File src="865160162.png" rot="1" />
+    </Level>
+    <Level name="Stairway">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" after="2" reprot="8738" zoom="1.000000" panproblem="1" />
+        <Color r="0.000000" g="0.500000" b="1.000000" />
+        <File src="350721419.png" rot="0" />
+        <File src="1879761765.png" rot="1" />
+    </Level>
+    <Level name="Gears">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" reprot="12593" after="3" zoom="1.000000" panproblem="1" />
+        <Color r="1.000000" g="0.000000" b="0.300000" />
+        <File src="499572053.png" rot="0" />
+        <File src="1793918648.png" rot="1" />
+    </Level>
+    <Level name="Chambers">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" after="2" zoom="1.000000" reprot="30549" panproblem="1" />
+        <Color r="0.000000" g="1.000000" b="1.000000" />
+        <File src="1520623454.png" rot="0" />
+        <File src="2062992078.png" rot="1" />
+    </Level>
+    <Level name="Arrow">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" repref="0" reprot="12593" after="2" zoom="0.500000" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="650914879.png" rot="0" />
+        <File src="644673535.png" rot="1" />
+    </Level>
+    <Level name="Spiril">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" repref="0" reprot="12593" after="2" zoom="1.000000" />
+        <Color r="0.500000" g="0.500000" b="0.500000" />
+        <File src="1267160341.png" rot="0" />
+        <File src="568523888.png" rot="1" />
+    </Level>
+    <Level name="Space ship">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" repeat="1" repref="1" reprot="8738" after="2" zoom="1.000000" />
+        <Color r="1.000000" g="0.000000" b="1.000000" />
+        <File src="1122384843.png" rot="0" />
+        <File src="425701053.png" rot="1" />
+    </Level>
+    <Level name="Ninety">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" repeat="1" repref="0" reprot="30549" after="2" zoom="1.900000" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="1176435570.png" rot="0" />
+        <File src="470687061.png" rot="1" />
+        <Message text="90" />
+    </Level>
+    <Level name="LED" flag="1">
+        <!-- Deletionism -->
+        <Type camera="0" rots="1" dontrot="0" rspeed="8" zoom="1.000000" repeat="1" reprot="12593" after="1" />
+        <Color h="116.666667" s="0.950000" v="0.700000" />
+        <File src="1879255429.png" rot="0" />
+        <File src="1603998774.png" rot="1" />
+    </Level>
+    <Level name="Slow me down">
+        <Type camera="1" rots="129" dontrot="66" rspeed="4" zoom="1.000000" repeat="0" after="2" />
+        <Color h="40.000000" s="0.500000" v="1.000000" />
+        <File src="1848717110.png" rot="0" />
+        <File src="1595062974.png" rot="1" />
+    </Level>
+    <Level name="Zone">
+        <Type camera="0" rots="85" dontrot="0" rspeed="2" zoom="1.000000" repeat="0" after="2" />
+        <Color r="0.500000" g="1.000000" b="1.000000" />
+        <File src="949278862.png" rot="0" />
+        <File src="873820071.png" rot="1" />
+        <Message text="No Rotating in the No Rotating Zone" />
+    </Level>
+    <Level name="Fall out">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="1" after="3" />
+        <Color r="0.800000" g="0.750000" b="1.000000" />
+        <File src="1865187970.png" rot="0" />
+        <File src="1395416531.png" rot="1" />
+    </Level>
+    <Level name="Distance">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="0.400000" repeat="1" reprot="8738" after="2" />
+        <Color r="0.500000" g="0.250000" b="0.000000" />
+        <File src="1637646139.png" rot="0" />
+        <File src="1768238221.png" rot="1" />
+    </Level>
+    <Level name="Compartments">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="1.000000" g="0.700000" b="1.000000" />
+        <File src="1291124924.png" rot="0" />
+        <File src="1761828380.png" rot="1" />
+    </Level>
+    <Level name="2">
+        <Type camera="0" rots="65" dontrot="34" rspeed="4" zoom="1.000000" repeat="0" after="1" />
+        <Color r="0.300000" g="0.800000" b="1.000000" />
+        <File src="637141010.png" rot="0" />
+        <File src="1075491128.png" rot="1" />
+    </Level>
+    <Level name="Fingers">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="0.800000" repeat="0" after="1" />
+        <Color r="0.000000" g="0.333333" b="1.000000" />
+        <File src="1841803970.png" rot="0" />
+        <File src="1370035932.png" rot="1" />
+    </Level>
+    <Level name="Hello" flag="1">
+        <!-- 1 -->
+        <Message text="Guide Jumpman to the exit." />
+        <Type camera="0" rots="85" rspeed="2" repeat="0" zoom="1.000000" after="1" />
+        <Color r="0" g="0.0" b="0.0" />
+        <File src="level 1.png" />
+    </Level>
+    <Level name="level 2.png">
+        <Type camera="0" rots="85" rspeed="2" repeat="0" />
+        <Color r="0.000000" g="0.000000" b="0.000000" />
+        <File src="level 2.png" />
+    </Level>
+    <Level>
+        <Type camera="0" rots="85" rspeed="2" />
+        <Color r="0.0" g="0.0" b="0.0" />
+        <File src="level 3.png" />
+    </Level>
+    <Level name="level 4.png">
+        <Type camera="0" rots="85" rspeed="2" repeat="0" />
+        <Color r="0.0" g="0.0" b="0.0" />
+        <File src="level 4.png" />
+    </Level>
+    <Level>
+        <Type camera="0" rots="85" rspeed="2" />
+        <Color r="0.0" g="0.0" b="0.0" />
+        <File src="level 5.png" />
+    </Level>
+    <Level name="Scribble">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="0.300000" g="0.350000" b="1.000000" />
+        <File src="2087111045.png" rot="0" />
+        <File src="1077443217.png" rot="1" />
+    </Level>
+    <Level name="Castle">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="0.000000" g="0.000000" b="0.000000" />
+        <File src="1055227667.png" rot="0" />
+        <File src="1291442343.png" rot="1" />
+    </Level>
+    <Level name="Hello orange">
+        <Type camera="0" rots="0" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="0.150000" g="1.000000" b="0.200000" />
+        <File src="266197737.png" rot="0" />
+        <File src="776929058.png" rot="1" />
+        <Message text="Orange is a friend to orange." />
+    </Level>
+    <Level name="Bounce">
+        <Type camera="0" rots="0" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="1190759579.png" rot="0" />
+        <File src="696137860.png" rot="1" />
+    </Level>
+    <Level name="Draft">
+        <Type camera="0" rots="17" dontrot="0" rspeed="4" zoom="1.000000" repeat="0" after="4" />
+        <Color r="0.050000" g="0.050000" b="0.050000" />
+        <File src="605423724.png" rot="0" />
+        <File src="579009782.png" rot="1" />
+        <Message text="Hope" />
+    </Level>
+    <Level name="Stone" flag="1">
+        <Type camera="0" rots="0" dontrot="255" rspeed="1" zoom="1.000000" repeat="0" after="3" />
+        <Color r="0.550000" g="0.650000" b="0.750000" />
+        <File src="2104210321.png" rot="0" />
+        <File src="702166251.png" rot="1" />
+    </Level>
+    <Level name="Stalagmite">
+        <Type camera="0" rots="0" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="1" />
+        <Color r="0.200000" g="0.600000" b="1.000000" />
+        <File src="1111959708.png" rot="0" />
+        <File src="1304116162.png" rot="1" />
+    </Level>
+    <Level name="Flip">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="1" after="3" reprot="26214" />
+        <Color r="0.550000" g="0.500000" b="0.550000" />
+        <File src="1681468544.png" rot="0" />
+        <File src="1704508135.png" rot="1" />
+    </Level>
+    <Level name="Slide">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="2" />
+        <Color r="1.000000" g="0.750000" b="1.000000" />
+        <File src="1869600867.png" rot="0" />
+        <File src="401048765.png" rot="1" />
+    </Level>
+    <Level name="Honeycomb">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="0.500000" repeat="1" after="2" reprot="4883" panproblem="1" />
+        <Color r="1.000000" g="1.000000" b="0.500000" />
+        <File src="845154015.png" rot="0" />
+        <File src="1046688847.png" rot="1" />
+    </Level>
+    <Level name="Lock">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color r="1.000000" g="0.000000" b="1.000000" />
+        <File src="19778887.png" rot="0" />
+        <File src="1711272171.png" rot="1" />
+    </Level>
+    <Level name="Coyote">
+        <!-- Louisiana -->
+        <Type camera="1" rots="0" dontrot="0" rspeed="1" zoom="1.510000" repeat="1" after="1" />
+        <Color r="0.500000" g="0.000000" b="1.000000" />
+        <File src="2005621118.png" rot="0" />
+        <File src="1570806914.png" rot="1" />
+    </Level>
+    <Level name="Milon">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="1" after="4" panproblem="1" />
+        <Color r="0.500000" g="0.850000" b="0.750000" />
+        <File src="847364053.png" rot="0" />
+        <File src="1683575514.png" rot="1" />
+    </Level>
+    <Level name="Paintbrush?" layers="2" flag="1">
+        <!-- Paintbrush -->
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color r="0.000000" g="0.000000" b="0.500000" />
+        <File src="2137646069.png" rot="0" />
+        <File src="16067373.png" rot="1" />
+        <Color r="1.000000" g="0.500000" b="0.000000" layer="1" />
+        <File src="2100704580.png" rot="0" layer="1" />
+        <File src="1910719380.png" rot="1" layer="1" />
+        <Message text="A paintbrush?" />
+    </Level>
+    <Level name="Africa" layers="4">
+        <Type camera="0" rots="85" dontrot="0" rspeed="2" zoom="1.000000" repeat="0" after="4" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="463930406.png" rot="0" />
+        <File src="1912695032.png" rot="1" />
+        <Color r="1.000000" g="0.250000" b="0.250000" layer="1" />
+        <File src="982690881.png" rot="0" layer="1" />
+        <File src="1936391537.png" rot="1" layer="1" />
+        <Color r="0.250000" g="1.000000" b="0.250000" layer="2" />
+        <File src="1965375721.png" rot="0" layer="2" />
+        <File src="1623768340.png" rot="1" layer="2" />
+        <Color r="1.000000" g="1.000000" b="0.250000" layer="3" />
+        <File src="452304304.png" rot="0" layer="3" />
+        <File src="1933810595.png" rot="1" layer="3" />
+    </Level>
+    <Level name="Mono" layers="3">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="1330438325.png" rot="0" />
+        <File src="1077195711.png" rot="1" />
+        <Color r="0.000000" g="0.000000" b="0.000000" layer="1" />
+        <File src="1141170567.png" rot="0" layer="1" />
+        <File src="477268212.png" rot="1" layer="1" />
+        <Color r="0.500000" g="0.500000" b="0.500000" layer="2" />
+        <File src="595417539.png" rot="0" layer="2" />
+        <File src="2056266600.png" rot="1" layer="2" />
+    </Level>
+    <Level name="Trick" layers="2">
+        <Type camera="0" rots="0" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="159533149.png" rot="0" />
+        <File src="1214043787.png" rot="1" />
+        <Color r="1.000000" g="0.250000" b="0.250000" layer="1" />
+        <File src="1191797962.png" rot="0" layer="1" />
+        <File src="968371765.png" rot="1" layer="1" />
+    </Level>
+    <Level name="Cards" layers="6">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color h="0.000000" s="0.000000" v="1.000000" />
+        <File src="703180051.png" rot="0" />
+        <File src="744607716.png" rot="1" />
+        <Color r="1.0" g="0.25" b="0.25" layer="1" />
+        <File src="1234671743.png" rot="0" layer="1" />
+        <File src="2140987287.png" rot="1" layer="1" />
+        <Color r="0.25" g="1.0" b="0.25" layer="2" />
+        <File src="337343477.png" rot="0" layer="2" />
+        <File src="374989859.png" rot="1" layer="2" />
+        <Color r="1.0" g="1.0" b="0.25" layer="3" />
+        <File src="1737539915.png" rot="0" layer="3" />
+        <File src="1350719499.png" rot="1" layer="3" />
+        <Color r="0.25" g="0.25" b="1.0" layer="4" />
+        <File src="492987256.png" rot="0" layer="4" />
+        <File src="644901466.png" rot="1" layer="4" />
+        <Color r="1.0" g="0.25" b="1.0" layer="5" />
+        <File src="508972653.png" rot="0" layer="5" />
+        <File src="876012970.png" rot="1" layer="5" />
+    </Level>
+    <Level name="Glitter" layers="3">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color r="0.000000" g="1.000000" b="1.000000" />
+        <File src="706920333.png" rot="0" />
+        <File src="1330501527.png" rot="1" />
+        <Color r="1.000000" g="0.000000" b="1.000000" layer="1" />
+        <File src="1746389575.png" rot="0" layer="1" />
+        <File src="1910583476.png" rot="1" layer="1" />
+        <Color r="1.000000" g="1.000000" b="0.000000" layer="2" />
+        <File src="2000991188.png" rot="0" layer="2" />
+        <File src="1064984696.png" rot="1" layer="2" />
+    </Level>
+    <Level name="Wheel" layers="8">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="4" />
+        <Color h="0.000000" s="1.000000" v="1.000000" />
+        <File src="772000453.png" rot="0" />
+        <File src="2062902044.png" rot="1" />
+        <Color h="45.000000" s="1.000000" v="1.000000" layer="1" />
+        <File src="71172693.png" rot="0" layer="1" />
+        <File src="51059872.png" rot="1" layer="1" />
+        <Color h="90.000000" s="1.000000" v="1.000000" layer="2" />
+        <File src="1317293551.png" rot="0" layer="2" />
+        <File src="1343794734.png" rot="1" layer="2" />
+        <Color h="135.000000" s="1.000000" v="1.000000" layer="3" />
+        <File src="72578839.png" rot="0" layer="3" />
+        <File src="61835577.png" rot="1" layer="3" />
+        <Color h="180.000000" s="1.000000" v="1.000000" layer="4" />
+        <File src="2035941138.png" rot="0" layer="4" />
+        <File src="58275068.png" rot="1" layer="4" />
+        <Color h="225.000000" s="1.000000" v="1.000000" layer="5" />
+        <File src="176524844.png" rot="0" layer="5" />
+        <File src="1178136601.png" rot="1" layer="5" />
+        <Color h="270.000000" s="1.000000" v="1.000000" layer="6" />
+        <File src="1142627667.png" rot="0" layer="6" />
+        <File src="1344427795.png" rot="1" layer="6" />
+        <Color h="315.000000" s="1.000000" v="1.000000" layer="7" />
+        <File src="2122500478.png" rot="0" layer="7" />
+        <File src="1014673429.png" rot="1" layer="7" />
+    </Level>
+    <Level name="Capsule" flag="1">
+        <!-- Dentist -->
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="2" />
+        <Color r="1.000000" g="1.000000" b="1.000000" />
+        <File src="2049649909.png" rot="0" />
+        <File src="680839036.png" rot="1" />
+    </Level>
+    <Level name="Worm">
+        <Type camera="1" rots="199" dontrot="56" rspeed="1" zoom="0.500000" repeat="0" after="3" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="1015582477.png" rot="0" />
+        <File src="694664583.png" rot="1" />
+    </Level>
+    <Level name="Basketball">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" />
+        <Color r="0.650000" g="1.000000" b="1.000000" />
+        <File src="1854938497.png" rot="0" />
+        <File src="931215580.png" rot="1" />
+    </Level>
+    <Level name="Star pilot">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="1.000000" repeat="0" after="2" />
+        <Color r="0.450000" g="0.500000" b="1.000000" />
+        <File src="1077902833.png" rot="0" />
+        <File src="140868139.png" rot="1" />
+    </Level>
+    <Level name="Stars">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" zoom="0.500000" repeat="1" after="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="954795735.png" rot="0" />
+        <File src="1254107761.png" rot="1" />
+    </Level>
+    <Level name="Earth">
+        <Type camera="1" rots="255" dontrot="0" rspeed="1" zoom="0.400000" repeat="0" after="1" />
+        <Color r="1.0" g="1.0" b="1.0" />
+        <File src="69446383.png" rot="0" />
+        <File src="1101738760.png" rot="1" />
+    </Level>
+    <Level name="Buffer">
+        <Type camera="0" rots="255" dontrot="0" rspeed="1" />
+        <Color r="0.300000" g="0.500000" b="1.000000" />
+        <File src="1410004726.png" rot="0" />
+        <File src="467385237.png" rot="1" />
+    </Level>
+</Jumpman>

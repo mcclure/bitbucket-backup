@@ -1,0 +1,88 @@
+Run from project root:
+
+./make.py -C test/simple -f Variable.rules
+    Expected result:
+    3, 4, 5, 4, 4, None, None, [blank line], None, None, ['1', '2', '3', '4', '5', '6'],
+    ['1', '2', '1'], ['1', '2', '3'], X, Y, None, ['1', '3'], ['4', '6'],
+    [1, 2, [3, 4], 5], ['1', '2', '3', '4', '5']
+
+./make.py -C test/simple -f Extended.rules a
+    Expected result:
+    b
+
+./make.py -C test/simple -f Inline.rules a
+    Expected result:
+    4, 5, -50, current Python version
+
+./make.py -C test/simple -f Version.rules
+    Expected result: (unless you're running python 3)
+    Succeed
+
+./make.py -C test/simple -f Silly.rules
+    Expected result:
+    python, for, if
+
+./make.py -C test/simple -f Scope.rules
+    Expected result:
+    "No set1", "No get1", [7, 8], 14, 14, [1,2,3], 3, 4
+
+./make.py -C test/simple -f IfFor.rules
+    Expected result:
+    ap, bp, x, y, z, 7
+
+./make.py -C test/simple -f String.rules
+    Expected result:
+    'A', ' A  B', ' A  B', '  x "()"', '  x "()"',
+    ['()(((())))', 'x'], ['x\nyz\tq\\', 'x\nyz\tq\\'],
+    'D4丼C𐀀0' (that's D, 4, tic tac toe thing, C, football goalposts, 0),
+    XXX, XXX, , ['1234.gif', 'A.gif'], Q
+
+./make.py -C test/simple -f Print.rules
+    Expected result:
+    'Value of X is 3', 'This should only appear[newline]in the stderr.'
+
+W=A X=B Y=C L='ab c"d" "ef"' L2="1 2 3" python ./make.py -C test/simple -f Env.rules Y=Q Z=R
+    Expected result:
+    A, B, Q, R, None, 5, ab!cd!ef, "1 2 3", A, B
+
+python ./make.py -C test/simple -f Shell.rules
+    Expected result:
+    Shell.rules, ECHO, K, Failed, Also failed,
+    (1, '', 'mkdir: /: Is a directory\n')
+
+(cd test/touches && rm -f a b c d) && ./make.py -C test/touches d
+(cd test/dynamicRules && rm -f a b c d) && ./make.py -C test/dynamicRules
+(cd test/dynamicRules2 && rm -f file-*) && ./make.py -C test/dynamicRules2
+    Expected result of any above: 4 files created
+
+rm -f test/output/STD* test/output/DUMMY* && ./make.py -C test/output
+    Expected: [Any order] "File: STDOUT-4", True, STDERR-2, OK-2, OK-1
+    Expected to exist containing filename: STDOUT-1, STDERR-1, STDOUT-2
+    Expected to exist containing "STDERR-3" and "STDERR-4", any order: STDERR-3-4
+
+Expected failures:
+
+./make.py -C test/fail -f Gibberish.rules
+./make.py -C test/fail -f Recursive.rules d
+./make.py -C test/fail -f Error.rules
+./make.py -C test/fail -f Version.rules
+./make.py -C test/fail -f Python.rules
+./make.py -C test/fail -f Indent.rules
+./make.py -C test/fail -f Assign.rules
+./make.py -C test/fail -f IfNoElse.rules
+./make.py -C test/fail -f IfNoCondition.rules
+./make.py -C test/fail -f IfWeirdCondition.rules
+./make.py -C test/fail -f ForMalformed.rules
+./make.py -C test/fail -f BadSpace.rules
+./make.py -C test/fail -f BadSpace2.rules
+./make.py -C test/fail -f BadSpace3.rules
+./make.py -C test/fail -f Interpolate.rules
+W='"\b"' ./make.py -C test/simple -f Env.rules
+
+Failures with particular error messages:
+
+Or, to be lazy:
+
+(cd test/touches && rm -f a b c d) && python make.py -C test/touches d && ls test/touches
+(cd test/dynamicRules && rm -f a b c d) && python make.py -C test/dynamicRules && ls test/dynamicRules
+(cd test/dynamicRules2 && rm -f file-*) && python make.py -C test/dynamicRules2 && ls test/dynamicRules2

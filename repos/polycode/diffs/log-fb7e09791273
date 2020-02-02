@@ -1,0 +1,6 @@
+changeset:   361:fb7e09791273
+parent:      343:7e9e4ae1ee9b
+user:        mcc <andrew.mcclure@gmail.com>
+date:        Wed Feb 15 23:26:40 2012 -0800
+summary:     Backport PolycodeView crash-on-quit fix to Universe hack branch
+

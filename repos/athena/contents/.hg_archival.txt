@@ -1,0 +1,6 @@
+repo: c66720683d6936219ddcfee9c3cda88ae7ae99b7
+node: a91fab7bdfe551dc01018f98d9c24fc9936a0803
+branch: default
+latesttag: ld26_1
+latesttagdistance: 6
+changessincelatesttag: 7

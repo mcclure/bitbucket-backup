@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<polycode>	
+	<shaders>
+		<shader type="glsl" name="FlatShader" numAreaLights="4" numSpotLights="2">		
+			<vp source="FlatShader.vert">
+				<params>			
+				</params>				
+			</vp>
+			<fp source="FlatShader.frag">
+				<params>			
+				</params>				
+			</fp>
+		</shader>
+		<shader type="glsl" name="FilterShader">		
+			<vp source="ScreenShader.vert">
+				<params>
+				</params>				
+			</vp>
+			<fp source="FilterShader.frag">
+				<params>
+					<param name="radius" type="Number" value="0.0" default="0.0" />
+					<param name="aspect" type="Number" value="0.0" default="0.0" />
+				</params>				
+			</fp>
+		</shader>
+		<shader type="glsl" name="DissolveShader">		
+			<vp source="ScreenShader.vert">
+				<params>
+				</params>				
+			</vp>
+			<fp source="DissolveShader.frag">
+				<params>
+					<param name="xd" type="Number" value="0.0" default="0.0" />
+					<param name="yd" type="Number" value="0.0" default="0.0" />
+					<param name="thresh" type="Number" value="0.0" default="0.0" />
+				</params>				
+			</fp>
+		</shader>
+	</shaders>
+	<materials>
+		<material name="TestParticle">
+			<shader name="DefaultParticleShader">
+				<textures>
+					<texture name="diffuse">particle.png</texture>
+				</textures>
+			</shader>
+		</material>	
+		<material name="CubeMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">box_texture.png</texture>
+				</textures>
+			</shader>
+		</material>			
+		<material name="FilterMaterial">
+			<shader name="FilterShader">
+			</shader>
+		</material>			
+		<material name="DissolveMaterial">
+			<shader name="DissolveShader">
+			</shader>
+		</material>			
+		<material name="GroundMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">floor_texture.png</texture>
+				</textures>
+			</shader>
+		</material>					
+	</materials>
+</polycode>

@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "commander": "^2.9.0",
+    "commander.js-error": "^1.1.0",
+    "graphlib": "^2.1.1",
+    "typescript": "^1.8.10"
+  },
+  "name": "dts2nim",
+  "description": "Binding generator from TypeScript to the Nim programming language",
+  "version": "0.0.3",
+  "main": "bin/dts2nim.js",
+  "devDependencies": {},
+  "files": [
+  	"bin/dts2nim.js"
+  ],
+  "bin": {
+  	"dts2nim" : "bin/dts2nim.js"
+  },
+  "scripts": {
+    "prepublish": "make all",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mcclure/dts2nim.git"
+  },
+  "keywords": [
+    "nim",
+    "typescript",
+    "binding"
+  ],
+  "author": "Andi McClure <andi.m.mcclure@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcclure/dts2nim/issues"
+  },
+  "homepage": "https://github.com/mcclure/dts2nim"
+}

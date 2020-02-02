@@ -1,0 +1,10 @@
+	This folder contains scripts for compiling the binaries found in the ../bin folder.
+
+	Most scripts expect that the projects being compiled are the same directory level of this one, named like this:
+
+		- luajit (../../luajit from here)
+		- glfw   (../../glfw from here)
+		- libzmq (../../libzmq from here)
+		- AntTweakBar (../../AntTweakbar from here)
+
+

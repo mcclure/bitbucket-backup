@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:polycode="http://msm.runhello.com/local/svg/polycode0"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="title.svg"
+   polycode:onLoad="class &quot;Level&quot; (EventHandler)  function Level:Level()         self:EventHandler() end  function Level:handleEvent(e)         if e:getDispatcher() == Services.Core:getInput() then                 local inputEvent = InputEvent(e)                 local key = inputEvent:keyCode()                 if e:getEventCode() == EVENT_KEYDOWN then if key == KEY_s or key == KEY_c then local level = &quot;media/box.svg&quot; if key == KEY_c then local saved = bridge:saved_level() if saved and 0&lt;string.len(saved) then level = saved end end bridge:load_room(level) end                 end         end end  level = Level() Services.Core:getInput():addEventListener(level, EVENT_KEYDOWN)">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#f0f0f0"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="648.66319"
+     inkscape:cy="137.11504"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1032"
+     inkscape:window-height="669"
+     inkscape:window-x="158"
+     inkscape:window-y="41"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.7142857,-248.57143)">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="100.70345"
+       y="381.70981"
+       id="text2999"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
+         x="100.70345"
+         y="381.70981"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Monospace;-inkscape-font-specification:Monospace">LEGEND of the MYTHSTONE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.42856979px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="238.57442"
+       y="493.80695"
+       id="text3003"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="238.57442"
+         y="493.80695"
+         id="tspan3007">(S) Start</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.42856979px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="244.63536"
+       y="588.76129"
+       id="text3011"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3013"
+         x="244.63536"
+         y="588.76129">(C) Continue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="220.21326"
+       y="371.69531"
+       id="text3015"
+       sodipodi:linespacing="125%"
+       transform="translate(-5.7142857,248.57143)"><tspan
+         sodipodi:role="line"
+         id="tspan3017"
+         x="220.21326"
+         y="371.69531" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="52.572956"
+       y="882.05206"
+       id="text3019"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="52.572956"
+         y="882.05206"
+         id="tspan3023">Sorry, I wasn't able to finish the game in </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.42856979px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="119.13133"
+       y="721.99994"
+       id="text3035"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3037"
+         x="119.13133"
+         y="721.99994">For the Nov '11 &quot;EDITOR&quot; compo</tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 962.56153,659.5807 -6.06092,-141.42135 12.1218,-50.50763 24.2437,58.58885 0,135.36044 z"
+       id="path3041"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 934.27726,615.13399 76.77154,-8.08122 0,20.20305 -64.64971,0 z"
+       id="path3043"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1103.9829,530.28118 94.9543,10.10152 -10.1015,40.4061 -92.9341,-14.14213 z"
+       id="path3045"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1130.2468,532.30148 4.0406,-38.38579 24.2437,-8.08122 26.264,24.24366 -8.0813,26.26396 z"
+       id="path3047"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#c8b7b7;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1112.0641,568.66697 50.5076,8.08122 -14.1421,54.54824 -44.4467,-8.08122 z"
+       id="path3049"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000aa;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1116.4285,625.71428 15.7143,2.85714 L 1114.2857,765 1080,756.42857 z"
+       id="path3051"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ac9393;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1100.7143,762.85714 3.5714,0 L 1115,850 l -17.1429,1.42857 z"
+       id="path3053"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ac9393;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1085,757.85714 7.1428,1.42857 -27.8571,89.28572 -15.7143,-5.71429 z"
+       id="path3055"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1064.2857,847.85714 -15,24.28571 -42.1429,-31.42857 12.8572,-13.57143 26.4285,16.42858 z"
+       id="path3057"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1097.8571,852.14285 1146.4285,845 1147.8571,872.85714 1094.2857,875 z"
+       id="path3059"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#916f6f;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1104.2857,670.71428 -5,9.28572 -104.28569,-32.85715 -0.7143,-5.71428 z"
+       id="path3063"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#916f6f;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1129.2857,670 27.8571,62.85714 -8.5714,5 -23.5714,-55 z"
+       id="path3065"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3014"
+       y="940.62347"
+       x="51.144382"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       xml:space="preserve"><tspan
+         id="tspan3016"
+         y="940.62347"
+         x="51.144382"
+         sodipodi:role="line">time but you can still complete it if you use the</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3022"
+       y="994.90912"
+       x="55.430099"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       xml:space="preserve"><tspan
+         id="tspan3024"
+         y="994.90912"
+         x="55.430099"
+         sodipodi:role="line">LUA debug console, type help() for instructions! --mcc</tspan></text>
+  </g>
+</svg>

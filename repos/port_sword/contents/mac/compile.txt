@@ -1,0 +1,18 @@
+THINGS I DID TO MAKE THIS COMPILE
+
+- install libpng 1.2
+- build SDL_Project.xcodeproj in release mode
+- copy the following files into the directory with .app:
+	- sword.cfg
+	- terminal.png
+	- gfx
+	- rooms
+	- text.txt
+	- README.TXT
+	- mac/README_MAC.TXT
+- Set full = false in sword.cfg
+- Renamed SDL_Project.app to Sword In Hand.app
+
+Thanks to #macdev for help
+
+- mcc

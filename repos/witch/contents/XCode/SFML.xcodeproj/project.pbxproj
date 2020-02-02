@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4418EE9F190C3EA400FB81C9 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4418EE9D190C3EA400FB81C9 /* Particle.cpp */; };
+		4418EF13190C6D4C00FB81C9 /* postprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4418EF12190C6D4C00FB81C9 /* postprocess.cpp */; };
+		44BD413F190DB41800F2B940 /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44BD413D190DB41800F2B940 /* Emitter.cpp */; };
+		44E27B8E18FEBFCA00256C1B /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E27B8818FEBFCA00256C1B /* globals.cpp */; };
+		44E27B8F18FEBFCA00256C1B /* goals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44E27B8A18FEBFCA00256C1B /* goals.txt */; };
+		44E27B9018FEBFCA00256C1B /* graphicsObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E27B8B18FEBFCA00256C1B /* graphicsObjects.cpp */; };
+		44E27B9118FEBFCA00256C1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44E27B8D18FEBFCA00256C1B /* main.cpp */; };
+		44EB21BF1900E1FA008BB631 /* pg_codec_ogg_stb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21821900E1FA008BB631 /* pg_codec_ogg_stb.cpp */; };
+		44EB21C01900E1FA008BB631 /* stb_vorbis.c in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21831900E1FA008BB631 /* stb_vorbis.c */; };
+		44EB21C11900E1FA008BB631 /* pg_audioimp_portaudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21851900E1FA008BB631 /* pg_audioimp_portaudio.cpp */; };
+		44EB21C21900E1FA008BB631 /* envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21891900E1FA008BB631 /* envelope.cpp */; };
+		44EB21C31900E1FA008BB631 /* audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB218B1900E1FA008BB631 /* audio.cpp */; };
+		44EB21C41900E1FA008BB631 /* chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB218E1900E1FA008BB631 /* chunk.cpp */; };
+		44EB21C51900E1FA008BB631 /* clip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB218F1900E1FA008BB631 /* clip.cpp */; };
+		44EB21C61900E1FA008BB631 /* codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21911900E1FA008BB631 /* codec.cpp */; };
+		44EB21C71900E1FA008BB631 /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21921900E1FA008BB631 /* driver.cpp */; };
+		44EB21C81900E1FA008BB631 /* amp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21941900E1FA008BB631 /* amp.cpp */; };
+		44EB21C91900E1FA008BB631 /* filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21951900E1FA008BB631 /* filter.cpp */; };
+		44EB21CA1900E1FA008BB631 /* pan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21961900E1FA008BB631 /* pan.cpp */; };
+		44EB21CB1900E1FA008BB631 /* pitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21971900E1FA008BB631 /* pitch.cpp */; };
+		44EB21CC1900E1FA008BB631 /* reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21981900E1FA008BB631 /* reverb.cpp */; };
+		44EB21CD1900E1FA008BB631 /* scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB219B1900E1FA008BB631 /* scheduler.cpp */; };
+		44EB21CE1900E1FA008BB631 /* scratch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB219C1900E1FA008BB631 /* scratch.cpp */; };
+		44EB21CF1900E1FA008BB631 /* signal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB219E1900E1FA008BB631 /* signal.cpp */; };
+		44EB21D01900E1FA008BB631 /* oscillator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21A11900E1FA008BB631 /* oscillator.cpp */; };
+		44EB21D11900E1FA008BB631 /* mixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21A41900E1FA008BB631 /* mixer.cpp */; };
+		44EB21D21900E1FA008BB631 /* splicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21A51900E1FA008BB631 /* splicer.cpp */; };
+		44EB21D31900E1FA008BB631 /* splitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21A61900E1FA008BB631 /* splitter.cpp */; };
+		44EB21D41900E1FA008BB631 /* transcoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21A71900E1FA008BB631 /* transcoder.cpp */; };
+		44EB21D51900E1FA008BB631 /* binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21B21900E1FA008BB631 /* binary.cpp */; };
+		44EB21D61900E1FA008BB631 /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB21B41900E1FA008BB631 /* memory.cpp */; };
+		44EB21D71900E1FA008BB631 /* libportaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB21BB1900E1FA008BB631 /* libportaudio.a */; };
+		44EB21D81900E1FA008BB631 /* libportaudio.la in Resources */ = {isa = PBXBuildFile; fileRef = 44EB21BC1900E1FA008BB631 /* libportaudio.la */; };
+		44EB2260190197EA008BB631 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB225D190197EA008BB631 /* CoreAudio.framework */; };
+		44EB2261190197EA008BB631 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB225E190197EA008BB631 /* AudioUnit.framework */; };
+		44EB2262190197EA008BB631 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB225F190197EA008BB631 /* AudioToolbox.framework */; };
+		44EB2316190197F9008BB631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB2315190197F9008BB631 /* Foundation.framework */; };
+		44EB23D21901983D008BB631 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB23D11901983D008BB631 /* AppKit.framework */; };
+		44EB23DD190232DC008BB631 /* audioObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44EB23DC190232DC008BB631 /* audioObjects.cpp */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4418EE9D190C3EA400FB81C9 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = "../Base SFML Project/Particle.cpp"; sourceTree = SOURCE_ROOT; };
+		4418EE9E190C3EA400FB81C9 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = "../Base SFML Project/Particle.h"; sourceTree = SOURCE_ROOT; };
+		4418EF11190C6D4C00FB81C9 /* postprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = postprocess.h; path = "../Base SFML Project/postprocess.h"; sourceTree = SOURCE_ROOT; };
+		4418EF12190C6D4C00FB81C9 /* postprocess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = postprocess.cpp; path = "../Base SFML Project/postprocess.cpp"; sourceTree = SOURCE_ROOT; };
+		44BD3F87190D89C000F2B940 /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scene.h; path = "../Base SFML Project/scene.h"; sourceTree = SOURCE_ROOT; };
+		44BD413D190DB41800F2B940 /* Emitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Emitter.cpp; path = "../Base SFML Project/Emitter.cpp"; sourceTree = SOURCE_ROOT; };
+		44BD413E190DB41800F2B940 /* Emitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Emitter.h; path = "../Base SFML Project/Emitter.h"; sourceTree = SOURCE_ROOT; };
+		44E27B8718FEBFCA00256C1B /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = "../Base SFML Project/constants.h"; sourceTree = SOURCE_ROOT; };
+		44E27B8818FEBFCA00256C1B /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = globals.cpp; path = "../Base SFML Project/globals.cpp"; sourceTree = SOURCE_ROOT; };
+		44E27B8918FEBFCA00256C1B /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globals.h; path = "../Base SFML Project/globals.h"; sourceTree = SOURCE_ROOT; };
+		44E27B8A18FEBFCA00256C1B /* goals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = goals.txt; path = "../Base SFML Project/goals.txt"; sourceTree = SOURCE_ROOT; };
+		44E27B8B18FEBFCA00256C1B /* graphicsObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graphicsObjects.cpp; path = "../Base SFML Project/graphicsObjects.cpp"; sourceTree = SOURCE_ROOT; };
+		44E27B8C18FEBFCA00256C1B /* graphicsObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphicsObjects.h; path = "../Base SFML Project/graphicsObjects.h"; sourceTree = SOURCE_ROOT; };
+		44E27B8D18FEBFCA00256C1B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../Base SFML Project/main.cpp"; sourceTree = SOURCE_ROOT; };
+		44EB21821900E1FA008BB631 /* pg_codec_ogg_stb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pg_codec_ogg_stb.cpp; sourceTree = "<group>"; };
+		44EB21831900E1FA008BB631 /* stb_vorbis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_vorbis.c; sourceTree = "<group>"; };
+		44EB21851900E1FA008BB631 /* pg_audioimp_portaudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pg_audioimp_portaudio.cpp; sourceTree = "<group>"; };
+		44EB21891900E1FA008BB631 /* envelope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = envelope.cpp; sourceTree = "<group>"; };
+		44EB218A1900E1FA008BB631 /* analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = analysis.h; sourceTree = "<group>"; };
+		44EB218B1900E1FA008BB631 /* audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio.cpp; sourceTree = "<group>"; };
+		44EB218C1900E1FA008BB631 /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		44EB218D1900E1FA008BB631 /* bindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
+		44EB218E1900E1FA008BB631 /* chunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chunk.cpp; sourceTree = "<group>"; };
+		44EB218F1900E1FA008BB631 /* clip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clip.cpp; sourceTree = "<group>"; };
+		44EB21901900E1FA008BB631 /* clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clip.h; sourceTree = "<group>"; };
+		44EB21911900E1FA008BB631 /* codec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = codec.cpp; sourceTree = "<group>"; };
+		44EB21921900E1FA008BB631 /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driver.cpp; sourceTree = "<group>"; };
+		44EB21941900E1FA008BB631 /* amp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = amp.cpp; sourceTree = "<group>"; };
+		44EB21951900E1FA008BB631 /* filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filter.cpp; sourceTree = "<group>"; };
+		44EB21961900E1FA008BB631 /* pan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pan.cpp; sourceTree = "<group>"; };
+		44EB21971900E1FA008BB631 /* pitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pitch.cpp; sourceTree = "<group>"; };
+		44EB21981900E1FA008BB631 /* reverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverb.cpp; sourceTree = "<group>"; };
+		44EB21991900E1FA008BB631 /* effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effects.h; sourceTree = "<group>"; };
+		44EB219A1900E1FA008BB631 /* implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = implementation.h; sourceTree = "<group>"; };
+		44EB219B1900E1FA008BB631 /* scheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scheduler.cpp; sourceTree = "<group>"; };
+		44EB219C1900E1FA008BB631 /* scratch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scratch.cpp; sourceTree = "<group>"; };
+		44EB219D1900E1FA008BB631 /* scratch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scratch.h; sourceTree = "<group>"; };
+		44EB219E1900E1FA008BB631 /* signal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = signal.cpp; sourceTree = "<group>"; };
+		44EB219F1900E1FA008BB631 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		44EB21A11900E1FA008BB631 /* oscillator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oscillator.cpp; sourceTree = "<group>"; };
+		44EB21A21900E1FA008BB631 /* synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = synth.h; sourceTree = "<group>"; };
+		44EB21A41900E1FA008BB631 /* mixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mixer.cpp; sourceTree = "<group>"; };
+		44EB21A51900E1FA008BB631 /* splicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = splicer.cpp; sourceTree = "<group>"; };
+		44EB21A61900E1FA008BB631 /* splitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = splitter.cpp; sourceTree = "<group>"; };
+		44EB21A71900E1FA008BB631 /* transcoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transcoder.cpp; sourceTree = "<group>"; };
+		44EB21A81900E1FA008BB631 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		44EB21A91900E1FA008BB631 /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		44EB21AA1900E1FA008BB631 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		44EB21AC1900E1FA008BB631 /* 2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2d.h; sourceTree = "<group>"; };
+		44EB21AE1900E1FA008BB631 /* lockfree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockfree.h; sourceTree = "<group>"; };
+		44EB21B01900E1FA008BB631 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		44EB21B11900E1FA008BB631 /* bimap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bimap.h; sourceTree = "<group>"; };
+		44EB21B21900E1FA008BB631 /* binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binary.cpp; sourceTree = "<group>"; };
+		44EB21B31900E1FA008BB631 /* binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary.h; sourceTree = "<group>"; };
+		44EB21B41900E1FA008BB631 /* memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memory.cpp; sourceTree = "<group>"; };
+		44EB21B51900E1FA008BB631 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		44EB21B61900E1FA008BB631 /* ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref.h; sourceTree = "<group>"; };
+		44EB21B71900E1FA008BB631 /* stringmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringmap.h; sourceTree = "<group>"; };
+		44EB21B81900E1FA008BB631 /* traits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traits.h; sourceTree = "<group>"; };
+		44EB21B91900E1FA008BB631 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		44EB21BB1900E1FA008BB631 /* libportaudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libportaudio.a; sourceTree = "<group>"; };
+		44EB21BC1900E1FA008BB631 /* libportaudio.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libportaudio.la; sourceTree = "<group>"; };
+		44EB21BD1900E1FA008BB631 /* portaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portaudio.h; sourceTree = "<group>"; };
+		44EB21BE1900E1FA008BB631 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		44EB225D190197EA008BB631 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		44EB225E190197EA008BB631 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		44EB225F190197EA008BB631 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44EB2315190197F9008BB631 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		44EB23D11901983D008BB631 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		44EB23DB190232D7008BB631 /* audioObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audioObjects.h; path = "../Base SFML Project/audioObjects.h"; sourceTree = SOURCE_ROOT; };
+		44EB23DC190232DC008BB631 /* audioObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = audioObjects.cpp; path = "../Base SFML Project/audioObjects.cpp"; sourceTree = SOURCE_ROOT; };
+		8D15AC360486D014006FF6A4 /* SFML-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SFML-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* SFML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EB21D71900E1FA008BB631 /* libportaudio.a in Frameworks */,
+				44EB2260190197EA008BB631 /* CoreAudio.framework in Frameworks */,
+				44EB2261190197EA008BB631 /* AudioUnit.framework in Frameworks */,
+				44EB2262190197EA008BB631 /* AudioToolbox.framework in Frameworks */,
+				44EB2316190197F9008BB631 /* Foundation.framework in Frameworks */,
+				44EB23D21901983D008BB631 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* SFML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* SFML */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				44E279A218FEA61E00256C1B /* Libraries */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = SFML;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				44E27B8718FEBFCA00256C1B /* constants.h */,
+				4418EE9D190C3EA400FB81C9 /* Particle.cpp */,
+				4418EE9E190C3EA400FB81C9 /* Particle.h */,
+				44BD413D190DB41800F2B940 /* Emitter.cpp */,
+				44BD413E190DB41800F2B940 /* Emitter.h */,
+				44E27B8818FEBFCA00256C1B /* globals.cpp */,
+				44E27B8918FEBFCA00256C1B /* globals.h */,
+				44E27B8A18FEBFCA00256C1B /* goals.txt */,
+				44EB23DB190232D7008BB631 /* audioObjects.h */,
+				44EB23DC190232DC008BB631 /* audioObjects.cpp */,
+				44E27B8B18FEBFCA00256C1B /* graphicsObjects.cpp */,
+				44E27B8C18FEBFCA00256C1B /* graphicsObjects.h */,
+				44E27B8D18FEBFCA00256C1B /* main.cpp */,
+				4418EF11190C6D4C00FB81C9 /* postprocess.h */,
+				4418EF12190C6D4C00FB81C9 /* postprocess.cpp */,
+				44BD3F87190D89C000F2B940 /* scene.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC360486D014006FF6A4 /* SFML-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44EB221A190197DB008BB631 /* System Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E279A218FEA61E00256C1B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21801900E1FA008BB631 /* plaid */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		44EB21801900E1FA008BB631 /* plaid */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21811900E1FA008BB631 /* codec_stb */,
+				44EB21841900E1FA008BB631 /* imp-portaudio */,
+				44EB21861900E1FA008BB631 /* plaid */,
+				44EB21BA1900E1FA008BB631 /* portaudio */,
+				44EB21BE1900E1FA008BB631 /* readme.txt */,
+			);
+			name = plaid;
+			path = ../Library/plaid;
+			sourceTree = SOURCE_ROOT;
+		};
+		44EB21811900E1FA008BB631 /* codec_stb */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21821900E1FA008BB631 /* pg_codec_ogg_stb.cpp */,
+				44EB21831900E1FA008BB631 /* stb_vorbis.c */,
+			);
+			path = codec_stb;
+			sourceTree = "<group>";
+		};
+		44EB21841900E1FA008BB631 /* imp-portaudio */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21851900E1FA008BB631 /* pg_audioimp_portaudio.cpp */,
+			);
+			path = "imp-portaudio";
+			sourceTree = "<group>";
+		};
+		44EB21861900E1FA008BB631 /* plaid */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21871900E1FA008BB631 /* audio */,
+				44EB21A91900E1FA008BB631 /* audio.h */,
+				44EB21AA1900E1FA008BB631 /* core.h */,
+				44EB21AB1900E1FA008BB631 /* geometry */,
+				44EB21AD1900E1FA008BB631 /* thread */,
+				44EB21AF1900E1FA008BB631 /* util */,
+			);
+			path = plaid;
+			sourceTree = "<group>";
+		};
+		44EB21871900E1FA008BB631 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21881900E1FA008BB631 /* analysis */,
+				44EB218A1900E1FA008BB631 /* analysis.h */,
+				44EB218B1900E1FA008BB631 /* audio.cpp */,
+				44EB218C1900E1FA008BB631 /* audio.h */,
+				44EB218D1900E1FA008BB631 /* bindings.h */,
+				44EB218E1900E1FA008BB631 /* chunk.cpp */,
+				44EB218F1900E1FA008BB631 /* clip.cpp */,
+				44EB21901900E1FA008BB631 /* clip.h */,
+				44EB21911900E1FA008BB631 /* codec.cpp */,
+				44EB21921900E1FA008BB631 /* driver.cpp */,
+				44EB21931900E1FA008BB631 /* effect */,
+				44EB21991900E1FA008BB631 /* effects.h */,
+				44EB219A1900E1FA008BB631 /* implementation.h */,
+				44EB219B1900E1FA008BB631 /* scheduler.cpp */,
+				44EB219C1900E1FA008BB631 /* scratch.cpp */,
+				44EB219D1900E1FA008BB631 /* scratch.h */,
+				44EB219E1900E1FA008BB631 /* signal.cpp */,
+				44EB219F1900E1FA008BB631 /* stream.h */,
+				44EB21A01900E1FA008BB631 /* synth */,
+				44EB21A21900E1FA008BB631 /* synth.h */,
+				44EB21A31900E1FA008BB631 /* util */,
+				44EB21A81900E1FA008BB631 /* util.h */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		44EB21881900E1FA008BB631 /* analysis */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21891900E1FA008BB631 /* envelope.cpp */,
+			);
+			path = analysis;
+			sourceTree = "<group>";
+		};
+		44EB21931900E1FA008BB631 /* effect */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21941900E1FA008BB631 /* amp.cpp */,
+				44EB21951900E1FA008BB631 /* filter.cpp */,
+				44EB21961900E1FA008BB631 /* pan.cpp */,
+				44EB21971900E1FA008BB631 /* pitch.cpp */,
+				44EB21981900E1FA008BB631 /* reverb.cpp */,
+			);
+			path = effect;
+			sourceTree = "<group>";
+		};
+		44EB21A01900E1FA008BB631 /* synth */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21A11900E1FA008BB631 /* oscillator.cpp */,
+			);
+			path = synth;
+			sourceTree = "<group>";
+		};
+		44EB21A31900E1FA008BB631 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21A41900E1FA008BB631 /* mixer.cpp */,
+				44EB21A51900E1FA008BB631 /* splicer.cpp */,
+				44EB21A61900E1FA008BB631 /* splitter.cpp */,
+				44EB21A71900E1FA008BB631 /* transcoder.cpp */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		44EB21AB1900E1FA008BB631 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21AC1900E1FA008BB631 /* 2d.h */,
+			);
+			path = geometry;
+			sourceTree = "<group>";
+		};
+		44EB21AD1900E1FA008BB631 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21AE1900E1FA008BB631 /* lockfree.h */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+		44EB21AF1900E1FA008BB631 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21B01900E1FA008BB631 /* attribute.h */,
+				44EB21B11900E1FA008BB631 /* bimap.h */,
+				44EB21B21900E1FA008BB631 /* binary.cpp */,
+				44EB21B31900E1FA008BB631 /* binary.h */,
+				44EB21B41900E1FA008BB631 /* memory.cpp */,
+				44EB21B51900E1FA008BB631 /* memory.h */,
+				44EB21B61900E1FA008BB631 /* ref.h */,
+				44EB21B71900E1FA008BB631 /* stringmap.h */,
+				44EB21B81900E1FA008BB631 /* traits.h */,
+				44EB21B91900E1FA008BB631 /* types.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		44EB21BA1900E1FA008BB631 /* portaudio */ = {
+			isa = PBXGroup;
+			children = (
+				44EB21BB1900E1FA008BB631 /* libportaudio.a */,
+				44EB21BC1900E1FA008BB631 /* libportaudio.la */,
+				44EB21BD1900E1FA008BB631 /* portaudio.h */,
+			);
+			path = portaudio;
+			sourceTree = "<group>";
+		};
+		44EB221A190197DB008BB631 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44EB23D11901983D008BB631 /* AppKit.framework */,
+				44EB2315190197F9008BB631 /* Foundation.framework */,
+				44EB225D190197EA008BB631 /* CoreAudio.framework */,
+				44EB225E190197EA008BB631 /* AudioUnit.framework */,
+				44EB225F190197EA008BB631 /* AudioToolbox.framework */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "SFML" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				44E27B2E18FEAB5900256C1B /* ShellScript */,
+				4418F2DA190CCFD500FB81C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFML;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SFML;
+			productReference = 8D15AC370486D014006FF6A4 /* SFML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "SFML" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* SFML */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* SFML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				44E27B8F18FEBFCA00256C1B /* goals.txt in Resources */,
+				44EB21D81900E1FA008BB631 /* libportaudio.la in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4418F2DA190CCFD500FB81C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p $BUILT_PRODUCTS_DIR/resources\necho $SRCROOT\ncp \"$SRCROOT/../Base SFML Project/resources/circularWallRupture.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/envelopes.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/esophagus.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/freeShapes.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/gravel.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/key colors.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/network.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/partitionTest.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/testImage.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/title.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../Base SFML Project/resources/tubeImage.png\" $BUILT_PRODUCTS_DIR/resources\ncp \"$SRCROOT/../README.txt\" $BUILT_PRODUCTS_DIR/";
+		};
+		44E27B2E18FEAB5900256C1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n    \n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n    \n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ] && [ $SFML_LINK_DYLIBS_SUFFIX_DEBUG != \"\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27B8E18FEBFCA00256C1B /* globals.cpp in Sources */,
+				44E27B9018FEBFCA00256C1B /* graphicsObjects.cpp in Sources */,
+				44E27B9118FEBFCA00256C1B /* main.cpp in Sources */,
+				44EB21BF1900E1FA008BB631 /* pg_codec_ogg_stb.cpp in Sources */,
+				44EB21C01900E1FA008BB631 /* stb_vorbis.c in Sources */,
+				44EB21C11900E1FA008BB631 /* pg_audioimp_portaudio.cpp in Sources */,
+				44EB21C21900E1FA008BB631 /* envelope.cpp in Sources */,
+				44EB21C31900E1FA008BB631 /* audio.cpp in Sources */,
+				44EB21C41900E1FA008BB631 /* chunk.cpp in Sources */,
+				44EB21C51900E1FA008BB631 /* clip.cpp in Sources */,
+				44EB21C61900E1FA008BB631 /* codec.cpp in Sources */,
+				44EB21C71900E1FA008BB631 /* driver.cpp in Sources */,
+				44EB21C81900E1FA008BB631 /* amp.cpp in Sources */,
+				44EB21C91900E1FA008BB631 /* filter.cpp in Sources */,
+				44EB21CA1900E1FA008BB631 /* pan.cpp in Sources */,
+				44EB21CB1900E1FA008BB631 /* pitch.cpp in Sources */,
+				44EB21CC1900E1FA008BB631 /* reverb.cpp in Sources */,
+				44EB21CD1900E1FA008BB631 /* scheduler.cpp in Sources */,
+				44EB21CE1900E1FA008BB631 /* scratch.cpp in Sources */,
+				44EB21CF1900E1FA008BB631 /* signal.cpp in Sources */,
+				44EB21D01900E1FA008BB631 /* oscillator.cpp in Sources */,
+				44EB21D11900E1FA008BB631 /* mixer.cpp in Sources */,
+				44EB21D21900E1FA008BB631 /* splicer.cpp in Sources */,
+				44EB21D31900E1FA008BB631 /* splitter.cpp in Sources */,
+				44EB21D41900E1FA008BB631 /* transcoder.cpp in Sources */,
+				44EB21D51900E1FA008BB631 /* binary.cpp in Sources */,
+				44EB21D61900E1FA008BB631 /* memory.cpp in Sources */,
+				44EB23DD190232DC008BB631 /* audioObjects.cpp in Sources */,
+				4418EE9F190C3EA400FB81C9 /* Particle.cpp in Sources */,
+				4418EF13190C6D4C00FB81C9 /* postprocess.cpp in Sources */,
+				44BD413F190DB41800F2B940 /* Emitter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SFML-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Library/plaid/portaudio\"",
+				);
+				PRODUCT_NAME = SFML;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "SFML-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Library/plaid/portaudio\"",
+				);
+				PRODUCT_NAME = SFML;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../Library/plaid,
+					/usr/local/include,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DMAC_DEBUG",
+					"-DPLAID_SFML",
+				);
+				OTHER_LDFLAGS = (
+					"-lsfml-system",
+					"-lsfml-graphics",
+					"-lsfml-window",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				SFML_AUDIO = 1;
+				SFML_GRAPHICS = 1;
+				SFML_NETWORK = 0;
+				SFML_SYSTEM = 1;
+				SFML_WINDOW = 1;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../Library/plaid,
+					/usr/local/include,
+				);
+				OTHER_CFLAGS = "-DPLAID_SFML";
+				OTHER_LDFLAGS = (
+					"-lsfml-system",
+					"-lsfml-graphics",
+					"-lsfml-window",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				SFML_AUDIO = 1;
+				SFML_GRAPHICS = 1;
+				SFML_NETWORK = 0;
+				SFML_SYSTEM = 1;
+				SFML_WINDOW = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

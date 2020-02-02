@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443F181117C94C2E00CBEAF9 /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 443F180E17C94C2E00CBEAF9 /* stb_image.c */; };
+		443F181317C94C2E00CBEAF9 /* stb_vorbis.c in Sources */ = {isa = PBXBuildFile; fileRef = 443F181017C94C2E00CBEAF9 /* stb_vorbis.c */; };
+		443F181F17C94C3900CBEAF9 /* sound.c in Sources */ = {isa = PBXBuildFile; fileRef = 443F181E17C94C3900CBEAF9 /* sound.c */; };
+		443F25BC17CA65CC00CBEAF9 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 443F25A817CA648700CBEAF9 /* image.c */; };
+		443FF9E317C7322900CBEAF9 /* project.h in Headers */ = {isa = PBXBuildFile; fileRef = 443FF9E117C7322900CBEAF9 /* project.h */; };
+		443FF9E417C7322900CBEAF9 /* project.c in Sources */ = {isa = PBXBuildFile; fileRef = 443FF9E217C7322900CBEAF9 /* project.c */; };
+		443FFA0C17C7334D00CBEAF9 /* sdl.h in Headers */ = {isa = PBXBuildFile; fileRef = 443FFA0B17C7334D00CBEAF9 /* sdl.h */; };
+		443FFC3217C7477F00CBEAF9 /* sdl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 443FFC3117C7477F00CBEAF9 /* sdl.dylib */; };
+		44C12B4017CC0FB9000CD2F6 /* stb_image_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 443F180F17C94C2E00CBEAF9 /* stb_image_write.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443F000D17C852E500CBEAF9 /* fallback-project.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lua; path = "fallback-project.lua"; sourceTree = "<group>"; };
+		443F180E17C94C2E00CBEAF9 /* stb_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image.c; sourceTree = "<group>"; };
+		443F180F17C94C2E00CBEAF9 /* stb_image_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image_write.c; sourceTree = "<group>"; };
+		443F181017C94C2E00CBEAF9 /* stb_vorbis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_vorbis.c; sourceTree = "<group>"; };
+		443F181E17C94C3900CBEAF9 /* sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sound.c; sourceTree = "<group>"; };
+		443F25A817CA648700CBEAF9 /* image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = "<group>"; };
+		443FF9E117C7322900CBEAF9 /* project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = project.h; sourceTree = "<group>"; };
+		443FF9E217C7322900CBEAF9 /* project.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = project.c; sourceTree = "<group>"; };
+		443FFA0B17C7334D00CBEAF9 /* sdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdl.h; sourceTree = "<group>"; };
+		443FFA6C17C7362C00CBEAF9 /* project.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lua; path = project.lua; sourceTree = "<group>"; };
+		443FFC3117C7477F00CBEAF9 /* sdl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = sdl.dylib; path = ../bin/OSX/sdl.dylib; sourceTree = SOURCE_ROOT; };
+		D2AAC0630554660B00DB518D /* libproject.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libproject.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443FFC3217C7477F00CBEAF9 /* sdl.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = project;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				443FF9E117C7322900CBEAF9 /* project.h */,
+				443FF9E217C7322900CBEAF9 /* project.c */,
+				443F25A817CA648700CBEAF9 /* image.c */,
+				443F181E17C94C3900CBEAF9 /* sound.c */,
+				443FFA6C17C7362C00CBEAF9 /* project.lua */,
+				443F000D17C852E500CBEAF9 /* fallback-project.lua */,
+				443F180D17C94C2E00CBEAF9 /* stb */,
+				443FFA0A17C7334D00CBEAF9 /* support */,
+				443FFC2117C7474D00CBEAF9 /* lib */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* libproject.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443F180D17C94C2E00CBEAF9 /* stb */ = {
+			isa = PBXGroup;
+			children = (
+				443F180E17C94C2E00CBEAF9 /* stb_image.c */,
+				443F180F17C94C2E00CBEAF9 /* stb_image_write.c */,
+				443F181017C94C2E00CBEAF9 /* stb_vorbis.c */,
+			);
+			path = stb;
+			sourceTree = "<group>";
+		};
+		443FFA0A17C7334D00CBEAF9 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				443FFA0B17C7334D00CBEAF9 /* sdl.h */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		443FFC2117C7474D00CBEAF9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				443FFC3117C7477F00CBEAF9 /* sdl.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443FF9E317C7322900CBEAF9 /* project.h in Headers */,
+				443FFA0C17C7334D00CBEAF9 /* sdl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "project" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+				443FFA6F17C7374A00CBEAF9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = project;
+			productName = project;
+			productReference = D2AAC0630554660B00DB518D /* libproject.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "project" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* project */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		443FFA6F17C7374A00CBEAF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp ${BUILT_PRODUCTS_DIR}/libproject.dylib ${PROJECT_DIR}/../bin/OSX\ncp ${PROJECT_DIR}/project.lua ${PROJECT_DIR}/../ffi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443FF9E417C7322900CBEAF9 /* project.c in Sources */,
+				443F181117C94C2E00CBEAF9 /* stb_image.c in Sources */,
+				443F181317C94C2E00CBEAF9 /* stb_vorbis.c in Sources */,
+				443F181F17C94C3900CBEAF9 /* sound.c in Sources */,
+				443F25BC17CA65CC00CBEAF9 /* image.c in Sources */,
+				44C12B4017CC0FB9000CD2F6 /* stb_image_write.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../bin/OSX\"",
+				);
+				PRODUCT_NAME = project;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../bin/OSX\"",
+				);
+				PRODUCT_NAME = project;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

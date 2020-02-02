@@ -1,0 +1,61 @@
+v0.2.3  May 04, 2015:
+
+    * Migrated to Qt5
+    * Python3 support
+    * Toggle video extension without restart
+    * Add windows portable build
+
+v0.2.2  Oct 18, 2014:
+
+    * Initial Python3 support
+    * Add special SDL2 joystick event system for input config
+    * Add support for non-native rom files in romlist
+    * Many bug fixes, full log http://git.io/yRePKw
+
+v0.2.1  Mar 09, 2014:
+
+    * Greatly speed up reading ROM list
+    * Check if core supports DelaySI/CountPerOp options
+    * Add support for OpenBSD plugin paths
+    * Fix search for cheats in mupencheats.txt
+
+v0.2.0  Jan 27, 2014:
+
+    * New DelaySI and CountPerOp core settings
+    * Input settings are now disabled if mode is not fully manual
+    * Aspect ratio is not preserved when window is maximized
+    * Added more in-game preview images
+    * Code refactoring and bug fixes
+
+v0.1.9  Jan 12, 2014:
+
+    * bug fixes
+
+v0.1.8  Jan 09, 2014:
+
+    * translations support
+    * enable configuration for rsp plugins
+    * bug fixes
+
+v0.1.7  Dec 15, 2013:
+
+    * log viewer dialog
+    * bug fixes
+
+v0.1.6  Sep 28, 2013:
+
+    * SDL2 support
+    * option to disable screensaver when emulator is running
+    * option to keep aspect when resizing window
+    * LoadFrom/SaveAs actions for state files, PJ64 states are supported
+
+v0.1.4  Jun 05, 2013:
+
+    * window resizing (needs Mupen64Plus v2.0-rc2)
+    * switched to PyQt API ver2
+    * support multiple files in archives
+    * icons used are now from Tango! project
+
+v0.1.0  Jun 23, 2012:
+
+    * First public release

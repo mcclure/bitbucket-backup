@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sword", "win2005.vcproj", "{DD552D4D-C6B8-4358-9797-402DB4B91488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD552D4D-C6B8-4358-9797-402DB4B91488}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD552D4D-C6B8-4358-9797-402DB4B91488}.Debug|Win32.Build.0 = Debug|Win32
+		{DD552D4D-C6B8-4358-9797-402DB4B91488}.Release|Win32.ActiveCfg = Release|Win32
+		{DD552D4D-C6B8-4358-9797-402DB4B91488}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = C:\dev_gba\misc\7drl\sword\windows\CodeAnalyst\win2005.caw
+	EndGlobalSection
+EndGlobal

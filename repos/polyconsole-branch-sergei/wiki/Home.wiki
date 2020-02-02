@@ -1,0 +1,1 @@
+This is a fork of my "polyconsole" project, experimenting with some submissions from a third party to ease development on Windows. The repo is in a broken state and is here for personal reference purposes. Please ignore it.

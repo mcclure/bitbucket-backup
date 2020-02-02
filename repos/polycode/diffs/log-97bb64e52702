@@ -1,0 +1,5 @@
+changeset:   378:97bb64e52702
+user:        mcc <andrew.mcclure@gmail.com>
+date:        Sun Mar 04 23:38:10 2012 -0800
+summary:     SceneMesh, Scene, Screen all understand ownership of children (with flags to disable)
+

@@ -1,0 +1,21 @@
+Good luck building this!
+
+First, build enummaker from support/enummaker.  This should just be a matter
+of make.
+
+Next, run the premake from this directory:
+make premake
+
+This builds the glbdef.cpp and glbdef.h files.
+
+Now download libtcod1.5.0 and install into ../lib.  You can copy the
+version in ../../linux/lib to ../lib to get this effect.
+
+Now make sure you have SDL1.2-dev and SDL_Mixer1.2-dev packages installed.
+
+Now, build the actual app with make from this directory.
+
+You may need --march=pentium4 to get around complaints about undefined
+references to __sync_fetch_and_add_4
+
+You can run it with ./sword.sh!

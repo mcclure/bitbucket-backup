@@ -1,0 +1,49 @@
+A = 3
+B = "4"
+C = $(6 - 1)
+D = $B
+E = $(B)
+F =
+G = $(None)
+H = $('')
+I = $(False)
+J = $([])
+K = 1 2 $([]) 3 $([4,5]) 6
+L =
+L += 1
+L += 2
+L += 1
+M = 1 2 3
+M *= 2
+N =
+N ?= X
+O ?= Y
+P = $Z
+Q = 1 $Z 3
+R = 4 5 6
+R /= 5
+global:
+    S = [1,2,[3,4],5]
+T = $S
+
+all:
+    print( A )
+    print( B )
+    print( C )
+    print( D )
+    print( E )
+    print( F )
+    print( G )
+    print( H )
+    print( I )
+    print( J )
+    print( K )
+    print( L )
+    print( M )
+    print( N )
+    print( O )
+    print( P )
+    print( Q )
+    print( R )
+    print( S )
+    print( T )

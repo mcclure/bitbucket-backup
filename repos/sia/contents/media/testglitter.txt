@@ -1,0 +1,5 @@
+media/overlay/startup
+media/overlay/glitter
+media/overlay/testglitter
+media/title.svg
+media/overlay/shutdown

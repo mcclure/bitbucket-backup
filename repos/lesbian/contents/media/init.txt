@@ -1,0 +1,4 @@
+media/overlay/startup
+media/example/title.svg
+media/overlay/attract
+media/overlay/shutdown

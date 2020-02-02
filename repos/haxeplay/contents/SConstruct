@@ -1,0 +1,27 @@
+haxebuild = Builder(action = 'haxe -main $SOURCE -js $TARGET', src_suffix = '.hx', suffix = '.js')
+
+jinja_template = None
+jinja_template_name = 'template.html'
+def html_jinja(target, source, env):
+	global jinja_template
+	if not jinja_template:
+		from jinja2 import Environment, FileSystemLoader, Template
+		loader = FileSystemLoader( Dir('#').abspath )
+		env = Environment(loader=loader)
+		jinja_template = env.get_template(jinja_template_name)
+
+	# Action
+	for i in range(len(target)):
+		stream = jinja_template.stream(title=target[i].name, filename=source[i].name)
+		stream.dump(target[i].get_abspath())
+	return None
+htmlbuild = Builder(action = html_jinja, suffix = '.html', src_suffix = '.js')
+
+env = Environment(BUILDERS = {'Haxe' : haxebuild, 'Html' : htmlbuild})
+
+def js(x):
+	env.Haxe(x)
+	html = env.Html(x)
+	Depends(html, jinja_template_name)
+
+js('Test')

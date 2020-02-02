@@ -1,0 +1,30 @@
+<<silently>>
+
+<<set $body = {}>>
+
+<<set $startattr = randompick( ["skin","color","gender","name"] ) >>
+
+<<set $colors = ["red","yellow","blue","green","purple","translucent"] >>
+<<set $skins = ["diamond","rubbery","scaly","hairy"] >>
+<<set $genders = ["masculine","feminine","androgynous"] >>
+<<set $names = ["Amy","Dan","Alex","Rachel","John","Jamie","Victoria","Aiden","Jordan"] >>
+
+<<if $startattr eq "skin">>
+	<<set $body.skin = randompick($skins)>>
+<<endif>>
+
+<<if $startattr eq "color">>
+	<<set $body.color = randompick($colors)>>
+<<endif>>
+
+<<if $startattr eq "gender">>
+	<<set $body.gender = randompick($genders)>>
+<<endif>>
+	
+<<if $startattr eq "name">>
+	<<set $body.name = randompick($names)>>	
+<<endif>>
+
+<<endsilently>>
+
+You awake to find you have <<print $body[ $startattr ] >> <<print $startattr>>.

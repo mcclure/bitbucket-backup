@@ -1,0 +1,4 @@
+# Makefile-language error
+
+all:
+    print(q("xxf$$x"))

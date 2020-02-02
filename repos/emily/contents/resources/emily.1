@@ -1,0 +1,89 @@
+.\" generated with Ronn/v0.7.3
+.\" http://github.com/rtomayko/ronn/tree/0.7.3
+.
+.TH "EMILY" "1" "April 2015" "http://emilylang.org" "Emily programming language"
+.
+.SH "NAME"
+\fBemily\fR \- an ML\-y programming language
+.
+.SH "SYNOPSIS"
+\fBemily\fR [\fIoptions\fR] [\fIinput\-source\fR]\.\.\.
+.
+.SH "DESCRIPTION"
+\fBemily\fR is a stand\-alone Emily language interpreter\. It executes one or more Emily programs from the command line\. Unless \fB\-i\fR is specified, each program will be executed in an isolated scope\.
+.
+.P
+An input source (an Emily program) may be one of the following:
+.
+.IP "\(bu" 4
+A filename
+.
+.IP "\(bu" 4
+\fB\-e\fR \'program source here\'
+.
+.IP "\(bu" 4
+A lone \fB\-\fR, to receive input from stdin and execute it\.
+.
+.IP "" 0
+.
+.P
+Documentation of the Emily programming language can be found at
+.
+.br
+<\fIhttp://emilylang\.org\fR> or <\fIhttp://bitbucket\.org/runhello/emily\fR>\.
+.
+.SH "OPTIONS"
+.
+.TP
+\fB\-e\fR \fIsource\fR
+Execute a program inline\.
+.
+.TP
+\fB\-i\fR
+After executing the programs (if any), boot into interactive mode\. Lines of code will be accepted from the command line and their results will be printed\.
+.
+.TP
+\fB\-\-package\-path\fR \fIpath\fR
+Path to use for "package" loader (default is \.\./lib/emily/0\.2, relative to the emily interpreter binary)\.
+.
+.TP
+\fB\-\-project\-path\fR \fIpath\fR
+Path to use for "project" loader (default is enclosing directory of source file, or current working directory for a program loaded from \fB\-e\fR or stdin)\.
+.
+.TP
+\fB\-v\fR, \fB\-\-version\fR
+Print human\-readable interpreter version\.
+.
+.TP
+\fB\-\-machine\-version\fR
+Print machine\-readable interpreter version\.
+.
+.TP
+\fB\-help\fR, \fB\-\-help\fR
+Show usage message\.
+.
+.SH "DEBUG OPTIONS"
+A series of "debug" flags are included, intended for debugging the interpreter\. These are not standardized and may vary in future versions of the interpreter\. To see a listing, run \fBemily\fR with either the \fB\-\-help\fR flag or no flags\.
+.
+.SH "ENVIRONMENT VARIABLES"
+Some command line arguments may alternately be specified as environment variables\. If both environment variable and command line argument are supplied, the command line argument will take precedence\.
+.
+.P
+The mapping is:
+.
+.IP "\(bu" 4
+\fB\-\-package_path\fR \-> \fBEMILY_PACKAGE_PATH\fR
+.
+.IP "\(bu" 4
+\fB\-\-project_path\fR \-> \fBEMILY_PROJECT_PATH\fR
+.
+.IP "" 0
+.
+.SH "EXIT STATUS"
+The exit status will be 0 if the programs terminated without any errors, and nonzero if a program terminated prematurely\.
+.
+.SH "PREFERRED PRONOUNS"
+The preferred pronouns for the Emily interpreter are "it" or "she"\.
+.
+.SH "AUTHOR"
+Andi McClure <andi\.m\.mcclure@gmail\.com>

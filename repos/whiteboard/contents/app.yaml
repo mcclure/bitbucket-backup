@@ -1,0 +1,21 @@
+application: andi-whiteboard
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: content/favicon.ico
+  upload: content/favicon\.ico
+  
+- url: /
+  static_files: content/index.html
+  upload: content/index\.html
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"

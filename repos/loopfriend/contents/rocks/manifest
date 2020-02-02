@@ -1,0 +1,11 @@
+commands = {}
+modules = {}
+repository = {
+   luigi = {
+      ["local-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   }
+}

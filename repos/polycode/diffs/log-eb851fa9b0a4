@@ -1,0 +1,5 @@
+changeset:   1309:eb851fa9b0a4
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sat Jul 06 10:36:21 2013 -0700
+summary:     Currently if you pass MaterialManager::createTextureFromFile an incorrect file path it returns the default texture and if you pass it an empty string it special-case returns NULL. Other Polycode classes do not anticipate this inconsistency and can crash when this occurs.
+

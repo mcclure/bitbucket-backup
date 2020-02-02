@@ -1,0 +1,1 @@
+The source is guaranteed to compile on MSVC++ 2012. You'll need GLFW, OpenAL and FreeType. Heavy use of some C++11 features.

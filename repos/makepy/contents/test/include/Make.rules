@@ -1,0 +1,3 @@
+include subdir/Make.rules
+
+all: subdir/a

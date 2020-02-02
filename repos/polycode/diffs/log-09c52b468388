@@ -1,0 +1,6 @@
+changeset:   723:09c52b468388
+parent:      702:c49e0126135d
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sun Jan 20 10:49:39 2013 -0800
+summary:     Handle failed shader create case
+

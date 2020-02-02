@@ -1,0 +1,6 @@
+changeset:   1347:1c18a1fa5080
+tag:         tip
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sat Aug 31 12:33:49 2013 -0700
+summary:     Uninitialized fog mode variables
+

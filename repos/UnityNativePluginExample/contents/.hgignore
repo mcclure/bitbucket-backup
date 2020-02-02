@@ -1,0 +1,12 @@
+^Library/
+^Temp/
+^obj/
+Assembly-CSharp.csproj
+NatProject.sln
+NatProject.userprefs
+^.vscode/
+^build/
+Assets/Plugins/UnityPlugin.bundle
+Assets/Plugins/UnityPlugin.bundle.meta
+Assets/Plugins/UnityPlugin.dll
+Assets/Plugins/UnityPlugin.dll.meta

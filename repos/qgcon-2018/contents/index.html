@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QGCon talk demo</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.0.0/dist/phaser.min.js"></script>
+</head>
+<body>
+
+    <script>
+    var config = {
+        type: Phaser.AUTO,
+        width: 800,
+        height: 600,
+        canvasStyle: "cursor:none",
+        scene: {
+            preload: preload,
+            create: create,
+            update: update
+        }
+    };
+
+    var game = new Phaser.Game(config);
+    var collide
+    var input
+    var logo
+    var aliens
+    var shots = {}
+    var nextshot = 0
+    var player
+    var wasDown
+
+    var program = `
+    = target playerx
+    if firing go flee
+    go ready
+    flee:
+        if < playerx x += target 300
+        if > playerx x -= target 300
+    ready:
+        if < target x -= speed acc
+        if > target x += speed acc
+        if > speed  30 = speed  30
+        if < speed -30 = speed -30
+        += x speed
+        wait
+    `
+
+    class Alien {
+        constructor(game, y, text, vars) {
+            this.obj = game.add.image(400,100,'alien')
+            this.obj.setScale(0.5,0.5)
+            this.obj.y = y
+            this.obj.x = config.width/2 - 200
+            this.dead = false
+
+            this.code = text.split("\n").map(x => x.trim().split(/\s+/))
+            this.codeLine = 0
+            this.codePos = 0
+            this.codeScope = {}
+            this.codeLoad()
+            this.codeUpdate(vars)
+        }
+
+        update() {
+            if (this.dead) return
+            //this.obj.x = Math.random() * config.width
+
+            this.codeDone = false
+            for (var x = 0; x < 10000 && !this.codeDone; x++) {
+                this.codeEat()
+                this.codeLine++
+                this.codePos = 0
+            }
+        }
+
+        codeLoad() {
+            this.codeUpdate({
+                'console' : ((x) => console.log(x)),
+                '<' :       ((x, y) => +x < +y),
+                '>' :       ((x, y) => +x > +y)
+            })
+        }
+
+        codeUpdate(vars) {
+            for (var v in vars) {
+                this.codeScope[v] = vars[v]
+            }
+        }
+
+        codeNext() {
+            var x = this.code[this.codeLine][this.codePos]
+            this.codePos++
+            return x
+        }
+
+        codeEat() {
+            function isLabel(x) {
+                return x.endsWith(":")
+            }
+
+            while(1) {
+                if (this.codeLine >= this.code.length) {
+                    this.codeLine = 0
+                    this.codePos = 0
+                } else if (this.code[this.codeLine].length == 0) {
+                    this.codeLine++
+                } else if (this.codePos == 0 && isLabel(this.code[this.codeLine][this.codePos])) {
+                    this.codeLine++
+                } else {
+                    break
+                }
+            }
+
+            var symbol = this.codeNext()
+
+            switch (symbol) {
+                case '#':
+                    break
+                case 'wait':
+                    this.codeDone = true
+                    break
+                case '=':
+                    var a = this.codeNext()
+                    var b = this.codeEat()
+
+                    this.codeSet(a, b)
+                    break
+                case '+=':
+                    var a = this.codeNext()
+                    var b = this.codeEat()
+
+                    this.codeSet(a, this.codeGet(a) + b)
+                    break
+                case '-=':
+                    var a = this.codeNext()
+                    var b = this.codeEat()
+
+                    this.codeSet(a, this.codeGet(a) - b)
+                    break
+                case 'if':
+                    var a = this.codeEat()
+                    if (a)
+                        this.codeEat()
+                    break
+                case 'go':
+                    var a = this.codeNext() + ":"
+                    for(var c in this.code) {
+                        var line = this.code[c]
+                        if (line.length && line[0] == a) {
+                            this.codeLine = c
+                            this.codePos = 0
+                            break
+                        }
+                    }
+                    break
+                default:
+                    if (isNaN(symbol)) {
+                        var a = this.codeGet(symbol)
+                        if (typeof(a) == "function") {
+                            var b = Array()
+                            for(var c = 0; c < a.length; c++) {
+                                b.push( this.codeEat() )
+                            }
+                            return a.apply(null, b)
+                        } else {
+                            return a
+                        }
+                    } else {
+                        return +symbol
+                    }
+            }
+
+            return null
+        }
+
+        codeGet(name) {
+            switch(name) {
+                case 'x':
+                    return this.obj.x
+                case 'playerx':
+                    return player.x
+                case 'firing':
+                    for (var x in shots) return true
+                    return false
+                default:
+                    return this.codeScope[name]
+            }
+        }
+
+        codeSet(name, val) {
+            switch(name) {
+                case 'x':
+                    this.obj.x = val
+                    break
+                default:
+                    this.codeScope[name] = val
+                    break
+            }
+        }
+    }
+
+    function preload ()
+    {
+        //this.load.setBaseURL('http://labs.phaser.io');
+
+        this.load.image('sky', 'bg.png');
+        this.load.image('alien', 'alien.png');
+        this.load.image('player', 'player.png');
+        this.load.image('zap', 'zap.png');
+    }
+
+    function create ()
+    {
+        //input = new Phaser.Input.InputManager(game)
+
+        var sky = this.add.image(400, 300, 'sky')
+        sky.setScale(0.5,0.5)
+
+        player = this.add.image(400,100,'player')
+        player.setScale(0.5,0.5)
+        player.x = config.width/2 - 200
+        player.y = config.height-50
+
+        aliens = Array(3).fill().map((_, i) => new Alien(this, i * 400/3 + 75,
+            program, {speed: 0, acc : i+1}
+        ))
+    }
+
+    function update ()
+    {
+        var isDown = game.input.activePointer.isDown
+        player.x = game.input.activePointer.x
+        for(var alien of aliens) {
+            alien.update()
+        }
+        var doneShots = Array()
+        for(var shotid in shots) {
+            var shot = shots[shotid]
+            shot.y = shot.y - 10
+            if (shot.y < -100) {
+                console.log("OFFSCREEN")
+                doneShots.push(shotid)
+            } else {
+                for (var alien of aliens) {
+                    if (alien.dead) continue
+                    var x = alien.obj.x-shot.x
+                    var y = alien.obj.y-shot.y
+                    if (x*x+y*y < 10000) {
+                        alien.dead = true
+                        alien.obj.destroy()
+                        doneShots.push(shotid)
+                        break
+                    }
+                }
+            }
+        }
+        for (var shotid of doneShots) {
+            shots[shotid].destroy()
+            delete shots[shotid]
+        }
+        if (isDown && !wasDown) {
+            var shot = this.add.image(player.x,player.y,'zap')
+            shot.setScale(0.5,0.5)
+            shots[nextshot++] = shot
+        }
+        wasDown = isDown
+    }
+    </script>
+
+</body>
+</html>

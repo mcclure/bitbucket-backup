@@ -1,0 +1,5 @@
+changeset:   653:5a723a40317e
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Tue Oct 16 00:27:26 2012 -0700
+summary:     Fix compile in MinGW
+

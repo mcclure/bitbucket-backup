@@ -1,0 +1,12 @@
+# Things I am not certain should be allowed, but are.
+
+"if":
+    print(target)
+
+"for":
+    print(target)
+
+"python":
+    print(target)
+
+all: if for python

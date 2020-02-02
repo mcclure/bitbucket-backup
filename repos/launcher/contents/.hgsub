@@ -1,0 +1,4 @@
+sub/cs1 = ssh://hg@bitbucket.org/runhello/voxcut_public
+sub/diabolus = ssh://hg@bitbucket.org/runhello/whoop
+sub/sunsets = ssh://hg@bitbucket.org/runhello/dontbreathe
+sub/rainbow = ssh://hg@bitbucket.org/runhello/rainbow

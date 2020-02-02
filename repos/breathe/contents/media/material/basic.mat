@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<polycode>	
+	<shaders>
+		<shader type="glsl" name="FlatShader" numAreaLights="4" numSpotLights="2">		
+			<vp source="FlatShader.vert">
+				<params>			
+				</params>				
+			</vp>
+			<fp source="FlatShader.frag">
+				<params>			
+				</params>				
+			</fp>
+		</shader>
+		<shader type="glsl" name="FilterShader">		
+			<vp source="ScreenShader.vert">
+				<params>
+				</params>				
+			</vp>
+			<fp source="FilterShader.frag">
+				<params>
+					<param name="py" type="Number" value="0.0" default="0.0" />
+					<param name="px" type="Number" value="0.0" default="0.0" />
+				</params>				
+			</fp>
+		</shader>
+		<shader type="glsl" name="FilterShaderB">		
+			<vp source="ScreenShader.vert">
+				<params>
+				</params>				
+			</vp>
+			<fp source="FilterShaderB.frag">
+				<params>
+				</params>				
+			</fp>
+		</shader>
+		<shader type="glsl" name="FilterShaderC">		
+			<vp source="ScreenShader.vert">
+				<params>
+				</params>				
+			</vp>
+			<fp source="FilterShaderC.frag">
+				<params>
+				</params>				
+			</fp>
+		</shader>
+	</shaders>
+	<materials>
+		<material name="TestParticle">
+			<shader name="DefaultParticleShader">
+				<textures>
+					<texture name="diffuse">particle.png</texture>
+				</textures>
+			</shader>
+		</material>	
+		<material name="CubeMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">box_texture.png</texture>
+				</textures>
+			</shader>
+		</material>			
+		<material name="FilterMaterial">
+			<rendertargets>
+				<rendertarget id="mid"  sizeMode="normalized" width="1.0" height="1.0"/>
+				<rendertarget id="mid2"  sizeMode="normalized" width="1.0" height="1.0"/>
+			</rendertargets>
+			<shader name="FilterShader">
+				<targettextures>
+					<targettexture mode="in" name="screenTexture" id="mid2"/>
+					<targettexture mode="out" id="mid"/>
+				</targettextures>
+			</shader>
+			<shader name="FilterShaderB">
+				<targettextures>
+					<targettexture mode="in" name="screenTexture" id="mid"/>
+					<targettexture mode="out" id="mid2"/>
+				</targettextures>													
+			</shader>
+			<shader name="FilterShaderB">
+				<targettextures>
+					<targettexture mode="in" name="screenTexture" id="mid2"/>
+				</targettextures>													
+			</shader>	
+		</material>			
+		<material name="GroundMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">floor_texture.png</texture>
+				</textures>
+			</shader>
+		</material>					
+	</materials>
+</polycode>

@@ -1,0 +1,123 @@
+	<html>		
+<h2><a href="http://msm.grumpybumpers.com/?p=64" rel="bookmark" title="Permanent Link: Jumpcore: A starting point for SDL/OpenGL games">Jumpcore: A starting point for SDL/OpenGL games</a></h2>
+	
+			<div class="entrytext">
+				<p><strong>NON-PROGRAMMERS READ THIS</strong></p>
+<p>Download this silly physics toy:</p>
+<ul><em>&#8220;Typewriter&#8221;</em></ul>
+<ul>
+<li><a href="http://cat.runhello.com/Typewriter_mac.zip">Mac version</a></li>
+<li><a href="http://cat.runhello.com/Typewriter_win.zip">Windows version</a><em><br />
+
+(Linux users: Source below)</em></li>
+</ul>
+<p>Controls: Keyboard, mouse, F1, F4, ESC</p>
+<p><strong>PROGRAMMERS READ THIS</strong></p>
+<p>When I started writing <a href="http://runhello.com/">Jumpman</a>, something that frustrated me was that there are a couple of seemingly basic things that SDL/OpenGL doesn&#8217;t actually provide out of the box, and that I couldn&#8217;t seem to find a really good source for sample code for&#8211; things like drawing text, or creating a simple GUI, or building a crossplatform binary. So once the game was done I decided to clean up my code a little, strip out the &#8220;Jumpman&#8221; parts and release the basic skeleton as open source sample code. Below is that code, and a small tutorial on setting up Mac OS X such that it can build Windows and Linux executables. The hope is to make an overall package that would allow someone starting an SDL/OpenGL game to just sit down and start writing, rather than having to spend time downloading and fiddling with libraries.</p>
+
+<p>The Jumpcore package comes in two versions. A minimal version that includes only:</p>
+<ul>
+<li> The ability to draw text (provided by the Freetype and <a href="http://homepages.paradise.net.nz/henryj/code/#FTGL">FTGL</a> libraries).</li>
+<li> A code snippet for managing &#8220;internal files&#8221; (which live in a directory named &#8220;Internal&#8221; on windows/linux, and inside the application package in OS X)</li>
+
+<li> Alt-tab support for OS X (SDL does not do this out of the box for fullscreen apps)</li>
+<li> Makefiles (and one .xcodeproj) for Windows, Mac and Linux</li>
+</ul>
+<p>And a more fully featured version that also comes packaged with:</p>
+<ul>
+<li> The <a href="http://wiki.slembcke.net/main/published/Chipmunk">Chipmunk</a> 2D physics library</li>
+<li> The <a href="http://members.gamedev.net/lode/projects/LodePNG/">LodePNG</a> library (and a code snippet for loading PNGs into OpenGL textures)</li>
+
+<li> The <a href="http://www.grinninglizard.com/tinyxml/">TinyXML</a> library</li>
+<li> Some color conversion routines</li>
+<li> A minimal &#8220;ControlBase&#8221; GUI library (dependent on Chipmunk)</li>
+<li> The &#8220;Typewriter&#8221; demo code linked at the top of this post.</li>
+
+</ul>
+<p>The included libraries were picked in an attempt to include all the basic stuff a game needs, while still making the package as easy as possible to port and reuse in weird situations: all the libraries are self-contained and except for SDL itself can be built from the package as source where necessary; nothing depends on anything more complicated than the STL&#8211; I avoided heavyweight dependencies like Ogre or libpng; and everything is under a BSD-like license. The biggest limitation of the package at the moment is that it&#8217;s a bit mac-centric (I have not tested it with Visual Studio or Dev-C++).</p>
+<p>Basically, here&#8217;s a box full of Legos and half a robot. Have fun.</p>
+<p><strong>DOWNLOAD</strong></p>
+<ul>
+<li><a href="http://cat.runhello.com/Jumpcore.zip">Jumpcore source code</a> (full version w/ typewriter demo)</li>
+<li><a href="http://cat.runhello.com/Jumpcore_minimal.zip">Jumpcore source code</a> (minimal version)</li>
+
+</ul>
+<p><strong>HOW TO BUILD</strong></p>
+<p>Included is a Jumpcore.xcodeproj for compiling on mac, which can be compiled with XCode; windows makefile and support files are in a folder named win/, and can be compiled with mingw; Linux makefile and support files are in a folder named lin/, and can be compiled with gcc. More detailed instructions for all three platforms follow:</p>
+<ul><em>If you&#8217;re on a mac:</em></ul>
+<p>To build a mac executable, from a mac: Included is a Jumpcore.xcodeproj for use with XCode; just build that in Release mode and it should produce a 10.3.9-compatible universal binary (though note, I&#8217;ve not specifically tested it with 10.3.9).</p>
+<ul><em>If you&#8217;re on a mac and you want to build a Windows executable:</em></ul>
+<p>Here&#8217;s the best way I&#8217;ve found to do this:</p>
+
+<ol>
+<li>There is a &#8220;<a href="http://crossgcc.rts-software.org/doku.php">Cross Compilers for Mac OS X</a>&#8221; page here that actually has OS X installers for mingw. PPC and Intel versions are included; I installed 4.3.0 for Intel. The only problem with these particular installers is they install into strange places, so whichever installer from that page you pick, write down the &#8220;Installation directory&#8221; listed to the right of it.</li>
+<li>Once you&#8217;ve installed an installer from that page, you need to install SDL headers. In order to do this, go <a href="http://www.libsdl.org/download-1.2.php">to the SDL download page</a> and look under &#8220;Development Libraries&#8221; -&gt; &#8220;Win32&#8243; -&gt; &#8220;Mingw32&#8243;. Download that tarball. Once you&#8217;ve downloaded it ignore the &#8220;INSTALL&#8221; file, which is full of lies, and do this: Edit the &#8220;Makefile&#8221; in the directory so that the &#8220;CROSS_PATH&#8221; on line 4 is the &#8220;Installation directory&#8221; you wrote down in step 1. Like in my case this would be:
+
+<ul><tt>CROSS_PATH := /usr/local/i386-mingw32-4.3.0</tt></ul>
+<p>Once you&#8217;ve done this, run &#8220;sudo make cross&#8221; and it will install the SDL headers into your mingw directory.</li>
+<li>Go into the &#8220;win/&#8221; directory. Run &#8220;make&#8221; with the argument MINGW=<em>[Installation Directory]</em>, where <em>[Installation Directory]</em> is again the directory from step 1&#8211; in my case this would be
+
+<ul><tt>make MINGW=/usr/local/i386-mingw32-4.3.0</tt></ul>
+</li>
+</ol>
+<p>A directory named &#8220;Jumpcore&#8221; will be created with a Jumpcore.exe and all the support files necessary.</p>
+<ul><em>If you&#8217;re on a mac and you want to build a Linux executable:</em></ul>
+<p>Just distribute source. No, really. Building Linux binaries for distribution is tricky, and binaries aren&#8217;t what people want anyway. However if you want to do what I did and chicken out, what I recommend is installing <a href="http://www.virtualbox.org/wiki/Downloads">Virtual Box</a> or <a href="http://www.kju-app.org/">Q</a> (probably Virtual Box, though Q is what I used) and loading up an <a href="http://www.ubuntu.com/getubuntu/download">Ubuntu install CD</a>. This is quicker and easier than trying to set up a cross compile. Then go into the &#8220;lin/&#8221; directory and type &#8220;make&#8221;.</p>
+
+<ul><em>If you&#8217;re on Windows:</em></ul>
+<p>I was able to successfully compile Jumpcore on Windows by doing the following:</p>
+<ol>
+<li>Download and install <a href="http://www.mingw.org/wiki/MinGW">MinGW</a>. (Make sure to install the C++ package.)</li>
+<li>Download and install <a href="http://www.mingw.org/wiki/MSYS">MSYS</a> (it&#8217;s part of MinGW, but a separate download)</li>
+<li>As described on the <a href="http://www.mingw.org/wiki/HOWTO_Install_the_MinGW_GCC_Compiler_Suite">MinGW install HOWTO</a>, add <tt>C:\MinGW\bin</tt> to your path: right-click &#8220;My Computer&#8221;, click &#8220;Advanced&#8221;, click &#8220;Environment Variables&#8221;, double-click the line that says &#8220;PATH&#8221;, and in the <em>second</em> line add the characters <tt>;C:\MinGW\bin</tt></li>
+
+<li>Go <a href="http://www.libsdl.org/download-1.2.php">to the SDL download page</a> and look under &#8220;Development Libraries&#8221; -&gt; &#8220;Win32&#8243; -&gt; &#8220;Mingw32&#8243;. Download that tarball and open up its contents in MSYS. Type &#8220;make native&#8221; and it will install itself.</li>
+
+<li>A kind of odd step: right-click the file &#8220;README.txt&#8221;, open it in Wordpad, and immediately save it. (This will strip out my evil UNIX newlines.)</li>
+<li>Go into the directory win/ and run: <tt>make WINDOWS=1</tt></li>
+</ol>
+<p>This will create an install directory named &#8220;Jumpcore&#8221;. If you want to compile for debugging, in that last step type: <tt>make WINDOWS=1 DEBUG=1</tt></p>
+<ul><em>If you&#8217;re on Linux:</em></ul>
+<p>Install Freetype and SDL. Go into the directory lin/ and run make. This will create an install directory named &#8220;Jumpcore&#8221;. If you want to compile for debugging, instead type: <tt>make DEBUG=1</tt></p>
+
+<p><strong>GETTING STARTED</strong></p>
+<p>Once you get the thing built, you&#8217;re going to want to start focusing on swapping out the Typewriter code for your own code. Jumpcore consists of a main.cpp that does basic bringup/teardown and event loop work hopefully good enough for most games, and makes callbacks as appropriate into a display.cpp (display logic) and a program.cpp (game logic) you provide. You&#8217;ll want to implement the following methods: <em></em></p>
+<p><em>In display.cpp</em></p>
+<ul>display_init() - This is called once each time the display surface is initialized. It&#8217;s a good place to do things like initialize fonts and textures. (Note it could be called more than once if the window size ever changes.)</p>
+<p>display() - This is called when it is time to draw a new frame.</p>
+<p>audio_callback() - This is set up as the SDL audio callback.</p>
+<p>drawButton (&#8221;full version&#8221; only) - This is a cpSpaceEach callback which the default display() calls on each interface item. If you want to change the appearance of the ControlBase controls this is a good place to do that.</ul>
+
+<p><em>In program.cpp</em></p>
+<ul>program_init() - This is called once when the program begins.</p>
+<p>program_update() - The default display() calls this once per framedraw.</p>
+<p>program_eventkey() - This is called when SDL gets a key event.</p>
+<p>program_eventjoy() - This is called when SDL gets a joystick event.</p>
+<p>program_eventmouse() - This is called when SDL gets a mouse event.</p>
+<p>program_interface() - This is called after the event system finishes dispatching events to ControlBase controls, to give the interface a chance to redraw itself.</p>
+<p>BackOut() - Called when ESC is hit (quits).</p>
+<p>AboutToQuit() - Called right before the program quits.</ul>
+
+<p>Documentation for the individual libraries and functions included with Jumpcore can be found on these separate pages:</p>
+<ul>
+<li><a href="doc/jumpcore_funcs.html">Basic Jumpcore functions</a></li>
+<li><a href="doc/jumpcore_controlbase.html">ControlBase GUI library</a></li>
+<li><a href="http://files.slembcke.net/chipmunk/chipmunk-docs.html">Chipmunk documentation</a></li>
+<li><a href="http://members.gamedev.net/lode/projects/LodePNG/">LodePNG home page</a></li>
+<li><a href="http://www.grinninglizard.com/tinyxmldocs/index.html">TinyXML documentation</a></li>
+</ul>
+<p><strong>LIMITATIONS AND POSSIBLE FUTURE IMPROVEMENTS</strong></p>
+<p>I&#8217;m not really sure if this is ultimately going to be useful to anyone, and I don&#8217;t intend to maintain it unless there are people actually using it. However if there turns out to be any interest in this there are a few things I&#8217;d like to improve in a future release:</p>
+
+<ul>
+<li>The package contains everything you need to build a Windows version from a Mac. It would be awesome if I could eventually reach the point where a Windows user could build a Mac version (is that even possible?).</li>
+<li>Linux version is poorly tested in general. I have reports of issues on 64 bit systems, and the original Jumpman code seemed to have issues with switching to and from full screen mode.</li>
+<li>The final executable size is pretty large&#8211; 2 or 3 MB compressed for the very minimal typewriter demo. I&#8217;m curious if this can be improved on. At least on the mac a large chunk of this is taken up by SDL, which gets bundled along with the executable. However, to someone who&#8217;s using OpenGL to draw, a lot of this is wasted space&#8211; because much of the complexity in SDL is taken up by the 2D drawing support. I&#8217;d like to try to swap out the SDL libraries for versions that lack 2D drawing.</li>
+<li>iPhone compatibility? Now that I&#8217;m doing iPhone development I&#8217;m becoming pretty firmly convinced it does not make sense to create a single codebase that compiles on both PC and iPhone&#8211; the platforms are too different&#8211; but maybe it would make sense to rewrite some parts of the typewriter demo to make portability to something like iPhone easier (for example, rewriting the drawing code to be OpenGL ES-compatible).</li>
+
+<li>I am not sure that every library included with this is the most recent version.</li>
+<li>The one &#8220;every game needs this&#8221; feature that isn&#8217;t in this package is configurable joystick/gamepad support. I&#8217;m not sure whether it makes sense to try to add it or not.</li>
+</ul>
+<p>Finally, there have actually been a number of interesting-looking SDL &#8220;game engines&#8221; released lately, so you should be aware of those in case one fits your needs better than Jumpcore does. Two I&#8217;m aware of are 2D Boy&#8217;s <a href="http://2dboy.com/2009/05/27/rapid-prototyping-framework/">Boy</a> engine and Mattias Gustavsson&#8217;s <a href="http://www.mattiasgustavsson.com/Blog/Entries/ThePixieGameEngine.php">Pixie</a> engine.</p> 
+
+<p>- Andi McClure<br>mcc@grumpybumpers.com<br><a href="http://runhello.com">http://runhello.com</a></html>

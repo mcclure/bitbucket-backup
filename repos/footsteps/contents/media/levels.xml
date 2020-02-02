@@ -1,0 +1,12 @@
+<pack author="mcc">
+<level name="Passages" file="level0.png" maxhealth="20" std_zoom="0.5" forever_length="10" snap_factor="2" block_size="0.2" preview="level0_preview.obj" />
+<level name="Trenches" file="trenches0.png" maxhealth="20" std_zoom="1.0" forever_length="10" snap_factor="10" block_size="0.2" have_camera_freedom="2" />
+<level name="Wasteland" file="clutter0.png" maxhealth="40" std_zoom="0.5" forever_length="20" snap_factor="4" block_size="0.4" />
+<level name="PaddedRoom" padded_room="1" maxhealth="20" std_zoom="1.0" forever_length="10" snap_factor="4" block_size="0.2" preview="padded_preview.obj" />
+<level name="Hallway" file="hallway0.png" maxhealth="20" std_zoom="0.5" forever_length="10" snap_factor="4" block_size="0.3" have_camera_freedom="1" have_camera_limit="0" repeat="1" />
+<level name="Complex" file="complex0.png" maxhealth="50" std_zoom="0.5" forever_length="10" snap_factor="2" block_size="0.2" repeat="3" have_camera_limit="0" preview="complex0_preview.obj" />
+<level name="Platforms" file="platforms0.png" maxhealth="20" std_zoom="0.5" forever_length="15" snap_factor="3" block_size="0.2" have_camera_limit="2" repeat="1" gravity="-4.9" w_e="0.1" p_e="0.4" w_u="0.5" p_u="0.5" message="HAZARDS: Gravity" preview="platforms_preview.obj" />
+<level name="RubberRoom" padded_room="1" maxhealth="30" std_zoom="1.0" forever_length="10" snap_factor="4" block_size="0.2" immortal_bullets="1" message="HAZARDS: Reflective walls" preview="padded_preview.obj" />
+<level name="Hospital" file="level0i.png" maxhealth="40" std_zoom="0.5" forever_length="16" snap_factor="4" block_size="0.2" hd_p ="6" hd_a="2" hd_q="10" message="HAZARDS: Med. supply dump" preview="level0_preview2.obj" />
+<level name="Free Space" file="freespace0.png" maxhealth="20" std_zoom="0.5" forever_length="6" snap_factor="3" block_size="0.3" have_camera_limit="0" repeat="3" />
+</pack>

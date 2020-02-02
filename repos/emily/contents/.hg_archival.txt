@@ -1,0 +1,6 @@
+repo: b8f0a1102ca3e5dd492e892357baf3325d659145
+node: 6e6d07c3a153894c52fbb6a4ff0f1f83ace20b4e
+branch: default
+latesttag: emily-0.2
+latesttagdistance: 41
+changessincelatesttag: 47

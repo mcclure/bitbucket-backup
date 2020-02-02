@@ -1,0 +1,1085 @@
+# This is the database of text commands.
+
+# Welcome commands are sent when you first play
+# as the given character.
+
+welcome::You1
+    Thousands of years ago, in the midst of the Age of Heroes, a powerful
+    magic sword was crafted out of sky-iron.  Named "The Freyblade" it
+    gained increasing notoriety as it passed from hero to hero and warlord
+    to warlord.  After generations of use, it, or should we say, you,
+    gained self-awareness.  As your powers awakened, you soon found
+    you could easily overpower the will of any who wielded you.
+
+    Still, being a sword, your own goals lacked any overarching purpose.
+    So you contented yourself to serve king after king, happily joining
+    any cause that let you see action.
+
+    Now, after a hundred year rest in the skeletal hands of an unfortunate
+    adventurer in the depths of a dungeon, you have been found and provided
+    a new body to control.
+
+    King Viola, it seems, has a problem.  He and his foe, King Crimson,
+    are set to wage a battle to the death.  However a quick glance
+    at the strategic situation shows the battle will be swift and glorious: for
+    King Crimson!
+
+    So you have been awakened to do what you do best.
+    
+    Hit '?' for a list of keyboard commands.
+
+theend::fast
+    The battle may be over, but you know from long experience that the
+    story does not end here.  The militia must be disarmed, the peasants
+    returned to their fields.  The social order rent asunder must be
+    repaired.
+
+    The new King is at first happy with his achievement.  Towns are
+    rebuilt, fields resown, and roads repaired.  As peace and prosperity
+    increase, however, the merchant class begins to gain power.  They
+    resist the King's desire for oversea adventures and increasingly
+    restrict his power.
+
+    You have a brief stint of fun in the hands of a series of bandit
+    chiefs.  This action is too small for your taste, though.  You
+    drop off to sleep for a few hundred years to see if things get
+    any more interesting.
+    
+    When you awake you find yourself in a museum.  While the war is
+    still taught in school, 80% of school children could not tell you
+    who won it.  Crowds walk past your glass display case.  A sign
+    tells of the myth of The Freyblade, and how any who wields it will
+    be possessed.  Superstitious curators carry you only with gloves.
+    
+    You rest content.  Someday, some fool will accept a dare.  And you
+    will play again.
+
+theend::med
+    The battle may be over, but you know from long experience that the
+    story does not end here.  The militia must be disarmed, the peasants
+    returned to their fields.  The social order rent asunder must be
+    repaired.
+    
+    The repair work is extensive, however.  Labour shortages abound
+    and strict laws must be passed to prevent peasants from abandoning
+    their appointed roles for greener pastures.  Soon the once free
+    peasants find themselves reduced to slavery.
+
+    This situation cannot stand, of course.  There will be slave revolts.
+    And this is where you plan to come in.  You have arranged for yourself
+    to be buried in a suitable field.  By your calculations, after thirty
+    years of soil erosion (assuming their farming practices remain constant)
+    you will be unearthed by some field worker.
+    
+    Then the fun will begin again.
+
+theend::slow
+    The battle may be over, but you know from long experience that the
+    story does not end here.  The militia must be disarmed, the peasants
+    returned to their fields.  The social order rent asunder must be
+    repaired.
+    
+    Repaired?  That is optimistic.  The demobbed militia roam the
+    countryside as bandits.  The new King can barely keep his cities safe,
+    and, within twenty years, finds himself holding only his original
+    kingdom.  Ten years later finds him dead in his castle, 
+    his original kingdom reduced to feuding fiefdoms.
+
+    A new Age of Heroes arises as powerful adventurers fight the chaos
+    of the wildlands and bring back tall stories.  You ensure stories
+    of the War always talk of The Freyblade - of course, in the stories
+    it is King Crimson or King Viola who wields you.  One must maintain
+    a careful reputation if one wants more hosts.
+
+welcome::Back
+    You resume your adventure.
+
+    Good luck!
+
+    Hit '?' for a list of keyboard commands.
+
+fire::You
+    Hey!  That is you on the other side of that portal!
+
+# Game commands are the general overall commands.
+game::help
+    King Viola and King Crimson fight to the death to see who shall
+    rule the world.  You, the sword known as Freyblade, have been
+    awakened by King Viola to aid his cause.
+
+    You can move with the number pad, arrow keys, or with vi-style keys.  
+    Walking into creatures will attack them.
+
+       8-way Movement Keys
+
+         7 8 9     y k u
+          \|/       \|/
+         4-5-6     h-.-l
+          /|\       /|\
+         1 2 3     b j n
+
+     Command Keys:
+       asdfg - Special Attacks
+       S - Search
+       i - Inventory
+       x - Look Around
+         - Wait
+       Q - Quit and Save
+       R - Restart
+       W - Welcome Message
+       A - About Sword In Hand
+       P - Toggle Fullscreen
+       O - Options
+       ? - This Help
+
+game::lose
+    With the death of the host, you clatter to the ground.
+
+    Unfortunately, since it seems it is just humans you can properly
+    dominate, this means you spend many years being abused the various
+    monsters that fight over you.
+
+    Goblins use you to whittle sticks, and kobolds use you as a pry-bar
+    to move heavy rocks.
+
+    After a few decades of these indignities a proper adventurer finally
+    claims you!  Or, you claim it, to be precise.
+
+    The plight of King Viola?  Well, this adventurer doesn't bother with
+    history (rather fortunate or you would have been left unwielded!) so
+    you do not know.  Nor really care - there is new history to be made!
+
+game::betrayal
+    With the death of the host, you clatter to the ground.
+
+    Lying there you hear voices describe your fate.
+
+    "Damn sword - betrayed us!"
+
+    "It should be destroyed.  Dropped in a volcano."
+
+    "Might not melt it, its magic is strong.  Maybe if we dropped it
+    in the ocean?"
+
+    The ocean?  Just great.  Hopefully they haven't figured out
+    subduction zones yet.
+
+game::about
+    Sword In Hand is a Seven Day Roguelike written by Jeff Lait.
+
+    It's home on the web can be found at:
+    http://www.zincland.com/7drl/sword
+
+    It uses The Chronicles of Doryen libraries to display to the
+    screen, whose home can be found at: 
+    http://doryen.eptalys.net/
+
+    It uses Simple DirectMedia Layer libraries to display to the
+    screen, whose home can be found at: http://www.libsdl.org/
+
+    It uses the Mersenne Twister for random number generation:
+    http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html
+
+    Questions and comments can be posted to rec.games.roguelike.misc
+    on USENET, or directly to the author at jmlait at zincland dot com.
+
+    Have fun!
+
+mob::King Viola
+    King Viola is like most King's you have known.  His face is careworn.
+    But careworn over fear of his dynasty more than of the plight
+    of his people.
+
+mob::Lord Patrick
+    The Lord Patrick is a heavyset man with a ruddy complexion.  Somewhat
+    surprisingly, you do not catch the scent of wine on his breath.  Perhaps
+    the stress of this situation has sobered him up?  And here you thought
+    humans couldn't surprise you.
+
+mob::General Julia
+    Dressed in dark green military fatigues, this athletic woman looks trapped.
+    No doubt she yearns to escape the confines of the castle, but knows too
+    well that duty demands an experienced veteran be present to guide troop
+    movement.
+
+mob::servant
+    A featureless drudge of a human servant.  Still... Through you, they
+    could easily slay the King and castle's guards.  You consider forcing
+    your current host to hand yourself over to the servant.  As
+    entertaining as that thought is, you do not hold to it seriously.
+    You have seen what happens to artifacts that develop a reputation
+    for treachery.  They get locked into vaults for hundreds of years.
+
+    Rather unfair, really.  How many artifacts are treacherous *because*
+    they get locked into vaults?
+
+mob::guard
+    A strongly built human, taller and thicker than the average.  While
+    the power behind those muscles would make it a useful host, the
+    downside is that it is makes it harder to get the enemy to 
+    underestimate one's skill.   Which means fewer battles.  And thus
+    less fun.
+
+mob::You
+    You are The Freyblade.  And, yes, you do deserve the definite article.
+    Forged in the Age of Heroes, you've had your part in many of the
+    ensuing adventures and catastrophes.
+
+    While the magic of your forging had rendered you indestructible to all
+    but certain rare spells and weapons (which you have wisely eliminated
+    from this world), it is good to remember that the human wielding
+    you has no such advantage.   And while the loss of a human is
+    a small thing, your last stay at the bottom of a black pit waiting
+    for a new adventurer to stumble upon you was not an enjoyable
+    vacation.
+
+mob::bat
+    The erratic flight pattern of bats has often caused them to be
+    associated with madness.  However, one may be surprised to know
+    that there is a purpose behind it.
+
+    In this case, the purpose seems to be to feast on your host's flesh.
+    
+mob::rat
+    Cowardly rats flee at the first sign of trouble.  Beware of
+    cornering them, however, for a cornered rat does not mind fighting
+    unfair.
+
+mob::kobold
+    Kobolds are small purple furred dog-like creatures.  While an
+    individual kobold poses little threat, they don't tend to fight
+    fair.
+
+mob::baby kobold
+    Where do kobolds come from, you ask?  Baby kobolds, that is where!
+
+    Quite harmless, baby kobolds pose little threat to you.  It would
+    take a special sort of sadism to carefully herd them into a tight
+    knit bunch so as to see how many could be slaughtered with a
+    single attack.
+
+mob::kobold guard
+    This kobold is better armed and armoured than your usual kobold.
+    Perhaps it should be given a bit more respect than usual.
+
+mob::kobold archer
+    Kobolds, as it has been noted, do not play fairly.  The kobold
+    archer is the best example of this, choosing to run away rather
+    than stand and fight.
+
+mob::kobold chief
+    The head of this kobold tribe, it is the strongest if not the
+    wisest of its kin.
+
+mob::goblin
+    The green-skinned goblins tend to settle in castles abandoned by
+    humans.  They take good care of their adopted homes, repairing
+    walls and growing gardens.  But they also tend to hoard the
+    treasure they find.  Which leads you quests like yours.
+
+mob::goblin guard
+    A stronger and more powerful goblin that has been outfitted with
+    the latest in goblin weaponry.
+
+mob::goblin queen
+    The current goblin empires tend to organize themselves in a
+    matriarchal fashion, leading to the chief goblin being called a
+    queen.  This has long puzzled outsiders who had presumed
+    goblins lacked gender.
+
+mob::slime
+    A greenish puddle of slime.  Which moves.  And spits acid.
+
+    As if this were not enough, it also spreads.
+
+mob::big slime
+    A big puddle of slime.  Like its smaller brethren, it also moves
+    and spreads, swiftly filling the dungeon with acidic ochre.
+
+mob::giant slime
+    A giant puddle of slime.
+
+    You certainly hope this slime isn't able to spread!  Fighting one
+    is going to be enough of a challenge.
+
+mob::slug
+    Not your ordinary garden slug, this slimy beast stretches a full
+    meter in length.  A sizzling sounds alerts you to the acidic
+    nature of its slime.
+
+mob::skeleton
+    An animated collection of bones.  Some would claim a sword a poor
+    fit for fighting skeletons.  But they refer to lesser swords.
+
+    The Freyblade can slice through bone as if it were flesh!
+
+mob::zombie
+    An undead horror which shambles through the caves.  Its slow
+    shambling pace minimizes the threat posed.
+
+mob::skeleton captain
+    The chief of a skeleton army, the skeleton captain takes
+    considerable force to destroy.  In the meantime, beware of its
+    powerful arrows and deadly sword.
+
+item::gold coin
+    Why humans care so much about a soft metal like gold has always
+    confused you.  Easy to bend, easy to melt, it is not the sort of
+    stable thing to build a currency on!
+
+    You did know one artifact goblet that was proud to be made of pure
+    gold.  Proud until a drunk lord sat on him, that is.  Then he was
+    just flat.
+
+item::corpse
+    The mangled remains of a former foe.  You've been forced
+    to eat such raw carrion in the past.  Fortunately your current
+    host seems well sated.
+
+item::body
+    The mangled remains of a former friend.  
+
+item::sausages
+    A string of plump red sausages, well-aged by their stint in these
+    caves.  
+
+item::bread
+    At first you mistook it for a rock.  Then you saw it was a thick crusted
+    loaf of bread.  Some gourmets would no doubt have preferred the rock.
+
+item::mushrooms
+    A bunch of mushrooms.  Edible?  Maybe.  You never know with
+    mushrooms.  Even if you fed it to a kobold, you'd still
+    have to wait a week or so to see if it proved toxic.  And you'd
+    still not know if it was some natural kobold immunity rather than
+    the safety of the mushroom.
+
+item::apple
+    A nice winter apple.  You wonder how it made its way underground.
+
+item::pickle
+    A cucumber that had been immersed in a brine solution until it
+    pickled.
+
+item::arrow
+    A well-crafted arrow.  Unfortunately, with the hard surfaces of
+    the rock caves, likely only good for one shot.
+
+item::Hasted
+    Your metabolism is running in overtime.  All the other creatures
+    seem to be moving slower than before, giving you more time to
+    move, attack, and escape.
+
+item::Blinded
+    You can't see!  All is black, no matter how widely you open
+    your eyes.  You pray fervently that this condition is temporary.
+
+item::Enraged
+    You see red!  Your blood boils as you contemplate the crime that
+    has occurred!  Vengeance be thine!
+
+item::Poisoned
+    Some noxious substance courses through your veins.  With every heartbeat
+    you can feel it spread and weaken you still farther.  Will your
+    constitution prove strong enough to withstand the full course of
+    this toxin?  Perhaps it is best to not find out.
+
+item::Sick
+    You have a bad cough that would keep you awake at nights.  But it isn't
+    night yet, so I guess it is premature to describe it as that.
+
+item::Slow
+    You feel like you are wading through a thick mud.  Even your sword
+    swings seem to move slower than they should.
+
+item::crude bow
+    A simple wooden bow.  Note that a bow isn't much use without arrows.
+
+item::short bow
+    This bow is well constructed.  However, its draw weight is rather low,
+    preventing it from achieving the sort of power that you would prefer.
+
+item::long bow
+    This large bow has a long draw which gives it an excellent range and
+    stopping power.
+
+item::yew long bow
+    Exactly why yew trees make for the best long bows is something you
+    are very unclear of.  But this one has a carefully engraved label
+    attesting to the genuine nature of said tree that went into its
+    construction, so clearly there must be some advantage.
+
+    In any case, a bit of practice shows it is superior to the other long
+    bows you have found, independent of the name of its material.
+
+item::kitchen knife
+    A short stick of a blade whose only purpose of existence is to
+    save more noble blades from the indignity of peeling potatoes.
+
+    Damn that goblin chief who once loaned you to his chef.
+
+item::crude stone dagger
+    A stone dagger.  Calling it crude seems implied by the nature of
+    the material, but you feel the prefix is justified in this case.
+
+item::bronze short sword
+    This pointed short sword is well-crafted and balanced.  Sadly,
+    the crafter decided to use bronze, a soft metal that does not
+    hold an edge worth speaking of.
+
+item::iron-shod staff
+    This hard wood staff has been banded by thick iron rings.  These both
+    balance the weight and ensure that powerful impacts do not split the wood.
+    As an added bonus it makes an excellent walking stick.
+
+item::short sword
+    The rust marks on this sword show it to be made of iron.  Boring
+    iron, the sort you get from the ground.  Not sky-iron.
+
+item::mace
+    This metal club is made out of some sort of blued steel.  It is heavy and
+    well weighted.
+
+item::long sword
+    This long sword is made of well-tempered steel.  Its edge
+    is true and sharp.  You would feel a bit of regret breaking it if
+    you faced it in combat.  Only a bit, however.
+
+item::warhammer
+    A heavy hammer of black iron.  In your opinion a hammer has no
+    role on the battlefield and should stay in the forge where it
+    belongs.
+
+    You don't have many friends among artifact hammers.
+
+item::crystal sword
+    This two handed sword is clear as glass.  Beautiful rainbows spray from its
+    prismatic surface when exposed to the sun.  Surprisingly, it is as hard as
+    diamond.  Still didn't stop you from shattering a crystal sword at
+    the battle of the Two Sisters!
+
+item::clothes
+    These are your simple every day work clothes.  While certainly more modest
+    than running about naked, the protection they offer is minimal at best.
+    
+item::leather armour
+    Plates of hardened leather form the shell of this set of armour.  While it
+    is in good condition, it would have to be resized to fit your frame.
+
+item::studded leather armour
+    The hardened leather that makes up this armour has been further
+    augmented with numerous metal rivets.  While people may debate
+    how much of a contribution this will make to the defensive qualities,
+    it is of your opinion that they vastly improve the aesthetic.
+
+item::ring mail
+    This is a set of leather armour.  Rather than studs, however, large
+    black-iron loops have been stitched onto the armour.  While they provide
+    little protection for a well-placed thrust, they will easily block
+    the wild slashes of genuine battle.
+
+item::chain mail
+    Large links of metal are woven into tunic and leggings.  
+
+item::breast plate
+    A shining piece of gold-chased breast plate.  While the rest of
+    the pieces would be appreciated, the safety of a steel shell
+    around your vitals is well appreciated.
+
+item::platemail
+    Breast plate and leggings fashioned with overlapping plates of steel, this
+    armour provides excellent protection against almost all attacks.  Such
+    a precision piece of armour requires sizing for each user, however, so
+    it isn't something you can don as soon as you find it on the dungeon floor.
+
+item::full platemail
+    This set of platemail also includes the helmet, gauntlets, and all the
+    other miscellaneous fiddly bits whose names escape you.  This would leave
+    few if any ways for enemy attacks to get through to you.
+
+item::pacifier
+    A crudely carved chew-ring that has been smoothed by countless
+    milk-teeth.
+
+    Do kobolds drink milk?  Are they even mammals?  They always claim
+    to be related to dragons, after all, and dragons hatch from eggs.
+
+item::kobold doll
+    A few rags have been carefully sewed together and dyed purple.
+    Squinting, you can see that it is supposed to be in the shape of a
+    kobold.  It has been well-worn by many paws.
+
+item::stuffed toy dragon
+    Hey!  That is the stuffed rendition of Melkar the Destroyer, the
+    red dragon that is said to have ruled the Blue Age!  You haven't
+    seen one of those for sale outside the capital, and even there 
+    they were not cheap.
+
+    This one, sadly, has not only been unboxed, but has been so well
+    worn that it would barely qualify as BS-1.
+    
+item::threadbare rag
+    This rag looks like it has been dragged over every inch of these
+    warrens.  While it has been well washed, no amount of cleansing
+    can erase the history it has seen.  You wonder why even kobolds
+    would keep such an item around.
+
+item::The Freyblade
+    You are The Freyblade.  And, yes, you do deserve the definite article.
+    Forged in the Age of Heroes, you've had your part in many of the
+    ensuing adventures and catastrophes.
+
+    While the magic of your forging had rendered you indestructible to all
+    but certain rare spells and weapons (which you have wisely eliminated
+    from this world), it is good to remember that the human wielding
+    you has no such advantage.   And while the loss of a human is
+    a small thing, your last stay at the bottom of a black pit waiting
+    for a new adventurer to stumble upon you was not an enjoyable
+    vacation.
+
+item::bigger f-ing gun
+    There are big guns in the world.  And then there are bigger guns.
+    You must admit this is quite a fair sized gun, for this mundane
+    age.  You do remember bigger ones in the Age of Heroes, however,
+    so are not so convinced it is the final say in guns.
+
+item::vaccine vial
+    A small vial containing the vaccine for smallpox.  Even this crude
+    age should be able to use it to mass produce an inoculation.
+
+    You are glad to find the vial again.  You had intended to
+    distribute the vaccine after a suitable period, but Claston the
+    Cruel (your host at the time) met an unfortunate end due to
+    shellfish poisoning.  By the time you regained a host, the vial
+    had been misplaced and lost.
+
+item::blight resistant seeds
+    These seeds have been genetically modified to resist the orange
+    blight.  Or, in the parlance of this debased age, they have been
+    magically enhanced to possess great virtue.
+
+item::water filter
+    This water filter uses some technology you do not recognize.  You
+    hope that the castle researchers will be able to still figure out
+    how to reverse-engineer it.
+
+item::pasteurization process description
+    A rather mundane looking scroll.  It lists the necessary
+    temperatures and times required to pasteurize milk and provides
+    diagrams of apparatus to achieve the effect.  It is a delicate
+    balancing act between scalding the milk and killing the bacteria.
+
+item::sticky fire recipe
+    Probably better suited to naval warfare than land combat, this
+    recipe describes a mixture of naphtha and quicklime to produce an
+    auto igniting fluid that sticks to the target.
+
+item::explosive powder
+    Ah, the sweet smell of gunpowder.  You could have just told King
+    Viola the proper ratios and saved this trip.  But really, it is
+    the journey, not the destination.  Right?
+
+item::neurotoxic poison
+    This tightly stoppered bottle is filled with a viscous liquid.
+    You know from experience how it can devastate the human neural
+    system with even the slightest exposure.
+
+    You are somewhat surprised to find some still around.  You thought
+    you rid the world of the Vecks poison when you scuttled that ship
+    in the deep ocean over two hundred years ago!
+
+item::Kitab Aniq fi al-Manajaniq
+    While this tome is written in a language no longer in common use,
+    hopefully the detailed pictures of trebuchets will prove
+    sufficient guidance to the General's engineers.
+
+shop::king::intro
+     To see an unfamiliar soul stare
+     from the face of my faithful
+     servant unnerves me, Sword.
+
+     Our just war with that fiend King
+     Crimson occupies my attention.
+     Look to yonder table to watch its
+     progress.
+
+     Modern wars are fought by armies,
+     logistics, and strategy, not sole
+     heroes.  I have no use for your
+     dark skills at the battlefront.
+
+shop::king::done
+     So, I see you have returned from
+     whatever quest my advisors sent
+     you on.  No doubt with some powerful
+     item that will end this war?
+
+     Join us at the map table to see
+     how the fruits of your quest fare.
+
+shop::king::choose
+     Walls have ears and windows have
+     eyes.  Treacherous spies have
+     removed the advantage you gave
+     us.
+
+     My advisors, as usual, have the
+     solution.  Another quest,
+     another item!
+
+shop::king::won
+     This is a glorious day that shall
+     be remembered for centuries!  And
+     fear not, you shall be aptly
+     rewarded.  I have the finest artisans
+     constructing a display case for you
+     as we speak!
+
+shop::war::intro
+     I see in your eyes a kindred
+     spirit!  Know that I volunteered
+     to wield you, so that together
+     we could fight at the front rather
+     than hide here in the castle...
+
+     But my King is sadly right.  The
+     age of heroes may be over.  But there
+     remain weapons from that age that
+     you might salvage, and thus
+     equip our armies with!
+
+shop::war::choose
+     No matter how dark the night, there
+     is still hope.  Especially if one
+     has sufficiently powerful advantage.
+
+shop::war::donegood
+     Yes!  Your contribution to the war
+     effort is most appreciated.  Our
+     war mages assure me that we can
+     get this new technology into
+     our the hands of our troops with
+     but minimal delay!
+
+     Now let us go to the map table and
+     watch these toys in action!
+
+shop::war::donebad
+     Bah!  I need weapons or soldiers,
+     and you bring back toys and
+     trinkets!
+
+     Be off, and let the real soldiers
+     tend to the map table.
+
+shop::war::won
+     We have shown those crimson curs
+     what sort of mettle we are made
+     of, eh?
+
+     Still a bit of mopping up to do.
+     And we should be able to now
+     deal with those treacherous spies
+     that caused this war to go so
+     long!
+
+shop::peace::intro
+     The tales that have spread tell
+     of the oceans of blood that you
+     have shed.  This is not the only
+     legacy you need have!
+
+     There are powerful artifacts still
+     in the world from the age of heroes.
+     With these we can build, rather than
+     destroy, and create a stronger world.
+
+shop::peace::choose
+     The world lies in a balance. When
+     we retrieve things from the age
+     of heroes, we upset that balance.
+
+     We must take care we upset it in
+     the right direction!
+
+shop::peace::donegood
+     I am glad of your return!  
+     
+     Your contribution to the common
+     weal is noted.  We shall beat you 
+     into a ploughshare yet!
+
+     Now let us watch the battle unfold
+     on the map table...
+
+shop::peace::donebad
+     I am glad to see the person you
+     wield return unharmed.  I fear
+     that which you have brought.
+
+     Now let us watch the horror unfold
+     on the map table...
+
+shop::peace::won
+     Yes, we have won.  Our empire lives
+     for another day.  
+     
+     But at what cost?
+
+quest::grain::confirm
+     Feeding the troops is as important as
+     arming them!
+
+     Over the last decade we have seen
+     many crop failures due to the orange
+     blight.  It is rumoured that in
+     the Age of Heroes powerful strains
+     of grain were cultivated that could
+     resist this blight.
+
+     My research has substantiated the
+     rumours.  A seed bank was created
+     by foresighted individuals to save
+     the cultivar for the future.  I have
+     found it has since become the Crypt
+     of Damascus - which has also since
+     been infested by undead.
+
+     Retrieve the seeds and feed the 
+     people!
+
+quest::grain::begin
+    The road to the Crypt of Damascus was long and uneventful.  Well,
+    there was that company of soldiers you encountered.  They had
+    the temerity to demand a passphrase to prove that you were
+    allied!  
+
+    Well, here you are!  Time to slay some undead!  Some purists
+    always argue you can't actually kill the undead, on account of
+    them already being dead.  You have found however that they stop
+    moving when you cut them sufficiently, much like any other foe.
+
+quest::grain::done
+    To think from such small seeds such great change could be wrought?
+
+    On the way back to the King's castle you hand off some of the
+    seeds to some of the peasant farmers you encounter.  You know too
+    well that sometimes politics causes this sort of discovery to be
+    suppressed, and do not want your hard work to go unrewarded.  The
+    farmer's also learn the proper history of The Freyblade as part of
+    the payment.
+
+    At the castle gate you hand the rest of the seeds to Lord
+    Patrick's retainers who take them swiftly to the castle gardens
+    for experimentation.  Hopefully they remained viable after their
+    long storage.
+
+quest::fire::confirm
+     While we are proud of our modern weapons, 
+     legends always speak of devices that exceed
+     our comprehension.  Most of those are tall
+     tales.  Some - as you should know! - are 
+     true.
+
+     I believe I have found a true tale in this.  
+     It is said the ancients had a type of fire 
+     potion that could stick to whatever it hit 
+     and float on water without being 
+     extinguished.  I have found evidence that 
+     a scroll containing the recipe was stored 
+     in the Library of Coriandia.
+
+     That library, however, has since turned 
+     into the Crypt of Rhytalf and become 
+     infested with undead.  You should have 
+     little difficulty in removing the scroll 
+     from their illiterate claws, and then my 
+     alchemists can begin production.
+
+quest::fire::begin
+    It is a surprisingly short trip to get to the Crypt of Rhytalf.
+    A bit of climb into the mountains.  A very friendly village near
+    the entrance helpfully guides you to the entrance.  They are
+    understandably eager to see the undead killed.  (You will note
+    that those who suffer the predations of the undead never quibble
+    when you say you are going to "kill undead".  They are instead
+    properly respectful!)
+
+    So, after a night at the tavern spreading suitable stories of the
+    power and glory of The Freyblade, you head into the crypts to seek
+    out this scroll.
+
+quest::fire::done
+    With scroll in hand you head back to the Castle.
+
+    Along the way you find a suitably ambitious colonel and have the
+    scroll copied out for him.  There is always the risk that the
+    General will balk at using this weapon, and you don't want your
+    hard work to go unused!
+
+    At the castle gates one of General Julia's assistants accepts the
+    scroll and runs off to give it to the alchemists.
+
+quest::cure::confirm
+     Smallpox is a dreaded disease that kills and
+     disfigures our children.  If helping the young
+     does not tempt you, consider that every blind
+     beggar is one less potential soldier!
+
+     Stories tell that in the Age of Heroes this
+     disease was eradicated, before being re-released
+     by Claston the Cruel.  I have found evidence
+     that Claston did have a preventative developed.
+     If we could acquire it, we could inoculate
+     our populace and perhaps once again remove this
+     scourge.
+
+     My research shows the vial to be in the goblin
+     castle F'kard.  The vial is of no use to the
+     goblins, so I shall provide you some gold with
+     which to barter it.
+
+quest::cure::begin
+    The trail leading to the castle F'kard is well marked and easy to
+    follow.  The gold you are provided is soon spent in gambling
+    houses and taverns, however.
+
+    When you arrive at the goblin castle, penniless, you are
+    unconcerned.  You are sure you can convince the goblins to part
+    with the vial by other means.  Much more enjoyable means.
+
+    Really, what was Lord Patrick thinking.  Sending a sword to do a
+    merchant's job?
+
+quest::cure::done
+    You swiftly carry the tightly stoppered vial back to the King's
+    Castle.  Lord Patrick's attendants eagerly take the vial from
+    you at the castle's gate.
+
+    Now the scourge released by Claston the Cruel can finally be
+    ended.  You breathe a sigh of relief that tales seem to not
+    mention anything about the sword that Claston was wielding in her
+    final years.
+
+quest::water::confirm
+     Hygiene is essential to health, but essential to 
+     hygiene is access to clean water.  Boiling is known
+     to create potable water, but is not practical for
+     sanitizing a city's water supply.
+
+     I have found some ancient records describing a
+     type of filter which can remove from water the 
+     impurities that lead to contagion.  I believe if
+     we were to find this filter, we could replicate
+     it in our workshops and thus provide our cities
+     with clean water.
+
+     The kobolds of B'ritta Caves are believed to own
+     such a filter.  We need but borrow it, so I believe
+     a suitable donation of gold would convince them
+     to lend it for our study.
+
+quest::water::begin
+    Trees, trees, trees.  Too many trees lie between the King's castle
+    and the B'ritta Caves.  You have a special hatred of trees.
+
+    Before the forest you encounter a travelling trader.  To your
+    surprise, he has Pwarteth, the magic axe, in his inventory!  You
+    use the gold to buy Pwarteth.  And then you donate him to an
+    unsuspecting woodcutter.  Let Pwarteth cut trees for a few
+    decades, serves him right for foiling your plans during the Lizard
+    Invasion!
+
+    Ah, here is the entrance to the B'ritta Caves.  Time to retrieve
+    this water filter by your favorite method.
+
+quest::water::done
+    You leave the B'ritta Caves in a good mood.  A mood that sours
+    when you see the forest that faces you.  Taking a deep breath, 
+    you brace yourself to reenter the canopy of trees.
+
+    When you arrive at the castle gates, Lord Patrick's attendants are
+    happy to accept the water filter from you.  With luck they will
+    swiftly figure its workings and augment their sanitation systems.
+
+quest::milk::confirm
+     If a mother perishes in childbirth, or her 
+     milk fails to come in, the newborn is at
+     the mercy of the availability of a nursemaid
+     to provide sustenance.  While animal milk is
+     available, it often is tainted by the time
+     it reaches the city, killing as surely as
+     starvation would.
+
+     My research shows there once was a simple
+     process applied to the milk that would
+     preserve most of its virtue but also eliminate
+     its vice.  If we could learn this, we could
+     save many a child from an early grave.
+
+     Unfortunately, my information points to the
+     slime pits as the final resting place of
+     the scroll.  Hopefully the slimes have not
+     eaten it.
+
+quest::milk::begin
+    The slime pits. Gah.  You hate this place.  Not only does it have
+    trees (ugh), but it has slimes (double ugh!)
+
+    Of course, the magic steel you are forged with is not harmed by
+    anything so mundane as acidic slimes.  But fighting such formless
+    blobs is not your idea of a fun time!
+
+    Eventually you reach the entrance that Lord Patrick specified.
+    You hope for a swift search.
+
+quest::milk::done
+    You eagerly leave the slime pits.  You feel you'll have to spend a
+    week being polished before you truly feel clean again.
+
+    Arriving at the castle gates, Lord Patrick's attendants swiftly
+    retrieve the instructions on pasteurizing milk.  A simple process
+    indeed, and you are a bit surprised it got lost.
+
+quest::powder::confirm
+     Swords and arrows may have won earlier battles,
+     but in this age we need more powerful weapons.
+     My research shows that many ancient tales could
+     be attributed to a single weapon.  A simple
+     compound of reagents that produces a powerful
+     explosive effect.
+
+     While we know of many such recipes, proportion
+     is everything.  Too much of the wrong reagent
+     and the process is severely weakened.  Needless
+     to say, experimentation is costly and dangerous.
+
+     I have found, however, that the goblins of 
+     U'hard castle have a sample of just such a
+     powder.  Needless to say, they will not part
+     with it willingly.  So I ask you to take it
+     for our cause despite any of their objections.
+
+quest::powder::begin
+   It is a long and winding road to the goblin castle U'hard.  You
+   have long since grown frustrated over the seeming endless series of
+   valleys and passes you have to traverse.
+
+   When you enter the gates of the goblin castle you are more than
+   ready to "negotiate" for the explosive powder.
+
+quest::powder::done
+    Giving the goblin castle a parting glance, you begin the long
+    journey back to the King's Castle.
+
+    The smell of the powder brings back memories of the Age of Heroes
+    when battlefields would stink of its odor.  Soon these battles
+    will also acquire the distinctive aroma.  Just to be certain, you
+    make sure to inform some passing alchemists about the underlying
+    ratios.  One shouldn't leave things to chance.
+
+    At the castle the General's assistants excitedly take the powder
+    from you.  The run off to perform their assaying and experiments.
+
+quest::poison::confirm
+     What I propose will cause some to brand me a coward.
+     But no matter.  We must win the war.  We must be
+     strong enough to sacrifice even our honour to ensure
+     victory!
+
+     I have found where the mind-poison Vecks, well known
+     for decimating the opposing troops in the Battle of 
+     Larkmarch, can still be found.  If we can find a
+     sample I am sure we can replicate it and weaponize
+     it.  With this at our disposal King Crimson will
+     soon fall!
+
+     The kobolds hiding in the Cavarkian Caves have one
+     of the last bottles.  They know not what it is, and
+     keep it no doubt as a shamanic symbol.  So your 
+     quest is simple: retrieve it from them.
+
+quest::poison::begin
+    Thankfully the road to the Cavarkian Caves does not require too
+    long of a trip through the surrounding forests.  A few patrols of
+    soliders did try to stop you.  The patrol's wearing red you could
+    slay in good conscience as they work for King Crimson.  The
+    patrol's wearing lavender you could also slay in good conscience as
+    they had the temerity to ask you for a passphrase.
+
+    At the cave entrance you stop for a moment.  This mind-poison, no
+    doubt a nerve agent of some sort, do you want it reintroduced?
+    Such battles are not nearly so much fun.  On the other hand, it
+    did work out fine in the Battle of Larkmarch (where, as you
+    recall, shifting winds decimated *all* the troops), so you head
+    into the cave.
+
+quest::poison::done
+    Out of the cave, and in the sunshine, you raise up the poison
+    potion.  The light sparkles through its oily texture, looking
+    beautiful for something so deadly to humans.  Remembering the one
+    wielding you is just such a human, you wrap the potion very
+    carefully before returning it to your backpack.
+
+    At the castle gates the General's assistants look very nervous at
+    taking the bottle from you.  As they should, that bottle could
+    slay the entire castle!
+
+quest::trebuchet::confirm
+     Advances in masonry have outstripped our advances
+     in siege tactics.  We face tall walls that cannot 
+     be breached by ballista or sapped by miners.
+
+     My research has found references to some ancient
+     tomes, however, which can provide us just the
+     solution we need.  Careful descriptions and diagrams
+     of a powerful rock launcher that could swiftly
+     reduce our foe's fortifications!
+
+     Unfortunately, it seems the last known resting place
+     of the tome was the slime pits.  We can only hope
+     that it was spared the acidic gullets of the local
+     inhabitants.
+
+quest::trebuchet::begin
+    The slime pits. Gah.  You hate this place.  Not only does it have
+    trees (ugh), but it has slimes (double ugh!)
+
+    Of course, the magic steel you are forged with is not harmed by
+    anything so mundane as acidic slimes.  But fighting such formless
+    blobs is not your idea of a fun time!
+
+    Eventually you reach the entrance that General Julia specified.
+    You hope for a swift search.
+
+quest::trebuchet::done
+    You eagerly leave the slime pits.  You feel you'll have to spend a
+    week being polished before you truly feel clean again.
+
+    Arriving at the castle gates, the General's assistants retrieve
+    from you the ancient tome.  Hopefully they have a historian
+    on staff that can read the ancient language.
+
+quest::bfg::confirm
+     I know not why I wasted your time with these
+     previous quests.  What we want is simple.  A
+     bigger gun.
+
+     I have found one.  Bigger in every way.  You
+     may think you have already retrieved big guns.
+     You would be wrong.  This one is bigger.  It
+     has a ++ in its name.
+
+     The bad news?  It's in the slime pits again.
+
+quest::bfg::begin
+    Gah, not the slime pits again!
+
+    Let us make this search fast!
+
+quest::bfg::done
+    You return to the castle with the (slightly) bigger gun.
+
+    The General's assistants seem excited to take delivery.  You are
+    just glad to be out of the slime pits again.
+

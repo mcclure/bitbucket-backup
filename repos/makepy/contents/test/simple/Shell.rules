@@ -1,0 +1,19 @@
+X = $(shellget("ls", "Shell.rules"))
+env Y
+Y = "K"
+MKDIR = mkdir / # Command known to fail
+
+all:
+    print( X )
+    shell("false", ignorefail=True)
+    temp = shellget("sh", ["-c", "echo $Y"] )
+    shell("sh", ["-c", "echo ECHO"])
+    print( tovar(temp) )
+    try:
+        shellget( MKDIR )
+        print("Success")
+    except CommandFailureException:
+        print("Failed")
+    success = shellcheck( MKDIR )
+    print ( "succeeded" if success else "Also failed" )
+    print ( shellexact(MKDIR) )

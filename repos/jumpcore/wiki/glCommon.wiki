@@ -1,0 +1,9 @@
+<<toc>>
+
+=glCommon docs=
+
+TODO: Sorry, I've still not got this written. 
+
+In short though glCommon provides a set of wrappers for the basic standard OpenGL functions-- jcTranslate() for glTranslate(), jcVertexPointer() for glVertexPointer(), etc-- which will do the same thing regardless of whether you are running on desktop OpenGL, OpenGL ES 1.x, or OpenGL ES 2.x. (Under normal circumstances OpenGL ES is missing many of the functions that desktop OpenGL possesses, for example there are no glVertex() type calls.)
+
+A warning, the OpenGL ES 2.x branch of this is provided by simple custom shaders which approximate the functionality of OpenGL ES 1.x; this means that changing your shaders significantly is likely to require surgery on glCommon.cpp.

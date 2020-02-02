@@ -1,0 +1,6 @@
+x = NO
+v = x
+$v = YES
+
+all:
+    print(x)

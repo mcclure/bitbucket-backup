@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" kind="1" x="1" texture="blank" />
+        <nil y="2" kind="1" x="1" texture="blank" />
+        <nil y="3" kind="1" x="1" texture="blank" />
+        <nil y="4" kind="1" x="1" texture="blank" />
+        <nil y="5" kind="1" x="1" texture="blank" />
+        <nil y="6" kind="1" x="1" texture="blank" />
+        <nil y="7" kind="1" x="1" texture="blank" />
+        <nil y="8" kind="1" x="1" texture="blank" />
+        <nil y="9" kind="1" x="1" texture="blank" />
+        <nil y="10" kind="1" x="1" texture="blank" />
+        <nil y="15" x="1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="21" x="1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="1" texture="blank" />
+        <nil y="17" x="1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="1" kind="1" x="2" texture="blank" />
+        <nil y="2" kind="1" x="2" texture="blank" />
+        <nil y="3" kind="1" x="2" texture="blank" />
+        <nil y="4" kind="1" x="2" texture="blank" />
+        <nil y="5" kind="1" x="2" texture="blank" />
+        <nil y="6" kind="1" x="2" texture="blank" />
+        <nil y="7" kind="1" x="2" texture="blank" />
+        <nil y="8" kind="1" x="2" texture="blank" />
+        <nil y="9" kind="1" x="2" texture="blank" />
+        <nil y="10" kind="1" x="2" texture="blank" />
+        <nil y="14" x="2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="2" texture="blank" />
+        <nil y="20" x="2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="1" kind="1" x="3" texture="blank" />
+        <nil y="2" kind="1" x="3" texture="blank" />
+        <nil y="3" kind="1" x="3" texture="blank" />
+        <nil y="4" kind="1" x="3" texture="blank" />
+        <nil y="5" kind="1" x="3" texture="blank" />
+        <nil y="6" kind="1" x="3" texture="blank" />
+        <nil y="7" kind="1" x="3" texture="blank" />
+        <nil y="8" kind="1" x="3" texture="blank" />
+        <nil y="9" kind="1" x="3" texture="blank" />
+        <nil y="10" kind="1" x="3" texture="blank" />
+        <nil y="11" kind="1" x="3" texture="blank" />
+        <nil y="19" x="3" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="3" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="3" texture="blank" />
+        <nil y="1" x="4" height="10" kind="1" textype="2" texture="square" />
+        <nil y="2" x="4" height="9" kind="1" textype="2" texture="square" />
+        <nil y="3" x="4" height="8" kind="1" textype="2" texture="square" />
+        <nil y="4" x="4" height="7" kind="1" textype="2" texture="square" />
+        <nil y="5" x="4" height="6" kind="1" textype="2" texture="square" />
+        <nil y="6" x="4" height="5" kind="1" textype="2" texture="square" />
+        <nil y="7" x="4" height="4" kind="1" textype="2" texture="square" />
+        <nil y="8" x="4" height="3" kind="1" textype="3" texture="square" />
+        <nil y="9" x="4" height="2" kind="1" textype="3" texture="square" />
+        <nil y="10" x="4" height="1" kind="1" texture="square" />
+        <nil y="11" kind="1" x="4" texture="blank" />
+        <nil y="12" kind="1" x="4" texture="blank" />
+        <nil y="-4" x="4" height="15" kind="1" textype="2" texture="square" />
+        <nil y="17" x="4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-2" x="4" height="13" kind="1" textype="2" texture="square" />
+        <nil y="19" x="4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-3" x="4" height="14" kind="1" textype="2" texture="square" />
+        <nil y="-1" x="4" height="12" kind="1" textype="2" texture="square" />
+        <nil xcoff="-1" ycoff="0" special="player" zcoff="-1" sprite="trusprit/dudemanwalkin2" x="4" z="4" backsprite="trusprit/dudemanwalkin" y="0" />
+        <nil y="0" x="4" height="11" kind="1" textype="2" texture="square" />
+        <nil y="1" kind="1" x="5" texture="blank" />
+        <nil y="2" kind="1" x="5" texture="blank" />
+        <nil y="3" kind="1" x="5" texture="blank" />
+        <nil y="4" kind="1" x="5" texture="blank" />
+        <nil y="5" kind="1" x="5" texture="blank" />
+        <nil y="6" kind="1" x="5" texture="blank" />
+        <nil y="7" kind="1" x="5" texture="blank" />
+        <nil y="8" kind="1" x="5" texture="blank" />
+        <nil y="9" kind="1" x="5" texture="blank" />
+        <nil y="10" kind="1" x="5" texture="blank" />
+        <nil y="11" kind="1" x="5" texture="blank" />
+        <nil y="12" kind="1" x="5" texture="blank" />
+        <nil y="13" kind="1" x="5" texture="blank" />
+        <nil y="14" kind="1" x="5" texture="blank" />
+        <nil y="18" x="5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="5" texture="blank" />
+        <nil y="1" kind="1" x="6" texture="blank" />
+        <nil y="2" kind="1" x="6" texture="blank" />
+        <nil y="3" kind="1" x="6" texture="blank" />
+        <nil y="4" x="6" height="1" kind="1" texture="blank" />
+        <nil y="5" kind="1" x="6" texture="blank" />
+        <nil y="6" kind="1" x="6" texture="blank" />
+        <nil y="7" kind="1" x="6" texture="blank" />
+        <nil y="8" kind="1" x="6" texture="blank" />
+        <nil y="9" x="6" height="0" kind="1" texture="blank" />
+        <nil y="10" kind="1" x="6" texture="blank" />
+        <nil y="11" kind="1" x="6" texture="blank" />
+        <nil y="12" kind="1" x="6" texture="blank" />
+        <nil y="13" kind="1" x="6" texture="blank" />
+        <nil y="14" kind="1" x="6" texture="blank" />
+        <nil y="18" x="6" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="6" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="6" texture="blank" />
+        <nil y="1" kind="1" x="7" texture="blank" />
+        <nil y="2" kind="1" x="7" texture="blank" />
+        <nil y="3" kind="1" x="7" texture="blank" />
+        <nil y="4" kind="1" x="7" texture="blank" />
+        <nil y="5" x="7" height="0" kind="1" texture="blank" />
+        <nil y="6" kind="1" x="7" texture="blank" />
+        <nil y="7" kind="1" x="7" texture="blank" />
+        <nil y="8" kind="1" x="7" texture="blank" />
+        <nil y="9" kind="1" x="7" texture="blank" />
+        <nil y="10" kind="1" x="7" texture="blank" />
+        <nil y="11" kind="1" x="7" texture="blank" />
+        <nil y="12" kind="1" x="7" texture="blank" />
+        <nil y="18" x="7" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="7" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="7" texture="blank" />
+        <nil y="1" kind="1" x="8" texture="blank" />
+        <nil y="2" kind="1" x="8" texture="blank" />
+        <nil y="3" kind="1" x="8" texture="blank" />
+        <nil y="4" kind="1" x="8" texture="blank" />
+        <nil y="5" kind="1" x="8" texture="blank" />
+        <nil y="6" kind="1" x="8" texture="blank" />
+        <nil y="7" kind="1" x="8" texture="blank" />
+        <nil y="8" kind="1" x="8" texture="blank" />
+        <nil y="9" kind="1" x="8" texture="blank" />
+        <nil y="10" kind="1" x="8" texture="blank" />
+        <nil y="12" kind="1" x="8" texture="squaretrans" />
+        <nil y="-4" kind="1" x="8" texture="blank" />
+        <nil y="19" x="8" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="1" kind="1" x="9" texture="blank" />
+        <nil y="2" kind="1" x="9" texture="blank" />
+        <nil y="3" kind="1" x="9" texture="blank" />
+        <nil y="4" kind="1" x="9" texture="blank" />
+        <nil y="5" kind="1" x="9" texture="blank" />
+        <nil y="6" kind="1" x="9" texture="blank" />
+        <nil y="7" kind="1" x="9" texture="blank" />
+        <nil y="8" kind="1" x="9" texture="blank" />
+        <nil y="9" kind="1" x="9" texture="blank" />
+        <nil y="12" x="9" height="1" kind="1" texture="squaretrans" />
+        <nil y="-4" kind="1" x="9" texture="blank" />
+        <nil y="18" x="9" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="9" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="9" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="10" texture="blank" />
+        <nil y="-3" kind="1" x="10" texture="blank" />
+        <nil y="7" kind="1" x="10" texture="blank" />
+        <nil y="-2" kind="1" x="10" texture="blank" />
+        <nil y="5" kind="1" x="10" texture="blank" />
+        <nil y="4" kind="1" x="10" texture="blank" />
+        <nil y="16" x="10" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="10" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="10" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="3" kind="1" x="10" texture="blank" />
+        <nil y="-1" kind="1" x="10" texture="blank" />
+        <nil y="21" x="10" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="6" kind="1" x="10" texture="blank" />
+        <nil y="12" x="10" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="11" x="10" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="1" kind="1" x="11" texture="blank" />
+        <nil y="2" kind="1" x="11" texture="blank" />
+        <nil y="3" kind="1" x="11" texture="blank" />
+        <nil y="11" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="21" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="0" kind="1" x="11" texture="blank" />
+        <nil y="19" x="11" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-1" kind="1" x="11" texture="blank" />
+        <nil y="16" x="12" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="12" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="12" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="12" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="12" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="13" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="13" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="13" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="13" height="6" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="13" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="13" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="14" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="14" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="15" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="15" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="15" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="15" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="15" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="15" height="7" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="16" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="16" height="4" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="16" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="17" height="9" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="17" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="18" height="7" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="19" height="8" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="20" height="9" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="21" height="10" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="22" height="11" kind="1" textype="2" texture="squaretrans" />
+        <nil y="1" kind="1" x="-4" texture="blank" />
+        <nil y="2" kind="1" x="-4" texture="blank" />
+        <nil y="3" kind="1" x="-4" texture="blank" />
+        <nil y="0" kind="1" x="-4" texture="blank" />
+        <nil y="13" x="-4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="11" x="-4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="10" x="-4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="-4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="14" x="-4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-1" kind="1" x="-4" texture="blank" />
+        <nil y="16" x="-4" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="-5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="-5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="-5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="14" x="-5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="-5" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="12" x="-6" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="-6" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="-6" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="13" x="-6" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="1" kind="1" x="-2" texture="blank" />
+        <nil y="2" kind="1" x="-2" texture="blank" />
+        <nil y="3" kind="1" x="-2" texture="blank" />
+        <nil y="4" kind="1" x="-2" texture="blank" />
+        <nil y="5" kind="1" x="-2" texture="blank" />
+        <nil y="6" kind="1" x="-2" texture="blank" />
+        <nil y="7" kind="1" x="-2" texture="blank" />
+        <nil y="8" kind="1" x="-2" texture="blank" />
+        <nil y="13" x="-2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="-2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="-2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="17" x="-2" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="-2" texture="blank" />
+        <nil y="13" x="-3" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="4" kind="1" x="-3" texture="blank" />
+        <nil y="11" x="-3" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="10" x="-3" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-1" kind="1" x="-3" texture="blank" />
+        <nil y="3" kind="1" x="-3" texture="blank" />
+        <nil y="-4" kind="1" x="-3" texture="blank" />
+        <nil y="-2" kind="1" x="-3" texture="blank" />
+        <nil y="-3" kind="1" x="-3" texture="blank" />
+        <nil y="1" kind="1" x="-1" texture="blank" />
+        <nil y="2" kind="1" x="-1" texture="blank" />
+        <nil y="3" kind="1" x="-1" texture="blank" />
+        <nil y="4" kind="1" x="-1" texture="blank" />
+        <nil y="5" kind="1" x="-1" texture="blank" />
+        <nil y="6" kind="1" x="-1" texture="blank" />
+        <nil y="7" kind="1" x="-1" texture="blank" />
+        <nil y="8" kind="1" x="-1" texture="blank" />
+        <nil y="13" x="-1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="14" x="-1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="-1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="-1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="-1" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="-1" texture="blank" />
+        <nil y="1" kind="1" x="0" texture="blank" />
+        <nil y="2" kind="1" x="0" texture="blank" />
+        <nil y="3" kind="1" x="0" texture="blank" />
+        <nil y="4" kind="1" x="0" texture="blank" />
+        <nil y="5" kind="1" x="0" texture="blank" />
+        <nil y="6" kind="1" x="0" texture="blank" />
+        <nil y="7" kind="1" x="0" texture="blank" />
+        <nil y="8" kind="1" x="0" texture="blank" />
+        <nil y="9" kind="1" x="0" texture="blank" />
+        <nil y="13" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="14" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="15" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="16" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="-4" kind="1" x="0" texture="blank" />
+        <nil y="17" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="21" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="18" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="19" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+        <nil y="20" x="0" height="2" kind="1" textype="2" texture="squaretrans" />
+    </polyarray:map>
+    <meta camzoom="3">
+        <polyarray:bgcolor>
+            <nil>0.875</nil>
+            <nil>0.875</nil>
+            <nil>0.875</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

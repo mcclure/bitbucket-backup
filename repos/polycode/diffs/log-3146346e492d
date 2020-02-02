@@ -1,0 +1,5 @@
+changeset:   818:3146346e492d
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sun Mar 10 16:35:29 2013 -0700
+summary:     no-openal: Fix PolyStubSound compile
+

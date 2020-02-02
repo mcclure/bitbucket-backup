@@ -1,0 +1,53 @@
+Table of contents:
+
+<<toc>>
+
+== Short introduction ==
+
+Here's an open source C++ game framework that lets you write your game once and immediately have it run on Mac, Windows, Linux, iPhone, WebOS and Android 2.3. It packages together all the basic libraries you need to get started with writing a game, and makes mobile porting easy by abstracting away the incompatibilities between OpenGL, OpenGL ES 1.0, and OpenGL ES 2.0.
+
+The project is hosted here on Bitbucket, so you can download the source yourself by doing one of the following:
+
+* {{{hg clone https://bitbucket.org/runhello/jumpcore}}}
+* {{{svn co https://bitbucket.org/runhello/jumpcore/trunk}}}
+* Select the "download repository" link from the [[https://bitbucket.org/runhello/jumpcore/downloads|downloads page]].
+
+Here's a little physics demo that comes with Jumpcore, shown running on PC, iPhone, and Android:
+
+{{http://msm.runhello.com/local/jc/Jumpcore_pc_s.png}}
+{{http://msm.runhello.com/local/jc/Jumpcore_iPhone_s.jpg}}{{http://msm.runhello.com/local/jc/Jumpcore_android_s.jpg}}
+
+== Long introduction ==
+
+When I first started writing C++ games a few years ago, I quickly discovered that there was a lot of stuff that you really need in order to write a game but which SDL+OpenGL don't provide out of the box-- things like text display, or build scripts for a crossplatform binary. So once I'd actually finished my game, I decided to package up the basic skeleton of my game into the thing I wished had existed when I started coding games-- a package to serve as a bridge between "there exist cross-platform game libraries in the world" and "I can actually sit down and create a game in C++". Once I'd put this package together, I found it useful myself for rapidly prototyping new game ideas. I released this a year or so ago as "Jumpcore", with support for Mac, Windows and Linux; what I have posted here on Bitbucket is Jumpcore 2, which adds support for mobile platforms (iPhone, Android and WebOS). What I would like is if this could grow into something like a free and open-source version of [[http://www.airplaysdk.com/|Airplay SDK]], or a stripped-down [[http://unity3d.com/|Unity]].
+
+Jumpcore is minimal; it tries to set things up for you and then get out of the way, allowing you to develop your own "engine" as you see fit. Most of the functionality is provided by a selection of open source libraries I've bundled in. Jumpcore comes with:
+
+* SDL and GLee for event and window handling (on desktop platforms)
+* [[http://code.google.com/p/chipmunk-physics/|Chipmunk]] version 5.3.4 (2D physics engine)
+* A modified FTGL ES (freetype text display library) with OpenGL ES 2.0 support
+* TinyXML
+* LodePNG, and a simple texture loader based on LodePNG
+* A generator and loader for texture atlases based on a script by [[http://retroaffect.com/|Retro Affect]]
+* Pthreads for win32
+
+Included code unique to Jumpcore includes:
+
+* A simple GUI interface library (based on Chipmunk spatial hashes)
+* Event wrappers unifying SDL mouse events with iPhone and Android touch events
+* Wrappers for getting the paths of "internal" files
+* A set of OpenGL wrappers that abstract away the differences between OpenGL, OpenGL ES 1.0, and OpenGL ES 2.0, meaning you can write your OpenGL code on mobile platforms the same way you write it on desktop platforms.
+
+== Getting started ==
+
+Developing with Jumpcore basically just means implementing a few simple callbacks. You can find quick instructions and links documenting all the functions in the included libraries at the [[Getting Started]] page on this wiki.
+
+== Compiling ==
+
+Jumpcore uses GCC on all platforms, however you will need a different version of gcc (XCode, mingw, etc) to compile each of the different targets. You can compile all the targets except WebOS on one machine as long as that one machine is a Macintosh (Linux and Windows users may need to find a mac before they can compile for Mac and iPhone); the WebOS build currently only builds on Windows. You can find detailed build instructions at the [[How to Build]] page on this wiki.
+
+== Caveats and future development ==
+
+Jumpcore is a work in progress; as I mentioned this is the base I use for starting new projects, so I should be improving it as my main projects continue. For a list of known gotchas and things yet to be done, please see the [[TODO]] page on this wiki. **Note: Some of the limitations in this initial release of Jumpcore 2 are quite serious, particularly on the Android version, so you should probably read this page.**
+
+If you'd like to contact me, you can go ahead and leave a comment [[http://msm.runhello.com/?p=385|at my blog]]. I'd be happy to hear about your experience with Jumpcore or any problems you might have had.

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'badpng' target in the 'badpng' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,10 @@
+# On windows
+mkdir build
+cd build
+cmake.exe ../native -DCMAKE_GENERATOR_PLATFORM=x64 -DUNITY_PLUGIN_HEADERS="C:/Program Files/Unity/Hub/Editor/2017.4.6f1/Editor/Data/PluginAPI"
+cmake.exe --build . --target install
+
+# On mac
+mkdir -p build && cd build
+cmake ../native -DUNITY_PLUGIN_HEADERS=/Applications/Unity/Hub/Editor/2017.4.6f1/Unity.app/Contents/PluginAPI
+cmake --build . --target install

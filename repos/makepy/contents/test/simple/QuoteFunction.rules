@@ -1,0 +1,5 @@
+x = 3
+
+all:
+    y = q("a $x $(int(x) + 3)")
+    print(y)

@@ -1,0 +1,1155 @@
+(dp0
+S'buildDestination'
+p1
+V/Users/mcc/work/h/twinelocal/sierpinski.html
+p2
+sS'saveDestination'
+p3
+V/Users/mcc/work/h/twinelocal/sierpinski.tws
+p4
+sS'target'
+p5
+S'jonah'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+I10
+aI10
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+V<h1>Sierpi\u0144ski's Tomb</h1><h2>by Andi</h2>\u000a\u000a<<id passagelinks>>\u005cn\u000a[[Begin.|Outside]]\u000a<<endid>>
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I7
+I6
+I15
+I58
+I16
+I5
+I187
+I1
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+VStart
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+I17
+aI175
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+V<<if typeof $startup === 'undefined'>>\u000a\u000a<<set $startup = true>>\u000a<<set $everbeeninside = false>>\u000a\u000a<<silently>>\u000aVariables track depth of: Player position, player size, lowest depth we've seen the vial at, lowest depth we've seen the mousehole at.\u000a\u000aWhen player size is equal to position, the pyramid is "your size" and can be entered.\u000a\u000aWhen player size is equal to position+1, the mousehole can be entered and the chest can be opened.\u000a\u000aWhen player size is equal to position+3, the mousehole mousehole can be entered and the key can be obtained.\u000a<<endsilently>>\u000a<<set $depth=0>>\u000a<<set $size=0>>\u000a<<set $vialknown= -1>>\u000a<<set $holeknown= -1>>\u000a<<set $pyraknown= -1>>\u000a<<set $chstknown= -1>>\u000a<<set $hol2known= -1>>\u000a<<set $keyheld= -1>>\u000a\u000a<<endif>>\u000a\u000aYou stand <<if $everbeeninside>>outside<<else>>before<<endif>> the tomb of Wac\u0142aw Sierpi\u0144ski.\u005cn\u005cn\u000a\u000aIt strikes one as a somewhat ostentatious for the grave of a mathematician, though it is simple enough in design-- a stone pyramid adorned with engraved lines. The door is ajar.\u000a\u000a<<set $everbeeninside = true>>\u000a\u000a<<id passagelinks>>\u005cn\u000a[[Enter the tomb|ActEnter]]\u000a<<endid>>
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I7
+I6
+I16
+I7
+I29
+I5
+I187
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+VOutside
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+F418.91666666666674
+aF226.24999999999955
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+VYou stand inside the tomb of Wac\u0142aw Sierpi\u0144ski. The chamber is\u000a\u000a<<if $size == $depth - 1>>tall enough to stand comfortably inside.\u000a<<else if $size == $depth>>tall and cathedral-like.\u000a<<else if $size == $depth+1>>vast and cavernous, the ceiling towering above you.\u000a<<else>>unfathomably large, the walls above as distant as the sky.<<endif>>\u005cn\u005cn\u000a\u000aAt the center of the room <<if $size == 0>>you find<<else>>is<<endif>> a scale model of the tomb itself\u2014 about one-fourth the size of the <<if $size == 0>>structure you stand in now<<else>>room itself<<endif>>, with the same decorative pattern of engraved <<if $size != 0>>lines as the outer pyramid.<<else>>lines.<<endif>> Its door is slightly ajar. <<if $size == $depth - 1 and $depth lte $vialknown>>A small shelf cut into the back holds a vial.<<endif>>\u000a\u000a<<set $sizetarget=$depth-1>>\u000a<<set $knowntarget=$holeknown>>\u000a<<display "HoleDescribe">>\u000a\u000a<<display "InsideControls">>
+p46
+sg20
+(lp47
+sg22
+g23
+((I2013
+I7
+I6
+I16
+I16
+I15
+I5
+I187
+I1
+tp48
+(dp49
+tp50
+Rp51
+sg28
+g51
+sg29
+VInside
+p52
+sbsa(dp53
+g12
+I00
+sg13
+(lp54
+F625.83333333333337
+aF225.66666666666669
+asg15
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g18
+VYou walk slowly around the chamber. The walls are unadorned; you see nothing which might contain Sierpi\u0144ski's corpse or ashes, except the smaller pyramid at the center.\u005cn\u005cn\u000a\u000aCut into the back of the smaller pyramid is a small shelf, slotted into which is a small, corked vial. Neatly engraved into the glass are words in Polish:\u005cn\u005cn\u000a\u000a"SHRINKING POTION".\u000a\u000a<<set $vialknown=$depth>>\u000a\u000a<<display "InsideControls">>
+p57
+sg20
+(lp58
+sg22
+g23
+((I2013
+I7
+I6
+I16
+I33
+I11
+I5
+I187
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg28
+g62
+sg29
+VActSearch
+p63
+sbsa(dp64
+g12
+I00
+sg13
+(lp65
+F628.91666666666663
+aF393.08333333333337
+asg15
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g18
+V<<set $sizetarget=$depth-1>>\u000a<<display "ActHoleFind">>\u000a\u000a<<set $holeknown=$depth>>\u000a\u000a<<display "InsideControls">>
+p68
+sg20
+(lp69
+sg22
+g23
+((I2013
+I7
+I6
+I16
+I33
+I12
+I5
+I187
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg28
+g73
+sg29
+VActSearch2
+p74
+sbsa(dp75
+g12
+I00
+sg13
+(lp76
+F634.41666666666674
+aF717.83333333333314
+asg15
+(itiddlywiki
+Tiddler
+p77
+(dp78
+g18
+VYou swing open the door-- the little pyramid is like a small cabinet. You couldn't easily fit inside, but you can see in. Inside you find a smooth stone compartment, and at the center, yet another pyramid scale model of the tomb.\u000a\u000a<<set $pyraknown=$depth>>\u000a\u000a<<display "InsideControls">>
+p79
+sg20
+(lp80
+sg22
+g23
+((I2013
+I7
+I6
+I16
+I33
+I12
+I5
+I187
+I1
+tp81
+(dp82
+tp83
+Rp84
+sg28
+g84
+sg29
+VActPyramid
+p85
+sbsa(dp86
+g12
+I00
+sg13
+(lp87
+I152
+aI11
+asg15
+(itiddlywiki
+Tiddler
+p88
+(dp89
+S'text'
+p90
+VThis expects to be built with the custom Jonah found in\u000a\u000ahttps://bitbucket.org/runhello/twine\u000a\u000aRevision 9172811979eb
+p91
+sS'tags'
+p92
+(lp93
+sS'created'
+p94
+g23
+((I2013
+I7
+I6
+I17
+I8
+I52
+I5
+I187
+I1
+tp95
+(dp96
+tp97
+Rp98
+sS'modified'
+p99
+g98
+sS'title'
+p100
+Vnotes
+p101
+sbsa(dp102
+g12
+I00
+sg13
+(lp103
+I302
+aI14
+asg15
+(itiddlywiki
+Tiddler
+p104
+(dp105
+S'text'
+p106
+V(function () {\u000a\u000a	version.extensions['pyramid'] = {\u000a		major: 0,\u000a		minor: 1,\u000a		revision: 1\u000a	};\u000a\u000a	macros['id'] = { // Assign a div id to a part of a passage. Incorporates sections of L's "replace" macro\u000a		handler: function (place, macroName, params, parser) {\u000a			var afterTagIdx = parser.source.indexOf('>>', parser.matchStart) + 2;\u000a            var afterTag = parser.source.slice(afterTagIdx);\u000a            var endAt = -1;\u000a            var tagInner = '';\u000a            var depth = 0;\u000a            var macroNameLen = macroName.length\u000a            for(var i = 0; i < afterTag.length; i++) {\u000a                if(afterTag.substr(i, 7 + macroNameLen) == '<<end' + macroName + '>>') {\u000a                    if(depth == 0) {\u000a                        endAt = afterTagIdx + i + 7 + macroNameLen;\u000a                        break;\u000a                    }\u000a                    else {\u000a                        depth--;\u000a                        tagInner += afterTag.charAt(i);\u000a                    }\u000a                }\u000a                else {\u000a                    if(afterTag.substr(i, 2 + macroNameLen) == '<<' + macroName) {\u000a                        depth++;\u000a                    }\u000a                    tagInner += afterTag.charAt(i);\u000a                }\u000a            }\u000a			var rest = parser.source.slice(endAt)\u000a			var name = Wikifier.parse(params[0])\u000a\u000a			if (name) {\u000a				tagInner = "<div id=\u005c"" + name + "\u005c">" + tagInner + "</div>"\u000a				new Wikifier(place, tagInner);\u000a			}\u000a			\u000a			new Wikifier(place, rest);\u000a			\u000a			parser.nextMatch = parser.source.length // We exhausted the string, so halt this parser.\u000a		}\u000a	}\u000a	macros['endid'] = {\u000a		handler: function (place, macroName, params, parser) { sendHandler.handler(place,macroName,params,parser) }\u000a	}\u000a\u000a}());
+p107
+sS'tags'
+p108
+(lp109
+Vscript
+p110
+asS'created'
+p111
+g23
+((I2013
+I7
+I6
+I17
+I25
+I57
+I5
+I187
+I1
+tp112
+(dp113
+tp114
+Rp115
+sS'modified'
+p116
+g115
+sS'title'
+p117
+Vmacros
+p118
+sbsa(dp119
+g12
+I00
+sg13
+(lp120
+F237.08333333333334
+aF608.74999999999977
+asg15
+(itiddlywiki
+Tiddler
+p121
+(dp122
+S'text'
+p123
+V<<id passagelinks>>\u005cn\u000a\u000a<<if $depth lte $size>>\u000a	[[Enter the pyramid|ActEnter]]\u005cn\u005cn\u000a<<else if $depth gt $pyraknown>>\u000a	[[Inspect scale model|ActPyramid]]\u005cn\u005cn\u000a<<endif>>\u000a\u000a<<if $depth gt $vialknown>>\u000a	[[Search the room|ActSearch]]\u005cn\u005cn\u000a<<else>>\u000a	<<if $size == $depth - 1>>\u000a		[[Drink the vial|ActDrink]]\u005cn\u005cn\u000a	<<endif>>\u000a	<<if $depth gt $holeknown>>\u000a		[[Search the room again, more carefully|ActSearch2]]\u005cn\u005cn\u000a	<<endif>>\u000a<<endif>>\u000a\u000a<<if $depth lte $holeknown>>\u000a	<<if $size == $depth>> <<silently>>I.E. ready to enter pyramid<<endsilently>>\u000a		[[Inspect the hole in the wall|ActHoleKnees]]\u005cn\u005cn\u000a	<<else if $size == $depth + 1>>\u000a        <<set $doorname = "doorway">>\u000a		[[Enter the doorway in the wall|ActEnterHole]]\u005cn\u005cn\u000a	<<else if $size gte $depth + 2>>\u000a        <<set $doorname = "tunnel opening">>\u000a		[[Enter the opening in the wall|ActEnterHole]]\u005cn\u005cn\u000a	<<endif>>\u000a<<endif>>\u000a\u000a[[Exit the chamber|ActExit]]\u000a<<endid>>
+p124
+sS'tags'
+p125
+(lp126
+sS'created'
+p127
+g23
+((I2013
+I7
+I6
+I18
+I4
+I59
+I5
+I187
+I1
+tp128
+(dp129
+tp130
+Rp131
+sS'modified'
+p132
+g131
+sS'title'
+p133
+VInsideControls
+p134
+sbsa(dp135
+g12
+I00
+sg13
+(lp136
+I454
+aI15
+asg15
+(itiddlywiki
+Tiddler
+p137
+(dp138
+g123
+V/* Hide things */\u000a.passage .title { display: none } \u000a#footer {display:none}\u000a#sidebar #credits:hover{color:#333;visibility:hidden;}\u000a#sidebar #credits a{text-decoration:none;visibility:hidden;}\u000a#storySubtitle{font-size:75%; display:block;}\u000a#storyAuthor{font-size:50%;}#sidebar #storyMenu{display:none;line-height:2.5em;margin-bottom:.5em;}\u000a#sidebar #title:hover{color:#999;}\u000a#storyTitle{display:none!important;}\u000a#floater{display:none}\u000a\u000a/* Align things */\u000ah1,h2,h3 {text-align:left; font-style:normal;}\u000a\u000a/* ~~Design~~ */\u000abody {font-family: Helvetica, Arial; font-size: 12pt;}
+p139
+sg125
+(lp140
+Vstylesheet
+p141
+asg127
+g23
+((I2013
+I7
+I6
+I18
+I47
+I11
+I5
+I187
+I1
+tp142
+(dp143
+tp144
+Rp145
+sg132
+g145
+sg133
+Vcss
+p146
+sbsa(dp147
+g12
+I00
+sg13
+(lp148
+I209
+aI178
+asg15
+(itiddlywiki
+Tiddler
+p149
+(dp150
+S'text'
+p151
+VYou squeeze through the heavy stone door, into the pyramid.\u005cn\u005cn\u000a\u000a<<set $depth = $depth + 1>>\u000a\u000a<<display "Inside">>
+p152
+sS'tags'
+p153
+(lp154
+sS'created'
+p155
+g23
+((I2013
+I7
+I6
+I19
+I18
+I44
+I5
+I187
+I1
+tp156
+(dp157
+tp158
+Rp159
+sS'modified'
+p160
+g159
+sS'title'
+p161
+VActEnter
+p162
+sbsa(dp163
+g12
+I00
+sg13
+(lp164
+I27
+aI363
+asg15
+(itiddlywiki
+Tiddler
+p165
+(dp166
+g151
+VYou squeeze back out the heavy stone door, out of the pyramid.\u005cn\u005cn\u000a\u000a<<set $depth=$depth - 1>>\u000a\u000a<<if $depth==0>>\u000a<<display "Outside">>\u000a<<else>>\u000a<<display "Inside">>\u000a<<endif>>
+p167
+sg153
+(lp168
+sg155
+g23
+((I2013
+I7
+I6
+I19
+I27
+I32
+I5
+I187
+I1
+tp169
+(dp170
+tp171
+Rp172
+sg160
+g172
+sg161
+VActExit
+p173
+sbsa(dp174
+g12
+I00
+sg13
+(lp175
+F625.0
+aF562.5
+asg15
+(itiddlywiki
+Tiddler
+p176
+(dp177
+S'text'
+p178
+VYou uncork the vial and down it.\u005cn\u005cn\u000a\u000aNothing happens for a moment. Then a wave of dizziness comes over you. You drop the vial and fall to your hands and knees. Your bones feel like they're shuddering beneath your skin. Your lungs feel tight, it is difficult to breathe, the feeling passes, then it returns. It feels like you're being squeezed over and over by a giant hand. You clutch the floor, unable to do anything else until finally it stops.\u005cn\u005cn\u000a\u000aYou stand up, bracing yourself against the pyramid. You find that the shelf you found the vial on, which before was a little below waist-height, is now just above your head. <<if $keyheld gt 0>>The key you held in your hand is now too large and heavy to take with you. <<set $keyheld= -1>><<endif>>\u005cn\u005cn\u000a\u000a<<set $size = $size + 1>>\u000a\u000a<<display "Inside">>
+p179
+sS'tags'
+p180
+(lp181
+sS'created'
+p182
+g23
+((I2013
+I7
+I6
+I20
+I1
+I24
+I5
+I187
+I1
+tp183
+(dp184
+tp185
+Rp186
+sS'modified'
+p187
+g186
+sS'title'
+p188
+VActDrink
+p189
+sbsa(dp190
+g12
+I00
+sg13
+(lp191
+F133.3333333333334
+aF781.66666666666674
+asg15
+(itiddlywiki
+Tiddler
+p192
+(dp193
+S'text'
+p194
+V<<display "HoleKneesDescribe">>\u000a\u000a<<display "InsideControls">>
+p195
+sS'tags'
+p196
+(lp197
+sS'created'
+p198
+g23
+((I2013
+I7
+I7
+I10
+I28
+I28
+I6
+I188
+I1
+tp199
+(dp200
+tp201
+Rp202
+sS'modified'
+p203
+g202
+sS'title'
+p204
+VActHoleKnees
+p205
+sbsa(dp206
+g12
+I00
+sg13
+(lp207
+F246.66666666666666
+aF929.99999999999977
+asg15
+(itiddlywiki
+Tiddler
+p208
+(dp209
+g194
+VYou stride through the <<print $doorname>> in the wall of the pyramid.\u005cn\u005cn\u000a\u000a<<display "Hole">>
+p210
+sg196
+(lp211
+sg198
+g23
+((I2013
+I7
+I7
+I10
+I28
+I37
+I6
+I188
+I1
+tp212
+(dp213
+tp214
+Rp215
+sg203
+g215
+sg204
+VActEnterHole
+p216
+sbsa(dp217
+g12
+I00
+sg13
+(lp218
+F412.49999999999989
+aF876.66666666666652
+asg15
+(itiddlywiki
+Tiddler
+p219
+(dp220
+g194
+VYou stride back out the <<print $doorname>>, into the main pyramid.\u005cn\u005cn\u000a\u000a<<display "Inside">>
+p221
+sg196
+(lp222
+sg198
+g23
+((I2013
+I7
+I7
+I10
+I28
+I38
+I6
+I188
+I1
+tp223
+(dp224
+tp225
+Rp226
+sg203
+g226
+sg204
+VActExitHole
+p227
+sbsa(dp228
+g12
+I00
+sg13
+(lp229
+F31.666666666666664
+aF1021.6666666666663
+asg15
+(itiddlywiki
+Tiddler
+p230
+(dp231
+g194
+VYou stand inside a pyramid-shaped room. <<if $size eq $depth + 2>>It is tall enough to stand comfortably inside.<<endif>> At one end, hewn into the wall, there is a <<if $size gt $depth + 3>>mammoth<<else if $size gt $depth + 2>>giant<<endif>> stone chest with a heavy brass lock.\u000a\u000a<<set $sizetarget=$depth+1>>\u000a<<set $knowntarget=$hol2known>>\u000a<<display "HoleDescribe">>\u000a\u000a<<display "HoleControls">>
+p232
+sg196
+(lp233
+sg198
+g23
+((I2013
+I7
+I7
+I10
+I29
+I32
+I6
+I188
+I1
+tp234
+(dp235
+tp236
+Rp237
+sg203
+g237
+sg204
+VHole
+p238
+sbsa(dp239
+g12
+I00
+sg13
+(lp240
+F399.99999999999983
+aF1056.6666666666667
+asg15
+(itiddlywiki
+Tiddler
+p241
+(dp242
+g194
+V<<id passagelinks>>\u005cn\u000a\u000a[[Open the chest|ActChest]]\u005cn\u005cn\u000a\u000a<<if $depth gt $hol2known>>\u000a	[[Search the room|ActHoleSearch]]\u005cn\u005cn\u000a<<else>>\u000a	<<if $size == $depth + 2>>\u000a		[[Inspect the hole in the wall|ActHoleKnees2]]\u005cn\u005cn\u000a	<<else if $size == $depth + 3>>\u000a        <<set $doorname2 = "doorway">>\u000a		[[Enter the doorway in the wall|Hole2]]\u005cn\u005cn\u000a	<<else if $size gte $depth + 4>>\u000a        <<set $doorname2 = "tunnel opening">>\u000a		[[Enter the opening in the wall|Hole2]]\u005cn\u005cn\u000a	<<endif>>\u000a<<endif>>\u000a\u000a[[Exit the chamber|ActExitHole]]\u000a<<endid>>
+p243
+sg196
+(lp244
+sg198
+g23
+((I2013
+I7
+I7
+I10
+I29
+I41
+I6
+I188
+I1
+tp245
+(dp246
+tp247
+Rp248
+sg203
+g248
+sg204
+VHoleControls
+p249
+sbsa(dp250
+g12
+I00
+sg13
+(lp251
+F608.33333333333303
+aF1143.3333333333333
+asg15
+(itiddlywiki
+Tiddler
+p252
+(dp253
+g194
+V<<if $size gt $depth + 3>>\u000a	You reach for the chest's lid, but it towers over you. You can't even reach the lock.\u000a\u000a	<<display "HoleControls">>\u000a<<else>>\u000a	<<if $keyheld lt 0>>\u000a		The chest is locked tight.\u000a\u000a		<<display "HoleControls">>\u000a	<<else>>\u000a		<<if $size gt $depth + 2>>\u000a			You can stretch to reach the lock, but even if you do, the key you hold is actually much smaller than the lock. You rattle it loosely inside.\u000a\u000a			<<display "HoleControls">>\u000a		<<else>>\u000a			You put the key in the lock and turn. It unclasps with a metallic click. At last, you have found it: the lost treasure of Wac\u0142aw Sierpi\u0144ski.\u005cn\u005cn\u000a\u000a			You open the box.\u000a\u000a			<<id passagelinks>>\u005cn[[Look inside|Terminus]]<<endid>>\u000a		<<endif>>\u000a	<<endif>>\u000a<<endif>>
+p254
+sg196
+(lp255
+sg198
+g23
+((I2013
+I7
+I7
+I13
+I6
+I38
+I6
+I188
+I1
+tp256
+(dp257
+tp258
+Rp259
+sg203
+g259
+sg204
+VActChest
+p260
+sbsa(dp261
+g12
+I00
+sg13
+(lp262
+F643.33333333333326
+aF938.33333333333303
+asg15
+(itiddlywiki
+Tiddler
+p263
+(dp264
+g194
+V<<set $sizetarget=$depth+1>>\u000a<<display "ActHoleFind">>\u000a\u000a<<set $hol2known=$depth>>\u000a\u000a<<display "HoleControls">>
+p265
+sg196
+(lp266
+sg198
+g23
+((I2013
+I7
+I7
+I13
+I6
+I55
+I6
+I188
+I1
+tp267
+(dp268
+tp269
+Rp270
+sg203
+g270
+sg204
+VActHoleSearch
+p271
+sbsa(dp272
+g12
+I00
+sg13
+(lp273
+F858.33333333333314
+aF1144.9999999999995
+asg15
+(itiddlywiki
+Tiddler
+p274
+(dp275
+g194
+VIt's a commemorative T-shirt.
+p276
+sg196
+(lp277
+sg198
+g23
+((I2013
+I7
+I7
+I13
+I7
+I48
+I6
+I188
+I1
+tp278
+(dp279
+tp280
+Rp281
+sg203
+g281
+sg204
+VTerminus
+p282
+sbsa(dp283
+g12
+I00
+sg13
+(lp284
+F425.83333333333337
+aF1496.6666666666658
+asg15
+(itiddlywiki
+Tiddler
+p285
+(dp286
+S'text'
+p287
+VYou are in another pyramid-shaped room. At the room's end, on a small stone pedestal, sits a key.\u000a\u000a<<id passagelinks>>\u005cn\u000a[[Take the key|ActKey]]\u005cn\u005cn\u000a\u000a[[Exit the chamber|ActExitHole2]]\u000a<<endid>>
+p288
+sS'tags'
+p289
+(lp290
+sS'created'
+p291
+g23
+((I2013
+I7
+I7
+I14
+I21
+I5
+I6
+I188
+I1
+tp292
+(dp293
+tp294
+Rp295
+sS'modified'
+p296
+g295
+sS'title'
+p297
+VHole2
+p298
+sbsa(dp299
+g12
+I00
+sg13
+(lp300
+F180.83333333333329
+aF1276.6666666666665
+asg15
+(itiddlywiki
+Tiddler
+p301
+(dp302
+g287
+VYou stride back out the <<print $doorname>>, into the other pyramidal room.\u005cn\u005cn\u000a\u000a<<display "Hole">>
+p303
+sg289
+(lp304
+sg291
+g23
+((I2013
+I7
+I7
+I14
+I22
+I33
+I6
+I188
+I1
+tp305
+(dp306
+tp307
+Rp308
+sg296
+g308
+sg297
+VActExitHole2
+p309
+sbsa(dp310
+g12
+I00
+sg13
+(lp311
+F31.666666666666529
+aF1490.0000000000007
+asg15
+(itiddlywiki
+Tiddler
+p312
+(dp313
+g287
+V<<if $size == $depth + 3>>\u000aYou take the key.\u000a<<set $keyheld=$size>>\u000a<<else>>\u000aThe key is much too large and heavy to take with you.\u000a<<endif>>\u000a\u000a<<id passagelinks>>\u005cn\u000a[[Exit the chamber|ActExitHole2]]\u000a<<endid>>
+p314
+sg289
+(lp315
+sg291
+g23
+((I2013
+I7
+I7
+I14
+I22
+I44
+I6
+I188
+I1
+tp316
+(dp317
+tp318
+Rp319
+sg296
+g319
+sg297
+VActKey
+p320
+sbsa(dp321
+g12
+I00
+sg13
+(lp322
+F404.99999999999983
+aF1249.9999999999995
+asg15
+(itiddlywiki
+Tiddler
+p323
+(dp324
+g287
+VYou stride through the <<print $doorname2>> in the wall adjoining the chest.\u005cn\u005cn\u000a\u000a<<display "Hole">>
+p325
+sg289
+(lp326
+sg291
+g23
+((I2013
+I7
+I7
+I14
+I26
+I49
+I6
+I188
+I1
+tp327
+(dp328
+tp329
+Rp330
+sg296
+g330
+sg297
+VActEnterHole2
+p331
+sbsa(dp332
+g12
+I00
+sg13
+(lp333
+F883.33333333333314
+aF631.66666666666663
+asg15
+(itiddlywiki
+Tiddler
+p334
+(dp335
+g287
+V<<silently>>$sizetarget should be 0 when the hole is mousehole sized.<<endsilently>>\u000a\u000aYou throughly inspect every surface of the room.\u005cn\u005cn\u000a\u000aYou discover cut into the base of one wall is a <<if $sizetarget gt $size - 2>>small<<endif>> arched opening, \u000a<<if $sizetarget == $size>>\u000aabout six inches high, like the mouse holes in old cartoons.\u000a<<else if $sizetarget == $size - 1>>\u000aabout knee height.\u000a<<else if $sizetarget == $size - 2>>\u000aabout tall enough to walk through comfortably.\u000a<<else>>\u000alooming above you.\u000a<<endif>>
+p336
+sg289
+(lp337
+sg291
+g23
+((I2013
+I7
+I7
+I14
+I45
+I5
+I6
+I188
+I1
+tp338
+(dp339
+tp340
+Rp341
+sg296
+g341
+sg297
+VActHoleFind
+p342
+sbsa(dp343
+g12
+I00
+sg13
+(lp344
+F40.000000000000071
+aF579.99999999999989
+asg15
+(itiddlywiki
+Tiddler
+p345
+(dp346
+S'text'
+p347
+V<<silently>>$sizetarget should be 0 when the hole is mousehole sized.<<endsilently>>\u000a\u000a<<if $depth lte $knowntarget>>\u000a	<<if $size == $sizetarget>>\u005cn\u005cnThere is a small, mouse-sized hole cut into one wall.\u000a	<<else if $size == $sizetarget + 1>>\u005cn\u005cnThere is a knee-height hole cut into one wall.\u000a	<<else if $size == $sizetarget + 2>>\u005cn\u005cnThere is a doorway cut into one wall.\u000a	<<else>>\u005cn\u005cnThere is a large tunnel opening cut into one wall.\u000a	<<endif>>\u000a<<endif>>
+p348
+sS'tags'
+p349
+(lp350
+sS'created'
+p351
+g23
+((I2013
+I7
+I7
+I17
+I8
+I45
+I6
+I188
+I1
+tp352
+(dp353
+tp354
+Rp355
+sS'modified'
+p356
+g355
+sS'title'
+p357
+VHoleDescribe
+p358
+sbsa(dp359
+g12
+I00
+sg13
+(lp360
+F954.99999999999989
+aF800.00000000000011
+asg15
+(itiddlywiki
+Tiddler
+p361
+(dp362
+S'text'
+p363
+VYou get down on your knees and investigate the hole in the wall. There seems to be a little compartment in there, at the other end of a short chute. However the passageway is too small to safely squeeze into.
+p364
+sS'tags'
+p365
+(lp366
+sS'created'
+p367
+g23
+((I2013
+I7
+I7
+I18
+I51
+I34
+I6
+I188
+I1
+tp368
+(dp369
+tp370
+Rp371
+sS'modified'
+p372
+g371
+sS'title'
+p373
+VHoleKneesDescribe
+p374
+sbsa(dp375
+g12
+I00
+sg13
+(lp376
+F978.33333333333303
+aF984.99999999999989
+asg15
+(itiddlywiki
+Tiddler
+p377
+(dp378
+g363
+V<<display "HoleKneesDescribe">>\u000a\u000a<<display "HoleControls">>
+p379
+sg365
+(lp380
+sg367
+g23
+((I2013
+I7
+I7
+I18
+I51
+I36
+I6
+I188
+I1
+tp381
+(dp382
+tp383
+Rp384
+sg372
+g384
+sg373
+VActHoleKnees2
+p385
+sbsasS'scale'
+p386
+F0.40000000000000008
+ss.

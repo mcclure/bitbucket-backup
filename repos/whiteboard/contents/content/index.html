@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Whiteboard</title>
+	<meta name="description" content="You are being eaten, very slowly, by an eighteen-limbed creature made entirely of teeth.">
+	<meta name="author" content="Andi McClure">
+
+	<style>
+	body {background-color:white; text-align:center; font-family:sans-serif;}
+	</style>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+	<div><table width="50%" align="center"><tr><td valign="middle" align="center">
+		<span style="font-size:48px; font-weight:bold;">
+			Whiteboard.
+		</span>
+	</td><td valign="middle" align="right" width="50%">
+		<span style="font-size:14px;">
+			(Click below)&nbsp;
+		</span>
+	</td></tr></table><br></div>
+	
+	<div align=center style="font-weight:bold;" id="loader">Please hold…<br><br></div>
+	
+	<div style="text-align=center">
+		<div style="border-style:solid; border-width:1px; border-color:#AAA; display:inline-block;" id="board" />
+	</div>
+
+	<script type="text/javascript">
+		$(function(){
+			var xb = 32; // x blocks
+			var yb = 32; // y blocks
+			var xbh = 16; // x block width
+			var ybh = 16; // y block width
+			var white = "white";
+			var black = "black";
+			var red = "red";
+			var busy = false;
+			var busyWith;
+			var cookie;
+
+			var board = $("#board")
+			var loader = $("#loader")
+			board.css("height",xb*xbh)
+			board.css("width",yb*ybh)
+			
+			var cells = []
+			var last = []
+			var waiting = undefined
+			
+			var fire = function(data) {
+				var request = $.ajax({
+					url: "/board",
+					type: "post",
+					dataType:"json",
+					contentType:"application/json",
+					data: JSON.stringify(data),
+				});
+				
+				// callback handler that will be called on success
+				request.done(function (response, textStatus, jqXHR){
+					// log a message to the console					
+					cookie = response.cookie
+					if (busyWith != undefined) {
+						cells[busyWith].css("background-color", last[busyWith]?white:black)
+						busyWith = undefined
+					}
+					if (response.board) {
+						waiting = []
+						for(var c = 0; c < response.board.length; c++) {
+							var color = +response.board[c]
+							if (last[c] != color) {
+								if (last[c] != undefined) {
+									cells[c].css("background-color", red)
+								}
+								last[c] = color
+								waiting.push(c)
+							}
+						}
+						
+						if (waiting.length) {
+							var delay = function() {
+								for(var c = 0; c < waiting.length; c++) {
+									var idx = waiting[c]
+									cells[idx].css("background-color", last[idx]?white:black)
+								}
+								waiting = undefined
+							}
+							setTimeout(delay, 200)
+						} else {
+							waiting = undefined
+						}
+					}
+					
+					loader.css("visibility", "hidden")
+					busy = false;
+				});
+
+				// callback handler that will be called on failure
+				request.fail(function (jqXHR, textStatus, errorThrown){
+					// log the error to the console
+					loader.html("<span style=\"color:darkred\">EVERYTHING IS BROKEN FOREVER. SORRY. TRY RELOADING?</span><br><br>")
+				});
+				
+				loader.css("visibility", "visible")
+				busy = true;
+			};
+			
+			var handleClick = function(event) {
+				if (!busy) {
+					last[event.data] = last[event.data] ? 0 : 1;
+					busyWith = event.data
+					fire({cookie:cookie,k:event.data,v:last[event.data]})
+				}
+			}
+			
+			for (var y = 0; y < yb; y++) {				
+				for (var x = 0; x < xb; x++) {
+					var pixel = $(document.createElement('div'));
+					var pidx = cells.length
+					pixel.css("width", xbh)
+					pixel.css("height", ybh);
+					pixel.css("background-color", Math.random()>0.5?"#AAA":"#555");
+					pixel.css("display", "inline-block")
+					board.append(pixel)
+					cells.push(pixel)
+					
+					pixel.click(pidx, handleClick);
+				}
+			}
+			
+			fire({})
+		});
+	</script>
+</body>
+</html>

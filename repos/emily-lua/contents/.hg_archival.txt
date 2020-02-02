@@ -1,0 +1,6 @@
+repo: 3f6d9cfa619e1d567587b88cce293ef04775ba08
+node: 588dddb273ffeebf5a8dc33ead66bcaf68cd5edb
+branch: default
+latesttag: blog-3-4
+latesttagdistance: 46
+changessincelatesttag: 46

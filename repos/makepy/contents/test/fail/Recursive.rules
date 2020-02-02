@@ -1,0 +1,11 @@
+a: d
+    print("A")
+
+b: a
+    print("B")
+
+c: a
+    print("C")
+
+d: b c
+    print("D")

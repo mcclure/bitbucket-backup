@@ -1,0 +1,4 @@
+media/overlay/game
+media/overlay/intro
+media/bg.svg
+media/example.svg

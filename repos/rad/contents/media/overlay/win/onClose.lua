@@ -1,0 +1,1 @@
+if snd_die then delete(snd_die) snd_die = nil end

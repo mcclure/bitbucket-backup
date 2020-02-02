@@ -1,0 +1,11 @@
+# THIS DOES NOT WORK YET
+
+sandwich = arbitrary
+
+[phony sandwich] test:
+    print(phony)
+    print(sandwich)
+
+[phony] donttest:
+
+all: test

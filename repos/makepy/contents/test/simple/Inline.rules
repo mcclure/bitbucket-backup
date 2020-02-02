@@ -1,0 +1,14 @@
+W = 3
+
+do:
+    print( int(W) + 1 )
+    W = -10
+
+global:
+    print( int(W) + 2 )
+    W = -50
+    from sys import *
+
+a:
+    print( W )
+    print( version_info )

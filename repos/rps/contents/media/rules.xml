@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<rules maxhealth="100" minstart="3" queuesize="7">
+    <polyarray:hit>
+        <nil>5</nil>
+        <nil>7</nil>
+        <nil>10</nil>
+    </polyarray:hit>
+    <polyarray:delay>
+        <nil>24</nil>
+        <nil>12</nil>
+        <nil>6</nil>
+    </polyarray:delay>
+</rules>

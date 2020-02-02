@@ -1,0 +1,4 @@
+media/white.svg
+media/overlay/startup
+media/overlay/ending
+media/overlay/shutdown

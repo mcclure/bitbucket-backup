@@ -1,0 +1,27 @@
+{
+  "name": "matrixcalc",
+  "version": "1.0.0",
+  "description": "3D matrix calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mcc",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "gl-mat4": "^1.2.0",
+    "mat4-decompose": "^1.0.4",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^5.0.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.3.3333"
+  }
+}

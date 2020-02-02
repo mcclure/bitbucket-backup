@@ -1,0 +1,1 @@
+if g then g:die() g = nil end

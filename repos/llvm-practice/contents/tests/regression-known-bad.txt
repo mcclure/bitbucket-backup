@@ -1,0 +1,4 @@
+# Tests known to currently fail.
+
+type/fail/returnFnCustom.lua  # Test succeeds but error truncates reason chain badly
+type/fail/returnFnCustom2.lua # Test succeeds but error truncates reason chain badly

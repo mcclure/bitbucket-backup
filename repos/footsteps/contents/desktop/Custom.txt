@@ -1,0 +1,1 @@
+This game supports user-created levels. If a file named level0.svg is placed in the same directory with the .exe, it will be loaded instead of the in-game. For an example svg, look in the Internal/ folder.

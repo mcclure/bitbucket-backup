@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<polycode>	
+	<shaders>
+		<shader type="glsl" name="FlatShader" numAreaLights="4" numSpotLights="2">		
+			<vp source="FlatShader.vert">
+				<params>			
+				</params>				
+			</vp>
+			<fp source="FlatShader.frag">
+				<params>			
+				</params>				
+			</fp>
+		</shader>
+		<shader type="glsl" name="BlurH">
+			<vp source="ScreenShader.vert"/>
+			<fp source="BlurH.frag">
+				<params>
+					<param name="blurSize" type="Number" value="0.00390625" default="0.00390625" />
+				</params>
+			</fp>
+		</shader>
+		<shader type="glsl" name="BlurV">
+			<vp source="ScreenShader.vert"/>
+			<fp source="BlurV.frag">
+				<params>
+					<param name="blurSize" type="Number" value="0.00390625" default="0.00390625" />
+					<param name="thresh" type="Number" value="0.00390625" default="0.00390625" />
+					<param name="brighten" type="Number" value="0.00390625" default="0.00390625" />
+				</params>
+			</fp>
+		</shader>
+		<shader type="glsl" name="FilterShader">		
+			<vp source="ScreenShader.vert">
+				<params>
+				</params>				
+			</vp>
+			<fp source="FilterShader.frag">
+				<params>
+					<param name="radius" type="Number" value="0.0" default="0.0" />
+					<param name="aspect" type="Number" value="0.0" default="0.0" />
+				</params>				
+			</fp>
+		</shader>
+	</shaders>
+	<materials>
+		<material name="TestParticle">
+			<shader name="DefaultParticleShader">
+				<textures>
+					<texture name="diffuse">particle.png</texture>
+				</textures>
+			</shader>
+		</material>	
+		<material name="CubeMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">box_texture.png</texture>
+				</textures>
+			</shader>
+		</material>			
+		<material name="FilterMaterial">
+			<shader name="FilterShader">
+			</shader>
+		</material>
+		<material name="Blur">
+			<rendertargets>
+				<rendertarget id="blurtarget"  sizeMode="pixels" width="256" height="256"/>
+			</rendertargets>
+			<shader name="BlurH">
+				<targettextures>
+					<targettexture mode="out" id="blurtarget"/>
+				</targettextures>
+			</shader>		
+			<shader name="BlurV">
+				<targettextures>
+					<targettexture mode="in" name="screenTexture" id="blurtarget"/>
+				</targettextures>													
+			</shader>			
+		</material>	
+		<material name="GroundMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">floor_texture.png</texture>
+				</textures>
+			</shader>
+		</material>					
+	</materials>
+</polycode>

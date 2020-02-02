@@ -1,0 +1,191 @@
+Hi, my name is Andi McClure and this is a list of all projects I have hosted here on BitBucket. Most of them are games. You can find my personal website [[http://runhello.com/|here]].
+
+This list is split into sections, based on what tool I used. For each section there is a basic "engine" project, which is usually based on a permissive attribution-only license and designed for others to build projects on top of; and a series of more specific projects based on that engine, which are usually based on a sharealike or noncommercial copyleft license. Regardless of project, make sure to check the tags for release versions.
+
+The tool I am currently using for projects is LÖVR (see below) so those will be the most recently posted code, whereas some of the projects on this page are over ten years old.
+
+Table of contents:
+
+<<toc>>
+
+== Websites ==
+
+* [[https://mcclure.github.io/emu-coop/|emu-coop]]: A multiplayer hack for 1-player Super Nintendo games
+* [[https://mcclure.github.io/qgcon-2018/|qgcon-2018]]: Resources and a video from a talk I gave on making small programming languages.
+* [[https://mcclure.github.io/mermaid-lovr/|mermaid-lovr]]: A set of resources for the LÖVR game engine.
+
+== LÖVR projects ==
+
+[[http://lovr.org|LÖVR]] is an open source VR engine originally created by Bjorn Swenson. I've been using it since 2018. See [[https://mcclure.github.io/mermaid-lovr/|my LÖVR resources page here]].
+
+* [[https://github.com/mcclure/lovr|Lovr]]: My fork of LÖVR on GitHub (no important differences from the main repo).
+* [[https://github.com/mcclure/lovr-oculus-mobile|lovr-oculus-mobile]]: The main site for oculus mobile support using LÖVR (maintained by me).
+* [[https://github.com/mcclure/lodr|lodr]]: A hot code reloading app for LÖVR. 
+* [[http://github.com/bjornbytes/lovr-ent|lovr-ent]]: A "starting point project", sample code containing all the Lua helper code I include in all my LÖVR projects. Some of these are usable in non-LÖVR Lua engines.
+
+== Emily language ==
+
+[[https://emilylang.org|Emily]] was an experimental programming language I designed and worked on between about 2014 and 2017.
+
+=== Interpreter ===
+
+* [[https://bitbucket.org/runhello/emily|emily]]: In-progress interpreter for a programming language I designed.
+* [[https://bitbucket.org/runhello/test-emily-game|test-emily-game]]: Experimental branch of emily (0.3b development is effectively occurring here)
+* [[https://bitbucket.org/runhello/emily-python|emily-python]] aka Emily2: Experimental next-generation (post 0.3) prototype of Emily. Not yet documented.
+
+
+=== Other materials ===
+
+* [[https://bitbucket.org/runhello/llvm-practice|llvm-practice]]: Code for my "No Compiler" blog posts, written to learn about compilers.
+* [[https://bitbucket.org/runhello/makepy|make.py]]: Reimplementation of the `make` tool in Python, intended for use as Emily build tool
+* [[https://bitbucket.org/runhello/ppx_const|ppx_const]]: A ppx syntax extension for the OCaml programming language. Adds a compile-time "if" statement.
+* [[https://bitbucket.org/runhello/emily-objc|emily-objc]]: Abandoned first-prototype version of Emily. Suggest just ignoring.
+
+== Jumpcore projects ==
+
+Jumpcore is my homegrown game engine. I started developing it in 2008 and use it for all my C++ game projects.
+
+=== Engine ===
+
+* [[https://bitbucket.org/runhello/jumpcore|jumpcore]]: a get-started kit for portable C++ games
+
+=== Games ===
+
+* [[https://bitbucket.org/runhello/jumpman_public|jumpman_public]] aka Jumpman
+* [[https://bitbucket.org/runhello/drumcircle|drumcircle]]
+* [[https://bitbucket.org/runhello/body|body]] aka You Don't Fit
+* [[https://bitbucket.org/runhello/footsteps|footsteps]] aka My Own Footsteps
+* [[https://bitbucket.org/runhello/pong|pong]] aka pongpongpongpongpongpongpongpong
+* [[https://bitbucket.org/runhello/splinecraft|splinecraft]]
+* [[https://bitbucket.org/runhello/ocean|ocean]] aka You Will Die Alone At Sea
+* [[https://bitbucket.org/runhello/blit/wiki/Home|blit]] aka Scrunch
+
+=== Unfinished ===
+
+* [[https://bitbucket.org/runhello/impression|impression]]
+* [[https://bitbucket.org/runhello/dot|dot]]
+* [[https://bitbucket.org/runhello/rtarot|rtarot]] aka Reverse Tarot
+* [[https://bitbucket.org/runhello/jpeg|jpeg]]: Realtime JPG damager
+* [[https://bitbucket.org/runhello/bodyhack|bodyhack]]
+* [[https://bitbucket.org/runhello/nomadtest|nomadtest]]
+* [[https://bitbucket.org/runhello/geodesic/wiki/Home|geodesic]] aka Icosa
+
+== Polyconsole projects ==
+
+Polycode is a game engine originally developed by Ivan Safrin. I used it between about 2011 and 2014.
+
+=== Engine ===
+
+* [[https://bitbucket.org/runhello/polycode|polycode]]: My fork of Ivan Safrin's [[http://polycode.org/|Polycode]] game engine 
+* [[https://bitbucket.org/runhello/polyconsole|polyconsole]]: My Polycode "template project", a replacement for the Polycode Player which adds additional capabilities
+
+=== Games ===
+
+* [[https://bitbucket.org/runhello/universe|universe]] aka Markov Space
+* [[https://bitbucket.org/runhello/rad|rad]] aka Xaxxaxoxax
+* [[https://bitbucket.org/runhello/nauts|nauts]] aka Luanauts
+* [[https://bitbucket.org/runhello/breathe|breathe]]
+* [[https://bitbucket.org/runhello/molyjam|molyjam]] aka The Shadowland Prophesy
+* [[https://bitbucket.org/runhello/evo|evo]] aka The World Hates You
+* [[https://bitbucket.org/runhello/fps|fps]] aka 7DRL
+* [[https://bitbucket.org/runhello/brainfarm|brainfarm]]
+* [[https://bitbucket.org/runhello/voxcut_public|voxcut_public]] which contains "pxswap" and "cs/1"
+* [[https://bitbucket.org/runhello/whoop|whoop]] aka Devil's Chord
+* [[https://bitbucket.org/runhello/dontbreathe|dontbreathe]] aka Sun Sets
+* [[https://bitbucket.org/runhello/launcher|launcher]] aka Sweet Nothings
+* [[https://bitbucket.org/runhello/fall|fall]]
+* [[https://bitbucket.org/runhello/iso|iso]] aka Responsibilities
+* [[https://bitbucket.org/runhello/lesbian|lesbian]] aka Lesbian Spider Mars Queens
+* [[https://bitbucket.org/runhello/portaudio_test|portaudio_test]]
+* [[https://bitbucket.org/runhello/geogen|geogen]] (Twitter avatar generator)
+* [[https://bitbucket.org/runhello/dating|dating]] aka He Never Showed Up
+* [[https://bitbucket.org/runhello/rainbow|rainbow]] aka HOWLER?
+* [[https://bitbucket.org/runhello/hcyet|hcyet]] aka How Can You Even Tell
+* [[https://bitbucket.org/runhello/fps2|fps2]] aka Four Shades of Gray
+* [[https://bitbucket.org/runhello/cymbal|cymbal]] aka Super Fungus Attack
+
+=== Unfinished ===
+
+* [[https://bitbucket.org/runhello/template|template]] Pre-Polyconsole Polycode project. Yes, the game is named "template".
+* [[https://bitbucket.org/runhello/luatest|luatest]] aka Unplayable Asteroids. Pre-Polyconsole.
+* [[https://bitbucket.org/runhello/hello|hello]] BASIC interpreter and command line
+* [[https://bitbucket.org/runhello/flipper|flipper]]
+* [[https://bitbucket.org/runhello/adp|adp]] aka A Dark Place
+* [[https://bitbucket.org/runhello/luatracker|diary]] (very little is here)
+* [[https://bitbucket.org/runhello/luatracker|luatracker]] (very little is here)
+* [[https://bitbucket.org/runhello/nervous|nervous]] aka The Nervous System
+* [[https://bitbucket.org/runhello/colors|colors]] aka Trilemma
+* [[https://bitbucket.org/runhello/sia|sia]] aka Death By Chocolate aka Stars
+* [[https://bitbucket.org/runhello/sharecart|sharecart]] aka Player Piano
+* [[https://bitbucket.org/runhello/turing|turing]] aka Tau
+* [[https://bitbucket.org/runhello/triangle|triangle]] aka L?L?L?L
+* [[https://bitbucket.org/runhello/rps|rps]] aka Very Fast Rock Paper Scissors
+* [[https://bitbucket.org/runhello/compass|compass]]
+
+== Ufo projects ==
+
+Ufo is a bundle of LuaJIT with some support libraries. I do not yet have a "trunk" repository for it.
+
+=== Games ===
+
+* [[https://bitbucket.org/runhello/ufo|ufo]] aka BECOME A GREAT ARTIST IN JUST 10 SECONDS
+
+=== Unfinished ===
+
+* [[https://bitbucket.org/runhello/nanogunk|nanogunk]]
+* [[https://bitbucket.org/runhello/twotris|twotris]]
+* [[https://bitbucket.org/runhello/bodyhack-test|bodyhack-test]]
+
+== Twine projects ==
+
+[[http://twinery.org/|Twine]] is an open source tool for creating interactive fiction in HTML. I used it for a few projects around 2014.
+
+=== Engine ===
+
+* [[https://bitbucket.org/runhello/twine|twine]]: My fork of the popular Twine IF tool (contains custom templates, etc)
+* [[https://bitbucket.org/runhello/twinetools|twinetools]]: A small macro collection
+* [[https://bitbucket.org/runhello/spool|spool]]: Tools for Twine games with online multiplayer
+* [[https://bitbucket.org/runhello/spool-heroku|spool-heroku]]: Heroku port of Spool
+
+=== Games ===
+
+* [[https://bitbucket.org/runhello/athena|athena]] aka Naked Shades
+* [[https://bitbucket.org/runhello/localtwine|localtwine]] contains my other Twine games
+
+== Misc games ==
+
+=== Dryad.technology ===
+
+* [[https://bitbucket.org/runhello/dryad-artifact|dryad-artifact]]: Combined repo for [[http://dryad.technology|dryad.technology]] Javascript experiments
+
+=== Unfinished ===
+
+* [[https://bitbucket.org/runhello/daynight|daynight]] aka Day and Night
+* [[https://bitbucket.org/runhello/witch|witch]] aka Organ Solo
+* [[https://bitbucket.org/runhello/daynight|nim-practice]] aka Time Problems
+
+== Misc projects ==
+
+* [[https://bitbucket.org/runhello/exacto|exacto]]: Manual stencyl project editor
+* [[https://bitbucket.org/runhello/whiteboard|whiteboard]]: A Google AppEngine collaborative pixel art app
+* [[https://bitbucket.org/runhello/badpng|badpng]]: Artistically buggy png encoder
+* [[https://bitbucket.org/runhello/votescript|votescript]]: CGI scripts that can be used to run an online ranked-voting poll
+* [[https://bitbucket.org/runhello/pseudogbs_au|pseudogbs_au]]: An approximation of the GBS ("Game Boy Sound System") as a set of Mac OS X AudioUnits.
+* [[https://bitbucket.org/runhello/unitynativepluginexample|unitynativepluginexample]]: A Unity sample project which incorporates C++ code and uses CMake to build it.
+* [[https://github.com/mcclure/dts2nim|dts2nim]]: A tool that converts TypeScript type definition files into a format that can be used by the Nim programming language. Can be used to call TypeScript code from Nim. May not work with most recent TypeScript.
+* [[https://github.com/mcclure/emu-coop/|emu-coop]]: A multiplayer hack for 1-player Super Nintendo games (project page, see [[https://mcclure.github.io/emu-coop/|main site]] here)
+* [[https://github.com/mcclure/snes9x-coop/|snes9x-coop]]: A build of snes9x-rr primed to run emu-coop (see [[https://mcclure.github.io/emu-coop/|main site]] here)
+* [[https://bitbucket.org/runhello/namespace.lua|namespace.lua]]: A Lua library which adds a namespace feature to Lua. For Lua 5.1/LuaJIT.
+
+== Ports and forks ==
+
+=== Games ===
+
+* [[https://bitbucket.org/runhello/port_epacse|port_epacse]] aka epacse
+* [[https://bitbucket.org/runhello/port_sword|port_sword]] aka Sword In Hand
+* [[https://bitbucket.org/runhello/port_rive|port_rive]] aka Rive Gauche
+
+=== Open source project forks ===
+
+* [[https://bitbucket.org/runhello/sproxel|sproxel]]: A voxel editor
+* [[https://bitbucket.org/runhello/hg-git|hg-git]]: Mercurial/git bridge (outdated)

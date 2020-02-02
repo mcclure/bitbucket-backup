@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "dts2nim": "0.0.2"
+  }
+}

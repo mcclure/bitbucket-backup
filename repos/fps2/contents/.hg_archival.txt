@@ -1,0 +1,6 @@
+repo: a193949bf4e9031704c9f07d95a738c272f24b64
+node: 5dce2d272a91c2d95838672d36c69094db27bece
+branch: default
+latesttag: fps2_2
+latesttagdistance: 1
+changessincelatesttag: 1

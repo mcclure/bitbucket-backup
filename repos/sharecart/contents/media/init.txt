@@ -1,0 +1,12 @@
+media/overlay/startup
+media/title.svg
+media/overlay/keymap
+media/overlay/ent
+media/overlay/grid
+media/overlay/pregame
+media/overlay/game
+media/overlay/layout
+media/overlay/input
+media/overlay/uitest
+media/overlay/uifile
+media/overlay/shutdown

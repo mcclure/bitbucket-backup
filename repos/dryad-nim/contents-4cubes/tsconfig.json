@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "install"
+  },
+  "files": [
+    "src/tsGlue.ts"
+  ]
+}

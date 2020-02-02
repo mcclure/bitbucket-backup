@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="epacse" />
+		<Option platforms="Windows;Unix;" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Makefiles/;" />
+		<Build>
+			<Target title="Release">
+				<Option output="epacse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option virtualFolder="Makefiles/" />
+		</Unit>
+		<Unit filename="Makefile.win">
+			<Option virtualFolder="Makefiles/" />
+		</Unit>
+		<Unit filename="dot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dot.h" />
+		<Unit filename="dotgen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dotgen.h" />
+		<Unit filename="dotmatrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dotmatrix.h" />
+		<Unit filename="error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="error.h" />
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics.h" />
+		<Unit filename="input.h" />
+		<Unit filename="level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="level.h" />
+		<Unit filename="lighting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lighting.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="paths.h" />
+		<Unit filename="player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player.h" />
+		<Unit filename="settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="settings.conf" />
+		<Unit filename="settings.h" />
+		<Unit filename="sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound.h" />
+		<Unit filename="utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utils.h" />
+		<Unit filename="zpipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zpipe.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

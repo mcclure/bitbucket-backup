@@ -1,0 +1,3 @@
+(cd rocks && luarocks-admin-5.1 make-manifest --local-tree .)
+LUAROCKS_CONFIG=.luarocks luarocks-5.1 --tree=app make rockspec
+/Users/mcc/Downloads/love.app/Contents/MacOS/love app/share/lua/5.1

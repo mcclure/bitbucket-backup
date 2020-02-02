@@ -1,0 +1,6 @@
+Physics3D/CollisionScene
+Physics3D/CollisionSceneEntity
+Physics3D/PhysicsCharacter
+Physics3D/PhysicsScene
+Physics3D/PhysicsSceneEntity
+Physics3D/PhysicsSceneEvent

@@ -1,0 +1,6 @@
+repo: a193949bf4e9031704c9f07d95a738c272f24b64
+node: 55d5ecbf26aeef494c0510bb7dda102327c34446
+branch: default
+latesttag: howler_1
+latesttagdistance: 7
+changessincelatesttag: 15

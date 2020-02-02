@@ -1,0 +1,947 @@
+(dp0
+S'buildDestination'
+p1
+V/Users/mcc/work/h/spool/server/twine/test.html
+p2
+sS'saveDestination'
+p3
+S'/Users/mcc/work/h/spool/server/twine/test.tws'
+p4
+sS'target'
+p5
+S'jonah'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+F138.75
+aF177.5
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+V<<display "begin">>\u000a\u000a<<silently>>\u000a\u000a// character //\u000a<<set $body = {}>>\u000a<<set $body.texture = "shadowy">>\u000a<<set $body.color = "translucent">>\u000a\u000a// resources //\u000a<<set $green = 0>>\u000a<<set $purple = 0>>\u000a<<set $red = 0>>\u000a\u000a// items //\u000a\u000a<<set $amulet = 0>>\u000a\u000a<<set $cup = 0>>\u000a\u000a\u000a// puzzles //\u000a\u000a<<set $idol1 = "">>\u000a<<set $idol2 = "">>\u000a<<set $idol3 = "">>\u000a\u000a<<endsilently>>
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I4
+I26
+I5
+I17
+I35
+I4
+I116
+I1
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+VStart
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+F154.99999999999994
+aF425.0
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+Vyou are nothing\u000a\u000ayou are shadow\u000a\u000ayou are less than human\u000a\u000ayou are dead\u000a\u000a[[Go to Costco|Costco]]
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I4
+I26
+I21
+I17
+I36
+I4
+I116
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+Vbegin
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+F430.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+Va {text-decoration:none;color: white; !important}\u000abody { color:white !important }\u000abody { background-color:black !important }\u000abody { text-align:left; width:70% !important }\u000abody { font-size:100% !important }\u000a\u000aem {color:#00CC66;}\u000a\u000a\u000abody{background-color:black;color:grey;font-family:Verdana,sans-serif;font-size:80%;margin:4em 15% 5% 5em;}\u000a\u000a.passage .title { display: none } \u000a\u000a#sidebar{position:fixed;top:4.2em;left:7.5em;width:12em;list-style:none;margin:0;padding:0 1em 0 0;font:bold 1.1em Verdana,sans-serif;}\u000a#sidebar li{color:#333;text-align:right;background-repeat:no-repeat;margin-bottom:1em; line-height:3.4em !important; list-style:none;}\u000a#sidebar li:hover{color:#fff;cursor:pointer;}#sidebar li a{color:#333;}#sidebar li a:hover{color:#fff;text-decoration:none;}#sidebar \u000a\u000a#title{color:#999;font-size:150%;cursor:auto;visibility:hidden}\u000a\u000a#sidebar #title a{color:#999;}\u000a\u000a#sidebar #title a:hover{color:#fff;}#sidebar \u000a#storySubtitle{font-size:75%; display:block;}\u000a#storyAuthor{font-size:50%;}#sidebar #storyMenu{display:none;line-height:2.5em;margin-bottom:.5em;}#sidebar #title:hover{color:#999;}\u000a#storyTitle{display:none!important;}\u000a\u000a#sidebar #credits:hover{color:#333;visibility:hidden;}#sidebar #credits a{text-decoration:none;visibility:hidden;}\u000a\u000ah1,h3{color:#3F4C6A;text-align:left}\u000a\u000a.passage{font-size:1.2em;line-height:200%;margin-bottom:2em;padding:2em;text-align:left;}\u000a\u000aa.internalLink,a.externalLink,a.back,a.return{color:#00CC66;font-weight:bold;text-decoration:none;text-align:left;font-size:120%}\u000a\u000a#footer {visibility:hidden}\u000a\u000aa.internalLink:hover,a.externalLink:hover,a.back:hover,a.return:hover{color:white;text-decoration:none;text-align:left;}\u000a\u000aa.brokenLink{background-color:red;text-decoration:none;color:#000;}.marked{background-color:red;color:#000;margin-right:12px;padding:3px;}\u000a\u000a.highlight {color:red;font-size:120%;font-weight:bold;}\u000a\u000a.passage {background-color:black;}\u000a\u000a#floater {background-color:black;\u000acolor: rgb(8, 8, 8);\u000afont-family: Verdana,sans-serif;\u000afont-size: 12.6px;\u000aline-height: 17.6px;\u000apadding-bottom: 0px;\u000apadding-left: 20px;\u000apadding-right: 20px;\u000apadding-top: 0px;\u000aposition: fixed;\u000aright: 0px;\u000atext-align: center;\u000atop: 0px;\u000aborder-bottom-width: 0px;\u000aborder-left-width: 0px;\u000a}
+p46
+sg22
+g23
+((I2012
+I10
+I26
+I15
+I33
+I52
+I4
+I300
+I1
+tp47
+(dp48
+tp49
+Rp50
+sg29
+Vcss
+p51
+sg28
+g50
+sg20
+(lp52
+Vstylesheet
+p53
+asbsa(dp54
+g12
+I00
+sg13
+(lp55
+F356.25
+aF427.5
+asg15
+(itiddlywiki
+Tiddler
+p56
+(dp57
+g18
+VYou arrive at Costco.\u000a\u000a[[Approach gates|Gates]]\u000a\u000a[[Approach shopping carts|Carts]]
+p58
+sg20
+(lp59
+sg22
+g23
+((I2013
+I4
+I26
+I21
+I30
+I47
+I4
+I116
+I1
+tp60
+(dp61
+tp62
+Rp63
+sg28
+g63
+sg29
+VCostco
+p64
+sbsa(dp65
+g12
+I00
+sg13
+(lp66
+F570.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p67
+(dp68
+g18
+V(function () {\u000a	// First load jquery\u000a	var s = document.createElement('script');\u000a	s.src = '/support/jquery-1.9.1.min.js';\u000a	s.onload = function f(){ \u000a		jQuery.noConflict(); \u000a	}\u000a	document.body.appendChild(s);\u000a\u000a	version.extensions['athena'] = {\u000a		major: 0,\u000a		minor: 1,\u000a		revision: 1\u000a	};\u000a	\u000a	// Utility\u000a	function onesplit(str, sep) {\u000a		var at = str.indexOf(sep);\u000a		if (at < -1) return null\u000a		return [str.slice(0,at), str.slice(at+1)]\u000a	}\u000a	function varname(str) {\u000a		var splut = str.split(".")\u000a		str = splut[splut.length-1]		\u000a		return str\u000a	}\u000a	\u000a	// Handler objects. Start with "superclass"\u000a	function Handler() {\u000a	}\u000a	Handler.prototype.macroToSend = function(contents, session) {\u000a		return null\u000a	}\u000a	Handler.prototype.resultsToOutput = function(data, session) {\u000a		return null\u000a	}\u000a	Handler.prototype.handler = function (place, macroName, params, parser) {\u000a		if (jQuery) {\u000a			var tagEnd = parser.source.indexOf('>>', parser.matchStart) + 2;\u000a			var rest = parser.source.slice(tagEnd);\u000a			var session = {}\u000a\u000a			var send = this.macroToSend( parser.fullArgs(), session )\u000a			if (session.halt) return\u000a			\u000a			parser.nextMatch = parser.source.length // Skip to end. Continue only if AJAX returns.\u000a			\u000a			var outerThis = this\u000a			if (send != null) send = JSON.stringify(send)\u000a			\u000a			jQuery.post("/data", send, function(data) {\u000a				var output = outerThis.resultsToOutput(data, session)\u000a				if (output) { new Wikifier(place, output); }\u000a				new Wikifier(place, rest);\u000a			}, "json");\u000a\u000a		} else {\u000a			new Wikifier(place, ":(");\u000a		}\u000a	}\u000a	\u000a	// -- Examples of handler functions: Send and receive --\u000a	function SendHandler(action) {\u000a		if (action) this.action = action\u000a		else this.action = "send"\u000a	}\u000a	SendHandler.prototype = new Handler()\u000a	SendHandler.prototype.macroToSend = function (contents, session) {\u000a		var splut = onesplit(contents, "=")\u000a		if (splut) {\u000a			var name = splut[0].trim()\u000a			var val = eval(Wikifier.parse(splut[1]))\u000a			return {\u000a				action: this.action,\u000a				target: name,\u000a				value: val\u000a			}\u000a		}\u000a		session.halt = true\u000a		return null\u000a	}\u000a	\u000a	function ReceiveHandler(action) {\u000a	}\u000a	ReceiveHandler.prototype = new Handler()\u000a	ReceiveHandler.prototype.macroToSend = function (contents, session) {\u000a		var splut = onesplit(contents, "=")\u000a		if (splut) {\u000a			session.local = Wikifier.parse(splut[0])\u000a			var target = splut[1].trim()\u000a			return {\u000a				action: "receive",\u000a				target: target,\u000a			}\u000a		}\u000a		session.halt = true\u000a		return null\u000a	}\u000a	ReceiveHandler.prototype.resultsToOutput = function(data, session) {\u000a		var splut = varname(session.local)\u000a		state.history[0].variables[splut] = data.value\u000a		return null\u000a	}\u000a	\u000a	// -- Room handler --\u000a\u000a	var roomState = {room:{}}\u000a	\u000a	function RoomHandler() {\u000a	}\u000a	RoomHandler.prototype = new Handler()\u000a	RoomHandler.prototype.basicMacro = function() {\u000a		return {\u000a			action: this.action,\u000a			id:roomState.room.id,\u000a		}\u000a	}\u000a	RoomHandler.prototype.macroToSend = function (contents, session) {\u000a		return this.basicMacro()\u000a	}\u000a	\u000a	function CorpseHandler() {\u000a		this.action = "corpse"\u000a	}\u000a	CorpseHandler.prototype = new RoomHandler()\u000a	CorpseHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = this.basicMacro()\u000a		basicMacro.body = state.history[0].variables.body\u000a		return basicMacro\u000a	}\u000a	\u000a	function EatCorpseHandler() {\u000a		this.action = "eatcorpse"\u000a	}\u000a	EatCorpseHandler.prototype = new RoomHandler()\u000a	EatCorpseHandler.prototype.macroToSend = function (contents, session) {\u000a		var basicMacro = this.basicMacro()\u000a		basicMacro.target = eval(Wikifier.parse(contents))\u000a		return basicMacro\u000a	}\u000a	\u000a	function RoomlookHandler(action) {\u000a		this.action = "roomlook"\u000a	}\u000a	RoomlookHandler.prototype = new RoomHandler()\u000a	RoomlookHandler.prototype.resultsToOutput = function(data, session) {\u000a		roomState.bodies = data\u000a		return null\u000a	}\u000a		\u000a	// Turn handlers into macros	\u000a	var receiveHandler = new ReceiveHandler()\u000a	macros['receive'] = {\u000a		handler: function (place, macroName, params, parser) { receiveHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	var sendHandler = new SendHandler()\u000a	macros['send'] = {\u000a		handler: function (place, macroName, params, parser) { sendHandler.handler(place,macroName,params,parser) }\u000a	}\u000a\u000a	var addHandler = new SendHandler("accumulate")\u000a	macros['add'] = {\u000a		handler: function (place, macroName, params, parser) { addHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	// Room related macros\u000a	window.roomState = roomState\u000a	\u000a	var roomlookHandler = new RoomlookHandler("accumulate")\u000a	macros['room'] = {\u000a		handler: function (place, macroName, params, parser) {\u000a			roomState.room = {id:state.history[0].passage.title, at:params}\u000a			roomlookHandler.handler(place,macroName,params,parser)\u000a		}\u000a	}\u000a	\u000a	var corpseHandler = new CorpseHandler()\u000a	macros['corpse'] = {\u000a		handler: function (place, macroName, params, parser) { corpseHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	// e : macroName\u000a	// b : parser\u000a	// k : afterTagIdx\u000a	// a : afterTag\u000a	// d : endAt\u000a	// c : tagInner\u000a	// l : depth\u000a	// el : macroNameLen\u000a	// Utility macros\u000a	macros['for'] = { // Loop over a list. Incorporates sections of L's "replace" macro\u000a		handler: function (place, macroName, params, parser) {\u000a			var afterTagIdx = parser.source.indexOf('>>', parser.matchStart) + 2;\u000a            var afterTag = parser.source.slice(afterTagIdx);\u000a            var endAt = -1;\u000a            var tagInner = '';\u000a            var depth = 0;\u000a            var macroNameLen = macroName.length\u000a            for(var i = 0; i < afterTag.length; i++) {\u000a                if(afterTag.substr(i, 7 + macroNameLen) == '<<end' + macroName + '>>') {\u000a                    if(depth == 0) {\u000a                        endAt = afterTagIdx + i + 7 + macroNameLen;\u000a                        break;\u000a                    }\u000a                    else {\u000a                        depth--;\u000a                        tagInner += afterTag.charAt(i);\u000a                    }\u000a                }\u000a                else {\u000a                    if(afterTag.substr(i, 2 + macroNameLen) == '<<' + macroName) {\u000a                        depth++;\u000a                    }\u000a                    tagInner += afterTag.charAt(i);\u000a                }\u000a            }\u000a			var rest = parser.source.slice(endAt)\u000a			\u000a			var into = varname(Wikifier.parse(params[0]))\u000a			var over = eval(Wikifier.parse(params[1]))\u000a\u000a			if (over) {\u000a				var before = state.history[0].variables[into]\u000a				for(var i = 0; i < over.length; i++) {\u000a					state.history[0].variables[into] = over[i]\u000a					new Wikifier(place, tagInner);\u000a				}\u000a				state.history[0].variables[into] = before\u000a			}\u000a			\u000a			new Wikifier(place, rest);\u000a			\u000a			parser.nextMatch = parser.source.length // We exhausted the string, so halt this parser.\u000a		}\u000a	}\u000a	macros['endfor'] = {\u000a		handler: function (place, macroName, params, parser) { sendHandler.handler(place,macroName,params,parser) }\u000a	}\u000a	\u000a	// User-visible utility functions\u000a	function sax(start, input) {\u000a		for(var i = 0; i < input.length; i++) {\u000a			start^=(start<<5) + (start>>2) + input.charCodeAt(i)\u000a			start = start % 256;\u000a		}\u000a		return start\u000a	}\u000a	window.roompick = function(name, options) {\u000a		var hash = sax(sax(0, roomState.room.id), name)\u000a		\u000a		return options[ hash % options.length ]\u000a	}\u000a	window.randompick = function(options) {\u000a		return options[Math.floor(Math.random()*options.length)]\u000a	}\u000a	\u000a}());\u000a\u000a\u000a
+p69
+sg20
+(lp70
+Vscript
+p71
+asg22
+g23
+((I2013
+I4
+I23
+I21
+I52
+I24
+I1
+I113
+I1
+tp72
+(dp73
+tp74
+Rp75
+sg28
+g75
+sg29
+VMacros
+p76
+sbsa(dp77
+g12
+I00
+sg13
+(lp78
+F850.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p79
+(dp80
+g18
+VHistory.prototype.originalDisplay = History.prototype.display;\u000a\u000aHistory.prototype.display = function (title, link, render)\u000a{\u000a	if ((render != 'quietly') && (render != 'offscreen'))\u000a		removeChildren($('passages'));\u000a		\u000a	this.originalDisplay.apply(this, arguments);\u000a};\u000a
+p81
+sg22
+g23
+((I2012
+I10
+I21
+I15
+I32
+I0
+I6
+I295
+I1
+tp82
+(dp83
+tp84
+Rp85
+sg29
+Vtemplate
+p86
+sg28
+g85
+sg20
+(lp87
+Vscript
+p88
+asbsa(dp89
+g12
+I00
+sg13
+(lp90
+F-550.0
+aF2110.0
+asg15
+(itiddlywiki
+Tiddler
+p91
+(dp92
+g18
+S''
+p93
+sg20
+(lp94
+sg22
+g23
+((I2013
+I4
+I27
+I16
+I38
+I29
+I5
+I117
+I1
+tp95
+(dp96
+tp97
+Rp98
+sg28
+g98
+sg29
+S'Untitled Passage 28'
+p99
+sbsa(dp100
+g12
+I00
+sg13
+(lp101
+F542.5
+aF531.25
+asg15
+(itiddlywiki
+Tiddler
+p102
+(dp103
+S'text'
+p104
+V<<receive $carts=Carts.count>>\u000a\u000aThe parking lot is scattered with carts. There's a line of... like... one of those metal, sort of... cage, things? That they put shopping carts in? You realize you're not sure why shopping carts need to be caged. Is it for their safety or the safety of the shoppers? Anyway, there are <<if $carts>><<print $carts>><<else>>no<<endif>> carts in this cage.\u000a\u000a<<if $carts>>[[Remove a cart|Cartminus]]<<endif>>\u000a\u000a[[Stow a cart|Cartplus]]\u000a\u000a[[Leave|Costco]]
+p105
+sS'tags'
+p106
+(lp107
+sS'created'
+p108
+g23
+((I2013
+I4
+I27
+I20
+I12
+I53
+I5
+I117
+I1
+tp109
+(dp110
+tp111
+Rp112
+sS'modified'
+p113
+g112
+sS'title'
+p114
+VCarts
+p115
+sbsa(dp116
+g12
+I00
+sg13
+(lp117
+F540.0
+aF260.0
+asg15
+(itiddlywiki
+Tiddler
+p118
+(dp119
+g104
+V<<receive $dooropen=Gates.open>>\u000a\u000aFor some reason, instead of the typical motion sensing door, this particular Costco has a gigantic iron lever next to the doors.\u000a\u000a[[Turn lever.|Lever]]\u000a\u000a<<if $dooropen>>[[Enter Costco.|Inside]]<<endif>>\u000a\u000a[[Un-approach gates.|Costco]]
+p120
+sg106
+(lp121
+sg108
+g23
+((I2013
+I4
+I27
+I20
+I12
+I54
+I5
+I117
+I1
+tp122
+(dp123
+tp124
+Rp125
+sg113
+g125
+sg114
+VGates
+p126
+sbsa(dp127
+g12
+I00
+sg13
+(lp128
+F775.0
+aF625.0
+asg15
+(itiddlywiki
+Tiddler
+p129
+(dp130
+g104
+V<<add Carts.count = -1>>\u000a\u000aYou pull a shopping cart out of the cage. You run around the parking lot pushing your cart pretending you're a racecar or something. Vroooom okay you're bored now.\u000a\u000a[[Done.|Carts]]
+p131
+sg106
+(lp132
+sg108
+g23
+((I2013
+I4
+I27
+I20
+I15
+I33
+I5
+I117
+I1
+tp133
+(dp134
+tp135
+Rp136
+sg113
+g136
+sg114
+VCartminus
+p137
+sbsa(dp138
+g12
+I00
+sg13
+(lp139
+F776.25
+aF472.5
+asg15
+(itiddlywiki
+Tiddler
+p140
+(dp141
+g104
+V<<add Carts.count = 1>>\u000a\u000aYou walk across the parking lot and take one of the scattered shopping carts. You return it to the cage and slide it nicely into place.\u000a\u000a[[Done.|Carts]]
+p142
+sg106
+(lp143
+sg108
+g23
+((I2013
+I4
+I27
+I20
+I15
+I34
+I5
+I117
+I1
+tp144
+(dp145
+tp146
+Rp147
+sg113
+g147
+sg114
+VCartplus
+p148
+sbsa(dp149
+g12
+I00
+sg13
+(lp150
+F777.5
+aF306.25
+asg15
+(itiddlywiki
+Tiddler
+p151
+(dp152
+g104
+VYou are inside of a Costco.\u000a\u000aYou whistle absentmindedly.\u000a\u000a<html><small>THIS time baby I'LL beeee<br>BULLETTTTT PROOOOOOF</small></html>\u000a\u000aA few minutes pass.\u000a\u000a...\u000a\u000a[[Count to ten.|Looptest]]\u000a\u000a[[Leave|Gates]]
+p153
+sg106
+(lp154
+sg108
+g23
+((I2013
+I4
+I27
+I20
+I19
+I11
+I5
+I117
+I1
+tp155
+(dp156
+tp157
+Rp158
+sg113
+g158
+sg114
+VInside
+p159
+sbsa(dp160
+g12
+I00
+sg13
+(lp161
+F785.0
+aF153.75
+asg15
+(itiddlywiki
+Tiddler
+p162
+(dp163
+g104
+V<<send Gates.open = not $dooropen>>\u000a\u000aWith all your might, you turn the heavy lever. It slams to the other side with a sickening, shuddering clank.\u000a\u000aThe door slides <<if $dooropen>>closed<<else>>open<<endif>> with a gentle hum and stays that way.\u000a\u000a[[Done.|Gates]]
+p164
+sg106
+(lp165
+sg108
+g23
+((I2013
+I4
+I27
+I20
+I22
+I7
+I5
+I117
+I1
+tp166
+(dp167
+tp168
+Rp169
+sg113
+g169
+sg114
+VLever
+p170
+sbsa(dp171
+g12
+I00
+sg13
+(lp172
+F1011.25
+aF310.0
+asg15
+(itiddlywiki
+Tiddler
+p173
+(dp174
+S'text'
+p175
+V<<room>>\u000a\u000a<<display MazeGeneric>>\u000a\u000a[[East.|Maze10]]\u000a\u000a[[South.|Maze01]]\u000a\u000a[[Exit.|Inside]]
+p176
+sS'tags'
+p177
+(lp178
+sS'created'
+p179
+g23
+((I2013
+I4
+I27
+I22
+I16
+I5
+I5
+I117
+I1
+tp180
+(dp181
+tp182
+Rp183
+sS'modified'
+p184
+g183
+sS'title'
+p185
+VMaze00
+p186
+sbsa(dp187
+g12
+I00
+sg13
+(lp188
+F1034.9999999999998
+aF477.49999999999989
+asg15
+(itiddlywiki
+Tiddler
+p189
+(dp190
+g175
+V<<room>>\u000a\u000a<<display MazeGeneric>>\u000a\u000a[[North.|Maze00]]\u000a\u000a[[East.|Maze11]]
+p191
+sg177
+(lp192
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I17
+I24
+I5
+I117
+I1
+tp193
+(dp194
+tp195
+Rp196
+sg184
+g196
+sg185
+VMaze01
+p197
+sbsa(dp198
+g12
+I00
+sg13
+(lp199
+F1183.3333333333333
+aF468.3333333333332
+asg15
+(itiddlywiki
+Tiddler
+p200
+(dp201
+g175
+V<<room>>\u000a\u000a<<display MazeGeneric>>\u000a\u000a[[West.|Maze01]]\u000a\u000a[[North.|Maze10]]
+p202
+sg177
+(lp203
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I17
+I34
+I5
+I117
+I1
+tp204
+(dp205
+tp206
+Rp207
+sg184
+g207
+sg185
+VMaze11
+p208
+sbsa(dp209
+g12
+I00
+sg13
+(lp210
+F1161.6666666666667
+aF304.99999999999989
+asg15
+(itiddlywiki
+Tiddler
+p211
+(dp212
+g175
+V<<room>>\u000a\u000a<<display MazeGeneric>>\u000a\u000a[[West.|Maze00]]\u000a\u000a[[South.|Maze11]]
+p213
+sg177
+(lp214
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I17
+I35
+I5
+I117
+I1
+tp215
+(dp216
+tp217
+Rp218
+sg184
+g218
+sg185
+VMaze10
+p219
+sbsa(dp220
+g12
+I00
+sg13
+(lp221
+F1162.4999999999998
+aF101.24999999999999
+asg15
+(itiddlywiki
+Tiddler
+p222
+(dp223
+g175
+V<<set $objectcolor = roomadj("objectcolor", ["red","green","blue","ugly","interesting","masculine","fluid","noisy"])>>\u000aYou are in the Great Maze of Costco.\u000a\u000aYou see the word "<<print roomState.room.id>>" etched on the floor.\u000a<<for $body roomState.bodies>>\u000aThere is a dead body laying on the floor. The head is missing. It has <<print $body.texture>> skin with a <<print $body.color>> hue. <<if $body.clutching>>It is clutching a <<print $body.clutching>> object.<<endif>>\u000a<<endfor>>\u000a\u000aYou see a <<print $objectcolor>> [[object|Object]].\u000a\u000aYou see a [[guillotine|Guillotine]].
+p224
+sg177
+(lp225
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I18
+I5
+I5
+I117
+I1
+tp226
+(dp227
+tp228
+Rp229
+sg184
+g229
+sg185
+VMazeGeneric
+p230
+sbsa(dp231
+g12
+I00
+sg13
+(lp232
+F964.58333333333303
+aF159.1666666666668
+asg15
+(itiddlywiki
+Tiddler
+p233
+(dp234
+g175
+V<<if $body.clutching>>You drop your <<print $body.clutching>> object, forgotten forever.<<endif>>\u000a<<set $body.clutching=$objectcolor>>\u000a\u000aYou pick up the <<print $objectcolor>> Object. You cling to it like a buoy in the storm. You will never let go of it again.\u000a\u000a...What were you doing just now?\u000a\u000a[[Wander lost|Inside]]
+p235
+sg177
+(lp236
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I43
+I2
+I5
+I117
+I1
+tp237
+(dp238
+tp239
+Rp240
+sg184
+g240
+sg185
+VObject
+p241
+sbsa(dp242
+g12
+I00
+sg13
+(lp243
+F1360.0000000000002
+aF33.333333333333385
+asg15
+(itiddlywiki
+Tiddler
+p244
+(dp245
+g175
+V<<corpse>>\u000a\u000aYou carefully slide yourself under the guillotine and stick your head through. You fumble upward for the dangling rope. You grab it and pull. A moment later you feel a sharp piercing pain and a wrenching in your spine-- but only for a moment-- as the blade cuts through your neck, killing you instantly.\u000a\u000a...was that what you meant to do?\u000a\u000a[[DEAD|Dead]]
+p246
+sg177
+(lp247
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I43
+I4
+I5
+I117
+I1
+tp248
+(dp249
+tp250
+Rp251
+sg184
+g251
+sg185
+VGuillotine
+p252
+sbsa(dp253
+g12
+I00
+sg13
+(lp254
+F1542.4999999999998
+aF39.999999999999986
+asg15
+(itiddlywiki
+Tiddler
+p255
+(dp256
+g175
+VNope, you're still dead.\u000a\u000a[[DEAD?|Dead]]
+p257
+sg177
+(lp258
+sg179
+g23
+((I2013
+I4
+I27
+I22
+I44
+I27
+I5
+I117
+I1
+tp259
+(dp260
+tp261
+Rp262
+sg184
+g262
+sg185
+VDead
+p263
+sbsa(dp264
+g12
+I00
+sg13
+(lp265
+F947.5
+aF612.5
+asg15
+(itiddlywiki
+Tiddler
+p266
+(dp267
+S'text'
+p268
+V<<set $toten = [1,2,3,4,5,6,7,8,9,10]>>\u000a\u000a<<for $n $toten>>\u000a<<print $n>>,\u000a<<endfor>>\u000a\u000a[[Done.|Inside]]
+p269
+sS'tags'
+p270
+(lp271
+sS'created'
+p272
+g23
+((I2013
+I4
+I28
+I10
+I39
+I59
+I6
+I118
+I1
+tp273
+(dp274
+tp275
+Rp276
+sS'modified'
+p277
+g276
+sS'title'
+p278
+VLooptest
+p279
+sbsa(dp280
+g12
+I01
+sg13
+(lp281
+F325.0
+aF772.5
+asg15
+(itiddlywiki
+Tiddler
+p282
+(dp283
+S'text'
+p284
+V<<silently>>\u000a\u000a<<set $body = {}>>\u000a\u000a<<set $startattr = randompick( ["skin","color","gender","name"] ) >>\u000a\u000a<<set $colors = ["red","yellow","blue","green","purple","translucent"] >>\u000a<<set $skins = ["diamond","rubbery","scaly","hairy"] >>\u000a<<set $genders = ["masculine","feminine","androgynous"] >>\u000a<<set $names = ["Amy","Dan","Alex","Rachel","John","Jamie","Victoria","Aiden","Jordan"] >>\u000a\u000a<<if $startattr eq "skin">>\u000a	<<set $body.skin = randompick($skins)>>\u000a<<endif>>\u000a\u000a<<if $startattr eq "color">>\u000a	<<set $body.color = randompick($colors)>>\u000a<<endif>>\u000a\u000a<<if $startattr eq "gender">>\u000a	<<set $body.gender = randompick($genders)>>\u000a<<endif>>\u000a	\u000a<<if $startattr eq "name">>\u000a	<<set $body.name = randompick($names)>>	\u000a<<endif>>\u000a\u000a<<endsilently>>\u000a\u000aYou awake to find you have <<print $body[ $startattr ] >> <<print $startattr>>.
+p285
+sS'tags'
+p286
+(lp287
+sS'created'
+p288
+g23
+((I2013
+I4
+I29
+I7
+I25
+I7
+I0
+I119
+I1
+tp289
+(dp290
+tp291
+Rp292
+sS'modified'
+p293
+g292
+sS'title'
+p294
+VCharactergen
+p295
+sbsa(dp296
+g12
+I00
+sg13
+(lp297
+F153.75
+aF771.25
+asg15
+(itiddlywiki
+Tiddler
+p298
+(dp299
+g284
+V<<display 'Charactergen'>>\u000a\u000aOK now what
+p300
+sg286
+(lp301
+sg288
+g23
+((I2013
+I4
+I29
+I7
+I25
+I39
+I0
+I119
+I1
+tp302
+(dp303
+tp304
+Rp305
+sg293
+g305
+sg294
+VDemo
+p306
+sbsasS'scale'
+p307
+F0.80000000000000004
+ss.

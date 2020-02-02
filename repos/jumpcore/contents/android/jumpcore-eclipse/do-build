@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Anybody know how to call a shell command from inside Android.mk? Cuz I'm stumped.
+
+mkdir -p assets
+cp ../../desktop/Internal/* assets
+cp ../../atlas/output_image/* assets
+cp ../../shader/position.vsh ../../shader/color.fsh assets
+
+#NDK_DEBUG=1 /Users/mcc/Downloads/android-ndk-r5b/ndk-build

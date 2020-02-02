@@ -1,0 +1,80 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Make.rules
+scopeName: source.makepy
+fileTypes: [rules]
+uuid: 4882ba71-67a5-47db-b7e2-c1cef6b4d0bf
+
+# This is kinda primitive, and doesn't work at all with multiline quotes/statements.
+# The YAML-tmLanguage format is mostly undefined. In creating this I was guided by:
+# - http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html -- Guide to AAAPackageDev utility
+# - https://github.com/Dridus/Swift.tmbundle/blob/master/Swift.YAML-tmLanguage -- Nice meaty example file
+# - http://manual.macromates.com/en/language_grammars -- Original textmate manual
+# - https://github.com/jasherai/oniguruma/blob/master/Syntax.txt -- Ruby regexp docs
+
+patterns:
+  # # to end of line is comment
+  - match: '#.*$'
+    name: comment.line.makepy
+
+  # Match rule contents
+  - begin: '^(\s*)(?:(?!(?:if|elif|else|for|do|global|import|include)\b)(\S[^:]*)|(do|global)\s*):.*'
+    end: '^(?!\1\s)'
+    captures:
+      "2":
+        name: entity.name.tag.makepy
+      "3":
+        name: keyword.control.makepy
+    contentName: string.quoted.makepy
+
+  # Match keywords
+  - match: '^\s*\b(?:if|elif|else|print|warn|error|do|global|import|include)\b'
+    name: keyword.control.makepy
+
+  # Match for statement
+  - match: '^\s*(python)\s+([^#]+)'
+    captures:
+      "1":
+        name: keyword.control.makepy
+      "2":
+        name: string.quoted.makepy
+
+  # Match for statement
+  - match: '^\s*(for)\s+(\S+)\s+(in)'
+    captures:
+      "1":
+        name: keyword.control.makepy
+      "2":
+        name: variable.other.makepy
+      "3":
+        name: keyword.control.makepy
+
+  # Match assignment
+  - match: '^\s*(env(?:raw)?\s+)?(\S+)(?=\s*\W?=)'
+    captures:
+      "1":
+        name: keyword.control.makepy
+      "2":
+        name: variable.other.makepy
+
+  - match: '^\s*(env(?:raw)?)\s+(\S+)\s*(\#|$)'
+    captures:
+      "1":
+        name: keyword.control.makepy
+      "2":
+        name: variable.other.makepy
+
+  # Anything nested within parenthesis is a string
+  - begin: '\$?\('
+    end:   '\)'
+    patterns:
+      - include: "$self"
+    name: string.quoted.makepy
+
+  # Anything between quotes is a string (support \\ and \"")
+  - match: '\$?"(\\.|[^\\"])*"'
+    name: string.quoted.makepy
+
+  # Match variables
+  - match: '\$\w+'
+    name: variable.other.makepy

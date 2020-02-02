@@ -1,0 +1,32 @@
+{# Inherited by all #}
+{# todo: load dfextras #}
+
+<html>
+<head>
+  <title>{% block title %}JLDB{% endblock %}</title>
+  {# javascript goes here? #}
+  {% block alternates %}{% endblock %}
+<style>
+<!--
+body {background-color: black; color:white; font-family:helvetica; font-size: 17px; }
+a:link { color: #FF7F00 }
+a:visited { color: #7F0000; }
+a:active { color: #7F7F7F; }
+// -->
+</style>
+
+</head>
+<body>
+
+{# Messages go here #}
+{% for message in all_errors %}
+<p style="background-color:#FFAAAA; padding:10px; font-weight:bold;">{{ message }}</p>
+{% endfor %}
+{% for message in all_messages %}
+<p style="background-color:#AAFFAA; padding:10px;">{{ message }}</p>
+{% endfor %}
+
+{% block content %}{% endblock %}
+
+</body>
+</html>

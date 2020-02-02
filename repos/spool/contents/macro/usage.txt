@@ -1,0 +1,88 @@
+Spool macro HOWTO -- Release 0.1
+
+(c) 2013 Andi McClure
+andi.m.mcclure@gmail.com
+http://runhello.com
+
+------
+BASICS
+------
+
+At the moment, Spool comes with three macros: <<send>>, <<receive>>, and <<add>>. You can see all three of these demonstrated in the included test.tws / test.html files.
+
+"Receive"
+Passage: Gates
+------
+<<receive $dooropen=Gatesopen>>
+
+For some reason, instead of the typical motion sensing door, this particular Costco has a gigantic iron lever next to the doors.
+
+[[Turn lever.|Lever]]
+
+<<if $dooropen>>[[Enter Costco.|Inside]]<<endif>>
+------
+
+This is kind of like a "set" that copies from the server. When you get to that <<receive>> line it goes and asks the server, "what is the Gatesopen value", and stores it in $dooropen. The "." doesn't do anything at all. The way Gatesopen gets set is with "Send"
+
+"Send"
+Passage: Lever
+------
+<<send Gatesopen = not $dooropen>>
+
+With all your might, you turn the heavy lever. It slams to the other side with a sickening, shuddering clank.
+
+The door slides <<if $dooropen>>closed<<else>>open<<endif>> with a gentle hum and stays that way.
+
+[[Done.|Gates]]
+------
+
+Send is the opposite of Receive, it's a set that copies *to* the server. It sets Gatesopen on the server to… well, whatever you set it to.
+
+So basically what these pages do together is they make it so if you open the door (by setting Gatesopen to true), the next person to play the game sees the door as open, and vice versa.
+
+I only have one more macro in this version that's useful, it's "add"
+
+"Add"
+Passage: Carts
+-------
+<<receive $carts=Cartscount>>
+
+The parking lot is scattered with carts. There's a line of... like... one of those metal, sort of... cage, things? That they put shopping carts in? You realize you're not sure why shopping carts need to be caged. Is it for their safety or the safety of the shoppers? Anyway, there are <<if $carts>><<print $carts>><<else>>no<<endif>> carts in this cage.
+
+<<if $carts>>[[Remove a cart|Cartminus]]<<endif>>
+
+[[Stow a cart|Cartplus]]
+
+[[Leave|Costco]]
+------
+Passage: Cartplus
+------
+<<add Cartscount = 1>>
+
+You walk across the parking lot and take one of the scattered shopping carts. You return it to the cage and slide it nicely into place.
+
+[[Done.|Carts]]
+------
+
+"Add" is just like "send" but instead of setting your value on the server, it adds it. So every time you load this passage, Cartscount increases by one on the server. And there's also a Cartminus page that says <<add Cartscount = -1>>. Remember Cartscount lives on the server so you have to say <<receive>> to see what it looks like at any one moment. It seems like this might be useful if you want to, for example, count the number of times that something has happened.
+
+<<send>>, <<receive>> and <<add>> will in the current version do unexpected things if you use them inside of a subpassage (that is, a passage which is being displayed with <<display>>).
+
+If you ever turn off or restart the web server, all variables that have been set there will be forgotten.
+
+--------
+ADVANCED
+--------
+
+If you know some Javascript and maybe some Python, you could add your own advanced capabilities to Spool. For examples of such advanced capabilities, you can see the source code to Naked Shades:
+https://bitbucket.org/runhello/athena
+
+However in general what you want to do is:
+
+In spool_macros.js you will find a class named Handler. All the macros are javascript "subclasses" of this method. You want to make your own subclass, and override the macroToSend() function (which takes in the macro arguments as an argument, and returns an object which will be sent to the server as JSON) and also resultsToOutput() (which takes in an object received as JSON from the server, and returns the new Twine text to be added to the page.
+
+It's likely if you're adding a new spool macro you'll also want to change the behavior on the server. Open up server/server.py and look for the method "result" in the class SpoolHandler. This method takes a de-JSONed object sent from Javascript as argument, and returns a to-be-JSONed object.
+
+If you are writing python, you may want to take advantage of options.history / history_file and options.load, which are set up for you in the code but in the default server don't do anything. For example, if there are things you wish to remember from one run of the server to the next, you could write those line by line to history_file, then later submit the history log back into the script with --load (which you could modify the line after "Will load from %s" to interpret).
+
+That's about it, have fun and remember to use protection (by which I mean source control).

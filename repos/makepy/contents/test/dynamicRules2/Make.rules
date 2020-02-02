@@ -1,0 +1,16 @@
+targets = 1 2 3 4
+
+global:
+    def filename(x):
+        return "file-%s" % (x)
+
+    def depends(x):
+        num = int(x)
+        return filename(num-1) if num > 1 else None
+
+for num in $targets:
+    $(filename(num)): $(depends(num))
+        print("File %s depends on %s" % (target, dep))
+        touch(target)
+
+all: file-4

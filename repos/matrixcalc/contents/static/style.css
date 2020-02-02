@@ -1,0 +1,11 @@
+body { font-family:sans-serif; }
+
+.MatrixForm textarea { width:260px; height:80px; }
+.MatrixForm .mainTable > tbody > tr > td:nth-child(2) { padding-left:45px; }
+.MatrixForm .failure { color:crimson; font-weight:bold; }
+.MatrixForm .smallDivider { width:50%; border-color:black; border:0; border-top:1px solid; }
+.MatrixForm .matrixPrint { width:260px; }
+.MatrixForm .matrixPrint, .MatrixForm .vectorPrint { color:darkblue; font-weight:bold; }
+.MatrixForm .footer { text-align:right; font-size:small; color:gray; }
+.MatrixForm .footer a { color:gray; }
+.MatrixForm .footer a:active { color:darkgray; }

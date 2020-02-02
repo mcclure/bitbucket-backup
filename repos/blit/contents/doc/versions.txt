@@ -1,0 +1,5 @@
+GLM: 0.9.4.6
+Mesa: 7.4.2
+SDL2: 2.0.3 with modifications to Mac framework:
+	Modified SDL_platform.h from http://stackoverflow.com/questions/22446008/winapifamily-h-no-such-file-or-directory-when-compiling-sdl-in-codeblocks
+	Added SDL_config_windows.h from http://fossies.org/dox/SDL2-2.0.3/SDL__config__windows_8h_source.html

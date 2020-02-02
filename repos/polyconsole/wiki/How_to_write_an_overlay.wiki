@@ -1,0 +1,23 @@
+<<toc>>
+
+=How to use=
+
+The Polyconsole "room" loader works by combining resource files (like SVGs, or 3D scene files) with these things I call "Overlays", which are just Polycode objects that contain snippets of Lua code (to run on room load, frame update, and room shutdown) and affect how resource files are loaded. So for example in [[http://runhello.com/?p=554|one silly little game I made]], the spec for one single room would have looked like:
+
+{{{"media/overlay/game,media/overlay/street,media/bg.svg,media/street.svg"}}}
+
+In this game, each "level" was its own room. Each room included the "game" overlay, which included utility functions and stuff that ran in each room, and each room included the contents of the "bg" SVG file, which contained some objects present in every room. For each room I'd load a room-specific overlay and a room-specific SVG file (this room was named "street") containing the code and objects specific to this room.
+
+When you load multiple files like this, the callbacks (onLoad, onUpdate, etc) for the overlays on the left are called before the ones on the right; and any entity properties specified in the overlays to the left apply to the resource (SVG) files to the right.
+
+The overlays themselves are Polycode Objects. The default format for Polycode Objects is an XML format which no editor exists for, so instead you can specify an Object as a directory structure. Directories are put into the object as dictionaries, and files are put in with the filename as the key (with any file extension stripped off) and the file contents as the value.
+
+=Format=
+
+{{{onLoad}}} Lua code run when the overlay is loaded.\\
+{{{onUpdate}}} Lua code run on each update tick.\\
+{{{onClose}}} Lua code run on file close.\\
+{{{screen}}} A string that sets the class of the Screen associated with this overlay (such as Screen or PhysicsScreen). If none ever specified, Screen is left null.\\
+{{{scene}}} A string that sets the class of the Scene associated with this overlay (such as Scene or PhysicsScene). If none ever specified, Screen is left null.\\
+{{{entity/}}} A directory containing information to be added to individual entities in the SVG scene.\\
+{{{entity/SOME_ENTITY_NAME/onCollide}}} Lua code to be run anytime this particular entity collides with another object. When this is run, the collision intensity is injected into lua with the name "impact" and you can [[https://bitbucket.org/runhello/polyconsole/wiki/Functions_added_in_Polyconsole#!physics|access the collided objects]] using ``bridge::room_a()`` and ``bridge:room_b``.

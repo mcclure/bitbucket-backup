@@ -1,0 +1,1543 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" x="1" height="0" kind="1" texture="blank" />
+        <nil y="2" kind="1" x="1" texture="blank" />
+        <nil y="3" kind="1" x="1" texture="blank" />
+        <nil y="4" kind="1" x="1" texture="blank" />
+        <nil y="5" kind="1" x="1" texture="blank" />
+        <nil y="6" kind="1" x="1" texture="blank" />
+        <nil y="7" kind="1" x="1" texture="blank" />
+        <nil y="0" kind="1" x="1" texture="blank" />
+        <nil y="13" x="1" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="23" kind="1" x="1" texture="blank" />
+        <nil y="20" kind="1" x="1" texture="blank" />
+        <nil y="1" kind="1" x="2">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="1" x="2">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="2" texture="blank" />
+        <nil y="4" kind="1" x="2" texture="blank" />
+        <nil y="5" kind="1" x="2" texture="blank" />
+        <nil y="7" kind="1" x="2" texture="blank" />
+        <nil y="10" x="2" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="2" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="2" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="20" kind="1" x="2" texture="blank" />
+        <nil y="-1" kind="1" x="2" texture="blank" />
+        <nil y="-3" kind="1" x="2" texture="blank" />
+        <nil y="23" kind="1" x="2" texture="blank" />
+        <nil y="0" kind="1" x="2" texture="blank" />
+        <nil y="1" kind="1" x="3" texture="blank" />
+        <nil y="2" kind="1" x="3" texture="blank" />
+        <nil y="3" kind="1" x="3" texture="blank" />
+        <nil y="4" kind="1" x="3">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" kind="3" x="3" act="no" />
+        <nil y="5" kind="1" x="3" texture="blank" />
+        <nil y="7" kind="1" x="3" texture="blank" />
+        <nil y="8" x="3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" kind="3" x="3" act="recenter_camera" />
+        <nil y="20" kind="1" x="3" texture="blank" />
+        <nil y="20" kind="3" x="3" act="recenter_camera" />
+        <nil y="23" kind="1" x="3" texture="blank" />
+        <nil y="21" kind="1" x="3" texture="blank" />
+        <nil y="18" kind="1" x="3" texture="blank" />
+        <nil y="22" kind="1" x="3" texture="blank" />
+        <nil y="19" kind="1" x="3" texture="blank" />
+        <nil y="-1" kind="1" x="3" texture="blank" />
+        <nil y="-2" kind="1" x="3" texture="blank" />
+        <nil y="1" kind="1" x="4" texture="blank" />
+        <nil y="2" kind="1" x="4" texture="blank" />
+        <nil y="3" kind="1" x="4" texture="blank" />
+        <nil y="4" kind="1" x="4" texture="blank" />
+        <nil y="5" kind="1" x="4" texture="blank" />
+        <nil y="7" kind="1" x="4" texture="blank" />
+        <nil y="20" x="4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" kind="1" x="4" texture="blank" />
+        <nil y="0" kind="3" x="4" act="recenter_camera" />
+        <nil y="-1" kind="1" x="4" texture="blank" />
+        <nil y="18" kind="1" x="4" texture="blank" />
+        <nil y="1" kind="1" x="5" texture="blank" />
+        <nil y="2" kind="1" x="5" texture="blank" />
+        <nil y="3" kind="1" x="5" texture="blank" />
+        <nil y="4" kind="1" x="5" texture="blank" />
+        <nil y="5" kind="1" x="5" texture="blank" />
+        <nil y="7" kind="1" x="5" texture="blank" />
+        <nil y="20" x="5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" kind="1" x="5" texture="blank" />
+        <nil y="-1" kind="1" x="5" texture="blank" />
+        <nil y="18" kind="1" x="5" texture="blank" />
+        <nil y="1" kind="1" x="6" texture="blank" />
+        <nil y="2" kind="1" x="6" texture="blank" />
+        <nil y="3" kind="1" x="6" texture="blank" />
+        <nil y="4" kind="1" x="6">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="6" anchor="1" kind="4" recenter="true" />
+        <nil y="4" kind="3" x="6" act="recenter_camera" />
+        <nil y="5" kind="1" x="6" texture="blank" />
+        <nil y="7" kind="1" x="6" texture="blank" />
+        <nil y="8" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" kind="3" x="6" act="recenter_camera" />
+        <nil y="10" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="20" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="21" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" kind="1" x="6" texture="blank" />
+        <nil y="22" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" kind="1" x="6" texture="blank" />
+        <nil y="23" x="6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="1" x="7">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="1" x="7">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="7" texture="blank" />
+        <nil y="4" kind="1" x="7" texture="blank" />
+        <nil y="5" kind="1" x="7" texture="blank" />
+        <nil y="6" kind="1" x="7" texture="blank" />
+        <nil y="7" kind="1" x="7" texture="blank" />
+        <nil y="0" kind="1" x="7" texture="blank" />
+        <nil y="17" x="7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" kind="3" x="7" act="recenter_camera" />
+        <nil y="19" x="7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="23" x="7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" kind="1" x="7" texture="blank" />
+        <nil y="-1" kind="1" x="7" texture="blank" />
+        <nil y="10" x="7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="1" x="8" texture="blank" />
+        <nil y="2" kind="1" x="8" texture="blank" />
+        <nil y="3" kind="1" x="8" texture="blank" />
+        <nil y="0" kind="1" x="8" texture="blank" />
+        <nil y="17" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="21" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="22" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="23" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="23" kind="3" x="8" act="recenter_camera" />
+        <nil y="20" x="8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="9" texture="blank" />
+        <nil y="10" x="9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="10" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" kind="1" x="10" texture="blank" />
+        <nil y="3" kind="1" x="10" texture="blank" />
+        <nil y="-7" x="10" height="2" kind="1" texture="blank" />
+        <nil y="-7" kind="3" x="10" act="recenter_camera" />
+        <nil y="2" kind="1" x="10" texture="blank" />
+        <nil y="10" x="10" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" kind="1" x="11" texture="blank" />
+        <nil y="-6" x="11" height="0" kind="1" texture="blank" />
+        <nil y="16" kind="1" x="11" texture="blank" />
+        <nil y="17" kind="1" x="11">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" kind="1" x="11" texture="blank" />
+        <nil y="19" kind="1" x="11" texture="blank" />
+        <nil y="-7" x="11" height="2" kind="1" texture="blank" />
+        <nil y="-7" kind="4" anchor="3" x="11" />
+        <nil y="-7" x="11" sprite="trusprit/dudemanwalkin2" anchor="3" special="player" kind="4" backsprite="trusprit/dudemanwalkin" />
+        <nil y="-8" x="11" height="3" kind="1" texture="blank" />
+        <nil y="-8" x="11" warpto="crapet" kind="3" warpanchor="2" />
+        <nil y="10" x="11" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="12" height="1" kind="1" texture="blank" />
+        <nil y="14" x="12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="12" height="2" kind="1" texture="blank" />
+        <nil y="16" kind="1" x="12" texture="blank" />
+        <nil y="17" kind="1" x="12" texture="blank" />
+        <nil y="18" kind="1" x="12" texture="blank" />
+        <nil y="19" kind="1" x="12" texture="blank" />
+        <nil sprite="ppl/nellie" x="12" act="lookin" kind="2" flip="true" y="19">
+            <polyarray:color>
+                <nil>4</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="20" kind="1" x="12" texture="blank" />
+        <nil y="-7" x="12" height="2" kind="1" texture="blank" />
+        <nil y="-7" kind="3" x="12" act="recenter_camera" />
+        <nil y="-8" x="12" height="2" kind="1" texture="blank" />
+        <nil y="10" x="12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" kind="3" x="12" act="recenter_camera" />
+        <nil y="15" kind="1" x="13" texture="blank" />
+        <nil y="2" kind="1" x="13" texture="blank" />
+        <nil y="-1" x="13" height="1" kind="1" texture="blank" />
+        <nil y="-2" x="13" height="2" kind="1" texture="blank" />
+        <nil y="16" kind="1" x="13" texture="blank" />
+        <nil y="-8" x="13" height="2" kind="1" texture="blank" />
+        <nil y="17" kind="1" x="13">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" kind="3" x="13" act="recenter_camera" />
+        <nil y="18" kind="1" x="13" texture="blank" />
+        <nil y="19" kind="1" x="13" texture="blank" />
+        <nil y="10" x="13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="13" height="0" kind="1" texture="blank" />
+        <nil y="11" x="13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="13" height="1" kind="1" texture="blank" />
+        <nil y="13" x="13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-7" x="13" height="2" kind="1" texture="blank" />
+        <nil y="-4" kind="1" height="0" x="13" />
+        <nil y="0" kind="1" x="13" texture="blank" />
+        <nil y="-3" x="13" height="1" kind="1" texture="blank" />
+        <nil y="1" kind="1" x="14" texture="blank" />
+        <nil y="2" kind="1" x="14" texture="blank" />
+        <nil y="2" kind="3" x="14" act="recenter_camera" />
+        <nil y="3" kind="1" x="14" texture="blank" />
+        <nil y="4" x="14" height="1" kind="1" texture="blank" />
+        <nil y="5" kind="1" x="14" texture="blank" />
+        <nil y="6" kind="1" x="14" texture="blank" />
+        <nil y="7" kind="1" x="14" texture="blank" />
+        <nil y="0" x="14" height="0" kind="1" texture="blank" />
+        <nil y="17" kind="1" x="14" texture="blank" />
+        <nil y="-2" x="14" height="3" kind="1" texture="blank" />
+        <nil y="-5" x="14" height="3" kind="1" texture="blank" />
+        <nil y="-3" x="14" height="2" kind="1" texture="blank" />
+        <nil y="-3" kind="3" x="14" act="recenter_camera" />
+        <nil y="-1" x="14" height="3" kind="1" texture="blank" />
+        <nil y="-4" x="14" height="0" kind="1" texture="blank" />
+        <nil y="1" kind="1" x="15" texture="blank" />
+        <nil y="2" x="15" height="2" kind="1" texture="blank" />
+        <nil y="3" kind="1" x="15" texture="blank" />
+        <nil y="4" x="15" height="1" kind="1" texture="blank" />
+        <nil y="5" kind="1" x="15" texture="blank" />
+        <nil y="6" x="15" height="2" kind="1" texture="blank" />
+        <nil y="7" x="15" height="3" kind="1" texture="blank" />
+        <nil y="9" x="15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" kind="3" x="15" act="recenter_camera" />
+        <nil y="10" x="15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="15" height="2" kind="1" texture="blank" />
+        <nil y="-5" x="15" height="4" kind="1" texture="blank" />
+        <nil y="-2" x="15" height="2" kind="1" texture="blank" />
+        <nil y="-3" x="15" height="4" kind="1" texture="blank" />
+        <nil y="17" x="15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" kind="3" x="15" act="recenter_camera" />
+        <nil y="1" x="16" height="3" kind="1" texture="blank" />
+        <nil y="2" kind="1" x="16" texture="blank" />
+        <nil y="3" x="16" height="2" kind="1" texture="blank" />
+        <nil y="4" kind="1" x="16" texture="blank" />
+        <nil y="5" kind="1" x="16" texture="blank" />
+        <nil y="6" x="16" height="2" kind="1" texture="blank" />
+        <nil y="7" x="16" height="1" kind="1" texture="blank" />
+        <nil y="9" x="16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="16" height="2" kind="1" texture="blank" />
+        <nil y="17" x="16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="16" height="2" kind="1" texture="blank" />
+        <nil y="-1" x="16" height="3" kind="1" texture="blank" />
+        <nil y="-4" x="16" height="2" kind="1" texture="blank" />
+        <nil y="1" x="17" height="2" kind="1" texture="blank" />
+        <nil y="2" x="17" height="3" kind="1" texture="blank" />
+        <nil y="3" kind="1" x="17" texture="blank" />
+        <nil y="4" x="17" height="1" kind="1" texture="blank" />
+        <nil y="5" kind="1" x="17" texture="blank" />
+        <nil y="6" x="17" height="1" kind="1" texture="blank" />
+        <nil y="7" x="17" height="1" kind="1" texture="blank" />
+        <nil y="9" x="17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="17" height="2" kind="1" texture="blank" />
+        <nil y="-2" x="17" height="3" kind="1" texture="blank" />
+        <nil y="-3" x="17" height="2" kind="1" texture="blank" />
+        <nil y="-1" x="17" height="2" kind="1" texture="blank" />
+        <nil y="18" x="17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="18" height="2" kind="1" texture="blank" />
+        <nil y="2" x="18" height="2" kind="1" texture="blank" />
+        <nil y="3" kind="1" x="18" texture="blank" />
+        <nil y="4" kind="1" x="18" texture="blank" />
+        <nil y="5" x="18" height="1" kind="1" texture="blank" />
+        <nil y="6" x="18" height="1" kind="1" texture="blank" />
+        <nil y="7" kind="1" x="18" texture="blank" />
+        <nil y="9" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" kind="3" x="18" act="recenter_camera" />
+        <nil y="12" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="18" height="2" kind="1" texture="blank" />
+        <nil y="17" x="18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="18" height="3" kind="1" texture="blank" />
+        <nil y="1" x="19" height="1" kind="1" texture="blank" />
+        <nil y="2" x="19" height="2" kind="1" texture="blank" />
+        <nil y="6" x="19" height="1" kind="1" texture="blank" />
+        <nil y="6" kind="3" x="19" act="recenter_camera" />
+        <nil y="-1" x="19" height="2" kind="1" texture="blank" />
+        <nil y="0" x="19" height="2" kind="1" texture="blank" />
+        <nil y="5" x="19" height="1" kind="1" texture="blank" />
+        <nil y="9" x="19" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="20" height="2" kind="1" texture="blank" />
+        <nil y="2" x="20" height="2" kind="1" texture="blank" />
+        <nil y="3" x="20" height="2" kind="1" texture="blank" />
+        <nil y="4" x="20" height="2" kind="1" texture="blank" />
+        <nil y="5" kind="1" x="20" texture="blank" />
+        <nil y="6" kind="1" x="20" texture="blank" />
+        <nil y="6" kind="3" x="20" act="recenter_camera" />
+        <nil y="7" x="20" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="20" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="20" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="21" height="2" kind="1" texture="blank" />
+        <nil y="3" x="21" height="2" kind="1" texture="blank" />
+        <nil y="4" x="21" height="2" kind="1" texture="blank" />
+        <nil y="20" kind="1" x="0" texture="blank" />
+        <nil y="13" x="0" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="0" texture="blank" />
+        <nil y="19" kind="1" x="0" texture="blank" />
+        <nil y="23" kind="1" x="0" texture="blank" />
+        <nil y="23" kind="3" x="0" act="recenter_camera" />
+        <nil y="18" kind="1" x="0" texture="blank" />
+        <nil y="13" x="-1" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="-1" texture="blank" />
+        <nil y="12" x="-1" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" kind="3" x="-1" act="recenter_camera" />
+        <nil y="4" kind="1" x="-1" texture="blank" />
+        <nil y="23" x="-1" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="22" x="-2" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="23" x="-2" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="-2" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" kind="3" x="-4" act="recenter_camera" />
+        <nil y="9" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="20" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="21" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" kind="1" x="-4">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil sprite="trusprit/brokenhead" x="-4" act="me" kind="2" y="12" flip="true" />
+        <nil y="11" x="-4" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" kind="1" x="-8" texture="blank" />
+        <nil y="-3" kind="3" x="-8" act="recenter_camera" />
+        <nil y="-2" kind="1" x="-8" texture="blank" />
+        <nil y="3" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" kind="1" x="-8" texture="blank" />
+        <nil y="6" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="-8" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="-16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="-16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="-16" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="1" x="-17" texture="blank" />
+        <nil y="2" x="-17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="-17" texture="blank" />
+        <nil y="3" kind="3" x="-17" act="recenter_camera" />
+        <nil y="5" kind="1" x="-17" texture="blank" />
+        <nil y="6" x="-17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" kind="1" x="-17" texture="blank" />
+        <nil y="0" x="-17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" kind="1" x="-17" texture="blank" />
+        <nil y="-1" x="-17" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="-9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="-9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="-9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="3" x="-9" act="recenter_camera" />
+        <nil y="6" x="-9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" kind="1" x="-9" texture="blank" />
+        <nil y="-2" kind="1" x="-9" texture="blank" />
+        <nil sprite="trusprit/floating" x="-9" act="wanna" kind="2" y="-3" flip="true" />
+        <nil y="-3" kind="1" x="-9">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" kind="3" x="-9" act="wanna" />
+        <nil y="0" x="-9" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" kind="1" x="-9" texture="blank" />
+        <nil y="3" x="-18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="-18" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" kind="3" x="-5" act="recenter_camera" />
+        <nil y="16" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="20" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0.25</nil>
+                <nil>0.25</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="-5" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" kind="1" x="-10" texture="blank" />
+        <nil y="-5" kind="1" x="-10">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" kind="1" x="-10" texture="blank" />
+        <nil y="-2" kind="1" x="-10" texture="blank" />
+        <nil y="-2" kind="3" x="-10" act="recenter_camera" />
+        <nil y="-3" kind="1" x="-10" texture="blank" />
+        <nil y="1" x="-11" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="-11" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" kind="1" x="-11" texture="blank" />
+        <nil y="13" kind="3" x="-11" act="recenter_camera" />
+        <nil y="-5" kind="1" x="-11" texture="blank" />
+        <nil y="-3" x="-11" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="-11" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" kind="3" x="-11" act="recenter_camera" />
+        <nil y="9" kind="1" x="-11" texture="blank" />
+        <nil y="-1" kind="1" x="-11" texture="blank" />
+        <nil y="-1" kind="3" x="-11" act="fucked" />
+        <nil y="11" kind="1" x="-11" texture="blank" />
+        <nil y="12" x="-11" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" kind="1" x="-11" texture="blank" />
+        <nil y="11" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0.25</nil>
+                <nil>0.25</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="22" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="21" x="-3" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="21" kind="3" x="-3" act="recenter_camera" />
+        <nil y="0" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" kind="3" x="-6" act="recenter_camera" />
+        <nil y="7" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="-6" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0.25</nil>
+                <nil>0.25</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" kind="4" anchor="2" x="-12" />
+        <nil y="9" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="-12" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" kind="3" x="-12" act="recenter_camera" />
+        <nil y="1" kind="1" x="-13" texture="blank" />
+        <nil y="13" kind="1" x="-13" texture="blank" />
+        <nil y="13" x="-13" warpto="lalaland" kind="3" warpanchor="4" />
+        <nil y="7" kind="1" x="-13" texture="blank" />
+        <nil y="-3" x="-13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" kind="1" x="-13" texture="blank" />
+        <nil y="5" x="-13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" kind="1" x="-13" texture="blank" />
+        <nil y="11" kind="1" x="-13" texture="blank" />
+        <nil y="6" x="-13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" x="-13" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="-7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="-7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="-7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="-7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="-7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" kind="1" x="-7" texture="blank" />
+        <nil y="16" x="-7" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" kind="1" x="-7">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="-14" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="-14" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" kind="3" x="-14" act="recenter_camera" />
+        <nil y="9" x="-14" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="-14" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="1" x="-15" texture="blank" />
+        <nil y="1" kind="3" x="-15" act="recenter_camera" />
+        <nil y="11" x="-15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" kind="1" x="-15" texture="blank" />
+        <nil y="10" x="-15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" kind="3" x="-15" act="recenter_camera" />
+        <nil y="9" kind="1" x="-15" texture="blank" />
+        <nil y="-1" kind="1" x="-15" texture="blank" />
+        <nil y="5" kind="1" x="-15" texture="blank" />
+        <nil y="0" x="-15" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="1" x="-19" texture="blank" />
+        <nil y="2" x="-19" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="1" x="-19" texture="blank" />
+        <nil y="4" x="-19" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" kind="1" x="-19" texture="blank" />
+        <nil y="5" kind="3" x="-19" act="recenter_camera" />
+        <nil y="6" x="-19" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="-19" kind="1" texture="blank">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+    </polyarray:map>
+    <meta music="spooky" camzoom="1.3">
+        <polyarray:bgcolor>
+            <nil>0</nil>
+            <nil>0</nil>
+            <nil>0</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

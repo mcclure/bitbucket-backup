@@ -1,0 +1,25 @@
+This game supports user-created levels. The game uses .xml and .png files to define levels; you can make your own levels by just dumping these files into the same directory as the game .exe or .app and then running the game. You can find an example level.xml and all the game levels inside the Internal folder (or, on the mac, control-click the .app, choose "Show Package Contents", and look in Contents/Resources); you should be able to just make copies of these files and start modifying them. Here's how these files work:
+
+You make the PNGs in any normal image editor; these are the level "maps". Black pixels will become walls, red pixels will become spawn points for player 1, blue pixels will become spawn points for player 2, and green pixels will become spawn points for health canisters (when enabled). The game will always try to load user levels before built-in levels, so you should try not to make PNGs with the same names as the files in the Internal directory (unless you want to replace a built-in level).
+
+The .xml files can be edited in any text editor; each <level /> line between <pack> and </pack> will describe one level. The attributes supported are:
+
+* "name" - Name in level menu. Required.
+* "file" - Png file name to load to construct map. Required unless "padded_room" is true. Notice, EVERYTHING else except these first two attributes is optional and will be replaced with sensible defaults if left out.
+* "maxhealth" - Maximum/starting health. An integer greater than zero.
+* "std_zoom" - The camera zoom amount. A float value greater than zero.
+* "forever_length" - Number of seconds before the timeline "loops". A float value greater than zero.
+* "snap_factor" - Snap distance is calculated by dividing this number from forever_length. This should be an integer which evenly divides forever_length.
+* "block_size" - Each pixel in the "file" png will equate to a square with this side length. For scale, a player character is always a square 0.2 units wide and 0.2 units tall. This should be a float value greater than zero.
+* "have_camera_freedom" - Determines on which axes the camera may move freely. This is what I'm going to call an "xy mask", which means it's an integer equal to either 0 (for "neither axis"), 1 (for "x axis"), 2 (for "y axis") or 3 (for "both axes"). The default is 3.
+* "have_camera_limit" - Determines on which axes the camera halts at the edge of the map. An xy mask. Default is 3.
+* "repeat" - Determines on which axes the map "loops". An xy mask. Default is 3. By the way, I've discovered that my old game Jumpman (which also used PNGs for level maps) is an excellent editor for making levels using this feature. Note though unlike Jumpman you shouldn't try to make levels in which the "repeating" area is so small you can see copies of yourself. This won't work and trying it will lead to graphical glitching.
+* "padded_room" - If set to "1", the map is discarded and instead a special map is built which is exactly the size of the screen. block_size is honored but this attribute has not been tested to-- and probably does not-- work with many of the other attributes.
+* "immortal_bullets" - If set to "1", bullets bounce off walls instead of exploding against them. May cause odd things to happen.
+* "gravity" - If greater than zero, vertical gravity is enabled. This should be a float equal to or less than zero. The default is of course zero. May cause odd things to happen.
+* "w_e", "p_e", "b_e", "w_u", "p_u", "b_u" - The elasticity and friction material values assigned to, respectively, the (W)alls, (P)layers, and (B)ullets-- they do the documented things e and u do in the Chipmunk physics engine. This is of very little use to you unless you are playing with gravity.
+* "hd_p", "hd_a", "hd_q" - If these are present, health packs will spawn every so often. After an initial hd_a second delay, packs will spawn every hd_p seconds in absolute time; the spawns will happen at random places on the in-game timeline. Each health pack heals hd_q points of health. Oh, and: hd_p is a floating point number greater than zero, hd_a is a floating point number greater than or equal to zero, and hd_q is an integer greater than zero.
+* "message" - If present, the contents will be shown on the level select screen in the blank space between SNAP and FOREVER. All the messages in the default levels are of the form "HAZARD: Something here".
+* "preview" - The name of a file in the same directory with the PNGs. 250 characters will be loaded out of this file and used to make the ASCII art "previews" in the level select screen.
+
+Warning, I can't guarantee this feature will work, and setting some of these attributes wrong (like "file") may cause the game to misbehave or crash. Good luck!

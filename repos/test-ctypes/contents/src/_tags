@@ -1,0 +1,3 @@
+true: safe_string
+<*>: package(ctypes, ctypes.foreign), linkpkg
+"main.native.so": use_cpart

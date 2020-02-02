@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:polycode="http://msm.runhello.com/local/svg/polycode0"
+   width="1280"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="temple_exit_door_door.svg"
+   xrule="center">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="792.52714"
+     inkscape:cy="332.95885"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1271"
+     inkscape:window-height="744"
+     inkscape:window-x="10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-nodes="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2996"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,1280"
+       id="guide2998" />
+    <sodipodi:guide
+       position="1280,0"
+       orientation="-800,0"
+       id="guide3000" />
+    <sodipodi:guide
+       position="1280,800"
+       orientation="0,-1280"
+       id="guide3002" />
+    <sodipodi:guide
+       position="0,800"
+       orientation="800,0"
+       id="guide3004" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+    <polycode:dummy />
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.7142857,-248.57143)">
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 394.16253,128.60029 274.76149,46.426202 266.69994,874.37583 394.16253,896.31627 z"
+       id="door_door"
+       inkscape:connector-curvature="0"
+       transform="translate(-5.7142857,248.57143)" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 284.06176,383.90173 18.39544,-3.77161 10.64672,36.92728 -18.39543,3.77162 z"
+       id="rect3379"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.20872,518.21879 16.86589,18.87451 -5.0892,21.8279 -16.86589,-18.87451 z"
+       id="rect3382"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 298.06498,656.16356 13.32201,-10.95954 12.58893,28.55854 -13.32201,10.95954 z"
+       id="rect3386"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 325.45934,810.46552 15.0477,2.59508 4.51581,26.09062 -15.04769,-2.59509 z"
+       id="rect3388"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 281.96904,727.26139 6.17252,0.5592 2.17983,10.91042 -6.17252,-0.5592 z"
+       id="rect3392" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 328.87387,593.00889 4.84202,-3.72061 3.96476,9.24449 -4.84201,3.7206 z"
+       id="rect3394"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 283.20735,857.85637 23.75332,3.69832 6.99761,39.17264 -23.75331,-3.69831 z"
+       id="rect3409"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 330.00638,986.70335 18.34301,-17.17679 19.62013,42.19054 -18.34301,17.1768 z"
+       id="rect3411"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.80500478px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 297.90496,981.88689 5.52238,14.79596 -9.40353,4.98015 -5.52239,-14.79605 z"
+       id="rect3413"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

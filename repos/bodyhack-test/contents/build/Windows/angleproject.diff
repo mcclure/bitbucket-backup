@@ -1,0 +1,42 @@
+diff --git a/src/compiler/util.cpp b/src/compiler/util.cpp
+index b46e4d0..2f1a0d6 100644
+--- a/src/compiler/util.cpp
++++ b/src/compiler/util.cpp
+@@ -18,11 +18,15 @@
+ double atof_dot(const char *str)
+ {
+ #ifdef _MSC_VER
++#if 0
+     _locale_t l = _create_locale(LC_NUMERIC, "C");
+     double result = _atof_l(str, l);
+     _free_locale(l);
+     return result;
+ #else
++    return atof(str);
++#endif
++#else
+     double result;
+     std::istringstream s(str);
+     std::locale l("C");
+diff --git a/src/libGLESv2/mathutil.h b/src/libGLESv2/mathutil.h
+index ad13e9d..030fc48 100644
+--- a/src/libGLESv2/mathutil.h
++++ b/src/libGLESv2/mathutil.h
+@@ -83,6 +83,7 @@ inline unsigned int unorm(float x)
+ 
+ inline bool supportsSSE2()
+ {
++#if 0
+     static bool checked = false;
+     static bool supports = false;
+ 
+@@ -104,6 +105,9 @@ inline bool supportsSSE2()
+     checked = true;
+ 
+     return supports;
++#else
++    return true;
++#endif
+ }
+ 
+ float float16ToFloat32(unsigned short h);

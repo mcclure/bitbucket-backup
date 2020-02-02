@@ -1,0 +1,1886 @@
+{
+    "version": "1.0b",
+    "db": [
+        {
+            "name": "PS3 Controller",
+            "labels": {
+                "x": "square",
+                "y": "triangle",
+                "a": "X",
+                "b": "circle",
+                "lefttrigger": "L2",
+                "righttrigger": "R2",
+                "leftshoulder": "L1",
+                "rightshoulder": "R1",
+                "rightstick": "right stick down",
+                "leftstick": "left stick down"
+            },
+            "platforms": {
+                "Windows": {
+                    "guid": "88880803000000000000504944564944",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b11",
+                        "rightx": "a3",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.4",
+                        "rightstick": "b10",
+                        "dpdown": "h0.8",
+                        "dpup": "h0.1",
+                        "leftstick": "b9",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Mac OS X": {
+                    "guid": "4c050000000000006802000000000000",
+                    "mapping": {
+                        "a": "b14",
+                        "lefty": "a1",
+                        "b": "b13",
+                        "righty": "a3",
+                        "y": "b12",
+                        "lefttrigger": "b8",
+                        "start": "b3",
+                        "rightx": "a2",
+                        "righttrigger": "b9",
+                        "leftshoulder": "b10",
+                        "leftx": "a0",
+                        "back": "b0",
+                        "dpright": "b5",
+                        "dpleft": "b7",
+                        "rightstick": "b2",
+                        "dpdown": "b6",
+                        "dpup": "b4",
+                        "leftstick": "b1",
+                        "x": "b15",
+                        "guide": "b16",
+                        "rightshoulder": "b11"
+                    }
+                },
+                "Linux": {
+                    "guid": "030000004c0500006802000011010000",
+                    "mapping": {
+                        "a": "b14",
+                        "lefty": "a1",
+                        "b": "b13",
+                        "righty": "a3",
+                        "y": "b12",
+                        "lefttrigger": "b8",
+                        "start": "b3",
+                        "rightx": "a2",
+                        "righttrigger": "b9",
+                        "leftshoulder": "b10",
+                        "leftx": "a0",
+                        "back": "b0",
+                        "dpright": "b5",
+                        "dpleft": "b7",
+                        "rightstick": "b2",
+                        "dpdown": "b6",
+                        "dpup": "b4",
+                        "leftstick": "b1",
+                        "x": "b15",
+                        "guide": "b16",
+                        "rightshoulder": "b11"
+                    }
+                }
+            }
+        },
+        {
+            "name": "X360 Controller",
+            "labels": {
+                "x": "X",
+                "y": "Y",
+                "a": "A",
+                "b": "B",
+                "back": "Back"
+            },
+            "platforms": {
+                "Windows": {
+                    "guid": "xinput",
+                    "mapping": {
+                        "a": "b10",
+                        "lefty": "a1",
+                        "b": "b11",
+                        "righty": "a3",
+                        "y": "b13",
+                        "lefttrigger": "a4",
+                        "start": "b4",
+                        "rightx": "a2",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b8",
+                        "leftx": "a0",
+                        "back": "b5",
+                        "dpright": "b3",
+                        "dpleft": "b2",
+                        "rightstick": "b7",
+                        "dpdown": "b1",
+                        "dpup": "b0",
+                        "leftstick": "b6",
+                        "x": "b12",
+                        "guide": "b14",
+                        "rightshoulder": "b9"
+                    }
+                },
+                "Mac OS X": {
+                    "guid": "5e040000000000008e02000000000000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b8",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "b14",
+                        "dpleft": "b13",
+                        "rightstick": "b7",
+                        "dpdown": "b12",
+                        "dpup": "b11",
+                        "leftstick": "b6",
+                        "x": "b2",
+                        "guide": "b10",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Linux": {
+                    "guid": "030000005e0400008e02000014010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b7",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b9",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "OUYA Controller",
+            "labels": {
+                "x": "U",
+                "y": "Y",
+                "a": "O",
+                "b": "A"
+            },
+            "platforms": {
+                "Windows": {
+                    "guid": "36280100000000000000504944564944",
+                    "mapping": {
+                        "a": "b0",
+                        "b": "b3",
+                        "righty": "a4",
+                        "lefttrigger": "b12",
+                        "dpleft": "b10",
+                        "rightx": "a3",
+                        "leftstick": "b6",
+                        "dpup": "b8",
+                        "leftx": "a0",
+                        "dpright": "b11",
+                        "lefty": "a1",
+                        "start": "b14",
+                        "righttrigger": "b13",
+                        "rightstick": "b7",
+                        "dpdown": "b9",
+                        "leftshoulder": "b4",
+                        "y": "b2",
+                        "x": "b1",
+                        "guide": "b15",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech Dual Action",
+            "labels": {
+                "x": "1",
+                "y": "4",
+                "a": "2",
+                "b": "3"
+            },
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006d04000016c2000010010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Gravis GamePad Pro",
+            "labels": {
+                "x": "Red",
+                "y": "Blue",
+                "a": "Yellow",
+                "b": "Green"
+            },
+            "platforms": {
+                "Windows": {
+                    "guid": "28040140000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "b": "b2",
+                        "lefttrigger": "b6",
+                        "righttrigger": "b7",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "lefty": "a1",
+                        "start": "b9",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Linux": {
+                    "guid": "03000000280400000140000000010000",
+                    "mapping": {
+                        "a": "b1",
+                        "b": "b2",
+                        "lefttrigger": "b6",
+                        "righttrigger": "b7",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "lefty": "a1",
+                        "start": "b9",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Acme",
+            "platforms": {
+                "Windows": {
+                    "guid": "8f0e1200000000000000504944564944",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a2",
+                        "lefttrigger": "b5",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a3",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b2",
+                        "rightshoulder": "b6"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Afterglow PS3 Controller",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Windows": {
+                    "guid": "341a3608000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "GameStop Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Windows": {
+                    "guid": "ffff0000000000000000504944564944",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b2",
+                        "guide": "",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Mac OS X": {
+                    "guid": "0500000047532047616d657061640000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b2",
+                        "guide": "",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Linux": {
+                    "guid": "0500000047532047616d657061640000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b2",
+                        "guide": "",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Generic DirectInput Controller",
+            "platforms": {
+                "Windows": {
+                    "guid": "6d0416c2000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F710 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Windows": {
+                    "guid": "6d0419c2000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "PS3 DualShock",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Windows": {
+                    "guid": "25090500000000000000504944564944",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b4",
+                        "start": "b8",
+                        "rightx": "a2",
+                        "righttrigger": "b5",
+                        "leftshoulder": "b6",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.4",
+                        "rightstick": "b11",
+                        "dpdown": "h0.8",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "guide": "",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        },
+        {
+            "name": "PS4 Controller",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Windows": {
+                    "guid": "4c05c405000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a5",
+                        "y": "b3",
+                        "lefttrigger": "a3",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "a4",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Mac OS X": {
+                    "guid": "4c05000000000000c405000000000000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a5",
+                        "y": "b3",
+                        "lefttrigger": "a3",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "a4",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech RumblePad 2 USB",
+            "inherit": "Logitech Dual Action",
+            "platforms": {
+                "Windows": {
+                    "guid": "6d0418c2000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Linux": {
+                    "guid": "030000006d04000018c2000010010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thrustmaster Firestorm Dual Power",
+            "platforms": {
+                "Windows": {
+                    "guid": "4f0400b3000000000000504944564944",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b5",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b11",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "h0.2",
+                        "start": "b10",
+                        "righttrigger": "b7",
+                        "rightstick": "b12",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b1",
+                        "guide": "b8",
+                        "rightshoulder": "b6"
+                    }
+                },
+                "Mac OS X": {
+                    "guid": "4f0400000000000000b3000000000000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b5",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b11",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "h0.2",
+                        "start": "b10",
+                        "righttrigger": "b7",
+                        "rightstick": "",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b1",
+                        "guide": "b8",
+                        "rightshoulder": "b6"
+                    }
+                },
+                "Linux": {
+                    "guid": "030000004f04000000b3000010010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b5",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b11",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "h0.2",
+                        "start": "b10",
+                        "righttrigger": "b7",
+                        "rightstick": "b12",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b1",
+                        "guide": "b8",
+                        "rightshoulder": "b6"
+                    }
+                }
+            }
+        },
+        {
+            "name": "RetroUSB.com RetroPad",
+            "platforms": {
+                "Windows": {
+                    "guid": "00f00300000000000000504944564944",
+                    "mapping": {
+                        "a": "b1",
+                        "b": "b5",
+                        "leftx": "a0",
+                        "back": "b2",
+                        "lefty": "a1",
+                        "start": "b3",
+                        "leftshoulder": "b6",
+                        "y": "b4",
+                        "x": "b0",
+                        "rightshoulder": "b7"
+                    }
+                },
+                "Linux": {
+                    "guid": "0300000000f000000300000000010000",
+                    "mapping": {
+                        "a": "b1",
+                        "b": "b5",
+                        "leftx": "a0",
+                        "back": "b2",
+                        "lefty": "a1",
+                        "start": "b3",
+                        "leftshoulder": "b6",
+                        "y": "b4",
+                        "x": "b0",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F310 Gamepad (DInput)",
+            "simplername": "Logitech F310 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Mac OS X": {
+                    "guid": "6d0400000000000016c2000000000000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F510 Gamepad (DInput)",
+            "simplername": "Logitech F510 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Mac OS X": {
+                    "guid": "6d0400000000000018c2000000000000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F710 Gamepad (XInput)",
+            "simplername": "Logitech F710 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Mac OS X": {
+                    "guid": "6d040000000000001fc2000000000000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b8",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "b14",
+                        "dpleft": "b13",
+                        "rightstick": "b7",
+                        "dpdown": "b12",
+                        "dpup": "b11",
+                        "leftstick": "b6",
+                        "x": "b2",
+                        "guide": "b10",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Linux": {
+                    "guid": "030000006d0400001fc2000005030000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b7",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b9",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech Wireless Gamepad (DInput)",
+            "simplername": "Logitech Wireless Gamepad",
+            "platforms": {
+                "Mac OS X": {
+                    "guid": "6d0400000000000019c2000000000000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Razer Onza Tournament",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Mac OS X": {
+                    "guid": "891600000000000000fd000000000000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "a2",
+                        "dpleft": "b13",
+                        "rightx": "a3",
+                        "leftstick": "b6",
+                        "dpup": "b11",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "b14",
+                        "start": "b8",
+                        "righttrigger": "a5",
+                        "rightstick": "b7",
+                        "dpdown": "b12",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b2",
+                        "guide": "b10",
+                        "rightshoulder": "b5"
+                    }
+                },
+                "Linux": {
+                    "guid": "030000008916000000fd000024010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "a2",
+                        "dpleft": "b11",
+                        "rightx": "a3",
+                        "leftstick": "b9",
+                        "dpup": "b13",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "b12",
+                        "start": "b7",
+                        "righttrigger": "a5",
+                        "rightstick": "b10",
+                        "dpdown": "b14",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Jess Technology USB Game Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000ba2200002010000001010000",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a2",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a3",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b0",
+                        "x": "b3",
+                        "guide": "",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech Cordless RumblePad 2",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006d04000019c2000010010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "guide": "",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F310 Gamepad (XInput)",
+            "simplername": "Logitech F310 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006d0400001dc2000014400000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b7",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b9",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F510 Gamepad (XInput)",
+            "simplername": "Logitech F510 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006d0400001ec2000020200000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b7",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b9",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech F710 Gamepad (DInput)",
+            "simplername": "Logitech F710 Gamepad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006d04000019c2000011010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "y": "b3",
+                        "lefttrigger": "b6",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Sony DualShock 4",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000004c050000c405000011010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a5",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "righttrigger": "b7",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Valve Streaming Gamepad",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000de280000ff11000001000000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "y": "b3",
+                        "lefttrigger": "a2",
+                        "start": "b7",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b9",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "X360 Wireless Controller",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000005e0400001907000000010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "a2",
+                        "dpleft": "b11",
+                        "rightx": "a3",
+                        "leftstick": "b9",
+                        "dpup": "b13",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "b12",
+                        "start": "b7",
+                        "righttrigger": "a5",
+                        "rightstick": "b10",
+                        "dpdown": "b14",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Twin USB PS2 Adapter",
+            "simplername": "PS2 Controller",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000100800000100000010010000",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a2",
+                        "lefttrigger": "b4",
+                        "dpleft": "h0.8",
+                        "rightx": "a3",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "righttrigger": "b5",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b6",
+                        "y": "b0",
+                        "x": "b3",
+                        "guide": "",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Saitek Cyborg V.1 Game Pad",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000a306000023f6000011010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a4",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "righttrigger": "b7",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thrustmaster 2 in 1 DT",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000004f04000020b3000010010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b5",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "righttrigger": "b7",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b1",
+                        "guide": "",
+                        "rightshoulder": "b6"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thrustmaster Dual Trigger 3-in-1",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000004f04000023b3000000010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a5",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a2",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b0",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "GreenAsia Inc. USB Joystick",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000008f0e00000300000010010000",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a2",
+                        "lefttrigger": "b4",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a3",
+                        "righttrigger": "b5",
+                        "leftshoulder": "b6",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b0",
+                        "x": "b3",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        },
+        {
+            "name": "GreenAsia Inc. USB Joystick (Driver 2)",
+            "simplername": "GreenAsia Inc. USB Joystick",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000008f0e00001200000010010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a2",
+                        "lefttrigger": "b5",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a3",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b2",
+                        "rightshoulder": "b6"
+                    }
+                }
+            }
+        },
+        {
+            "name": "GameCube (WiseGroup USB box)",
+            "simplername": "GameCube Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000260900008888000000010000",
+                    "mapping": {
+                        "a": "b0",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "a4",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "righttrigger": "a5",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "dpright": "h0.2",
+                        "lefty": "a1",
+                        "start": "b7",
+                        "rightstick": "",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "",
+                        "y": "b3",
+                        "x": "b1",
+                        "rightshoulder": "b6"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Logitech WingMan Cordless RumblePad",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006d04000011c2000010010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "b9",
+                        "dpleft": "h0.8",
+                        "rightx": "a3",
+                        "righttrigger": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b2",
+                        "dpright": "h0.2",
+                        "start": "b8",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b6",
+                        "y": "b4",
+                        "x": "b3",
+                        "guide": "b5",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Moga Pro",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "05000000d6200000ad0d000001000000",
+                    "mapping": {
+                        "a": "b0",
+                        "b": "b1",
+                        "righty": "a3",
+                        "dpleft": "h0.8",
+                        "lefttrigger": "a5",
+                        "start": "b6",
+                        "rightx": "a2",
+                        "righttrigger": "a4",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "dpright": "h0.2",
+                        "lefty": "a1",
+                        "leftstick": "b7",
+                        "rightstick": "b8",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b2",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thrustmaster Run N Drive Wireless (Driver 2)",
+            "simplername": "Thrustmaster Run N Drive Wireless",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000004f04000009d0000000010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "righttrigger": "b7",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Thrustmaster Run N Drive Wireless",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000004f04000008d0000000010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a5",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "righttrigger": "b7",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Generic X-Box pad",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006f0e00001f01000000010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "a2",
+                        "dpleft": "h0.8",
+                        "leftstick": "b9",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "start": "b7",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b3",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Microsoft X-Box pad v2 (US)",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000005e0400008902000021010000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "a2",
+                        "dpleft": "h0.8",
+                        "leftstick": "b8",
+                        "rightx": "a3",
+                        "righttrigger": "a5",
+                        "leftshoulder": "b5",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "start": "b7",
+                        "rightstick": "b9",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b4",
+                        "x": "b3",
+                        "rightshoulder": "b2"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Rock Candy Gamepad for PS3",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "030000006f0e00001e01000011010000",
+                    "mapping": {
+                        "a": "b1",
+                        "b": "b2",
+                        "righty": "a3",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "lefty": "a1",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "righttrigger": "b7",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Sony PS2 pad with SmartJoy adapter",
+            "simplername": "PS2 Controller",
+            "inherit": "PS2 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000250900000500000000010000",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a3",
+                        "lefttrigger": "b4",
+                        "dpleft": "h0.8",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "dpright": "h0.2",
+                        "start": "b8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b6",
+                        "y": "b0",
+                        "x": "b3",
+                        "righttrigger": "b5",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Hori Pad EX Turbo 2",
+            "inherit": "X360 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000ad1b000001f5000033050000",
+                    "mapping": {
+                        "a": "b0",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "a2",
+                        "dpleft": "h0.8",
+                        "rightx": "a3",
+                        "leftstick": "b9",
+                        "dpup": "h0.1",
+                        "leftx": "a0",
+                        "back": "b6",
+                        "dpright": "h0.2",
+                        "start": "b7",
+                        "righttrigger": "a5",
+                        "rightstick": "b10",
+                        "dpdown": "h0.4",
+                        "leftshoulder": "b4",
+                        "y": "b3",
+                        "x": "b2",
+                        "guide": "b8",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "PS4 Controller (Bluetooth)",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "050000004c050000c405000000010000",
+                    "mapping": {
+                        "a": "b1",
+                        "lefty": "a1",
+                        "b": "b2",
+                        "righty": "a5",
+                        "y": "b3",
+                        "lefttrigger": "a3",
+                        "start": "b9",
+                        "rightx": "a2",
+                        "righttrigger": "a4",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "dpleft": "h0.8",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "leftstick": "b10",
+                        "x": "b0",
+                        "guide": "b12",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "PS3 Controller (Bluetooth)",
+            "inherit": "PS3 Controller",
+            "platforms": {
+                "Linux": {
+                    "guid": "060000004c0500006802000000010000",
+                    "mapping": {
+                        "a": "b14",
+                        "lefty": "a1",
+                        "b": "b13",
+                        "righty": "a3",
+                        "lefttrigger": "b8",
+                        "dpleft": "b7",
+                        "rightx": "a2",
+                        "leftstick": "b1",
+                        "dpup": "b4",
+                        "leftx": "a0",
+                        "back": "b0",
+                        "dpright": "b5",
+                        "start": "b3",
+                        "righttrigger": "b9",
+                        "rightstick": "b2",
+                        "dpdown": "b6",
+                        "leftshoulder": "b10",
+                        "y": "b12",
+                        "x": "b15",
+                        "guide": "b16",
+                        "rightshoulder": "b11"
+                    }
+                }
+            }
+        },
+        {
+            "name": "DragonRise Inc. Generic USB Joystick",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000790000000600000010010000",
+                    "mapping": {
+                        "a": "b2",
+                        "lefty": "a1",
+                        "b": "b1",
+                        "righty": "a4",
+                        "lefttrigger": "b6",
+                        "dpleft": "h0.8",
+                        "leftstick": "b10",
+                        "rightx": "a3",
+                        "righttrigger": "b7",
+                        "leftshoulder": "b4",
+                        "leftx": "a0",
+                        "back": "b8",
+                        "dpright": "h0.2",
+                        "start": "b9",
+                        "rightstick": "b11",
+                        "dpdown": "h0.4",
+                        "dpup": "h0.1",
+                        "y": "b0",
+                        "x": "b3",
+                        "rightshoulder": "b5"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Super Joy Box 5 Pro",
+            "platforms": {
+                "Linux": {
+                    "guid": "03000000666600000488000000010000",
+                    "mapping": {
+                        "a": "b2",
+                        "b": "b1",
+                        "righty": "a3",
+                        "lefttrigger": "b4",
+                        "dpleft": "b15",
+                        "rightx": "a2",
+                        "leftstick": "b10",
+                        "dpup": "b12",
+                        "leftx": "a0",
+                        "back": "b9",
+                        "lefty": "a1",
+                        "dpright": "b13",
+                        "start": "b8",
+                        "rightstick": "b11",
+                        "dpdown": "b14",
+                        "leftshoulder": "b6",
+                        "y": "b0",
+                        "x": "b3",
+                        "righttrigger": "b5",
+                        "rightshoulder": "b7"
+                    }
+                }
+            }
+        }
+    ],
+    "defaultlabels": {
+        "x": "left face button",
+        "y": "top face button",
+        "a": "bottom face button",
+        "b": "right face button",
+        "dpleft": "Left button",
+        "dpright": "Right button",
+        "dpup": "Up button",
+        "dpdown": "Down button",
+        "leftx": "left analog",
+        "lefty": "left analog",
+        "rightx": "right analog",
+        "righty": "right analog",
+        "lefttrigger": "left trigger",
+        "righttrigger": "right trigger",
+        "leftshoulder": "left shoulder",
+        "rightshoulder": "right shoulder",
+        "rightstick": "right stick click",
+        "leftstick": "left stick click",
+        "back": "Select",
+        "start": "Start",
+        "guide": "Home button"
+    }
+}

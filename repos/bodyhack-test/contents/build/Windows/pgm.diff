@@ -1,0 +1,84 @@
+Index: pgm/include/impl/security.h
+===================================================================
+--- pgm/include/impl/security.h	(revision 1458)
++++ pgm/include/impl/security.h	(working copy)
+@@ -19,6 +19,8 @@
+  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+  */
+ 
++#undef _CRT_SECURE_NO_WARNINGS
++
+ #if !defined (__PGM_IMPL_FRAMEWORK_H_INSIDE__) && !defined (PGM_COMPILATION)
+ #	error "Only <framework.h> can be included directly."
+ #endif
+@@ -115,9 +117,11 @@
+ 			str[size - 1] = 0;
+ 		return retval;
+ 	}
++	{
+ 	const int retval = _vsnprintf (str, count + 1, format, ap);
+ 	str[count] = 0;
+ 	return retval;
++	}
+ #else
+ 	return _vsnprintf_s (str, size, count, format, ap);
+ #endif
+@@ -141,7 +145,7 @@
+ 	return retval;
+ }
+ 
+-static inline
++/*static inline
+ int
+ pgm_sscanf_s (const char *buffer, const char *format, ...)
+ {
+@@ -152,7 +156,8 @@
+ 	retval = vsscanf (buffer, format, ap);
+ 	va_end (ap);
+ 	return retval;
+-}
++	}*/
++#define pgm_sscanf_s sscanf
+ #else
+ #	define pgm_snprintf_s		_snprintf_s
+ #	define pgm_sscanf_s		sscanf_s
+Index: pgm/include/pgm/atomic.h
+===================================================================
+--- pgm/include/pgm/atomic.h	(revision 1458)
++++ pgm/include/pgm/atomic.h	(working copy)
+@@ -75,7 +75,7 @@
+ 	return __sync_fetch_and_add (atomic, val);
+ #elif defined( _WIN32 )
+ /* Windows intrinsic */
+-	return _InterlockedExchangeAdd ((volatile LONG*)atomic, val);
++	return InterlockedExchangeAdd ((volatile LONG*)atomic, val);
+ #else
+ #	error "No supported atomic operations for this platform."
+ #endif
+@@ -109,7 +109,7 @@
+ /* interchangable with __sync_fetch_and_add () */
+ 	__sync_add_and_fetch (atomic, val);
+ #elif defined( _WIN32 )
+-	_InterlockedExchangeAdd ((volatile LONG*)atomic, val);
++	InterlockedExchangeAdd ((volatile LONG*)atomic, val);
+ #endif
+ }
+ 
+@@ -139,7 +139,7 @@
+ #elif defined( __GNUC__ ) && ( __GNUC__ * 100 + __GNUC_MINOR__ >= 401 )
+ 	pgm_atomic_add32 (atomic, 1);
+ #elif defined( _WIN32 )
+-	_InterlockedIncrement ((volatile LONG*)atomic);
++	InterlockedIncrement ((volatile LONG*)atomic);
+ #endif
+ }
+ 
+@@ -170,7 +170,7 @@
+ #elif defined( __GNUC__ ) && ( __GNUC__ * 100 + __GNUC_MINOR__ >= 401 )
+ 	pgm_atomic_add32 (atomic, (uint32_t)-1);
+ #elif defined( _WIN32 )
+-	_InterlockedDecrement ((volatile LONG*)atomic);
++	InterlockedDecrement ((volatile LONG*)atomic);
+ #endif
+ }
+ 

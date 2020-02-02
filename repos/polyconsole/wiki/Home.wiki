@@ -1,0 +1,119 @@
+Polyconsole is a sample project and utility package for the [[http://polycode.org|Polycode]] game library.
+
+The following assumes you are using Linux or a Mac and have a basic understanding of the command line.
+
+<<toc>>
+
+= Why use this? =
+
+In 2011 Ivan Safrin released [[http://polycode.org|Polycode]], an open source game engine supporting C++ and Lua. Unfortunately Polycode is still in alpha and getting started with it can be tricky. Once I was able to get basic games working with Polycode I decided to release my personal template project so that others could create games without the startup cost.
+
+By using Polyconsole instead of the standard Polycode template project you get the following advantages: 
+
+* One single project can build to Mac, Windows and Linux
+* Integrate Lua and C++ in a single program-- you can write your game logic in Lua while still having the option of writing advanced engine stuff in C++.
+* Interact with your game while debugging with a built-in Lua console
+* SVG loader lets you create simple HUD or 2D physics scenes in Inkscape
+* Built in mechanism for recording playtester playthroughs and playing them back later
+* Included script for compiling Polycode and easily switching between multiple versions of Polycode 
+
+= Licensing =
+
+Polyconsole is available under the MIT license. However a game made with Polyconsole will incorporate Polycode and a lot of other libraries with their own licenses, though none require you to do anything more drastic than attribute creators. A file in the distribution named {{{package/readme.txt}}} contains all the licenses for all the included software; as far as I know all you have to do is include {{{package/readme.txt}}} and you're good. 
+
+= Installation and compiling =
+
+Polyconsole is hosted here on Bitbucket, so you can get a copy in any of the following ways:
+
+* {{{hg clone https://bitbucket.org/runhello/polyconsole}}}
+* {{{svn co https://bitbucket.org/runhello/polyconsole/trunk}}}
+* Select the "download repository" link from the [[https://bitbucket.org/runhello/polyconsole/downloads|downloads page]].
+
+Once you have Polyconsole, you will need to install Polycode. You can do this by entering the polyconsole directory and typing "{{{./manage.py install}}}".
+
+"manage.py" is a script which handles downloading and compiling Polycode and its dependencies for you. It has a bunch of uses (mostly having to do with modifying Polycode yourself); if you want to know about this, read [[More about manage.py]].
+
+Once you've installed Polycode (this could take awhile) you can compile the sample project yourself.
+
+== Compiling for Mac ==
+
+On a mac, to run the project in debug mode, open and run {{{PolycodeTemplate.xcodeproj}}}.
+
+To build a full release version, enter the Polycode directory and run "{{{./package/pkg_mac.sh}}}". 
+
+**Note:** If you are using XCode 4 or later, you will need to turn off the shared build directory in the XCode preferences ([[eddie_xcode_screenshot.jpg|set "build location" to "legacy"]]) in order to build from the xcodeproj in debug configuration. This is necessary because the live asset loading in the debug configuration assumes that the app is in the folder {{{build/Debug}}} relative to the project root. (Building from the {{{./package/pkg_mac.sh}}} script will work even if you do not change this preference.)
+
+== Compiling for Linux ==
+
+To build for Linux, enter {{{package/lin}}} in the Polycode directory and run {{{make}}}.
+
+This will build in release mode; if you want to run in debug mode, add {{{-D_DEBUG}}} to the CXXFLAGS.
+
+== Compiling for Windows ==
+
+See [[Compiling for Windows]].
+
+(Note, all the scripts, makefiles, whatever here which build release versions also make a .zip file containing your game packaged with Readmes and such.)
+
+= How to make your own game =
+
+== The Most Important Thing ==
+
+The first thing you'll want to do in any project (obviously) is set the game's name. The game in the sample project is named "Polyethylene", and unfortunately the name is currently scattered all over the place, so let's just do a big find/replace. Do this from the Polyconsole directory:
+
+{{{perl -p -i -e 's/Polyethylene/YourGameNameHere/g' * */* */*/* */*/*/* */*/*/*/*; hg revert -C lua_visible}}}
+
+(This might not work right if you put spaces in the game name.)
+
+You'll also want to edit the file package/readme.txt and delete everything up to "Notes", putting in your own copyright and contact information instead. (And you also probably want to edit the files "icon_mac.icns" and "icon_win.ico" under {{{package/}}}.)
+
+== Overlays ==
+
+The "game", when using Polyconsole, lives in the {{{media/}}} directory. My goal is to be able to make a whole game out of resources or Lua scripts; use of C++ should only be necessary for "engine" stuff.
+
+Polyconsole is based around the idea of "rooms", which are single scenes. A room is specified by a list of "overlays"-- these could be SVG files (2D vector graphics, for objects on screen) or directories full of lua scripts (soon I hope you'll be able to add 3D scene files to this mix). The default room is listed in a file in {{{media}}} called "{{{init.txt}}}"; for the sample game, it combines the lua in {{{media/overlay/game/}}} with the scene drawn in {{{example.svg}}}. The sample game shows a ball bouncing around a series of platforms, and if you click and drag the ball will fly toward the mouse. This sample demonstrates the use of shaders, sound, mouse input, and 2D physics.
+
+== Debug vs Release mode ==
+
+When Polyconsole is compiled with {{{_DEBUG}}} defined, it behaves differently in a few ways. For one thing, instead of loading resources from a zipped {{{media.pak}}} file as it normally does, it will load files directly out of the "media" directory in your project. For another, hitting ESC in Debug mode will cause the current room to be closed down and reloaded. What this means is that you can change your Lua scripts, or a resource file such as an image or an svg, and then hit esc, and the "game" will be reloaded where you are, without needing to recompile. The other big difference in debug mode is the console.
+
+Hit "tab" at any time and start typing to open up the Lua console. Hit "tab" again to close it, or the "up" key to reload the last command you entered. Any Lua at all can be run here, so you can move things around or prototype stuff.
+
+Here's a shot of me playing with the console in the sample program:
+
+{{http://msm.runhello.com/local/pc/poly_small_example.png|Polyconsole}}
+
+== Writing games with Polycode and Polyconsole ==
+
+You can find the documentation for Polycode [[http://polycode.org/docs|here]], and some tutorials [[http://polycode.org/learning/|here]]. Example programs for Lua and C++ are also distributed with Polycode itself.
+
+As for the things Polyconsole adds, see the following:
+
+* [[How to write an overlay]]
+* [[How to make SVG scenes]] (coming soon)
+* [[Functions added in Polyconsole]] (probably the most important bit)
+* [[How to use the playtest record+playback feature]] (coming soon)
+* [[How to add new C++ functions when using Polyconsole]] (coming soon)
+
+And if you want to actually make patches to Polycode itself, again see [[More about manage.py]].
+
+= TODO =
+
+* SVG loader can't handle matrices-- if you rotate anything in Inkscape, the svg loader won't be able to see that object anymore.
+* Overlays can only specify onCollide handlers for objects, you should be able to specify all object properties that way.
+* I want to add a 3D resource manager that works with the overlays.
+* There might be some problems with sound on Windows.
+* Compiling all of Polycode sucks. Could I or someone else maybe offer default precompiled Polycode products for selected revisions of Polycode?
+* There's so much close integration with mercurial here-- would it help if any of this worked with git?
+
+Then there's the big problem.
+
+== Wait, what if I'm using Windows? ==
+
+I don't actually have a copy of Windows. I developed the above to run on my own Mac. The manage.py script and the build scripts... might work in [[http://www.cygwin.com/|Cygwin]], but I don't know if they do or not and they've never been tested. If you'd like to see this work on Windows, contact me, I just need someone to help test stuff.
+
+= It didn't work! =
+
+If you have problems with the above, feel free to contact me at
+andi DOT m DOT mcclure AT gmail DOT com
+or post in the [[http://polycode.org/forum/viewtopic.php?f=5&t=226|thread]] I made about Polyconsole on the Polycode forums.

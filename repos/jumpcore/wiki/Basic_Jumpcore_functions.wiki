@@ -1,0 +1,48 @@
+<<toc>>
+
+=Jumpcore additional docs=
+
+==Files in Jumpcore, not counting libraries==
+
+===Files you should edit===
+
+* program.h - Common header
+* program.cpp - Game logic goes here
+* display.cpp - Display logic goes here
+* glCommon.cpp - OpenGL shader stuff goes here-- see the separate page for [[glCommon]]
+
+==Jumpcore "support" files==
+
+* main.cpp, EAGLView.mm, gl_code.cpp Ñ Basic bringup/teardown and event handling for desktops, iPhone and Android respectively. You might not need to ever edit these.
+* kludge.h Ñ Per-platform OpenGL includes and some support functions. There are also some #define flags here you may want to mess with here named VSYNC_FIX and DYNAMIC_FRAMERATE, which turn on some Jumpcore features that are off by default.
+* text_display.cpp - Some convenience functions for FTGL ES plus the skinning functions for ControlBase. You may want to alter this (if you want to load more or different fonts) or trash it altogether.
+* display.h, util_display.cpp - Some convenience functions for building OpenGL ES vertex arrays. Used by the "ABCD" demo but you may want to trash all this. Sorry, no documentation yet except for the sample code in the ABCD demo itself.
+* glCommonMatrix.h, glCommonMatrix.cpp - Part of glCommon, but I don't think you'll want to bother touching this.
+* internalfile.cpp, internalfile.h Ñ See below
+* slice.cpp, slice.h, controls.cpp, controls.h Ñ See the [[ControlBase GUI library]] docs
+== Functions in Jumpcore, not counting libraries ==
+
+* ERR("Stringhere", arg1, arg2, ...)
+Works exactly like printf. When compiling in Debug mode, this prints the message given to STDERR (or, on Android, to logcat). When compiling in Release mode, this does nothing.
+
+* REALERR("Stringhere", arg1, arg2, ...)
+Works exactly like printf. Prints the message given to STDERR (or, on Android, logcat) regardless of mode. This is of dubious utility (on Windows/mingw, the message will be printed to a file named "stderr.txt"; on the Mac, it will be printed to the Console application, which few people know how to use or find; on iPhone I'm not sure these messages are recoverable at all) but the basic Jumpcore code uses it to report fatal errors which occur before the display surface is created.
+
+* void internalPath(char *dst, const char *fmt, int arg1 = 0, int arg2 = 0);
+A function that in a cross-platform way produces the absolute path to an "internal file"Ð On Windows, this means a file in the directory named "Internal" that accompanies the .exe. On the mac or iPhone, this means a file in the "Resources" folder inside the application package. On Android it means an asset (unpacked at runtime into a local directory).
+
+* void drawText(string text, double x, double y, double rot = 0, bool xcenter = true, bool ycenter = true);
+An example method which draws the string "text" at screen coordinates x, y (Where the top of the screen is 1.0, and the bottom of the screen is -1.0), with rotation "rot" degrees, and optionally centered on the X and Y axes. Uses the global "uiFont" font.
+
+* void BombBox(string why);
+A maybe-overcomplicated function for displaying a fatal error (given as "why"). All event handling will halt and a window will go up explaining the error; on the next keypress after this, the program will quit. On desktop platforms, uses the global "uiFont" font (but is not dependent on drawText()). On iPhone throws up a standard error box and on Android doesn't actually work yet. 
+
+* void FileBombBox(string filename);
+Calls BombBox with a message stating "filename" could not be found.
+
+* void RGBtoHSV( double r, double g, double b, double *h, double *s, double *v )
+* void HSVtoRGB( double *r, double *g, double *b, double h, double s, double v )
+Self-explanatory color conversion routines.
+
+* cpVect screenToGL(int screenx, int screeny, double desiredZ);
+Given the current-this-moment projection matrices, returns the pixel on the screen corresponding to the point (x, y, z) in 3-space.

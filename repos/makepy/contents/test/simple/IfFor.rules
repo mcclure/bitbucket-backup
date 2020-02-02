@@ -1,0 +1,29 @@
+a =
+b = x y z
+record =
+
+for z in a b:
+    for d in p:
+        do:
+            print(z + d)
+
+if ugh:
+    if $a:
+        record = 3
+    else:
+        for q in $b:
+            do:
+                print(q)
+        record = 4
+
+    if $(record == "2"):
+        record = 5
+    elif $(record == "3"):
+        record = 6
+    elif $(record == "4"):
+        record = 7
+    else:
+        record = 8
+
+all:
+    print(record)

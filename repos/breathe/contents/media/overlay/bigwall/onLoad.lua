@@ -1,0 +1,1 @@
+reset_sound(10000)

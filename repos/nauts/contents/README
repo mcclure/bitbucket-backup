@@ -1,0 +1,5 @@
+LUANAUTS
+
+Before compiling for the first time, run:
+
+./manage.py load -b -d -p

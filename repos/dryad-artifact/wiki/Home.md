@@ -1,0 +1,1 @@
+These are web projects intended for [dryad.technology](http://dryad.technology/). The contents are copyright 2015 Andi McClure, and you are granted no rights to them. If you wish to use the contents for something, feel free to [ask](mailto:andi.m.mcclure@gmail.com).

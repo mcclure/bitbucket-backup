@@ -1,0 +1,6 @@
+changeset:   581:0f35b6430c6b
+parent:      576:3a10fc303813
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sat Sep 15 14:15:07 2012 -0700
+summary:     Memory leak in SceneLine
+

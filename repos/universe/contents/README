@@ -1,0 +1,6 @@
+Markov Space
+SFC Universe Compo '12
+
+Before compiling for the first time, run:
+
+./manage.py load -b -d -p

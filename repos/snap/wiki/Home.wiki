@@ -1,0 +1,35 @@
+Table of contents:
+
+<<toc>>
+
+== Introduction ==
+
+This is the complete source code to a game called The Snap, created by [[http://runhello.com/|Run Hello]] and released in 2011 for the [[http://forums.tigsource.com/index.php?board=46.0|Tigsource Versus]] competition. Included are the Mac, Windows, and Linux versions. If you just want to play the game, see [[http://msm.runhello.com/?p=323|here]].
+
+The project is hosted here on Bitbucket, so you can download the source yourself by doing one of the following:
+
+* {{{hg clone https://bitbucket.org/runhello/snap}}}
+* {{{svn co https://bitbucket.org/runhello/snap/trunk}}}
+* Select the "download repository" link from the [[https://bitbucket.org/runhello/snap/downloads|downloads page]].
+
+== Licensing ==
+
+This is a working source code repository, so NOTHING IN THE REPOSITORY SHOULD BE TAKEN AS GRANTING A LICENSE TO REUSE THE CODE OR SOFTWARE. There is no license information in the repository itself. Rather, here is the licensing information:
+
+The contents of this repository are available under the Creative Commons [[http://creativecommons.org/licenses/by-nc/3.0/|Attribution-NonCommercial 3.0 Unported]] license. This means you are free to use the code and resources from this game for any noncommercial purpose as long as you clearly credit the original creators. You may alternately, if you choose, use the content under the terms of the [[http://www.gnu.org/licenses/gpl-2.0.html|GNU GPL 2.0]], any later version of the GNU GPL, or the Creative Commons [[http://creativecommons.org/licenses/by-sa/3.0/|Attribution-ShareAlike 3.0 Unported]] license. These licenses essentially say you may use the code and resources from this game for any purpose including commercial ones as long as you clearly credit the original creator and also make your source code available.
+
+The stuff currently in this repository was created by Andi McClure. The source code also incorporates several open source libraries with their own license terms, such as Scott Lembke's "Chipmunk" physics library; please see the file desktop/Readme.txt.
+
+Also please note: Nothing here should be taken as granting permission to use the Run Hello name or logo.
+
+If you would like to use something here under different terms, or have any questions, you can contact andi DOT m DOT mcclure AT gmail DOT com. Also, you should be aware that a separate project called [[https://bitbucket.org/runhello/jumpcore|Jumpcore]] contains most of the source code from this game, in an improved form and under more lenient licensing terms.
+
+== How to use ==
+
+* To compile for mac, open desktop/Jumpman.xcodeproj in XCode.
+* To compile for Windows, enter the "desktop/win" directory and type "make". Note: You will have to configure MinGW and MSYS first.
+* To compile for Linux, enter the "desktop/lin" directory and type "make".
+
+For more detailed instructions on compiling this project, see the help for [[https://bitbucket.org/runhello/jumpcore|Jumpcore]].
+
+This project was a sort of quick prototype of a multiplayer shooter game with time travel worked in. The eventual goal was to make a 4-player networked first person shooter. What I have here is a two-player 2D-top-down local-with-gamepads-only shooter with minimal graphics. The prototype however has a fairly sophisticated engine for adding time travel to a game physics engine in such a way that if you "change" events in the past in certain ways, they ripple forward into the future; the engine is I think nearly sophisticated enough to support the hypothetical 4-player version of the game. The only documentation that exists for any of this, particularly, is [[http://forums.tigsource.com/index.php?topic=17119.105|this forum post]]. I may or may not try to go back and finish the game someday. Good luck?!

@@ -1,0 +1,50 @@
+Table of contents:
+
+<<toc>>
+
+== Introduction ==
+
+This is the complete source code to a game called Jumpman, created by [[http://runhello.com/|Run Hello]] and released in 2009 (iPhone version 2010). Included are the Mac, Windows, Linux and iPhone versions. If you just want to play the game, see [[http://runhello.com/?p=24|here]] for the PC version and [[http://runhello.com/?p=135|here]] for the iPhone version.
+
+The project is hosted here on Bitbucket, so you can download the source yourself by doing one of the following:
+
+* {{{hg clone https://bitbucket.org/runhello/jumpman_public}}}
+* {{{svn co https://bitbucket.org/runhello/jumpman_public/trunk}}}
+* Select the "download repository" link from the [[https://bitbucket.org/runhello/jumpman_public/downloads|downloads page]].
+
+== Licensing ==
+
+This is a working source code repository, so NOTHING IN THE REPOSITORY SHOULD BE TAKEN AS GRANTING A LICENSE TO REUSE THE CODE OR SOFTWARE. There is no license information in the repository itself. Rather, here is the licensing information:
+
+The contents of this repository are available under the Creative Commons [[http://creativecommons.org/licenses/by-nc/3.0/|Attribution-NonCommercial 3.0 Unported]] license. This means you are free to use the code and resources from this game for any noncommercial purpose as long as you clearly credit the original creators.  You may alternately, if you choose, use the code under the terms of the [[http://www.gnu.org/licenses/gpl-2.0.html|GNU GPL 2.0]], any later version of the GNU GPL, or the Creative Commons [[http://creativecommons.org/licenses/by-sa/3.0/|Attribution-ShareAlike 3.0 Unported]] license. These licenses essentially say you may use the code and resources from this game for any purpose including commercial ones as long as you clearly credit the original creators and also make your source code available.
+
+For purposes of any of these licenses, the creators to credit can be found in the README.txt and iJumpman/README.html files, but here they are again:
+
+* Source code: Andi McClure
+* Artwork: Andi McClure, Mike LeMieux, Eyes5, George Kavallines
+* Music: "Doodlebug 2", "Doodlebug 7", "Hugglefaeries 1", "Hugglefaeries 2", and "Jazz Hands": Joe Folladori
+* Music: "Tea of the Damned": AgentFlit
+* Spanish translation: Juan Pablo Núñez
+* French translation: Maxime Cogney
+* German translation: Jens Scherer
+
+The source code also incorporates several open source libraries with their own license terms, such as Scott Lembke's "Chipmunk" physics library; please see the READMEs.
+
+Also please note: Nothing here should be taken as granting permission to use the Run Hello name or logo.
+
+If you would like to use something here under different terms, or have any questions, you can contact andi DOT m DOT mcclure AT gmail DOT com. Also, you should be aware that a separate project called [[https://bitbucket.org/runhello/jumpcore|Jumpcore]] contains most of the source code from this game, in an improved form and under more lenient licensing terms.
+
+== How to use ==
+
+* To compile for mac, open Jumpman.xcodeproj in XCode.
+* To compile for iPhone, open iJumpman/iJumpman.xcodeproj in XCode.
+* To compile for Windows, enter the "win" directory and type "make". Note: You will have to configure MinGW and MSYS first.
+* To compile for Linux, enter the "lin" directory and type "make".
+
+This was the first game project I ever completed and I was learning things as I went, so the code is undocumented and just a bit embarrassing. 
+
+Some things to notice. The "iJumpman" subdirectory is a complete copy of the source tree (that is, it uses no files in common with the main directory). The code in iJumpman is far superior to the code in Jumpman (it uses optimized OpenGL ES rather than tossed-together OpenGL, and includes music, localization and threading) so if you try to work off of this project you may want to try to prefer taking code from iJumpman rather than Jumpman whereever possible (unfortunately the iJumpman code contains rather a lot of Objective-C). The code for the level server can be found under iJumpman/jldb; if you find yourself a little lost looking in this directory, it may help to know it is a complete copy of Django.
+
+The only difference between "jumpman_public" and my private source repository is that the "real" source repository (as do the official versions of Jumpman at the Run Hello site) uses a shareware font called [[http://www.scootergraphics.com/nusans/|Nu Sans]] for its PC versions. This public release replaces Nu Sans with the free-to-redistribute Droid Sans.
+
+That's all. Have fun!

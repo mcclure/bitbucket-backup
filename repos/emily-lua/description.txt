@@ -1,0 +1,1 @@
+Despite the name, this has nothing to do with emily, and was an attempt to make a Lua DSL that emits executable files via LLVM. See my "No Compiler" blog series https://msm.runhello.com/p/category/plt/no-compiler

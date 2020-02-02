@@ -1,0 +1,5 @@
+media/overlay/startup
+media/overlay/sound
+media/overlay/game
+media/title.svg
+media/overlay/shutdown

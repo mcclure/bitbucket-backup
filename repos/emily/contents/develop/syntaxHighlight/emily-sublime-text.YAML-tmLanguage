@@ -1,0 +1,42 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Emily
+scopeName: source.emily
+fileTypes: [em, emily]
+uuid: 48e0820c-999a-4fc7-b194-0e24cb20f112
+
+# This is kinda primitive, and doesn't work at all with multiline quotes/statements.
+# The YAML-tmLanguage format is mostly undefined. In creating this I was guided by:
+# - https://github.com/Dridus/Swift.tmbundle/blob/master/Swift.YAML-tmLanguage -- Nice meaty example file
+# - http://manual.macromates.com/en/language_grammars -- Original textmate manual
+# - http://www.geocities.jp/kosako3/oniguruma/doc/RE.txt -- Ruby regexp docs
+
+patterns:
+  # # to end of line is comment
+  - match: '#.*$'
+    name: comment.line.emily
+
+  # Anything between quotes is a string (support \\ and \"")
+  - match: '"(\\.|[^\\"])*"'
+    name: string.quoted.emily
+
+  # Binary, octal, hex, or DEC.DECeDEC
+  - match: '0b[01]+0o[0-7]+|0x[0-9a-fA-F]+|[0-9]+(\.[0-9]+)?(e[0-9]+)?'
+    name: constant.numeric.emily
+
+  # Match [the first word of] reader directives
+  # meta.preprocessor.emily would probably be more accurate, but keyword.control.import is like "define"
+  - match: '\\\s*\w+'
+    name: keyword.control.import.emily
+
+  # Match atoms with a junk pattern that will not be highlighted.
+  - match: '\.\s*\w+'
+    name: atom.totally_normal_dont_format.emily
+
+  # Match lambda followed by arguments as the start of a closure
+  - match: '\^[\s\w]*'
+    name: variable.parameter.emily
+
+  # Match any remaining symbols as a function
+  - match: '\w+'
+    name: entity.name.function.emily

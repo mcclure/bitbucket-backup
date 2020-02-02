@@ -1,0 +1,1 @@
+My personal template project and build scripts for working with the Polycode library. The contents of this repository may be considered public domain.

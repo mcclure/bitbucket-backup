@@ -1,0 +1,6 @@
+^_tags
+^_build/
+^install/
+^scratch/
+^src-c/.+\.o$
+.DS_Store

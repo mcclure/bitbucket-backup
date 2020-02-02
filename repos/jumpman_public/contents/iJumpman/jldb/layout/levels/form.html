@@ -1,0 +1,20 @@
+{# Used by upload, login in views.py #}
+
+{% extends "levels/base.html" %}
+{# todo: load dfextras #}
+
+{% block content %}
+
+{% if form %}
+<form {# action="{{action}}" #} method="post" enctype="multipart/form-data">
+{{ form.as_p }}
+<br><br>
+<input type="submit" value="Submit">
+</form>
+{% endif %}
+
+{% if message %}
+{{ message }}
+{% endif %}
+
+{% endblock %}

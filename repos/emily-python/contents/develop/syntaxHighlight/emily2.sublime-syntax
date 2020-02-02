@@ -1,0 +1,35 @@
+%YAML 1.2
+---
+name: Emily2
+file_extensions: [em, emily]
+scope: source.emily2
+
+contexts:
+  main:
+    # # to end of line is comment
+    - match: \#.*$
+      scope: comment.line.emily
+
+    # Anything between quotes is a string (support \\ and \")
+    - match: \"
+      push: string
+
+    # Backslash atom/escape
+    - match: (\\|\.)(\w+|=)
+
+    # Keywords
+    - match: (\b(let|method|field|export|do|while|if|elif|else|function|func|match|array|new|inherit|macro|profile|import|from)\b|=)
+      scope: keyword.control.emily2
+
+    # Numbers
+    - match: \b(\.\d+|\d+(\.\d*)?)\b
+      scope: constant.numeric.emily2
+
+  # Push modes
+
+  string:
+  - meta_scope: string.quoted.double.emily2
+  - match: \\.
+    scope: constant.character.escape.emily2
+  - match: \"
+    pop: true

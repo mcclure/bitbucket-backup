@@ -1,0 +1,1 @@
+Jumpcore is a C++ game framework capable of exporting to Windows, Mac, Linux, iPhone, WebOS, and Android.

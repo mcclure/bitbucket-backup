@@ -1,0 +1,16 @@
+This cannot yet be tested in an automated fashion. Manual steps are:
+
+mkdir tmp && cd tmp
+
+../emily.py ../em/emily.em -d cs  ../test/compiler/loop.em > test.cs
+csc test.cs
+mono test.exe | less
+
+../emily.py ../em/emily.em -d cpp ../test/compiler/loop.em > test.cpp
+c++ test.cpp
+./a.out | less
+
+../emily.py ../em/emily.em -d js  ../test/compiler/loop.em > test.js
+node test.js | less
+
+cd .. && rm -rf tmp

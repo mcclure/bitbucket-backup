@@ -1,0 +1,1290 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="1" height="3" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="1" height="3" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="1" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="2" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="2" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="2" height="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="2" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="2" height="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="2" height="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="2" height="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="2" height="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="2" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="2" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="2" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="2" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="2" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="3" height="4" kind="1" textype="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="3" height="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="3" height="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="3" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="3" height="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="3" height="12" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="3" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="3" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="3" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="3" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="3" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="3" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" x="3" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="3" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-7" x="3" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="4" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="4" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="4" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="4" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="4" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="4" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="4" height="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="4" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-7" x="4" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="4" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="5" height="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="5" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="5" height="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="5" height="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="5" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="5" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="5" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="5" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="5" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="5" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="5" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="5" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="6" height="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="6" height="5" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="6" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-6" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="6" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="6" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-2" x="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="6" height="6" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="7" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="7" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="7" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="7" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="7" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="7" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="7" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="7" height="13" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="7" height="14" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-3" x="7" height="6" kind="1" textype="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-5" x="7" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="7" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="8" height="1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="8" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="8" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="8" height="8" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="8" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="8" height="13" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="8" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="8" height="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="9" height="4" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="9" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="9" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="9" height="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="9" height="14" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="9" height="15" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="9" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="9" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="10" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="16" x="10" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="17" x="10" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="18" x="10" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="19" x="10" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="12" x="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="11" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="14" x="12" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="13" x="12" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="15" x="12" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="12" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="13" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="14" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="14" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="15" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="16" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="17" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="18" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="19" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="-2" warpto="lalaland" kind="3" warpanchor="1" />
+        <nil y="4" x="-2" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" kind="4" anchor="1" x="-2" />
+        <nil y="4" x="-2" sprite="trusprit/dudemanwalkin2" anchor="1" special="player" kind="4" backsprite="trusprit/dudemanwalkin" />
+        <nil y="1" x="-1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="-1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="-1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="-1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" kind="4" anchor="1" x="-1" />
+        <nil y="5" x="-1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="-1" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="0" height="3" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.625</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="0" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-4" x="0" height="10" kind="1" texture="brokenhead">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0.5</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+    </polyarray:map>
+    <meta camzoom="2">
+        <polyarray:bgcolor>
+            <nil>0.125</nil>
+            <nil>0</nil>
+            <nil>0</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

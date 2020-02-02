@@ -1,0 +1,6 @@
+Name: bullet
+Description: Bullet Continuous Collision Detection and Physics Library
+Requires:
+Version: 2.78
+Libs: -L/Users/mcc/work/gh/Polycode-real/Dependencies/../Release/Darwin/Framework/Modules/Dependencies/lib -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath
+Cflags:  -I/Users/mcc/work/gh/Polycode-real/Dependencies/../Release/Darwin/Framework/Modules/Dependencies/include/bullet

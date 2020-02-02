@@ -1,0 +1,10 @@
+This directory contains files by various authors and under various licenses. However all licenses are BSD-style or weaker, and all licenses are GPL compatible (the Droid Sans font is Apache 2, which is not GPL compatible; however the font is an aggregated file, not something linked in, so the GPL should allow this).
+
+Anything original of mine in here is provided under an MIT license, as found in "README.txt", which basically just says source or binary redistributions have to preserve a certain copyright notice.
+
+There is a sample "README.txt" included which contains the notices and license information for all included code. If you package this README.txt along with your program (the Windows and Linux makefiles do this automatically) you will have satisfied all your obligations.
+
+- Andi McClure
+mcc@grumpybumpers.com
+http://runhello.com
+

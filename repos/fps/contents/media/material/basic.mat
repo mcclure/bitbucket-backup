@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<polycode>	
+	<shaders>
+		<shader type="glsl" name="FlatShader" numAreaLights="4" numSpotLights="2">		
+			<vp source="FlatShader.vert">
+				<params>			
+				</params>				
+			</vp>
+			<fp source="FlatShader.frag">
+				<params>			
+				</params>				
+			</fp>
+		</shader>
+	</shaders>
+	<materials>
+		<material name="GroundMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">floor_texture.png</texture>
+				</textures>
+			</shader>
+		</material>					
+	</materials>
+</polycode>

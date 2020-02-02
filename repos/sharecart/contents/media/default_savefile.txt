@@ -1,0 +1,24 @@
+[Main]
+MapX=0
+MapY=0
+Misc0=0
+Misc1=0
+Misc2=0
+Misc3=0
+PlayerName=BLANK
+Switch0=FALSE
+Switch1=FALSE
+Switch2=FALSE
+Switch3=FALSE
+Switch4=FALSE
+Switch5=FALSE
+Switch6=FALSE
+Switch7=FALSE
+
+# don't include this stuff in the file
+# remember, the path to the save file will be ../dat/o_o.ini
+# MapX and MapY are 0-1023
+# Misc values are 0-65535
+# Switches are TRUE/FALSE
+# PlayerName is a string, and funny characters (like equal signs especially?) might break it for some people (i dunno)
+# okay, and the length of PlayerName must be within 0-1023. no playernames of length 1024 and above! a modest limit, i know

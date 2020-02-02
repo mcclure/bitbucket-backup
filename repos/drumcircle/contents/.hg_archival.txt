@@ -1,0 +1,6 @@
+repo: 377e43cbd586aa4f3e26e1561d32cc6aee874477
+node: 9997728749cef1bb526e1e45609d7ef94de0f40e
+branch: default
+latesttag: Desktop-1.0.1
+latesttagdistance: 2
+changessincelatesttag: 2

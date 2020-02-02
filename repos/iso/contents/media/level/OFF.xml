@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" kind="1" height="1" x="1" />
+        <nil y="2" kind="1" x="1" />
+        <nil y="3" kind="1" x="1" />
+        <nil y="4" kind="1" x="1" />
+        <nil y="5" kind="1" x="1" />
+        <nil y="6" kind="1" x="1" />
+        <nil y="7" kind="1" x="1" />
+        <nil y="1" kind="1" x="2" />
+        <nil y="2" kind="1" x="2" />
+        <nil y="2" kind="4" anchor="1" x="2" />
+        <nil y="2" x="2" sprite="trusprit/dudemanwalkin2" anchor="1" special="player" kind="4" backsprite="trusprit/dudemanwalkin" />
+        <nil y="3" kind="1" x="2" />
+        <nil y="4" kind="1" x="2" />
+        <nil y="5" kind="1" x="2" />
+        <nil y="5" x="2" flip="true" kind="2" sprite="ppl/nellie" texture="media/sprite/ppl/nellie.png" />
+        <nil y="6" kind="1" x="2" />
+        <nil y="7" kind="1" x="2" />
+        <nil y="-2" kind="1" height="1" x="2" />
+        <nil y="1" kind="1" x="3" />
+        <nil y="2" kind="1" x="3" />
+        <nil y="3" kind="1" x="3" />
+        <nil y="4" kind="1" x="3" />
+        <nil y="5" kind="1" x="3" />
+        <nil y="6" kind="1" x="3" />
+        <nil y="7" kind="1" x="3" />
+        <nil y="-2" kind="1" height="1" x="3" />
+        <nil y="1" kind="1" x="4" />
+        <nil y="2" kind="1" x="4" />
+        <nil y="3" kind="1" x="4" />
+        <nil y="4" kind="1" x="4" />
+        <nil y="5" kind="1" x="4" />
+        <nil y="6" kind="1" x="4" />
+        <nil y="7" kind="1" x="4" />
+        <nil y="-2" kind="1" height="1" x="4" />
+        <nil y="1" kind="1" x="5" />
+        <nil y="2" kind="1" x="5" />
+        <nil y="3" kind="1" x="5" />
+        <nil y="4" kind="1" x="5" />
+        <nil y="5" kind="1" x="5" />
+        <nil y="6" kind="1" x="5" />
+        <nil y="7" kind="1" x="5" />
+        <nil y="-2" kind="1" height="1" x="5" />
+        <nil y="1" kind="1" x="6" />
+        <nil y="2" kind="1" x="6" />
+        <nil y="3" kind="1" x="6" />
+        <nil y="4" kind="1" x="6" />
+        <nil y="5" kind="1" x="6" />
+        <nil y="6" kind="1" x="6" />
+        <nil y="7" kind="1" x="6" />
+        <nil y="1" kind="1" x="7">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="7" warpto="BLAST" kind="3" special="warp" />
+        <nil y="2" kind="1" height="0" x="7" />
+        <nil y="3" kind="1" height="0" x="7" />
+        <nil y="4" kind="1" x="7" />
+        <nil y="5" kind="1" x="7" />
+        <nil y="6" kind="1" x="7" />
+        <nil y="7" kind="1" x="7" />
+    </polyarray:map>
+    <meta>
+        <polyarray:bgcolor>
+            <nil>1</nil>
+            <nil>0</nil>
+            <nil>0</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

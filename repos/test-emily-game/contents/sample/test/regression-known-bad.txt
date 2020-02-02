@@ -1,0 +1,19 @@
+# Tests known to currently fail.
+
+# SERIOUS FAILURES -- FEATURE IN PROGRESS
+package/customPath/arg.em  # At present, this fails because the prototypes cannot be loaded.
+package/customPath/env.em
+package/customPath/both.em
+#package/reflectProgram.em # hangs
+#package/reflectPackage.em # hangs
+package/builtinLeak.em
+
+# SERIOUS FAILURES -- MAJOR BUGS, FIX ASAP
+closure/scope/boundLet.em   # No defined behavior
+closure/scope/boundSet.em
+
+# FAILURES -- BUGS, FIX ASAP
+parse/unicode/identifier.em # Unicode identifiers not in yet
+
+# "Expected" failures due to not-yet-implemented features
+# None.

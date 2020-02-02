@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<list name="textureAtlas">
+    <atlas basename="interface" filename="interface-1.png" index="1">
+        <image bottom="0.125" left="0.0" name="d" right="0.125" top="0.0"/>
+        <image bottom="0.125" left="0.125" name="c" right="0.25" top="0.0"/>
+        <image bottom="0.125" left="0.25" name="b" right="0.375" top="0.0"/>
+        <image bottom="0.125" left="0.375" name="a" right="0.5" top="0.0"/>
+    </atlas>
+</list>

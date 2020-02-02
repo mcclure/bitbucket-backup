@@ -1,0 +1,5 @@
+changeset:   804:12375d1225f9
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sun Mar 03 22:48:29 2013 -0700
+summary:     Fix SDLCore merge error
+

@@ -1,0 +1,169 @@
+Executive Summary
+-----------------
+
+There is no warranty, etc, with the code, executables, images, etc.
+Use at your own risk.
+
+Feel free to make derivative works using Vicious Orcs as the base.  Feel
+free to redistribute such works as you please.  Feel free to grab the
+algorithms presented here and use them in your unrelated code.
+
+Feel free to enjoy playing the game!
+
+Note that if you wish to redistribute binary versions AND wish to
+redistribute SDL*.DLL, you must redistribute the SDL*.DLL source code.
+If you do not redistribute SDL*.DLL, ignore this paragraph.
+
+Details
+-------
+
+MSVCP*.DLL and MSVCR*.DLL are owned and licensed entirely by
+Microsoft.  They are redistributed with Vicious Orcs as per their
+edicts.  I'd rather not have to include them.
+
+Simple DirectMedia Layer (SDL) library is licensed under the GNU
+Lesser General Public License (LGPL)
+
+libtcod is BSD licensed as per The Chronicles of Doryen library.
+http://thedoryenlibrary.appspot.com/
+
+------------ SDL LICENCE -------------
+Licensing the Simple DirectMedia Layer library
+
+The Simple DirectMedia Layer library is currently available under the
+GNU Lesser General Public License (LGPL) version 2 or newer. This
+license allows you to link with the library in such a way that users
+can modify the library and have your application use the new version. 
+
+The GNU LGPL license can be found online at:
+http://www.gnu.org/copyleft/lgpl.html 
+
+To comply with this license, you must give prominent notice that you
+use the Simple DirectMedia Layer library, and that it is included
+under the terms of the LGPL license. You must include a copy of the
+LGPL license. You must also do one of the following: 
+
+1. Include the source code for the version of SDL that you link with,
+as well as the full source or object code to your application so that
+the user can relink your application, or 
+
+2. Include a written offer, valid for at least three years, to provide
+the materials listed in option 1, charging no more than the cost of
+providing this distribution, or 
+
+3. Make the materials listed in option 1 available from the same place
+that your application is available. 
+
+The most common way to comply with the license is to dynamically link
+with SDL, and then include the SDL source code and appropriate notices
+with your application. 
+
+Embedded Use: Personally, I don't have a problem with anybody
+statically linking SDL for use with embedded environments that don't
+already have an open development environment. (i.e. the users can't
+relink programs anyway) However, this does technically violate the
+LGPL, so be cautioned. 
+------------ End SDL LICENE ----------
+
+If this is a binary distribution and I have include SDL.DLL,
+understand I am complying with option #3.  The source code for 
+SDL is packaged with the source code for You Only Live Once, which you
+can find at http://www.zincland.com/7drl/liveonce/.
+
+In any case, you are recommended to get the latest source directly
+from the SDL website as this version may be out of date.
+
+Further information about SDL can be found at:
+http://www.libsdl.org/
+
+Information about the LGPL license can be found at:
+http://www.libsdl.org/license.php
+http://www.gnu.org.copyleft/lgpl.htlm
+
+The .map files are considered public domain.
+
+The .cpp, .h, .txt, and executable files are licensed under the BSD
+license:
+
+----------- Source code license -------
+
+Copyright (c) 2010 Jeff Lait
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer. 
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution. 
+Neither the name of the <ORGANIZATION> nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission. 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------- End source code license -----------
+
+The .c file, all one of them, is mt19937ar.c.  This is the code for
+Mersenne Twister.  It has been slightly modified to make it thread
+safe.  It's license reads:
+
+---------- MT License -------------------
+   A C-program for MT19937, with initialization improved 2002/1/26.
+   Coded by Takuji Nishimura and Makoto Matsumoto.
+
+   Before using, initialize the state by using init_genrand(seed)  
+   or init_by_array(init_key, key_length).
+
+   Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+   All rights reserved.                          
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+
+     3. The names of its contributors may not be used to endorse or promote 
+        products derived from this software without specific prior written 
+        permission.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+   Any feedback is very welcome.
+   http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html
+   email: m-mat @ math.sci.hiroshima-u.ac.jp (remove space)
+---------- End MT License ---------------
+
+If you want to use the excellent Mersenne Twister elsewhere, you are
+strongly recommended to get a new version from the official
+site rather than extracting this version, as this one may be out of
+date.

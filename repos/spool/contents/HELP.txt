@@ -1,0 +1,31 @@
+"Spool", online multiplayer Twine tools -- Release 0.1
+
+(c) 2013 Andi McClure
+andi.m.mcclure@gmail.com
+http://runhello.com
+
+Here are macros and a server which allow you to write Twine stories with persistent online interactivity. Using this may in practice require either some Linux knowledge or the help of someone who knows Linux (although the server does run on Mac and Windows).
+
+Usage instructions:
+
+* Copy the contents of the file macro/spool_macros.js into a passage in your Twine story named "spool_macros" and with tags "script".
+
+* In a terminal window, cd to the server/ folder and execute
+	python server.py
+to launch the Tornado web server. Once you have done this, you can access any stories in the server/twine folder in a web browser, for example the file server/twine/test.html can be accessed via:
+	http://localhost:8888/test.html
+This is necessary; the spool_macros macros will *not* work if you just open them from file:/// or upload them to an ordinary web server.
+
+At your option, you may launch server.py specifying a particular port:
+	python server.py --port=33333
+Or tack on a --debug=1 argument to see server traffic (see --help).
+
+There is an example story named "test.tws" pre-loaded into the server/twine folder. There is a file with detailed macro usage instructions in macro/usage.txt.
+
+Copyright notes:
+
+The server.py file and these help files are available under CC-BY 2.0; in other words you may redistribute with or without alterations in any way but you must preserve copyright/attribution notices.
+
+The spool-macros.js and the Twine example files may be considered to be under the public domain.
+
+The files jquery.js and favicon.ico have their own license terms. JQuery can be found at jquery.org. The favico is from Chris Klimas's Twine tool and is probably GPLed or something.

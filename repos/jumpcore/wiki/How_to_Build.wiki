@@ -1,0 +1,103 @@
+**Did these instructions work for you? I'm sincerely curious. [[http://msm.runhello.com/?p=385|Let me know]].**
+
+<<toc>>
+
+=HOW TO BUILD=
+
+Included under desktop/ is a Jumpcore.xcodeproj for compiling on mac, which can be compiled with XCode; windows makefile and support files are in a folder named desktop/win/, and can be compiled with mingw; Linux makefile and support files are in a folder named desktop/lin/, and can be compiled with gcc; an iPhone xcodeproj is under iPhone; and files for use with Eclipse+Sequoyah can be found under Android/jumpcore-eclipse. More detailed instructions for all five platforms follow:
+
+==Building for mac==
+
+===...from a Mac===
+
+Included under desktop/ is a Jumpcore.xcodeproj for use with XCode; just build that in Release mode and it should produce a 10.3.9-compatible universal binary (though note, I've not specifically tested it with 10.3.9 and I haven't tested on PPC recently).
+
+===...from Windows or Linux===
+
+Is this possible? It seems like it must be possible, somehow. All the OS X build tools are [[http://www.opensource.apple.com/|open source]]. 
+
+I have no idea how to do this.
+
+==Building for Windows==
+
+===...from a Mac===
+
+Here's the best way I've found to do this:
+
+* There is a "[[http://crossgcc.rts-software.org/doku.php|Cross Compilers for Mac OS X]] page here that actually has OS X installers for mingw. PPC and Intel versions are included; I installed 4.3.0 for Intel. The only problem with these particular installers is they install into strange places, so whichever installer from that page you pick, write down the "Installation directory" listed to the right of it.
+* Once you've installed an installer from that page, you need to install mingw SDL headers. In order to do this, go [[http://www.libsdl.org/download-1.2.php|to the SDL download page]] and look under "Development Libraries" -> "Win32" -> "Mingw32". Download that tarball. Once you've downloaded it ignore the "INSTALL" file, which is full of lies, and do this: Edit the "Makefile" in the directory so that the "CROSS_PATH" on line 4 is the "Installation directory" you wrote down in step 1. Like in my case this would be:
+{{{CROSS_PATH := /usr/local/i386-mingw32-4.3.0}}}
+Once you've done this, run "sudo make cross" and it will install the SDL headers into your mingw directory.
+* Open up the Jumpcore directory in Terminal. Go into the "desktop/win/" directory. Run "make" with the argument MINGW=<em>[Installation Directory]</em>, where <em>[Installation Directory]</em> is again the directory from step 1-- in my case this would be
+{{{make MINGW=/usr/local/i386-mingw32-4.3.0}}}
+(Note, you don't need to supply this MINGW argument so long as you edit the makefile to change the default for MINGW-- which, incidentally, is {{{/usr/local/i386-mingw32-4.3.0}}})
+
+A directory named "Jumpcore" will be created with a Jumpcore.exe and all the support files necessary.
+
+===...from Windows===
+I was able to successfully compile Jumpcore on Windows by doing the following:
+* Download and install [[http://www.mingw.org/wiki/MinGW|MinGW]]. (Make sure to install the C++ package.)
+* Download and install [[http://www.mingw.org/wiki/MSYS|MSYS]] (it's part of MinGW, but a separate download)
+* As described on the [[http://www.mingw.org/wiki/HOWTO_Install_the_MinGW_GCC_Compiler_Suite|MinGW install HOWTO]], add {{{C:\MinGW\bin}}} to your path: right-click "My Computer", click "Advanced", click "Environment Variables", double-click the line that says "PATH", and in the <em>second</em> line add the exact characters {{{;C:\MinGW\bin}}}
+* Go [[http://www.libsdl.org/download-1.2.php|to the SDL download page]] and look under "Development Libraries" -> "Win32" -> "Mingw32". Download that tarball and open up its contents in MSYS. Type "make native" and it will install itself.
+* A kind of odd step: right-click the file "README.txt", open it in Wordpad, and immediately save it. (This will strip out my evil UNIX newlines.)
+* Go into the directory win/ and run: {{{make WINDOWS=1}}}</li>
+
+This will create an install directory named "Jumpcore". If you want to compile for debugging, in that last step type: {{{make WINDOWS=1 DEBUG=1}}}
+
+It sure would be nice if there were some way to compile from Visual Studio or Code::Blocks, but I haven't had the chance to look into this.
+
+TODO: Also the mingw installation instructions above may be incorrect-- I hear that the installation process for MSYS has changed. I will update here when I've had a chance to look into this...
+
+===...from Linux===
+
+Beats me? Most likely this would be the exact same as the instructions above for compiling from a mac, except you'll have to find some other source for the mingw crosscompiler.
+
+== Building for Linux ==
+
+===...from Mac or Windows===
+
+Download [[http://www.virtualbox.org/|VirtualBox]]. Then download an [[http://www.ubuntu.com/desktop/get-ubuntu/download|Ubuntu install CD]]. Create a Linux virtual machine and boot off of the install CD. Install Ubuntu on your virtual machine's drive, open a terminal, and {{{sudo apt-get install g++}}}. Congratulations, you are now running Linux. Which means you can do this:
+
+===...from Linux===
+
+Install Freetype and SDL. Go into the directory lin/ and run make. This will create an install directory named "Jumpcore". If you want to compile for debugging, instead type: {{{make DEBUG=1}}}
+
+== Building for iPhone ==
+
+===...from a Mac ===
+
+Included under iphone/ is a Jumpcore-iphone.xcodeproj. You should be able to just open that up and build. Remember, of course, if you want to build for the device instead of running on the Simulator you'll need to sign up with Apple and go through their entire certificate/provisioning process; this is documented fully at the iPhone Dev Center on Apple's website.
+
+===...from Windows or Linux===
+
+Definitely not possible.
+
+== Building for Android ==
+
+=== ...from any platform ===
+
+The Android port uses the NDK, the "Native Development Kit". The NDK is poorly supported, the tools are difficult to install, and I've only just recently figured out how all this works. So these directions may be a little fuzzy until I can get an opportunity to find a clean computer to retrace my steps on. Here's what I believe I did to get to the point where ndk apps would compile on my machine, if it doesn't work for you (or if you notice I skipped steps) let me know:
+
+* **Important but nonobvious**: Before you do anything, look in android/jumpcore-eclipse within the jumpcore directory . There's a sh script there named "do-build". Run it; this will copy the needed resources into the correct directory. (TODO: WTF do Windows users do here?) I'm still trying to work out a way to do this automatically...
+* You must install Eclipse and the ADT (Android Development Tools) plugin. [[http://developer.android.com/sdk/installing.html|Follow these instructions]] and make sure you get the most recent SDKs.
+* You must install the Android NDK-- download the most recent version you can from [[http://developer.android.com/sdk/ndk/index.html|here]].
+* Now you need to install something called "Sequoyah". This is ANOTHER plugin which will make Eclipse's ADT plugin able to actually use the NDK (it will also allow you to use gdb). It's //possible// to use the NDK without going through Sequoyah by calling ndk-build directly, but this will usually make Eclipse misbehave in extremely unpleasant ways. Look at [[http://www.eclipse.org/sequoyah/documentation/native_debug.php|this document]] and follow step 0 only (if this doesn't work, **make sure the checkbox in that first screenshot that says "group items by category" is unchecked**).
+* At some point around here, go to the Preferences in Eclipse, look under Android->Native Development and enter the path of the NDK you installed earlier. By the way, this step might not be necessary. I'm not really sure! The NDK is very mysterious.
+* Also at some point around here, go to [for some reason] the "Help" menu, choose "Android SDK and AVD manager", and create a new virtual device. Make CERTAIN that this is a 2.3 or better device.
+* HOPEFULLY, your copy of Eclipse can now perform Android Java development as well as Android Native development. Go to New->Android Project. Choose "Create project from existing source". Click "Browse", navigate to your copy of the Jumpcore source tree, look inside the "android" directory, and select the "jumpcore-eclipse" directory therein. Click "Finish".
+* A new project will now be available in the package explorer. **This next step is really important.** Right-click on the project's name, look under "Android Tools", and select "add native support". Make sure the dialog that appears is correctly supplied with the location of your NDK.
+* Right-click on the project's name again, look under "Debug As", and pick "Android Application". Eclipse will build your application (both Java and C++ components), launch an emulator, and load your application into it to run. (Note: Once the emulator's launched, it won't actually try to load the application until you do the little "slide to unlock" gesture.) Once you've done this for the first time, you can debug your app by just clicking on the little triangle next to the bug icon in the toolbar.
+* One last thing: AFTER you've run the app for the first time, go back to the package explorer, right-click on your project, look under "Debug As" and choose "Debug Configurations". Look under the Target tab; where it says "Deployment Target Selection Mode" click "Manual". In my experience, if you do //not// do this, Eclipse will periodically do crazy things like launch several copies of the emulator for no reason and subsequently cause all of them to crash.
+
+=== If you want to run gdb ===
+
+So about those instructions for using gdb+sequoyah I link above-- they're based on the assumption you're writing a Java application with a C++ components. But Jumpcore is a pure C++ application-- it uses NativeActivity. So some of those directions won't work. Specifically, toward the end they tell you to modify the ndk-gdb script so that gdb will run inside of Eclipse instead of on the command line. In my testing I was unable to get in-Sequoyah gdb to work under any circumstances. 
+
+Instead what I did was: open a terminal; navigate to the jumpcore-eclipse directory; launch my program in the Android emulator; and then launch the //original, unmodified// ndk-gdb in the terminal. As soon as the ndk-gdb script finishes starting up, execution of the Android app will pause and you will be presented with a working command-line gdb session in the terminal.
+
+Note of course that ndk-gdb takes about eight seconds to start up! So this becomes difficult if you want to use this technique to debug something happening at startup. The way I handled this is (no, really) there's an #if 0'd block I added in gl_code.cpp that causes the Jumpcore android app to idle for fifteen seconds at the beginning of startup; you can uncomment that block and then launch ndk-gdb during the 15-second window. As far as I know (and I'd love to know if I'm wrong, because this whole procedure is just crazy) this is the only way to get gdb to attach at launch, since Eclipse only knows how to set Java breakpoints and there are no Java breakpoints if you're using NativeActivity.
+
+==Building for WebOS==
+
+Several build scripts can be found in the webOS/ directory. Unfortunately, they are Windows batch scripts and will only work on Windows. I hope to update later with a more crossplatform-friendly solution (or at least some more specific build instructions).

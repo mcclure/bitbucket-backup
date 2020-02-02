@@ -1,0 +1,20 @@
+<PolycodeProject defaultWidth="640" defaultHeight="480" antiAliasingLevel="0">
+	<backgroundColor red="0.25" green="0.25" blue="0.25" />
+	<entryPoint>Experiment.lua</entryPoint>
+	<modules>
+		<module>Physics2D</module>
+	</modules>
+	<packedItems>
+		<item path="collision.wav" type="file"/>
+		<item path="ship.png" type="file"/>
+		<item path="rock1.png" type="file"/>
+		<item path="rock2.png" type="file"/>
+		<item path="rock3.png" type="file"/>
+		<item path="rock4.png" type="file"/>
+		<item path="rock5.png" type="file"/>
+		<item path="rock6.png" type="file"/>
+		<item path="rock7.png" type="file"/>
+		<item path="rock8.png" type="file"/>
+		<item path="rock9.png" type="file"/>
+        </packedItems>
+</PolycodeProject>

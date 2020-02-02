@@ -1,0 +1,6 @@
+repo: a193949bf4e9031704c9f07d95a738c272f24b64
+node: 60a5ba82f75a8d6f3ab4d666a7290f48a0b504e8
+branch: default
+latesttag: avatar_5
+latesttagdistance: 12
+changessincelatesttag: 12

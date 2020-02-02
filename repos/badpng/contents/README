@@ -1,0 +1,15 @@
+Tool incorrectly re-encodes a PNG.
+
+To build:
+	make
+
+To build for debugging:
+	make DEBUG=1
+
+Usage:
+	./badpng infile.png outfile.png
+
+Written by Andi McClure <andi.m.mcclure@gmail.com>, http://runhello.com
+Available under the Creative Commons Zero license:
+http://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+In other words, the source code in this repository may be used for any purpose without restriction.

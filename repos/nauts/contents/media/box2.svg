@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:polycode="http://msm.runhello.com/local/svg/polycode0"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="980"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="box2.svg"
+   polycode:onUpdate="do local b = id(&quot;ball&quot;) if b then local v = bridge:getSpin(screen(), b) id(&quot;meter&quot;):setText(string.format(&quot;%.2f&quot;, v)) end end  if ticks == 60*3 then  bridge:room_remove(id(&quot;title1&quot;)) elseif ticks == 60*6 then  bridge:room_remove(id(&quot;title2&quot;)) end  if vday &gt;= 0 and ticks == vday + 60*3 then  bridge:load_room(&quot;media/ending.svg&quot;) end"
+   polycode:onLoad="bridge:set_saved_level(3) vday = -1  function labelAt(str, x, y)  local label = ScreenLabel(str, 52*scale)  label:setColor(1.0,0.75,0.75,1.0)  label:setPosition(x*scale,y*scale,0)  screen():addChild(label) end  function labelsAt(tab, x, y)  for i,v in ipairs(tab) do labelAt(v,x,y+i*70) end end  function complete() labelsAt({&quot;The contraption shudders its last and&quot;,&quot;collapses, crushing you beneath its&quot;, &quot;heavy metal frame.&quot;,&quot;&quot;,&quot;You are dead.&quot;},100,50) end  do local b = id(&quot;ball&quot;) local s2 = math.sqrt(2) local x = b:getWidth()/2/s2 local y = b:getHeight()/2/s2 local l = ScreenLine(Vector3(-x, -y, 0), Vector3(x, y, 0)) l:setColor(0,0,0,1) l:setLineWidth(1) b:addChild(l) l = ScreenLine(Vector3(-x, y, 0), Vector3(x, -y, 0)) l:setColor(0,0,0,1) l:setLineWidth(1) b:addChild(l) end  id(&quot;meter&quot;).__info.__class = ScreenLabel">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#211d31"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="491.50833"
+     inkscape:cy="315.56807"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1032"
+     inkscape:window-height="669"
+     inkscape:window-x="42"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.7142857,-448.57143)">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
+       id="floor"
+       width="628.57141"
+       height="62.857143"
+       x="229.78769"
+       y="865.62134" />
+    <path
+       polycode:isStatic="0"
+       d="m 164.40105,416.15222 a 25,25 0 1 1 -50,0 25,25 0 1 1 50,0 z"
+       sodipodi:ry="25"
+       sodipodi:rx="25"
+       sodipodi:cy="416.15222"
+       sodipodi:cx="139.40105"
+       id="ball"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:type="arc"
+       polycode:onCollide="if vday &lt; 0 and bridge:room_name(bridge:room_b()) == &quot;inbox&quot; and bridge:getSpin(screen(), bridge:room_a()) &gt; 2 then complete() vday = ticks end"
+       transform="translate(55.197548,171.58795)" />
+    <rect
+       y="741.80762"
+       x="846.62067"
+       height="95.45433"
+       width="12.121831"
+       id="inbox"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:0.72860867px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="72.557671"
+       y="511.24207"
+       id="title1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
+         x="72.557671"
+         y="511.24207">Level 5</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="outbox1"
+       width="110.71429"
+       height="12.142858"
+       x="741.32452"
+       y="734.47607" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="88.373489"
+       y="1013.0428"
+       id="title2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3023"
+         x="88.373489"
+         y="1013.0428">Goal: Roll the ball into the box.</tspan></text>
+    <rect
+       y="827.81415"
+       x="742.73871"
+       height="12.142858"
+       width="110.71429"
+       id="outbox2"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       style="fill:#00ffff;fill-rule:evenodd;stroke:none"
+       id="rect2995"
+       width="100.40916"
+       height="21.213203"
+       x="145.664"
+       y="184.22121"
+       transform="translate(-5.7142857,448.57143)" />
+    <rect
+       style="color:#000000;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3777"
+       width="35.355339"
+       height="32.526913"
+       x="229.04517"
+       y="676.63324" />
+    <rect
+       style="color:#000000;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3779"
+       width="19.79899"
+       height="65.053825"
+       x="226.27417"
+       y="195.53493"
+       transform="translate(-5.7142857,448.57143)" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="678.76508"
+       y="557.83929"
+       id="meter"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3794"
+         x="678.76508"
+         y="557.83929"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Monospace;-inkscape-font-specification:Monospace">0.0</tspan></text>
+  </g>
+</svg>

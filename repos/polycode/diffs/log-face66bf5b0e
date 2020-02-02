@@ -1,0 +1,5 @@
+changeset:   986:face66bf5b0e
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Mon Apr 15 21:45:47 2013 -0700
+summary:     Fix stubsound / soundmanager compile issues in aftermath of Sound changes
+

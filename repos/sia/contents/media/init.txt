@@ -1,0 +1,8 @@
+media/overlay/startup
+media/overlay/pregame
+media/overlay/audio
+media/overlay/glitter
+media/levels/temple
+media/overlay/game
+media/title.svg
+media/overlay/shutdown

@@ -1,0 +1,67 @@
+diff --git a/Core/Contents/Source/PolyScene.cpp b/Core/Contents/Source/PolyScene.cpp
+--- a/Core/Contents/Source/PolyScene.cpp
++++ b/Core/Contents/Source/PolyScene.cpp
+@@ -47,15 +47,9 @@
+ 	hasLightmaps = false;
+ 	clearColor.setColor(0.13f,0.13f,0.13f,1.0f); 
+ 	ambientColor.setColor(0.0,0.0,0.0,1.0);
+-	fogColor.setColor(0.0,0.0,0.0,1.0);
+ 	useClearColor = false;
+ 	ownsChildren = false;
+ 	ownsCamera = true;
+-	fogEnabled=false;
+-	fogMode=0;
+-	fogDensity=0;
+-	fogStartDepth=0;
+-	fogEndDepth=0;
+ 	CoreServices::getInstance()->getSceneManager()->addScene(this);	
+ }
+ 
+@@ -69,15 +63,9 @@
+ 	hasLightmaps = false;
+ 	clearColor.setColor(0.13f,0.13f,0.13f,1.0f); 
+ 	ambientColor.setColor(0.0,0.0,0.0,1.0);	
+-	fogColor.setColor(0.0,0.0,0.0,1.0);
+ 	useClearColor = false;
+ 	ownsChildren = false;
+ 	ownsCamera = true;
+-	fogEnabled=false;
+-	fogMode=0;
+-	fogDensity=0;
+-	fogStartDepth=0;
+-	fogEndDepth=0;
+ 	if (!isSceneVirtual) {
+ 		CoreServices::getInstance()->getSceneManager()->addScene(this);
+ 	}
+diff --git a/Core/Contents/Source/PolyScreenMesh.cpp b/Core/Contents/Source/PolyScreenMesh.cpp
+--- a/Core/Contents/Source/PolyScreenMesh.cpp
++++ b/Core/Contents/Source/PolyScreenMesh.cpp
+@@ -41,14 +41,14 @@
+ 	mesh = new Mesh(fileName);
+ 	lineSmooth = false;
+ 	lineWidth = 1.0;
+-	ownsMesh = true;
++	
+ }
+ 
+ ScreenMesh::ScreenMesh(int meshType) : ScreenEntity(), material(NULL), texture(NULL) {
+ 	mesh = new Mesh(meshType);
+ 	lineSmooth = false;
+ 	lineWidth = 1.0;
+-	ownsMesh = true;
++	
+ }
+ 
+ ScreenMesh *ScreenMesh::ScreenMeshWithMesh(Mesh *mesh) {
+diff --git a/Modules/Contents/3DPhysics/Include/PolyCollisionScene.h b/Modules/Contents/3DPhysics/Include/PolyCollisionScene.h
+--- a/Modules/Contents/3DPhysics/Include/PolyCollisionScene.h
++++ b/Modules/Contents/3DPhysics/Include/PolyCollisionScene.h
+@@ -119,7 +119,7 @@
+ 			//@}
+ 			// ----------------------------------------------------------------------------------------------------------------
+ 			
+-//		protected:
++		protected:
+ 		
+ 			std::vector<CollisionSceneEntity*> collisionChildren;
+ 			btCollisionWorld *world;

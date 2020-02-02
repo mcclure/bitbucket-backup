@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" x="1" kind="1" />
+        <nil y="2" x="1" kind="1" />
+        <nil y="3" x="1" kind="1" />
+        <nil y="4" x="1" kind="1" />
+        <nil y="5" x="1" kind="1" />
+        <nil y="6" x="1" kind="1" />
+        <nil y="7" x="1" kind="1" />
+        <nil y="1" x="2" kind="1" />
+        <nil y="2" x="2" kind="1" />
+        <nil y="3" x="2" kind="1" />
+        <nil y="4" x="2" kind="1" />
+        <nil y="5" x="2" kind="1" />
+        <nil y="5" x="2" flip="true" kind="2" sprite="ppl/nellie" texture="media/sprite/ppl/nellie.png" />
+        <nil y="6" x="2" kind="1" />
+        <nil y="7" x="2" kind="1" />
+        <nil y="1" x="3" kind="1" />
+        <nil y="1" x="3" special="player" sprite="ppl/deep_elf_conjurer" texture="media/sprite/ppl/deep_elf_conjurer.png" />
+        <nil y="2" x="3" kind="1" />
+        <nil y="3" x="3" kind="1" />
+        <nil y="4" x="3" kind="1" />
+        <nil y="5" x="3" kind="1" />
+        <nil y="6" x="3" kind="1" />
+        <nil y="7" x="3" kind="1" />
+        <nil y="1" x="4" kind="1" />
+        <nil y="2" x="4" kind="1" />
+        <nil y="3" x="4" kind="1" />
+        <nil y="4" x="4" kind="1" />
+        <nil y="5" x="4" kind="1" />
+        <nil y="6" x="4" kind="1" />
+        <nil y="7" x="4" kind="1" />
+        <nil y="1" x="5" kind="1" />
+        <nil y="2" x="5" kind="1" />
+        <nil y="3" x="5" kind="1" />
+        <nil y="4" x="5" kind="1" />
+        <nil y="5" x="5" kind="1" />
+        <nil y="6" x="5" kind="1" />
+        <nil y="7" x="5" kind="1" />
+        <nil y="1" x="6" kind="1" />
+        <nil y="2" x="6" kind="1" />
+        <nil y="3" x="6" kind="1" />
+        <nil y="4" x="6" kind="1" />
+        <nil y="5" x="6" kind="1" />
+        <nil y="6" x="6" kind="1" />
+        <nil y="7" x="6" kind="1" />
+        <nil y="1" x="7" kind="1" />
+        <nil y="2" x="7" kind="1" />
+        <nil y="3" x="7" kind="1" />
+        <nil y="4" x="7" kind="1" />
+        <nil y="5" x="7" kind="1" />
+        <nil y="6" x="7" kind="1" />
+        <nil y="7" x="7" kind="1" />
+    </polyarray:map>
+</level>

@@ -1,0 +1,19 @@
+These are some simple Twine macros and stuff I've made. You can find a copy of the macro block in the file macro/runhello_macros.js. You can find examples of how to use these macros in the file examples/test.tws.
+
+The macro js, Twine examples, and this file may be considered public domain.
+
+Created by:
+
+Andi McClure
+andi.m.mcclure@gmail.com
+http://runhello.com
+
+Included:
+
+Macros:
+<<for>> <<endfor>>
+<<noise>
+
+Functions:
+roompick()
+randompick()

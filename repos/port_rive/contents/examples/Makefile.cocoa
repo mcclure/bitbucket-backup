@@ -1,0 +1,129 @@
+##########################################################################
+# Makefile for GLFW examples on Mac OS X on Cocoa using Apple GCC
+#-------------------------------------------------------------------------
+# To compile the test files using this makefile, run:
+#  make -f Makefile.cocoa
+##########################################################################
+
+# Compiler settings
+CC     ?= cc
+RCC    ?= cc
+CFLAGS ?= -O2 -g
+CFLAGS += -I../include
+
+# Linker settings
+LIB = ../lib/cocoa/libglfw.a
+LFLAGS = $(LIB) -framework Cocoa -framework OpenGL -framework IOKit
+
+RCFLAGS = $(CFLAGS) -std=c++11 -I./rive -I../include/GL -nostdinc++ -I/opt/local/libexec/llvm-3.3/lib/c++/v1 -I/opt/local/include -I/opt/local/include/freetype2 -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Versions/A/Headers -U__STRICT_ANSI__ 
+RLFLAGS = $(LFLAGS) -framework OpenAL -framework CoreFoundation /opt/local/lib/libfreetype.a /opt/local/lib/libbz2.a /opt/local/lib/libz.a -lc++
+
+# Default: Build all tests
+all: Triangle.app/Contents/MacOS/Triangle \
+     listmodes \
+     mthello \
+     Pong3D.app/Contents/MacOS/Pong3D \
+     mtbench \
+     Particles.app/Contents/MacOS/Particles \
+     SplitView.app/Contents/MacOS/SplitView \
+     Mipmaps.app/Contents/MacOS/Mipmaps \
+     Gears.app/Contents/MacOS/Gears \
+     Boing.app/Contents/MacOS/Boing \
+     Wave.app/Contents/MacOS/Wave \
+     Rive.app/Contents/MacOS/Rive
+
+# ls rive/*.cpp rive/stb/*.c | perl -pe 'chomp; s/\.[^\.]+$/.o /s;'
+
+Rive.app/Contents/MacOS/Rive: rive/BaseGame.o rive/Game.o rive/Math.o rive/Metro.o rive/ParisMetro.o rive/Particles.o rive/Resource.o rive/Shapes.o rive/Voyageur.o rive/CocoaMain.o rive/stb/stb_vorbis.o $(LIB)
+	/bin/sh bundle.sh Rive
+	$(RCC) $(RLFLAGS) rive/BaseGame.o rive/Game.o rive/Math.o rive/Metro.o rive/ParisMetro.o rive/Particles.o rive/Resource.o rive/Shapes.o rive/Voyageur.o rive/CocoaMain.o rive/stb/stb_vorbis.o -o Rive.app/Contents/MacOS/Rive
+	cp rive-resources/* Rive.app/Contents/Resources/
+	cp /usr/lib/libc++abi.dylib /usr/lib/libc++.1.dylib Rive.app/Contents/MacOS
+	install_name_tool -change /usr/lib/libc++abi.dylib @executable_path/libc++abi.dylib Rive.app/Contents/MacOS/libc++.1.dylib
+	install_name_tool -change /usr/lib/libc++.1.dylib @executable_path/libc++.1.dylib Rive.app/Contents/MacOS/Rive
+	install_name_tool -change /usr/lib/libc++abi.dylib @executable_path/libc++abi.dylib Rive.app/Contents/MacOS/Rive
+
+# ls rive/*.cpp rive/stb/*.c | perl -pe 'chomp; $a = $_; $a =~ s/\.[^\.]+$/.o/s; $_ = "$a:\n\t\$\(RCC\) \$\(RCFLAGS\) -c -o $a $_\n\n";'
+
+rive/BaseGame.o:
+	$(RCC) $(RCFLAGS) -c -o rive/BaseGame.o rive/BaseGame.cpp
+
+rive/Game.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Game.o rive/Game.cpp
+
+rive/Math.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Math.o rive/Math.cpp
+
+rive/Metro.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Metro.o rive/Metro.cpp
+
+rive/ParisMetro.o:
+	$(RCC) $(RCFLAGS) -c -o rive/ParisMetro.o rive/ParisMetro.cpp
+
+rive/Particles.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Particles.o rive/Particles.cpp
+
+rive/Resource.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Resource.o rive/Resource.cpp
+
+rive/Shapes.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Shapes.o rive/Shapes.cpp
+
+rive/Voyageur.o:
+	$(RCC) $(RCFLAGS) -c -o rive/Voyageur.o rive/Voyageur.cpp
+
+rive/CocoaMain.o:
+	$(RCC) $(RCFLAGS) -c -o rive/CocoaMain.o rive/CocoaMain.mm
+
+rive/stb/stb_vorbis.o:
+	$(CC) $(CFLAGS) -I./rive -c -o rive/stb/stb_vorbis.o rive/stb/stb_vorbis.c
+
+# end
+
+Triangle.app/Contents/MacOS/Triangle: triangle.c $(LIB)
+	/bin/sh bundle.sh Triangle
+	$(CC) $(CFLAGS) triangle.c $(LFLAGS) -o Triangle.app/Contents/MacOS/Triangle
+
+listmodes: listmodes.c $(LIB)
+	$(CC) $(CFLAGS) listmodes.c $(LFLAGS) -o listmodes
+
+mthello: mthello.c $(LIB)
+	$(CC) $(CFLAGS) mthello.c $(LFLAGS) -o mthello
+
+Pong3D.app/Contents/MacOS/Pong3D: pong3d.c $(LIB)
+	/bin/sh bundle.sh Pong3D
+	cp pong3d_*.tga Pong3D.app/Contents/Resources/
+	$(CC) $(CFLAGS) pong3d.c $(LFLAGS) -o Pong3D.app/Contents/MacOS/Pong3D
+
+mtbench: mtbench.c $(LIB)
+	$(CC) $(CFLAGS) mtbench.c $(LFLAGS) -o mtbench
+
+Particles.app/Contents/MacOS/Particles: particles.c $(LIB)
+	/bin/sh bundle.sh Particles
+	$(CC) $(CFLAGS) particles.c $(LFLAGS) -o Particles.app/Contents/MacOS/Particles
+
+SplitView.app/Contents/MacOS/SplitView: splitview.c $(LIB)
+	/bin/sh bundle.sh SplitView
+	$(CC) $(CFLAGS) splitview.c $(LFLAGS) -o SplitView.app/Contents/MacOS/SplitView
+
+Mipmaps.app/Contents/MacOS/Mipmaps: mipmaps.c $(LIB)
+	/bin/sh bundle.sh Mipmaps
+	cp mipmaps.tga Mipmaps.app/Contents/Resources/
+	$(CC) $(CFLAGS) mipmaps.c $(LFLAGS) -o Mipmaps.app/Contents/MacOS/Mipmaps
+
+Gears.app/Contents/MacOS/Gears: gears.c $(LIB)
+	/bin/sh bundle.sh Gears
+	$(CC) $(CFLAGS) gears.c $(LFLAGS) -o Gears.app/Contents/MacOS/Gears
+
+Boing.app/Contents/MacOS/Boing: boing.c $(LIB)
+	/bin/sh bundle.sh Boing
+	$(CC) $(CFLAGS) boing.c $(LFLAGS) -o Boing.app/Contents/MacOS/Boing
+
+Wave.app/Contents/MacOS/Wave: wave.c $(LIB)
+	/bin/sh bundle.sh Wave
+	$(CC) $(CFLAGS) wave.c $(LFLAGS) -o Wave.app/Contents/MacOS/Wave
+
+clean:
+	rm -rf Triangle.app listmodes mthello Pong3D.app mtbench Particles.app \
+	       SplitView.app Mipmaps.app Gears.app Boing.app Wave.app
+

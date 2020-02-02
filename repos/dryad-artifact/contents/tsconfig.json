@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "build"
+  },
+  "files": [
+    "src/app.ts",
+    "src/color.ts",
+    "typings/tsd.d.ts"
+  ]
+}

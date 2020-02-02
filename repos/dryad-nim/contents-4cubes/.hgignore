@@ -1,0 +1,5 @@
+^node_modules/
+^src/tsGlue.nim
+^install
+^lib
+^desktop

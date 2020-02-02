@@ -1,0 +1,2 @@
+Lua tutorial: http://lua-users.org/wiki/TutorialDirectory
+Polycode API: http://polycode.org/docs/ 

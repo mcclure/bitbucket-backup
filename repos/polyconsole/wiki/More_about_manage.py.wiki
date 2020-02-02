@@ -1,0 +1,89 @@
+For most people's purposes all you need to know is that if you run {{{./manage.py install}}} it will download and compile Polycode. Did it not work? Email me.
+
+<<toc>>
+
+=Why is this here?=
+
+Have you ever tried writing a program against a library which is itself undergoing active development? It gets really irritating. You install today's version of the library, you do some development, then you realize you need to rewind to a revision of your project from a month ago, except now that old revision doesn't compile anymore because your version of the library is too new... One way around this is to check the whole current library into your source code repository, which is not only brittle but makes your source repos huge.
+
+"manage.py" was my attempt to sidestep this problem when developing with Polycode. It manages two things: A Polycode/ directory (a symlink) pointing to the compiled version of Polycode you're currently compiling against; and a file current_polycode.txt which is checked into source control and contains the hg revision of the current Polycode/ directory. "manage.py" installs itself as a precommit hook, so if the Polycode/ link and the current_polycode.txt ever get out of sync, the next time you check in code manage.py will stop you and make you correct things.
+
+"manage.py" saves a copy of the Polycode source code one level up, in {{{../Polycode}}}; and a cache of compiled versions of Polycode one level up in {{{../Polycode-product}}}. This means you can put several Polyconsole projects in a single directory, and they'll be able to share their source and binary caches. Anything Polyconsole can't find, it will download from the internet and compile for you. It should just work and you shouldn't have to think about it (lol, yeah right).
+
+The Polycode loaded by manage.py isn't the official Polycode. It's coming from a fork of mine here on Bitbucket containing a bunch of random additions, some of which Polyconsole needs to work.
+
+=How to use it=
+
+Here's what you see if you type {{{./manage.py}}}.
+
+{{{
+Usage: 
+	manage.py install
+1st time run. Setup precommit hook, then "load -b -d --bindings-only --no-tools"
+	manage.py detach
+Point 'Polycode' symlink to the current working build
+	manage.py save
+Remember the current Polycode revision as current_polycode.txt
+	manage.py load
+Point 'Polycode' symlink to the revision in current_polycode.txt
+	manage.py rebuild
+Rebuild current working build
+	manage.py test
+Return 0 if safe to check in, 1 otherwise.
+	manage.py info
+Print current state of things.
+
+Arguments accepted (for use with "load" and "rebuild"):
+	-b build (rebuild if necessary; use with "load")
+	-d dependencies (when building, build dependencies)
+	-p player (when building, build player)
+	--bindings-only (when building, build Lua bindings, but not Player)
+	--no-tools (when building, don't build Player tools)
+	--target=[platform] (build for target OS [platform])
+	--host=[platform] (pretend we are building on target OS [platform])
+	--cmake-args="[args]" (pass additional arguments [args] to cmake)
+
+So for a complicated example:
+manage.py load -b -d -q --no-tools --bindings-only --target="Windows" --cmake-args="-DCMAKE_TOOLCHAIN_FILE=/Users/mcc/work/p/tmp/toolchain.cmake"
+	Would set up the current revision, cleaning then building everything,
+force the target platform to Windows, and pass in a toolchain file.
+}}}
+
+I guess that's a bit complicated. But basically, use "detach" to point the symlink with all the Polycode libraries at whatever mystery thing is in the source cache build directory; "load" to point the symlink at a built version in the binary cache; "save" to make current_polycode.txt reflect whatever the symlink's pointing at right now; and "info" to figure out what's happening. All these commands will point you at the built version for your current OS, unless you use [[https://bitbucket.org/runhello/polyconsole/wiki/Compiling_for_Windows|--target]].
+
+You probably never want to use -p. You almost always want to use --bindings-only and --no-tools (maybe they should be defaults...)
+
+=How to modify Polycode yourself=
+
+Hopefully you won't need to do this at all.
+
+But, let's say you want to do something that ought to be straightforward-- let's say there's a new version of Polycode on github, and I haven't pulled the correct stuff into my branch yet. You want to use Ivan's newest version. Install [[https://bitbucket.org/runhello/hg-git/wiki/Home|hg-git]] so you can download from github in the first place, then enter the "Polycode" directory manage.py made (the source cache one level up from manage.py, not the symlink) and do this.
+
+{{{hg pull}}} and {{{hg up}}} (To get my newest version)\\
+{{{hg pull git+ssh://git@github.com/ivansafrin/Polycode.git}}} (To get Ivan's newest version)\\
+{{{hg merge tip}}} (or replace "tip" with a revision number as appropriate)\\
+{{{hg commit}}}
+
+So now your source dir contains your new version of Polycode, which is a merge of the newest revisions from my tree and Ivan's tree. Now we want to get your game project to use this revision. Go back to your personal game project directory and run
+
+{{{./manage.py detach}}}
+
+Your game project will now be building against whatever the last binary that happened to be sitting around in the source cache was.
+
+This next step isn't strictly necessary, but I think it's a good idea to test your new Polycode version before locking your revision to it. So try:
+
+{{{./manage.py rebuild}}}
+
+If that succeeds, your game project will be building against a compiled version of your newly created Polycode revision. Test your game, and if it still works, do:
+
+{{{./manage.py save}}}
+
+Another not-strictly-necessary but a good idea step: Let's make a binary cache of the new revision. Say:
+
+{{{./manage.py load -b --bindings-only --no-tools}}}
+
+Your game project will now be building against a saved cache of the compiled version of your new revision.
+
+Finally, you've changed current_polycode.txt in your own repository by this point, so you want to check in your own changes:
+
+{{{hg commit}}}

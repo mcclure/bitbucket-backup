@@ -1,0 +1,10 @@
+media/overlay/startup
+media/overlay/ent
+media/overlay/theme
+media/overlay/game
+media/overlay/layout
+media/overlay/input
+media/overlay/uicommon
+media/overlay/uigfx
+media/overlay/uisound
+media/overlay/shutdown

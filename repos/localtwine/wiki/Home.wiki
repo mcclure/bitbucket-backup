@@ -1,0 +1,9 @@
+This repository contains Twine games I made.
+
+== Licensing ==
+
+The contents of this repository are available under the Creative Commons [[http://creativecommons.org/licenses/by-nc/3.0/|Attribution-NonCommercial 3.0 Unported]] license. This means you are free to use the code and resources from this game for any noncommercial purpose as long as you clearly credit the original creator (Andi McClure). You may alternately, if you choose, use the code under the terms of the [[http://www.gnu.org/licenses/gpl-2.0.html|GNU GPL 2.0]], any later version of the GNU GPL, or the Creative Commons [[http://creativecommons.org/licenses/by-sa/3.0/|Attribution-ShareAlike 3.0 Unported]] license. These licenses essentially say you may use the code and resources from this game for any purpose including commercial ones as long as you clearly credit the original creator and also make your source code available.
+
+Also please note: Nothing here should be taken as granting permission to use my or the Run Hello name or logo.
+
+If you would like to use something here under different terms, or have any questions, you can contact andi DOT m DOT mcclure AT gmail DOT com.

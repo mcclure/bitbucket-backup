@@ -1,0 +1,7 @@
+changeset:   760:becb34836771
+parent:      754:3753621549b6
+parent:      724:f64d3089f251
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sat Feb 02 03:00:05 2013 -0800
+summary:     Merge two sub branches, fixed openal and UI module inheritance
+

@@ -1,0 +1,8 @@
+targets = a b c d
+
+for filename in $targets:
+    $filename:
+        print("Creating file %s" % (target))
+        touch(target)
+
+all: $targets

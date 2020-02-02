@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" kind="1" x="1" />
+        <nil y="2" kind="1" x="1" />
+        <nil y="3" kind="1" x="1" />
+        <nil y="4" kind="1" x="1" />
+        <nil y="5" kind="1" x="1" />
+        <nil y="6" kind="1" x="1" />
+        <nil y="7" kind="1" x="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>1</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" kind="3" x="1" act="zoomtest" />
+        <nil y="1" kind="1" x="2" />
+        <nil y="2" kind="1" x="2" />
+        <nil y="3" kind="1" x="2" />
+        <nil y="4" kind="1" x="2" />
+        <nil y="5" kind="1" x="2" />
+        <nil sprite="ppl/nellie" x="2" flip="true" kind="2" y="5" act="testspeak" />
+        <nil y="6" kind="1" x="2" />
+        <nil y="7" kind="1" x="2" />
+        <nil y="1" kind="1" x="3" />
+        <nil y="2" kind="1" x="3" />
+        <nil y="3" kind="1" x="3" />
+        <nil y="4" kind="1" x="3" />
+        <nil y="5" kind="1" x="3" />
+        <nil y="6" kind="1" x="3" />
+        <nil y="7" kind="1" x="3" />
+        <nil y="1" kind="1" x="4" />
+        <nil y="2" kind="1" x="4" />
+        <nil y="3" kind="1" x="4" />
+        <nil y="4" kind="1" x="4" />
+        <nil y="5" kind="1" x="4" />
+        <nil y="6" kind="1" x="4" />
+        <nil y="7" kind="1" x="4" />
+        <nil xcoff="-1" ycoff="0" special="player" zcoff="-1" sprite="trusprit/dudemanwalkin2" x="4" z="4" backsprite="trusprit/dudemanwalkin" y="0" />
+        <nil y="1" kind="1" x="5" />
+        <nil y="2" kind="1" x="5">
+            <polyarray:color>
+                <nil>1</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="3" x="5" act="teststep" />
+        <nil y="3" kind="1" x="5" />
+        <nil y="4" kind="1" x="5" />
+        <nil y="5" kind="1" x="5" />
+        <nil y="6" kind="1" x="5" />
+        <nil y="7" kind="1" x="5" />
+        <nil y="1" kind="1" x="6" />
+        <nil y="2" kind="1" x="6" />
+        <nil y="3" kind="1" x="6" />
+        <nil y="4" kind="1" x="6" />
+        <nil y="5" kind="1" x="6" />
+        <nil y="6" kind="1" x="6" />
+        <nil sprite="trusprit/brokenhead" x="6" flip="true" kind="2" y="6" warpto="drab" />
+        <nil y="7" kind="1" x="6" />
+        <nil y="1" kind="1" x="7">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>1</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="3" x="7" act="zoomtest2" />
+        <nil y="2" kind="1" x="7" />
+        <nil y="3" kind="1" x="7" />
+        <nil y="4" kind="1" x="7" />
+        <nil y="5" kind="1" x="7" />
+        <nil y="6" kind="1" x="7" />
+        <nil y="7" kind="1" x="7" />
+    </polyarray:map>
+    <meta music="alright">
+        <polyarray:bgcolor>
+            <nil>0.25</nil>
+            <nil>0.25</nil>
+            <nil>0.25</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

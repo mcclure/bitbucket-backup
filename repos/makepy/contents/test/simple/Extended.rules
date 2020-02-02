@@ -1,0 +1,10 @@
+\
+
+# second line ends with whitespace
+a = \
+\    
+       b
+
+a \
+:
+    print(a)

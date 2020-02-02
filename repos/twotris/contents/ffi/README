@@ -1,0 +1,7 @@
+	LuaJIT FFI bindings for various libraries:
+
+		- OpenGL, glu.lua
+		- OpenCL
+		- glfw	
+		- zmq (ZeroMQ)
+		

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil textype="2" x="1" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="1" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="1" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="1" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="1" kind="1" y="5" texture="prppl" />
+        <nil textype="2" x="1" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="1" kind="1" y="7" texture="prppl" />
+        <nil textype="2" x="2" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="2" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="2" height="8" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="2" height="9" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="2" height="5" kind="1" y="5" texture="prppl" />
+        <nil y="5" x="2" flip="true" kind="2" sprite="ppl/nellie" texture="media/sprite/ppl/nellie.png" />
+        <nil textype="2" x="2" height="2" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="2" height="2" kind="1" y="7" texture="prppl" />
+        <nil textype="2" x="3" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="3" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="3" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="3" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="3" height="4" kind="1" y="5" texture="prppl" />
+        <nil textype="2" x="3" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="3" height="1" kind="1" y="7" texture="prppl" />
+        <nil textype="2" x="3" height="1" kind="1" y="8" texture="prppl" />
+        <nil textype="2" x="3" kind="1" y="9" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="4" height="2" kind="1" y="5" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="7" texture="prppl" />
+        <nil textype="2" x="4" height="1" kind="1" y="8" texture="prppl" />
+        <nil textype="2" x="4" kind="1" y="9" texture="prppl" />
+        <nil xcoff="-1" ycoff="0" special="player" zcoff="-1" sprite="trusprit/dudemanwalkin2" x="4" z="4" backsprite="trusprit/dudemanwalkin" y="0" />
+        <nil textype="2" x="5" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="5" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="5" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="5" height="1" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="5" height="1" kind="1" y="5" texture="prppl" />
+        <nil textype="2" x="5" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="5" height="1" kind="1" y="7" texture="prppl" />
+        <nil textype="2" x="5" kind="1" y="8" texture="prppl" />
+        <nil textype="2" x="6" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="6" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="6" height="1" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="6" height="1" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="6" height="2" kind="1" y="5" texture="prppl" />
+        <nil textype="2" x="6" height="0" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="6" height="2" kind="1" y="7" texture="prppl" />
+        <nil textype="2" x="6" kind="1" y="8" texture="prppl" />
+        <nil textype="2" x="7" kind="1" y="1" texture="prppl" />
+        <nil textype="2" x="7" kind="1" y="2" texture="prppl" />
+        <nil textype="2" x="7" height="1" kind="1" y="3" texture="prppl" />
+        <nil textype="2" x="7" height="1" kind="1" y="4" texture="prppl" />
+        <nil textype="2" x="7" kind="1" y="5" texture="prppl" />
+        <nil textype="2" x="7" height="1" kind="1" y="6" texture="prppl" />
+        <nil textype="2" x="7" height="1" kind="1" y="7" texture="prppl" />
+    </polyarray:map>
+    <meta camzoom="0.7">
+        <polyarray:bgcolor>
+            <nil>0.125</nil>
+            <nil>0</nil>
+            <nil>0.125</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

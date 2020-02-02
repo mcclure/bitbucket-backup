@@ -1,0 +1,3 @@
+import subdir
+
+all: subdir/a

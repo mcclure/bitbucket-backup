@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:polycode="http://msm.runhello.com/local/svg/polycode0"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="980"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="egg.svg"
+   polycode:onUpdate="if ticks == 60*3 then  bridge:room_remove(id(&quot;title1&quot;)) elseif ticks == 60*6 then  bridge:room_remove(id(&quot;title2&quot;)) end  
+
+do local e = id(&quot;egg&quot;)
+if e then
+local v = screen():getVelocity(e):length()
+id(&quot;meter&quot;):setText(string.format(&quot;%.2f&quot;, v))
+end
+end
+
+if vday &gt;= 0 and ticks == vday + 1 then
+splode(id(&quot;egg&quot;))
+end
+
+if vday &gt;= 0 and ticks == vday + 60*3 then  bridge:load_room(&quot;media/box2.svg&quot;) end"
+   polycode:onLoad="bridge:set_saved_level(2) vday = -1  function labelAt(str, x, y)  local label = ScreenLabel(str, 52*scale)  label:setColor(1.0,0.75,0.75,1.0)  label:setPosition(x*scale,y*scale,0)  screen():addChild(label) end
+
+function labelsAt(tab, x, y) 
+for i,v in ipairs(tab) do
+labelAt(v,x,y+i*70)
+end
+end
+
+function complete()
+labelsAt({&quot;The egg cracks open.&quot;,&quot;&quot;,&quot;Light spills from the insides of the egg&quot;,&quot;as the flamebird rises, its feathers alight, the&quot;,&quot;most beautiful thing you have ever seen&quot;,&quot;fingers through her hair, falling on&quot;},400,300)
+end
+
+math.randomseed( os.time() )
+
+function splode(entity)
+local p = entity:getPosition()
+bridge:room_remove(entity)
+for a = 1,20 do
+	polygon = Polygon()
+	for i=0,2 do
+	local theta = i/3 * 2 * math.pi
+	polygon:addVertex(-math.random()*20*math.sin(theta),math.random()*20*math.cos(theta),0)
+	end
+	mesh = bridge:meshFor(polygon)
+mesh:setColor(1.0,1.0,1.0,1.0)
+mesh:setPosition(p.x,p.y)
+screen():addPhysicsChild(mesh, ENTITY_MESH, false)
+screen():applyImpulse(mesh, math.random()*200-100,math.random()*200-100)
+end
+end
+
+id(&quot;meter&quot;).__info.__class = ScreenLabel">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#3c1212"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="530.80387"
+     inkscape:cy="300.12681"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1032"
+     inkscape:window-height="669"
+     inkscape:window-x="55"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.7142857,-448.57143)">
+    <rect
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="floor"
+       width="897.27197"
+       height="34.572872"
+       x="37.454651"
+       y="930.67517" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="720.26752"
+       y="663.97711"
+       id="title1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
+         x="720.26752"
+         y="663.97711">Level 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="133.62831"
+       y="1027.1848"
+       id="title2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3023"
+         x="133.62831"
+         y="1027.1848">Goal: Break the egg.</tspan></text>
+    <rect
+       y="558.737"
+       x="628.59595"
+       height="47.3008"
+       width="263.70432"
+       id="platform"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#ffffff;stroke:none"
+       d="m 665.19049,508.09064 6.47562,-16.18903 53.42377,-15.37957 20.23628,11.33232 4.8567,18.61737 -4.04725,22.66464 -20.23628,8.90396 -52.61432,-10.52286 z"
+       id="egg"
+       inkscape:connector-curvature="0"
+       polycode:isStatic="0"
+       polycode:onCollide="if vday &lt; 0 and impact &gt; 750 then
+complete()
+vday = ticks
+end" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="190.8614"
+       y="618.65051"
+       id="meter"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3798"
+         x="190.8614"
+         y="618.65051">0.0</tspan></text>
+  </g>
+</svg>

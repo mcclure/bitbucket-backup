@@ -1,0 +1,3 @@
+This is a fork of the open source Sproxel project (voxel editor). The differences are minimal and were intended to make the program work better on my personal computer. 
+
+Any changes to the project made by me (Andi McClure) in this repository are under the [[http://creativecommons.org/publicdomain/zero/1.0/legalcode.txt|Creative Commons Zero]] license (may be used by anyone for any purpose without limitation).

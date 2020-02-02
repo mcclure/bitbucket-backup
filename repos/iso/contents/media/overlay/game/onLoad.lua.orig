@@ -1,0 +1,78 @@
+-- On Load
+
+pull(km, {})
+pull(gm, { step = 16, wallres = 1, r=Router():insert()})
+
+fm = fm or {}
+if not fm.fontsRegistered then
+	Services.FontManager:registerFont("dialog","media/SansKleinCut.ttf")
+	fm.fontsRegistered = true
+end
+
+-- Meh.
+
+local loadTarget = fm.lastLoaded or "drab2"
+
+loadlevel(loadTarget, fm.lastAnchor)
+
+Services.Renderer:setTextureFilteringMode(Renderer.TEX_FILTERING_NEAREST)
+gm.textfield = ScreenLabel("TEST",30,"dialog")
+gm.textfield:setPosition(0,0)
+gm.textfield:setScale(2.0,2.0)
+gm.textback = ScreenShape(ScreenShape.SHAPE_RECT, surface_width, bridge:labelHeight(gm.textfield)*3)
+gm.textback:setColor(0,0,0,1)
+gm.textback:setPosition(0,0)
+gm.textback:setPositionMode(ScreenEntity.POSITION_TOPLEFT)
+screen():addEntity(gm.textback)
+screen():addEntity(gm.textfield)
+gm.textfield:setText("")
+gm.textback.visible = false
+
+-- Ent({pressed={test=function () print("TEST") end}}):insert()
+
+-- Set up input handler
+
+down = {} pressed = {}
+listeners = {}
+mouseDownAt = nil
+mouseAt = nil
+
+class "Input" (EventHandler)
+function Input:Input()
+	EventHandler.EventHandler(self)
+end
+
+function Input:handleEvent(e)
+	if e:getDispatcher() == Services.Core:getInput() then
+		local inputEvent = InputEvent(e)
+		local key = inputEvent:keyCode()
+		if e:getEventCode() == InputEvent.EVENT_MOUSEMOVE then
+			cdelete(mouseAt) mouseAt = inputEvent:getMousePosition()
+		elseif e:getEventCode() == InputEvent.EVENT_MOUSEDOWN then
+			cdelete(mouseDownAt) mouseDownAt = inputEvent:getMousePosition()
+			cdelete(mouseAt) mouseAt = vDup(mouseDownAt)
+			down[inputEvent.mouseButton] = true
+			pressed[inputEvent.mouseButton] = true
+		elseif e:getEventCode() == InputEvent.EVENT_MOUSEUP then
+			down[inputEvent.mouseButton] = nil
+		elseif e:getEventCode() == InputEvent.EVENT_KEYDOWN then
+			down[key] = true
+			pressed[key] = true
+			for k,v in pairs(listeners) do
+				v:push({key, bridge:charCode(inputEvent)})
+			end
+		elseif e:getEventCode() == InputEvent.EVENT_KEYUP then
+			down[key] = false
+		end
+	end
+end
+
+do
+	input = Input()
+
+	Services.Core:getInput():addEventListener(input, InputEvent.EVENT_MOUSEMOVE)
+	Services.Core:getInput():addEventListener(input, InputEvent.EVENT_MOUSEDOWN)
+	Services.Core:getInput():addEventListener(input, InputEvent.EVENT_MOUSEUP)
+	Services.Core:getInput():addEventListener(input, InputEvent.EVENT_KEYDOWN)
+	Services.Core:getInput():addEventListener(input, InputEvent.EVENT_KEYUP)
+end

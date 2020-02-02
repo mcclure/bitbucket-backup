@@ -1,0 +1,14 @@
+{
+  "name": "dryadproject",
+  "version": "1.0.0",
+  "description": "Generic js art project",
+  "main": "app.js",
+  "dependencies": {
+    "ts-loader": "^0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andi mcc"
+}

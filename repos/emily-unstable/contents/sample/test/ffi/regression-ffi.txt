@@ -1,0 +1,5 @@
+# FFI tests use a custom emily executable not normally built, so separate their test list in its own file.
+
+c.em
+fail/notFound.em
+fail/type.em

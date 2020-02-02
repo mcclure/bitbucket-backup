@@ -1,0 +1,1099 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" kind="3" x="1" act="recenter_camera" />
+        <nil y="7" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="1" height="1" kind="1" texture="huntimes" />
+        <nil y="-2" x="1" height="1" kind="1" texture="huntimes" />
+        <nil y="-4" x="1" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="1" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="1" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="1" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="1" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="1" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="1" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="1" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="1" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="1" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="1" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="1" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="1" height="2" kind="1" texture="huntimes" />
+        <nil y="-3" kind="3" x="1" act="recenter_camera" />
+        <nil y="-6" x="1" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="1" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="1" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="1" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="1" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="1" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="1" height="10" kind="1" texture="huntimes" />
+        <nil y="-19" kind="3" x="1" act="recenter_camera" />
+        <nil y="1" x="2" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="2" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="3" x="2" act="recenter_camera" />
+        <nil y="3" kind="1" x="2" texture="huntimes" />
+        <nil y="4" x="2" height="0" kind="1" texture="huntimes" />
+        <nil y="5" x="2" height="1" kind="1" texture="huntimes" />
+        <nil y="6" x="2" height="1" kind="1" texture="huntimes" />
+        <nil y="7" x="2" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="2" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="2" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="2" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="2" height="1" kind="1" texture="huntimes" />
+        <nil y="-4" x="2" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="2" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="2" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="2" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="2" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="2" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="2" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="2" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="2" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="2" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="2" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="2" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="2" height="2" kind="1" texture="huntimes" />
+        <nil y="-6" x="2" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="2" height="6" kind="1" texture="huntimes" />
+        <nil y="-12" kind="3" x="2" act="recenter_camera" />
+        <nil y="-13" x="2" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="2" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="2" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="2" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="2" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="3" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="3" x="3" act="recenter_camera" />
+        <nil y="2" kind="1" x="3" texture="huntimes" />
+        <nil y="3" x="3" height="1" kind="1" texture="huntimes" />
+        <nil y="4" x="3" height="1" kind="1" texture="huntimes" />
+        <nil y="5" x="3" height="1" kind="1" texture="huntimes" />
+        <nil y="6" kind="1" x="3" texture="huntimes" />
+        <nil y="7" x="3" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="3" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="3" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-15" x="3" height="8" kind="1" texture="huntimes" />
+        <nil y="-4" x="3" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="3" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="3" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="3" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="3" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="3" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="3" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="3" height="5" kind="1" texture="huntimes" />
+        <nil y="-10" kind="3" x="3" act="recenter_camera" />
+        <nil y="-20" x="3" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="3" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="3" height="6" kind="1" texture="huntimes" />
+        <nil y="-11" kind="3" x="3" act="recenter_camera" />
+        <nil y="-22" x="3" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="3" height="2" kind="1" texture="huntimes" />
+        <nil y="-6" x="3" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="3" height="6" kind="1" texture="huntimes" />
+        <nil y="-12" kind="3" x="3" act="recenter_camera" />
+        <nil y="-13" x="3" height="7" kind="1" texture="huntimes" />
+        <nil y="-13" kind="3" x="3" act="recenter_camera" />
+        <nil y="-7" x="3" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="3" height="7" kind="1" texture="huntimes" />
+        <nil y="-19" x="3" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="4" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="4" height="1" kind="1" texture="huntimes" />
+        <nil y="3" kind="1" x="4" texture="huntimes" />
+        <nil y="4" x="4" height="1" kind="1" texture="huntimes" />
+        <nil y="5" kind="1" x="4" texture="huntimes" />
+        <nil y="6" x="4" height="1" kind="1" texture="huntimes" />
+        <nil y="7" x="4" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="4" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" kind="3" x="4" act="recenter_camera" />
+        <nil y="9" x="4" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-12" kind="4" anchor="9" x="4" />
+        <nil y="-12" x="4" height="6" kind="1" texture="huntimes" />
+        <nil y="-12" kind="3" x="4" act="recenter_camera" />
+        <nil y="1" x="5" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="1" x="5" texture="huntimes" />
+        <nil y="3" x="5" height="1" kind="1" texture="huntimes" />
+        <nil y="4" x="5" height="0" kind="1" texture="huntimes" />
+        <nil y="5" x="5" height="1" kind="1" texture="huntimes" />
+        <nil y="6" x="5" height="0" kind="1" texture="huntimes" />
+        <nil y="7" x="5" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="5" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="5" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-12" x="5" height="6" kind="1" texture="huntimes" />
+        <nil y="1" x="6" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="3" x="6" act="recenter_camera" />
+        <nil y="2" x="6" height="1" kind="1" texture="huntimes" />
+        <nil y="3" kind="1" x="6" texture="huntimes" />
+        <nil y="4" x="6" height="1" kind="1" texture="huntimes" />
+        <nil y="5" x="6" height="1" kind="1" texture="huntimes" />
+        <nil y="6" kind="1" x="6" texture="huntimes" />
+        <nil y="7" x="6" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" kind="3" x="6" act="recenter_camera" />
+        <nil y="8" x="6" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="6" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="6" sprite="trusprit/dudemanwalkin2" anchor="1" special="player" kind="4" backsprite="trusprit/dudemanwalkin" />
+        <nil y="10" kind="4" anchor="1" x="6" />
+        <nil y="10" x="6" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="6" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="11" x="6" warpto="drab2" kind="3" warpanchor="3" />
+        <nil y="-10" x="6" height="6" kind="1" texture="huntimes" />
+        <nil y="-12" x="6" height="6" kind="1" texture="huntimes" />
+        <nil y="-11" x="6" height="6" kind="1" texture="huntimes" />
+        <nil y="-9" x="6" height="6" kind="1" texture="huntimes" />
+        <nil y="1" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" kind="3" x="7" act="recenter_camera" />
+        <nil y="6" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="7" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-9" x="7" height="6" kind="1" texture="huntimes" />
+        <nil y="-9" x="8" height="6" kind="1" texture="huntimes" />
+        <nil y="-9" x="9" height="6" kind="1" texture="huntimes" />
+        <nil y="-9" x="9" anchor="2" kind="4" recenter="true" recenter_anchor="9" />
+        <nil y="-9" x="10" height="6" kind="1" texture="huntimes" />
+        <nil y="-9" x="10" warpto="spaceinvader" kind="3" warpanchor="3" />
+        <nil y="1" x="0" height="1" kind="1" texture="huntimes" />
+        <nil y="1" kind="3" x="0" act="recenter_camera" />
+        <nil y="2" x="0" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="0" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="0" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="0" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="0" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="0" height="1" kind="1" texture="huntimes" />
+        <nil y="-1" x="0" height="1" kind="1" texture="huntimes" />
+        <nil y="-2" x="0" height="1" kind="1" texture="huntimes" />
+        <nil y="-4" x="0" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="0" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="0" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="0" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="0" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="0" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="0" height="3" kind="1" texture="huntimes" />
+        <nil y="-5" kind="3" x="0" act="recenter_camera" />
+        <nil y="-10" x="0" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="0" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="0" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="0" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="0" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="0" height="2" kind="1" texture="huntimes" />
+        <nil y="-6" x="0" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="0" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="0" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="0" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="0" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="0" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="0" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-1" height="1" kind="1" texture="huntimes" />
+        <nil y="2" x="-1" height="1" kind="1" texture="huntimes" />
+        <nil y="3" x="-1" kind="1" texture="huntimes">
+            <polyarray:color>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+                <nil>0.5</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="-1" height="1" kind="1" texture="huntimes" />
+        <nil y="-1" x="-1" height="1" kind="1" texture="huntimes" />
+        <nil y="-1" kind="3" x="-1" act="recenter_camera" />
+        <nil y="-2" x="-1" height="1" kind="1" texture="huntimes" />
+        <nil y="-4" x="-1" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="-1" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-1" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-1" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-1" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-1" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-1" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="-1" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-1" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-1" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-1" height="6" kind="1" texture="huntimes" />
+        <nil y="-11" kind="3" x="-1" act="recenter_camera" />
+        <nil y="-22" x="-1" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-1" height="2" kind="1" texture="huntimes" />
+        <nil y="-6" x="-1" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="-1" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-1" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-1" height="4" kind="1" texture="huntimes" />
+        <nil y="-7" kind="3" x="-1" act="recenter_camera" />
+        <nil y="-14" x="-1" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-1" height="8" kind="1" texture="huntimes" />
+        <nil y="-15" kind="3" x="-1" act="recenter_camera" />
+        <nil y="-19" x="-1" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-2" height="1" kind="1" texture="huntimes" />
+        <nil y="2" x="-2" height="1" kind="1" texture="huntimes" />
+        <nil y="3" x="-2" height="1" kind="1" texture="huntimes" />
+        <nil y="0" x="-2" height="1" kind="1" texture="huntimes" />
+        <nil y="-1" x="-2" height="1" kind="1" texture="huntimes" />
+        <nil y="-2" x="-2" height="1" kind="1" texture="huntimes" />
+        <nil y="-4" x="-2" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="-2" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-2" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-2" height="9" kind="1" texture="huntimes" />
+        <nil y="-17" kind="3" x="-2" act="recenter_camera" />
+        <nil y="-9" x="-2" height="5" kind="1" texture="huntimes" />
+        <nil y="-9" kind="3" x="-2" act="recenter_camera" />
+        <nil y="-18" x="-2" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-2" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="-2" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-2" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-2" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-2" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-2" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-2" height="2" kind="1" texture="huntimes" />
+        <nil y="-6" x="-2" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="-2" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-2" height="7" kind="1" texture="huntimes" />
+        <nil y="-13" kind="3" x="-2" act="recenter_camera" />
+        <nil y="-7" x="-2" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="-2" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-2" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-2" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="2" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="3" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="0" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="-1" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="-2" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="-4" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="-4" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-4" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-4" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-4" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-4" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-4" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="-4" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-4" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-4" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-4" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-4" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-4" height="2" kind="1" texture="huntimes" />
+        <nil y="-6" x="-4" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="-4" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-4" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-4" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="-4" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-4" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-4" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="2" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="3" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="0" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-1" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-2" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-4" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-8" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-8" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-8" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-8" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-8" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-10" x="-8" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-8" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-8" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-8" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-8" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-6" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-12" x="-8" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-8" height="7" kind="1" texture="huntimes" />
+        <nil y="-13" kind="3" x="-8" act="recenter_camera" />
+        <nil y="-7" x="-8" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="-8" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-8" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-8" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="2" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="3" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="0" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-1" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-2" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-4" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-8" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-16" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-16" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-18" x="-16" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-10" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-20" x="-16" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-16" height="11" kind="1" texture="huntimes" />
+        <nil y="-21" kind="3" x="-16" act="recenter_camera" />
+        <nil y="-11" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-22" x="-16" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-6" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-12" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-13" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-7" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-14" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-15" x="-16" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-16" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="2" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="3" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="0" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-1" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-2" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-4" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-8" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-16" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-17" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-17" kind="3" x="-17" act="recenter_camera" />
+        <nil y="-9" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-18" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-10" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-20" x="-17" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-17" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-11" kind="3" x="-17" act="recenter_camera" />
+        <nil y="-22" x="-17" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-3" kind="3" x="-17" act="recenter_camera" />
+        <nil y="-6" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-12" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-13" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-7" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-14" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-15" x="-17" height="9" kind="1" texture="huntimes" />
+        <nil y="-19" x="-17" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="2" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="3" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="0" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-1" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-2" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-2" kind="3" x="-9" act="recenter_camera" />
+        <nil y="-4" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-8" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-16" x="-9" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-9" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-9" kind="3" x="-9" act="recenter_camera" />
+        <nil y="-18" x="-9" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-10" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-9" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-9" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-9" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-9" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-6" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-12" x="-9" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-9" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-9" height="5" kind="1" texture="huntimes" />
+        <nil y="-14" x="-9" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-9" height="8" kind="1" texture="huntimes" />
+        <nil y="-15" kind="3" x="-9" act="recenter_camera" />
+        <nil y="-19" x="-9" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="2" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="3" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="0" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-1" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-2" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-4" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-8" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-16" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-17" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-18" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-10" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-20" x="-18" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-18" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-22" x="-18" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-6" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-12" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-13" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-7" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-14" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-15" x="-18" height="9" kind="1" texture="huntimes" />
+        <nil y="-19" x="-18" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="2" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="3" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="0" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="0" kind="3" x="-5" act="recenter_camera" />
+        <nil y="-1" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="-2" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="-4" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="-8" x="-5" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-5" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-5" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-5" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-5" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="-5" kind="3" x="-5" act="recenter_camera" />
+        <nil y="-10" x="-5" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-5" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-5" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-5" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-5" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="-6" x="-5" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="-5" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-5" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-5" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="-5" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-5" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-5" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="2" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="3" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="0" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-1" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-2" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-4" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-8" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-16" x="-10" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-10" height="9" kind="1" texture="huntimes" />
+        <nil y="-17" kind="3" x="-10" act="recenter_camera" />
+        <nil y="-9" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-10" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-10" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-10" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-10" height="11" kind="1" texture="huntimes" />
+        <nil y="-21" kind="3" x="-10" act="recenter_camera" />
+        <nil y="-11" x="-10" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-10" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-6" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-12" x="-10" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-10" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-10" height="5" kind="1" texture="huntimes" />
+        <nil y="-14" x="-10" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-10" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-10" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="2" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="3" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="0" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-1" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-2" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-4" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-8" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-16" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-17" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-9" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-18" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-5" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-10" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-20" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-20" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-22" x="-20" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-6" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-12" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-13" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-7" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-14" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-15" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="-19" x="-20" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="2" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="0" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-15" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-15" kind="3" x="-21" act="recenter_camera" />
+        <nil y="-2" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-2" kind="3" x="-21" act="recenter_camera" />
+        <nil y="-4" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-8" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-8" kind="3" x="-21" act="recenter_camera" />
+        <nil y="-16" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-17" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-9" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-18" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-19" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-10" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-20" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-21" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-21" kind="3" x="-21" act="recenter_camera" />
+        <nil y="-11" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-22" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-6" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-12" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-13" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-5" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-7" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-14" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="3" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="-1" x="-21" height="11" kind="1" texture="huntimes" />
+        <nil y="1" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="2" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="3" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="0" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-1" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-2" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-4" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-8" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-16" x="-11" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-11" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-18" x="-11" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-10" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-20" x="-11" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-11" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-11" kind="3" x="-11" act="recenter_camera" />
+        <nil y="-22" x="-11" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-6" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-12" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-11" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-11" height="6" kind="1" texture="huntimes" />
+        <nil y="-14" x="-11" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-11" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-11" height="10" kind="1" texture="huntimes" />
+        <nil y="0" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="2" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-15" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-2" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-4" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-8" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-16" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-17" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-9" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-18" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-19" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-10" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-20" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-21" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-22" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-6" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-12" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-5" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-13" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-1" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="3" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-7" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="-14" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="1" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="4" x="-22" height="11" kind="1" texture="huntimes" />
+        <nil y="1" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="2" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="0" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="0" kind="3" x="-3" act="recenter_camera" />
+        <nil y="-1" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="-2" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="-4" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="-8" x="-3" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-3" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-3" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-3" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-3" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-3" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="-3" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-3" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-3" height="11" kind="1" texture="huntimes" />
+        <nil y="-21" kind="3" x="-3" act="recenter_camera" />
+        <nil y="-11" x="-3" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-3" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-3" height="2" kind="1" texture="huntimes" />
+        <nil y="-3" kind="3" x="-3" act="recenter_camera" />
+        <nil y="-6" x="-3" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="-3" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-3" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-3" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="-3" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-3" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-3" height="10" kind="1" texture="huntimes" />
+        <nil y="-19" kind="3" x="-3" act="recenter_camera" />
+        <nil y="1" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="2" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="3" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="0" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-1" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-2" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-4" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-8" x="-6" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-6" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-6" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-6" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-6" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-10" x="-6" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-6" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-6" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-6" height="6" kind="1" texture="huntimes" />
+        <nil y="-11" kind="3" x="-6" act="recenter_camera" />
+        <nil y="-22" x="-6" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-6" x="-6" height="3" kind="1" texture="huntimes" />
+        <nil y="-12" x="-6" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-6" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-6" height="4" kind="1" texture="huntimes" />
+        <nil y="-14" x="-6" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-6" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-6" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="2" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="3" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="0" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-1" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-2" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-4" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-8" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-16" x="-12" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-12" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-18" x="-12" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-10" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-20" x="-12" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-12" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-12" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-6" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-12" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-12" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-12" height="6" kind="1" texture="huntimes" />
+        <nil y="-14" x="-12" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-12" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-12" height="10" kind="1" texture="huntimes" />
+        <nil y="-19" kind="3" x="-12" act="recenter_camera" />
+        <nil y="1" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="2" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="3" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="0" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-1" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-2" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-2" kind="3" x="-13" act="recenter_camera" />
+        <nil y="-4" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-8" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-8" kind="3" x="-13" act="recenter_camera" />
+        <nil y="-16" x="-13" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-13" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-18" x="-13" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-10" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-20" x="-13" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-13" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-22" x="-13" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-6" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-12" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-13" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-13" kind="3" x="-13" act="recenter_camera" />
+        <nil y="-7" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-14" x="-13" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-13" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-13" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="2" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="3" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="0" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-1" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-1" kind="3" x="-7" act="recenter_camera" />
+        <nil y="-2" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-4" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-8" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-16" x="-7" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-7" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-7" height="5" kind="1" texture="huntimes" />
+        <nil y="-18" x="-7" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-10" x="-7" height="5" kind="1" texture="huntimes" />
+        <nil y="-20" x="-7" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-7" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-7" height="6" kind="1" texture="huntimes" />
+        <nil y="-22" x="-7" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-6" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-12" x="-7" height="6" kind="1" texture="huntimes" />
+        <nil y="-13" x="-7" height="7" kind="1" texture="huntimes" />
+        <nil y="-7" x="-7" height="4" kind="1" texture="huntimes" />
+        <nil y="-7" kind="3" x="-7" act="recenter_camera" />
+        <nil y="-14" x="-7" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-7" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-7" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="2" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="0" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-1" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-2" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-4" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-8" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-16" x="-14" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-14" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-18" x="-14" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-10" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-20" x="-14" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-14" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-22" x="-14" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-6" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-12" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-13" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-15" x="-14" height="8" kind="1" texture="huntimes" />
+        <nil y="-7" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-14" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="3" x="-14" height="7" kind="1" texture="huntimes" />
+        <nil y="-19" x="-14" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="2" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="3" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="0" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-15" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-15" kind="3" x="-15" act="recenter_camera" />
+        <nil y="-2" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-2" kind="3" x="-15" act="recenter_camera" />
+        <nil y="-4" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-8" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-8" kind="3" x="-15" act="recenter_camera" />
+        <nil y="-16" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-17" x="-15" height="9" kind="1" texture="huntimes" />
+        <nil y="-9" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-18" x="-15" height="9" kind="1" texture="huntimes" />
+        <nil y="-5" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-10" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-20" x="-15" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-15" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-22" x="-15" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-6" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-12" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-13" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-7" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-14" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-1" x="-15" height="8" kind="1" texture="huntimes" />
+        <nil y="-19" x="-15" height="10" kind="1" texture="huntimes" />
+        <nil y="1" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="2" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="3" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="0" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="0" kind="3" x="-19" act="recenter_camera" />
+        <nil y="-1" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-2" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-4" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-8" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-16" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-17" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-9" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-18" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-5" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-5" kind="3" x="-19" act="recenter_camera" />
+        <nil y="-10" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-20" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-21" x="-19" height="11" kind="1" texture="huntimes" />
+        <nil y="-11" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-11" kind="3" x="-19" act="recenter_camera" />
+        <nil y="-22" x="-19" height="11" kind="1" texture="huntimes" />
+        <nil y="-3" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-6" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-12" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-13" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-7" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-14" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-15" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-19" x="-19" height="10" kind="1" texture="huntimes" />
+        <nil y="-19" kind="3" x="-19" act="recenter_camera" />
+    </polyarray:map>
+    <meta music="spooky" camzoom="0.6">
+        <polyarray:bgcolor>
+            <nil>0.25</nil>
+            <nil>0.25</nil>
+            <nil>0.125</nil>
+        </polyarray:bgcolor>
+        <camat y="8" x="5" />
+    </meta>
+</level>

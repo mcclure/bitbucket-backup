@@ -1,0 +1,4 @@
+virtualenv -p /opt/local/bin/python2.7 venv --distribute
+source venv/bin/activate
+pip install Flask gunicorn
+pip freeze > requirements.txt

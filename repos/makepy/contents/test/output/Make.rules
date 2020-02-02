@@ -1,0 +1,22 @@
+global:
+	import sys
+
+all: STDOUT-1 STDOUT-2 DUMMY-3 DUMMY-4
+
+STDOUT-1:
+	shell(sys.executable, ['./test.py', '1'], out="STDOUT-1", err="STDERR-1")
+	print("OK-1")
+	
+STDOUT-2:
+	shell(sys.executable, ['./test.py', '2'], out="STDOUT-2")
+	print("OK-2")
+
+DUMMY-3:
+	x = shellcheck(sys.executable, ['./test.py', '3'], err="STDERR-3-4", appenderr=True)
+	print(x)
+	touch("DUMMY-3")
+	
+DUMMY-4:
+	y = shellget(sys.executable, ['./test.py', '4'], err="STDERR-3-4", appenderr=True)
+	print("File: " + y)
+	touch("DUMMY-4")

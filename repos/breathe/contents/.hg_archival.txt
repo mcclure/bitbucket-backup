@@ -1,0 +1,6 @@
+repo: a193949bf4e9031704c9f07d95a738c272f24b64
+node: 0c42dc6a481ad134352273f95aa3ac4d4b028046
+branch: default
+latesttag: ld23_2
+latesttagdistance: 1
+changessincelatesttag: 1

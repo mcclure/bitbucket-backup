@@ -1,0 +1,5 @@
+Before compiling for the first time, run:
+ 
+./manage.py install
+
+You will need mercurial installed for this to work right.  

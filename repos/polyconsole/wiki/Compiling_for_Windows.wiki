@@ -1,0 +1,44 @@
+When I compile Polyconsole for Windows, I do it on a Mac that's been set up with a "Cross Compiler" called MinGW. Here's what I do.
+
+There is a "[[http://crossgcc.rts-software.org/doku.php|Cross Compilers for Mac OS X]] page here that actually has OS X installers for mingw. PPC and Intel versions are included; I installed 4.3.0 for Intel. The only problem with these particular installers is they install into strange places, so whichever installer from that page you pick, write down the "Installation directory" listed to the right of it. For me, that's {{{/usr/local/i386-mingw32-4.3.0}}}
+
+Once you have this installed, you have to tell Polycode's CMake scripts to use your cross compiler. You do this with a CMake thing called a "Toolchain file". Copy the following into a file somewhere:
+
+{{{
+# this one is important
+SET(CMAKE_SYSTEM_NAME Windows)
+#this one not so much
+SET(CMAKE_SYSTEM_VERSION 1)
+
+# specify the cross compiler
+SET(CMAKE_C_COMPILER   /usr/local/i386-mingw32-4.3.0/bin/i386-mingw32-gcc)
+SET(CMAKE_CXX_COMPILER /usr/local/i386-mingw32-4.3.0/bin/i386-mingw32-g++)
+SET(CMAKE_RC_COMPILER  /usr/local/i386-mingw32-4.3.0/bin/i386-mingw32-windres)
+
+# where is the target environment 
+SET(CMAKE_FIND_ROOT_PATH /usr/local/i386-mingw32-4.3.0)
+
+# search for programs in the build host directories
+SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+# for libraries and headers in the target directories
+SET(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+
+# Shouldn't Polycode be doing this itself?
+SET(CMAKE_CXX_FLAGS "-D_WINDOWS -D_MINGW")
+}}}
+
+Replace "/usr/local/i386-mingw32-4.3.0" as appropriate.
+
+Now, go into your game project and run this obnoxiously long line:
+
+{{{
+./manage.py load -b -d -q --no-tools --bindings-only --target="Windows" --cmake-args="-DCMAKE_TOOLCHAIN_FILE=/Users/mcc/work/p/tmp/toolchain.cmake"
+}}}
+
+Except replace the Users/mcc/etc thing with the path to the toolchain file you created.
+
+This will build a whole copy of Polycode for Windows and point your Polycode/ symlink to it. There's a bug, so this will probably fail at least once while it's running; if this happens, just run the same command again, and try it a few more times until you succeed (seriously, this works, CMake is weird). You can now go into package/win and run "make".
+
+Once you've built Polycode for Windows once, it will be in the binary cache thing, so you can just run {{{./manage.py load --target=Windows}}} and it will just point you right to your copy of Polycode for Windows without having to build anything.
+

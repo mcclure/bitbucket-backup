@@ -1,0 +1,5 @@
+changeset:   580:1e07b1f578f5
+user:        Ivan Safrin <ivansafrin@gmail.com>
+date:        Wed Aug 22 22:17:34 2012 -0400
+summary:     Fixed potential crash in TUIO module, exposed eventMutex in Core
+

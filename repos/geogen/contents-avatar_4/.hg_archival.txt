@@ -1,0 +1,4 @@
+repo: a193949bf4e9031704c9f07d95a738c272f24b64
+node: e57d9ed518832b84afdc2eb3208ee8fe5257f408
+branch: default
+tag: avatar_4

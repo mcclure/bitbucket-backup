@@ -1,0 +1,70 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Author: Milan Nikolic <gen2brain@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import os
+import sys
+import signal
+
+if os.path.isdir(os.path.join(".", "src")) and os.path.isfile(
+        os.path.join(".", "setup.py")):
+    sys.path.insert(0, os.path.realpath("src"))
+
+try:
+    from PyQt5.QtWidgets import QApplication
+    from PyQt5.QtCore import Qt, QLocale, QTranslator
+except ImportError as err:
+    sys.stderr.write("This application needs PyQt5 module%sError:%s%s" % (
+        os.linesep, str(err), os.linesep))
+    sys.exit(1)
+
+try:
+    from m64py.core.defs import FRONTEND_VERSION, LOGO
+except ImportError as err:
+    sys.stderr.write("Can't import m64py modules%sError:%s%s" % (
+        os.linesep, str(err), os.linesep))
+    sys.exit(1)
+
+
+if __name__ == "__main__":
+    QApplication.setAttribute(Qt.AA_X11InitThreads)
+
+    app = QApplication(sys.argv)
+    from m64py.opts import opts, args
+
+    locale = QLocale.system().name()
+    translator = QTranslator()
+    if translator.load(":i18n/m64py_" + locale, ":/"):
+        app.installTranslator(translator)
+
+    sys.stderr.write("%s\nM64Py - A frontend for Mupen64Plus version %s\n\n" % (
+        LOGO, FRONTEND_VERSION))
+
+    from m64py.frontend.mainwindow import MainWindow
+    window = MainWindow((opts, args))
+    window.show()
+    window.raise_()
+
+    try:
+        try:
+            signal.siginterrupt(signal.SIGCHLD, False)
+            signal.signal(signal.SIGINT, signal.SIG_DFL)
+        except AttributeError:
+            pass
+        sys.exit(app.exec_())
+    except KeyboardInterrupt:
+        pass

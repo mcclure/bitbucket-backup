@@ -1,0 +1,137 @@
+# Tests expected to pass.
+
+# Parser/tokenizer
+parse/trivial.em
+parse/tokenTypes.em
+parse/sciNotation.em
+parse/fail/unclosed.em
+parse/fail/misclosed.em
+parse/fail/earlyClose.em
+parse/fail/unclosedQuote.em
+parse/unicode/whitespace.em
+parse/unicode/fail/identifier.em
+
+# String literals/printing
+string/print.em
+string/escape.em
+string/unicode.em
+string/builtin.em
+string/fail/type.em
+string/fail/count.em
+string/fail/fail.em
+
+# Reader
+backslash/basic.em
+backslash/fail/version.em
+backslash/fail/eof.em
+backslash/fail/whitespace.em
+package/directory.em
+package/includeFail.em
+package/private.em
+
+# Cmdline
+arg/param.em
+arg/equals.em
+arg/fail/extraEquals.em
+arg/fail/missingParam.em
+arg/fail/badParam.em
+arg/fail/badEquals.em
+arg/path/defaultProject.em
+arg/path/setProject.em
+arg/path/setPackage.em
+
+# Macros
+macro/math/order.em
+macro/group.em
+macro/bool.em
+macro/tern.em
+macro/assign.em
+macro/assignLiteral.em
+macro/math/basic.em
+macro/math/unaryMinus.em
+macro/nonlocal.em
+macro/list.em
+macro/check.em
+macro/fail/unknown.em
+macro/fail/ternOpen.em
+macro/fail/ternNest.em
+macro/fail/colonWreck.em
+macro/fail/assignPath.em
+macro/fail/checkBlank.em
+macro/fail/checkConstant.em
+macro/fail/checkUndefined.em
+
+# Operators
+math/statement.em
+math/basic.em
+math/mod.em
+math/bool.em
+macro/boolGroup.em
+math/equal.em
+math/fail/type.em
+
+# Variables and scopes
+set/basic.em
+set/return.em
+set/curry.em
+set/fail/curry.em
+set/initializer.em
+set/has.em
+set/fail/has.em
+set/scope/scoped.em
+set/scope/fallthrough.em
+set/scope/unscoped.em
+set/scope/parent.em
+set/scope/setParent.em
+closure/apply.em
+closure/scope/binding.em
+closure/scope/unscoped.em
+closure/scope/scoped.em
+closure/curry/basic.em
+closure/curry/effects.em
+../example/until.em
+closure/return/basic.em
+closure/return/goto.em
+closure/return/implicit.em
+
+# Objects
+obj/literal/basic.em
+obj/literal/scope.em
+obj/late.em
+obj/literal/current.em
+obj/literal/currentInherit.em
+obj/this/basic.em
+obj/inherit/field.em
+obj/inherit/set.em
+obj/inherit/method.em
+obj/this/shadow.em
+obj/literal/this.em
+obj/literal/private.em
+obj/this/let.em
+obj/this/letReversed.em
+obj/this/indirect.em
+obj/inherit/super.em
+obj/inherit/rethis.em
+obj/inherit/edgeCases.em
+../example/multipleInheritance.em
+../example/sensor.em
+
+# Flow control
+flow/tern.em
+flow/recurse.em
+flow/loop.em
+flow/loopFancy.em
+flow/fibo.em
+
+# Builtins
+builtin/scope.em
+builtin/obj.em
+
+# Stress test
+ski/stars.em
+
+# Library
+library/emily/array.em
+library/emily/functional.em
+library/emily/string.em
+library/emily/os.em

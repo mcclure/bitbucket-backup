@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "bin"
+  },
+  "files": [
+    "typings/index.d.ts",
+    "src/dts2nim.ts"
+  ]
+}

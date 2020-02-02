@@ -1,0 +1,5 @@
+# Error
+error "Everything is terrible"
+
+all:
+    print("Succeed")

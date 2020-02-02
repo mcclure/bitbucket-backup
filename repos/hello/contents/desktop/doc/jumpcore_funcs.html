@@ -1,0 +1,61 @@
+			<h2>Jumpcore additional docs</h2>
+	
+			<div class="entrytext">
+				<p><strong>FILES IN JUMPCORE, NOT COUNTING LIBRARIES:</strong></p>
+<p>Files you should edit:</p>
+<ul>
+<li>program.h - Common header</li>
+<li>program.cpp - Game logic goes here</li>
+<li>display.cpp - Display logic goes here</li>
+
+</ul>
+<p>Jumpcore &#8220;support&#8221; files:</p>
+<ul>
+<li>main.cpp &#8212; Basic bringup/teardown and event handling. You <em>might</em> not need to ever edit this.</li>
+<li>kludge.h &#8212; Per-platform OpenGL includes and some support functions. There are also some #define flags here you may want to mess with here named VSYNC_FIX and DYNAMIC_FRAMERATE, which turn on some Jumpcore features that are off by default.</li>
+
+<li>internalfile.cpp, internalfile.h &#8212; See below</li>
+<li>slice.cpp, slice.h, controls.cpp, controls.h &#8212; See &#8220;<a href="jumpcore_controlbase.html">ControlBase</a>&#8221; docs</li>
+</ul>
+<p><strong>FUNCTIONS IN JUMPCORE, </strong><strong>NOT COUNTING</strong><strong> LIBRARIES:</strong></p>
+
+<ul>
+<li>ERR(&#8221;Stringhere&#8221;, arg1, arg2)</li>
+</ul>
+<p>Works exactly like printf. When compiling in Debug mode, this prints the message given to STDERR. When compiling in Release mode, this does nothing.</p>
+<ul>
+<li>REALERR()</li>
+</ul>
+<p>Works exactly like printf. Prints the message given to STDERR regardless of mode. This is of dubious utility (on Windows/mingw, the message will be printed to a file named &#8220;stderr.txt&#8221;; on the Mac, it will be printed to the Console application, which few people know how to use or find) but the basic Jumpcore code uses it to report fatal errors which occur before the display surface is created.</p>
+<ul>
+
+<li>void internalPath(char *dst, const char *fmt, int arg1 = 0, int arg2 = 0);</li>
+</ul>
+<p>A function that in a cross-platform way produces the absolute path to an &#8220;internal file&#8221;&#8211; On Windows, this means a file in the directory named &#8220;Internal&#8221; that accompanies the .exe. On the mac, this means a file in the &#8220;Resources&#8221; folder inside the application package.</p>
+<ul>
+<li>void drawText(string text, double x, double y, double rot = 0, bool xcenter = true, bool ycenter = true);</li>
+
+</ul>
+<p>An example method which draws the string &#8220;text&#8221; at screen coordinates x, y (Where the top of the screen is 1.0, and the bottom of the screen is -1.0), with rotation &#8220;rot&#8221; degrees, and optionally centered on the X and Y axes. Uses the global &#8220;uiFont&#8221; font.</p>
+<ul>
+<li>void BombBox(string why);</li>
+</ul>
+<p>A maybe-overcomplicated function for displaying a fatal error (given as &#8220;why&#8221;). All event handling will halt and a window will go up explaining the error; on the next keypress after this, the program will quit. Uses the global &#8220;uiFont&#8221; font (but is not dependent on drawText()).</p>
+
+<ul>
+<li>void FileBombBox(string filename);</li>
+</ul>
+<p>Calls BombBox with a message stating &#8220;filename&#8221; could not be found.</p>
+<p><strong>FUNCTIONS IN JUMPCORE, NOT COUNTING LIBRARIES (&#8221;FULL VERSION&#8221; ONLY)</strong></p>
+<ul>
+<li>void RGBtoHSV( double r, double g, double b, double *h, double *s, double *v )</li>
+
+<li>void HSVtoRGB( double *r, double *g, double *b, double h, double s, double v )</li>
+</ul>
+<p>Self-explanatory color conversion routines.</p>
+<ul>
+<li>cpVect screenToGL(int screenx, int screeny, double desiredZ);</li>
+</ul>
+<p>Given the current-this-moment projection matrices, returns the pixel on the screen corresponding to the point (x, y, z) in 3-space.</p>
+	
+

@@ -1,0 +1,7 @@
+changeset:   985:76adde4b21be
+parent:      983:63840e1192ab
+parent:      984:c099d5bbc7f8
+user:        mcc <andi.m.mcclure@gmail.com>
+date:        Sun Apr 14 19:17:37 2013 -0700
+summary:     Merge MinGW fix back into Andi mainline
+

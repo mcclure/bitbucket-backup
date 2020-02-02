@@ -1,0 +1,6 @@
+repo: 3a2e59b236c2563e7b329e3d7ccb5f4bff5636da
+node: d498346702e00d7dec4137c47febc8610e5c8e55
+branch: default
+latesttag: anemone_1
+latesttagdistance: 6
+changessincelatesttag: 6

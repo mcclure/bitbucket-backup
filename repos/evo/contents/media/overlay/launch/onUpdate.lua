@@ -1,0 +1,1 @@
+if pressed[KEY_DOWN] then go("play") end

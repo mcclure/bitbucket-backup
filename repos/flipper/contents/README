@@ -1,0 +1,7 @@
+Based on Polyconsole. This will hopefully be expanded with time to be buildable on platforms other than mac.
+
+Before compiling for the first time, run:
+ 
+./manage.py install
+
+You will need mercurial installed for this to work right.  

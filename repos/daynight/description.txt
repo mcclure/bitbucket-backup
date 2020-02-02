@@ -1,0 +1,1 @@
+Small experiments with learning actionscript + trying to make a "game" based around the Conway's Life variant "Day and Night". You are not granted any rights to use this code but feel free to contact me if you want some.

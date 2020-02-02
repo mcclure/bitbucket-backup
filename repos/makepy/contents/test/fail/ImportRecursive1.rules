@@ -1,0 +1,3 @@
+import . file ImportRecursive2.rules
+
+all:

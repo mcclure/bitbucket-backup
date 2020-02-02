@@ -1,0 +1,16 @@
+To customize the game rules, look inside the Internal/ folder, where you will find files named level0.svg, level1.svg, and level2.svg. These are the game's modes "1, 2 and 3". You can edit these files in Inkscape or a text editor. If you try this, the thing you want to change are a series of lines near the top that look like "p_immortal_bullets="0"". If you change these numbers, the game will change. Here is what the numbers mean:
+
+   p_immortal_bullets: Do balls clear when they hit the side of the screen, or bounce off?
+   p_immaterial_bullets: If 1, bullets pass through each other when they collide instead of bouncing.
+   p_random_spray: Are balls aimed randomly, or do they sweep back and forth?
+   p_match_length: How many seconds long is the match?
+   p_bullet_period_start: When the game starts, how many seconds pass between each new ball?
+   p_bullet_period_end: When the game is finished, how many seconds pass between each new ball?
+   p_bullet_period_maxout: How many seconds is it before the game reaches p_bullet_period_end?
+   p_bullet_period_curve="2.0": How "quickly" does the game go from p_bullet_period_start to p_bullet_period_end? (This is an exponent and so should be greater than zero.)
+   p_aim_period_swing: How wide is the spray of balls? (Suggest between 0 and 2.)
+   p_aim_period_offset: Where is the spray of balls aimed? (Suggest between 0 and 2.)
+   p_aim_period_factor_left: A modifier, which should usually be close to 1, that determines how fast the "sweeping" is on the left (nonrandom mode only)
+   p_aim_period_factor_right: A modifier, which should usually be close to 1, that determines how fast the "sweeping" is on the right (nonrandom mode only)
+   p_aim_period_phase_left: An offset, which should usually be between 0 and 1, which skews the "sweeper" on the left at game start (nonrandom mode only)
+   p_aim_period_phase_right: An offset, which should usually be between 0 and 1, which skews the "sweeper" on the right at game start (nonrandom mode only)

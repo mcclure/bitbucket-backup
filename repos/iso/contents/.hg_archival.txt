@@ -1,0 +1,6 @@
+repo: a193949bf4e9031704c9f07d95a738c272f24b64
+node: 233adb8fdbea628139b1eeb78ceffb92f5f033c1
+branch: default
+latesttag: ld25_2
+latesttagdistance: 20
+changessincelatesttag: 27

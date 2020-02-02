@@ -1,0 +1,370 @@
+<?xml version="1.0" ?>
+<level>
+    <polyarray:map>
+        <nil y="1" kind="1" x="1" height="0" />
+        <nil y="2" x="1" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="1" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="1" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="1" height="3" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="1" height="2" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>1</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" kind="1" x="2" />
+        <nil y="2" kind="1" x="2" />
+        <nil y="3" kind="1" x="2" />
+        <nil y="4" x="2" height="5" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="2" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="2" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="2" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="3" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="1" x="3" />
+        <nil y="3" x="3" height="7" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="3" height="4" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="3" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="3" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="3" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="9" x="3" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="3" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="10" x="3" warpto="spaceinvader" kind="3" warpanchor="1" />
+        <nil y="1" x="4" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="4" height="5" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="4" height="4" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="4" height="3" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="4" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="4" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="4" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="4" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="4" sprite="trusprit/dudemanwalkin2" anchor="1" special="player" kind="4" backsprite="trusprit/dudemanwalkin" />
+        <nil y="-1" x="4" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" kind="4" anchor="1" x="4" />
+        <nil y="1" x="5" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="5" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" x="5" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" kind="1" x="5" />
+        <nil y="5" kind="3" x="5" act="respect" />
+        <nil y="6" x="5" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="5" height="4" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="0" x="5" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="-1" x="5" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="6" height="3" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" kind="1" x="6">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="4" kind="1" x="6" />
+        <nil y="5" kind="1" x="6" />
+        <nil y="6" x="6" height="3" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="6" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil sprite="ppl/erica" x="6" flip="true" kind="2" y="8" />
+        <nil y="8" x="6" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="1" x="7" height="2" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="2" x="7" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" x="7" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="3" kind="3" x="7" act="bitches" />
+        <nil y="4" x="7" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="5" x="7" height="4" kind="1">
+            <polyarray:color>
+                <nil>0.25</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="6" x="7" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0.75</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="7" height="3" kind="1">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil sprite="ppl/margery" x="7" flip="true" kind="2" y="7">
+            <polyarray:color>
+                <nil>8</nil>
+                <nil>8</nil>
+                <nil>8</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="8" x="7" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil sprite="ppl/ilsuiw" x="8" flip="true" kind="2" y="6" />
+        <nil y="6" x="8" height="0" kind="1">
+            <polyarray:color>
+                <nil>0.75</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+        <nil y="7" x="8" height="0" kind="1">
+            <polyarray:color>
+                <nil>0</nil>
+                <nil>0</nil>
+                <nil>0</nil>
+            </polyarray:color>
+        </nil>
+    </polyarray:map>
+    <meta camfixed="true" music="simple_loop">
+        <polyarray:bgcolor>
+            <nil>0</nil>
+            <nil>0</nil>
+            <nil>0.25</nil>
+        </polyarray:bgcolor>
+    </meta>
+</level>

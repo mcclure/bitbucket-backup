@@ -1,0 +1,6 @@
+repo: c66720683d6936219ddcfee9c3cda88ae7ae99b7
+node: dc7cfca6ce5f7115c74a0d779e58e24171d50b6f
+branch: default
+latesttag: spool_1
+latesttagdistance: 1
+changessincelatesttag: 1

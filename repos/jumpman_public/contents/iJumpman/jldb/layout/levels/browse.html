@@ -1,0 +1,18 @@
+{# Used by upload in views.py #}
+
+{% extends "levels/base.html" %}
+{# todo: load dfextras #}
+
+{% block content %}
+
+<p>Tap to download:</p>
+
+{% for file in files %}
+<p><a href="landing/{{file.src}}">{{file.title}}</a><br><small><i>By {{file.user.username}}, posted {{file.updated}}</i></small><br>{{file.summary}}</p>
+{% endfor %} 
+
+{% if user.username %}
+<p align=right><small>Logged in as {{user.username}}</small></p>
+{% endif %}
+
+{% endblock %}

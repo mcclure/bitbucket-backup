@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<list name="textureAtlas">
+    <atlas basename="glows" filename="glows-1.png" index="1">
+        <image bottom="0.5" left="0.0" name="blur8" right="0.5" top="0.0"/>
+        <image bottom="0.5" left="0.5" name="blur32" right="1.0" top="0.0"/>
+        <image bottom="1.0" left="0.0" name="blur16" right="0.5" top="0.5"/>
+    </atlas>
+    <atlas basename="interface" filename="interface-1.png" index="1">
+        <image bottom="0.5" left="0.0" name="player_over" right="0.5" top="0.0"/>
+        <image bottom="0.03125" left="0.5" name="box_health" right="0.53125" top="0.0"/>
+    </atlas>
+</list>

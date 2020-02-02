@@ -1,0 +1,4 @@
+^node_modules/
+^src/tsGlue.nim
+^tools/dts2nim.js
+^tools/typings

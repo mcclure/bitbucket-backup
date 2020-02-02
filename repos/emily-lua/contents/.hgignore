@@ -1,0 +1,4 @@
+^config.lua
+^lib-ffi/llvm/3_9/Target.lua
+^lib-ffi/llvm/3_9/Core.lua
+.DS_Store

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:polycode="http://msm.runhello.com/local/svg/polycode0"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="starfield.svg"
+   polycode:onLoad="if s1 then delete(s1) delete(s2) delete(s3) delete(piano) end
+s1 = Sound(&quot;media/static1.ogg&quot;)
+s2 = Sound(&quot;media/static2.ogg&quot;)
+s3 = Sound(&quot;media/flyby.ogg&quot;)
+piano = Sound(&quot;media/piano.ogg&quot;)
+s1:Play(true) s2:Play(true) s3:Play(true)
+
+down = {} won = false always = true font_scale = 24/28 local_width = max_width * font_scale - 3  class &quot;Level&quot; (EventHandler)  function Level:Level()         self:EventHandler() end   function Level:handleEvent(e)         if e:getDispatcher() == Services.Core:getInput() then                  local inputEvent = InputEvent(e)                  local key = inputEvent:keyCode()                  if e:getEventCode() == EVENT_KEYDOWN then   down[key] = true   elseif e:getEventCode() == EVENT_KEYUP then   down[key] = false   end end end level = Level() Services.Core:getInput():addEventListener(level, EVENT_KEYDOWN) Services.Core:getInput():addEventListener(level, EVENT_KEYUP) markov = MarkovModel(8) markov:loadTrainingFile(&quot;media/princessofmars-filtered.txt&quot;) sentence = &quot;&quot; letters = {&quot;.&quot;,&quot; &quot;} for i = 0,25 do   table.insert(letters, string.char(97 + i)) end  sentenceLabel = ScreenLabel(&quot;&quot;,28,&quot;mono&quot;) sentenceLabel:setPosition(10,10) screen():addChild(sentenceLabel)  deep = 100 broad = 100 starcount = 400 stars = {} templates = {} starfirst = 1 function templatefor(letter)  if not templates[letter] then   templates[letter] = SceneLabel(&quot;mono&quot;, letter, 28, 1/28, ANTIALIAS_FULL)  end  return templates[letter] end function importance(letter, ratio, max)  e = templatefor(letter)  if e.children then   for key, value in pairs(e.children) do  e:removeChild(value)   end  end  e.important = ratio  e.children = {}   shine = ScenePrimitive(TYPE_PLANE, 2.0, 2.0)   shine:setColor(ratio,ratio,0.5,ratio/max)   shine:loadTexture(&quot;media/star.png&quot;)   table.insert(e.children,shine)   e:addChild(shine) end function remap()  markov:history_set(sentence)  local max = markov:probability(markov:probability_max_string())  for i,letter in pairs(letters) do   if #sentence == 0 or max == 0 then   importance(letter, random(), 1.0)   else   importance(letter, markov:probability(letter), max)   end end  end remap() function newstar(depth,cx,cz)  letter = letters[random(#letters)]  label = templatefor(letter)  echo = SceneEcho(label)  echo:setPosition(random()*broad-broad/2+cx,(depth/starcount)*-deep,random()*broad-broad/2+cz);  scene():addEntity(echo)  echo.letter = letter  stars[depth] = echo end cam = scene():getDefaultCamera() cam:setPosition(0,0,0) cam:lookAt(Vector3(0,-20,0), Vector3(0,0,-1)) for i = 1,starcount do newstar(i,0,0) end  function vadd(a,b) a.x = a.x + b.x a.y = a.y + b.y a.z = a.z + b.z end"
+   polycode:onUpdate="any = true by = 0.1 move = Vector3(0,-by*3,0) if down[KEY_LEFT] then any = true move.x = -by end if down[KEY_RIGHT] then any = true move.x = by end if down[KEY_UP] then any = true move.z = -by end if down[KEY_DOWN] then any = true move.z = by end if not (always or down[KEY_LCTRL]) then move.y = 0 end if any then p = cam:getPosition() vadd(p,move) cam:setPosition(p.x,p.y,p.z) while p.y &lt; starfirst*-deep/starcount do  hit = stars[starfirst]  p2 = hit:getPosition()  p2.y = p.y  d = p2:distance(p)  if (d &lt; 1.0) then  piano:Play(false) if hit.letter == &quot;.&quot; then won = true end  sentence = sentence .. hit.letter  local set_sentence = sentence if #set_sentence &gt;= local_width then set_sentence = set_sentence:sub(#set_sentence-local_width+1) end sentenceLabel:setText(set_sentence)   remap()  end  scene():removeEntity(hit)  stars[starfirst] = nil  newstar(starfirst+starcount,p.x,p.z)  starfirst = starfirst + 1 end end if won then bridge:load_room(&quot;media/ending.svg&quot;) end">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="648.66319"
+     inkscape:cy="484.54625"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1032"
+     inkscape:window-height="669"
+     inkscape:window-x="10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.7142857,-248.57143)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="220.21326"
+       y="371.69531"
+       id="text3015"
+       sodipodi:linespacing="125%"
+       transform="translate(-5.7142857,248.57143)"><tspan
+         sodipodi:role="line"
+         id="tspan3017"
+         x="220.21326"
+         y="371.69531" /></text>
+  </g>
+</svg>

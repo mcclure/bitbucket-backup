@@ -1,0 +1,6 @@
+repo: 5818757f357335ab19f3d3f3c83a030700ed4b7f
+node: 696353a6f05a72461a59acd6e96f58d05d6a1959
+branch: default
+latesttag: ppx_const-1.0
+latesttagdistance: 2
+changessincelatesttag: 2

@@ -1,0 +1,7 @@
+bin: [
+  "_build/src/ppx_const.native" {"../lib/ppx_const/ppx_const"} ]
+doc: [
+  "_build/LICENSE.txt" {"LICENSE.txt"}
+  "_build/README.md" {"README.md"} ]
+lib: [
+  "_build/pkg/META" {"META"} ]

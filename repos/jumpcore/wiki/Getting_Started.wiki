@@ -1,0 +1,59 @@
+<<toc>>
+
+==Getting Started==
+
+Jumpcore provides "main()" implementations for each of the three basic platforms (SDL, iPhone and Android) and then calls into callbacks you define in two files of your own, display.cpp and program.cpp.
+
+What you need to implement (or rather, overwrite the existing implementations of) is:
+
+===In display.cpp===
+
+{{{display_init(bool reinit)}}} - This is called once each time the display surface is initialized. It's a good place to do things like initialize fonts and textures. (Note it could be called more than once if the window size ever changes; if and only if this is the case, the "reinit" argument will be equal to true.)
+
+{{{display()}}} - This is called when it is time to draw a new frame. Make your OpenGL calls here (screen swapping will be done for you).
+
+{{{audio_init()}}} - This will be called sometime before the first call to your audio callback.
+
+{{{audio_callback(void *userdata, uint8_t *stream, int len)}}} - This will be called when more audio data is needed for playback. **Warning: This is likely to be called from a different thread than the other code in this program.** The first argument is meaningless and should be discarded; the second argument is a pointer to the data buffer you must write into; the third argument is the length of that data buffer in **bytes**. The way Jumpcore comes set up, the data should be written as 16-bit mono PCM.
+
+Still editing...
+
+===In program.cpp===
+
+{{{program_init()}}} - This is called once when the program begins.
+
+{{{program_update()}}} - This is called immediately after display() and the screen swap take place.
+
+{{{program_metamouse(dragtouch &d, touch_type t, cpVect at)}}} - This is called whenever either a mouse event or a touch event take place. (There are also program_eventmouse and program_eventtouch functions one level up that call metamouse, but you probably won't need to change them.)
+
+{{{program_eventkey(SDL_Event &event)}}} - This is called when SDL gets a key event (desktop platforms only).
+
+{{{program_eventjoy(SDL_Event &event)}}} - This is called when SDL gets a joystick event (desktop platforms only)
+
+{{{program_interface()}}} - If you're using the ControlBase GUI library (see below), this is a function set up for you to reset your interface. This is automatically called once after program_init, and again each time the event system finishes dispatching events to ControlBase controls; if you want to change the interface at any other time you should call it yourself as appropriate.
+
+{{{program_sleep()}}} - Called right before the program sleeps (mobile platforms only).
+
+{{{program_wake()}}} - Called right after the program wakes up (mobile platforms only).
+
+{{{BackOut()}}} - Called when ESC is hit (chance to quit).
+
+{{{AboutToQuit()}}} - Called right before the program quits.</ul>
+
+==Documentation==
+
+Documentation for library functions built into Jumpcore:
+
+* [[Basic Jumpcore functions]]
+* [[ControlBase GUI library]]
+* [[glCommon]] (Jumpcore OpenGL wrapper)
+
+Documentation for libraries bundled with Jumpcore:
+
+* [[http://files.slembcke.net/chipmunk/chipmunk-docs.html|Chipmunk documentation]]
+* [[http://members.gamedev.net/lode/projects/LodePNG/|LodePNG documentation]]
+* [[http://www.grinninglizard.com/tinyxmldocs/index.html|TinyXML documentation]]
+* [[http://elf-stone.com/glee.php|GLee documentation]] (For checking your OpenGL version and extensions)
+* [[https://computing.llnl.gov/tutorials/pthreads/#PthreadsAPI|Pthreads documentation]]
+* [[https://github.com/cdave1/ftgles|Limited FTGL ES documentation]] (I suggest using drawText instead, see "Basic Jumpcore functions")
+* [[http://opengles-book.com/|A book about OpenGL ES 2.0]] which I highly recommend (it's available on Kindle).

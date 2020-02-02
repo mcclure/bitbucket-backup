@@ -1,0 +1,15 @@
+a:
+    print("Rule A builds %s from %s" % (target, dep))
+    touch("a")
+
+b: a
+    print("Rule B builds %s from %s" % (target, dep))
+    touch("b")
+
+c: a
+    print("Rule C builds %s from %s" % (target, dep))
+    touch("c")
+
+d: b c
+    print("Rule D builds %s from %s" % (target, dep))
+    touch("d")

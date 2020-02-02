@@ -1,0 +1,4 @@
+source/automaton.h
+source/bridge.h
+source/dos.h
+curl/PolycodeDownloader.h

@@ -1,0 +1,321 @@
+<<toc>>
+
+=ControlBase docs=
+
+ControlBase was my attempt to create an ultra-simple but reasonably-featured GUI widget library. It fits into a single source file (controls.cpp) and is self-contained except:
+
+* It is dependent on Chipmunk-- or at least the cpVect and cpSpace classes
+* It depends on external code to display widgets (in Jumpcore provided in text_display.cpp) and report events to it (in Jumpcore this is done by invocations of interface_attempt_click() and program_interface(), found in program.cpp)
+* The checkbox widget uses slice.cpp/slice.h, which are also part of Jumpcore (see below)
+
+Basically all ControlBase does is define some objects which: describe the position and content of various on-screen widgets; and implement some methods encapsulating their behavior. Since ControlBase is general and does not itself handle either drawing or (for the most part) events, in theory it could be easily divorced from OpenGL or SDL.
+
+Below are docs for the classes described in slice.h and controls.h.
+
+==About Slices==
+
+"Slice" is a simple class taken from Jumpman describing "something like a sprite" (get it? ... never mind). It basically just holds a 2D array of 32-bit pixel values. It knows how to populate that 2D array from a png, and it knows how to perform a one-time "construct" operation (which could mean anything a subclass decides it means-- in the included texture_slice class, it means uploading a texture). I only really included it in Jumpcore because ControlBase uses it for button icons.
+
+===slice===
+
+====Fields====
+
+{{{
+int width;
+int height;
+uint32_t **pixel;
+bool constructed; // Has construct() been called?
+}}}
+
+====Methods====
+
+{{{
+void consume(const char *name); // Load from a png
+virtual void construct(); // Whatever the subclass says it is
+void load(const char *name); // Consume, then construct
+virtual slice *clone(); // Makes a copy of this object
+}}}
+
+===texture_slice===
+
+Has everything "slice" does plus a field:
+
+{{{
+unsigned int texture; // GLUint in disguise
+}}}
+
+Calling "construct" on a texture_slice will turn the currently held image into an OpenGL texture indexed by "texture". It will also add itself to a "reconstruct_registry" hash; the object will be automatically removed from the hash (and its texture destroyed, if any) on deletion. Main.cpp goes through the reconstruct_registry each time the window resizes and tells each object to construct() again (since all textures will have been lost when the surface resized). (Note: If Android sleep/wake support is ever to work correctly, this will have to be added to the android path as well.)
+
+For OpenGL reasons, any png loaded into texture_slice must be an NxN square where N is a power of two.
+
+==About ControlBase==
+
+ControlBase consists of two families of classes: Containers and Controls. Controls are things you interact with-- labels and buttons and such. Containers decide where and how those controls are placed on the screen; they also keep track of controls, and delete them when the container itself is destroyed. Using ControlBase basically consists of:
+
+* Create a Container, save it somewhere (in the code that comes with Jumpcore, all active Containers are kept in a vector named "columns").
+* Create some Controls; add each one to the Container
+* Call "commit" on the Container.
+
+ControlBase could be more flexible than it is: All Containers in the current version of Jumpcore behave something like a column, and all buttons have the same dimensions (given at the top of controls.cpp as button_verts).
+
+===ContainerBase===
+
+Parent class for all containers
+
+====Fields====
+
+{{{
+bool committed; // Has commit been called?
+vector controls; // All controls "in" this container
+double x,y; // X and Y offsets for the container-- only take effect when commit() or recommit() are called
+}}}
+
+====Methods====
+
+{{{
+ContainerBase(cpSpace *_parent, double _x); // When you create a Container you have to give it a cpSpace for its buttons to "live" in and also an x coordinate (on the scale where the left side of the screen is -1 and the right side of the screen is 1) to draw the column of controls at. I recommend using the workingUiSpace() value already in Jumpcore for basically everything, and the CMIDL, CMIDR, CRIGHT etc constants for the x value.
+virtual void add(ControlBase *control); // Registers a control with a container (though nothing appears until you call commit)
+virtual void commit(); // Gives each control a cpShape and a screen position.
+virtual void recommit(); // Unhooks all controls, then commits
+}}}
+
+===ColumnContainer : ContainerBase===
+
+Like ContainerBase, only instead of a column of big controls it displays two parallel columns of smaller controls-- since each such control is about the size of an icon this makes a good starting point for something like a tool palette.
+
+===ScrollContainer===
+
+Like ContainerBase, only it displays a maximum of SCROLLMAX buttons at a time and (if needed) displays up to two "scrollbar" buttons which provide access to the additional controls.
+
+====Fields====
+
+{{{
+vector peers; // When the container scrolls, each of these containers will be scrolled with it. This is so that one scrollbar can scroll multiple columns of controls.
+}}}
+
+====Methods====
+
+{{{
+ScrollContainer(cpSpace *_parent, double _x, bool _haveButtons = true); // The additional haveButtons argument determines whether the scroll buttons are ever visible.
+void scrollBy(int s); // Scrolls the visible controls up or down by "s" spaces.
+}}}
+
+===ControlBase===
+
+Parent class for all Controls. Has the full ability to display however any other control does, but lacks interactivity. If you want to make something like a "button" you basically want to subclass ControlBase and override Click or Wheel.
+
+====Fields====
+
+{{{
+string text;
+bool bg;	// "Background" enable. I suggest setting this true for anything interactive
+bool highlighted; // Background will be colored funny-- implies keyboard focus
+texture_slice *img; // Image to use as a button "icon"
+bool immortalImg; // UNLESS this is true, img will be deleted when this object is
+}}}
+
+====Methods====
+
+{{{
+ControlBase(string _text = string(), bool _bg = false) // Constructor
+virtual void click(); // Does nothing, but can be overridden by a child class
+virtual void wheel(int dir); // Does nothing, but can be overridden ba child class-- wheel can be 1 or -1.
+virtual void disconnect(cpSpace *); // Removes the button from the space ' meant only to be called by the container, but whatever
+}}}
+
+===KeyboardControl : ControlBase===
+
+A ControlBase item that knows how to accept keyboard events.
+
+====Fields====
+
+{{{
+static KeyboardControl *focus; // At any one time there is at most one designated KeyboardControl which has "focus"; all keydown events are directed to this control (by Main). The default click() implementation for KeyboardControl takes control of the focus.
+}}}
+
+====Methods====
+
+{{{
+KeyboardControl(string _text = string(), bool _takeFocus = false, bool _haveBackground = true); // If "takefocus" is true then grab the focus as soon as you're created
+virtual void takeFocus();
+virtual void loseFocus(); // When one keyboardControl takes focus, it calls loseFocus() on the current focus first. Overriding this function can be useful.
+virtual void key(Uint16 unicode, SDLKey key); // Meant to be overridden by by child classes. By default all it does is relinquish focus if the user presses ESC.
+}}}
+
+===TextControl : KeyboardControl===
+
+A control that acts like a text entry box.
+
+====Fields====
+
+{{{
+ControlBase *onEnter; // If this is set for a TextControl, then hitting the "Enter" key will be as if you clicked on the onEnter control. You can set onEnter to be for example the next box in a form, or the "OK" button.
+}}}
+
+===WheelControl : TextControl===
+
+A TextControl that holds a numeric value, and can be "scrolled" by using the mousewheel or arrow keys. You can also enter a value manually but it will check whatever you entered to make sure it's a number within bounds.
+
+====Fields====
+
+{{{
+double is; // What is the current number value?
+double lo; // What is the minimum allowed value?
+double hi; // What is the maximum allowed value?
+double by; // Each time the user "steps" (with the wheel or arrow keys) how much does the value go up or down by?
+}}}
+
+====Methods====
+
+{{{
+WheelControl(double _text = 0, double _lo = 0, double _hi = 0, double _by = 1); // Constructor
+virtual void changedIs(); // When the wheel or arrow keys change the value of "is", this method is called to update the displayed value.
+}}}
+
+===SelectControl : WheelControl===
+
+A WheelControl that acts like a "Menu"-- it rounds "is" to the nearest integer and displays a string from a list with that index.
+
+====Fields====
+
+{{{
+vector options; // List of strings to display
+bool up; // If true, scroll up to progress to the next menu item. If false, scroll down.
+}}}
+
+====Methods====
+
+{{{
+SelectControl(vector &_options, int initial = 0); // Constructor
+}}}
+
+===CheckControl : ControlBase===
+
+A toggle button or check box.
+
+====Fields====
+
+{{{
+bool checked; // Current check value
+}}}
+
+====Methods====
+
+{{{
+CheckControl(string _text = string(), bool _byImg = false, CheckGroup *_group = NULL);
+// Constructor. About those arguments:
+// byImg: If true, the check/uncheck behavior is done by altering an image (i.e. it looks like a checkbox). If false, the check/uncheck behavior is done by toggling the highlight (i.e. it looks like a toggle button).
+// group: See "CheckGroup" class below
+virtual void justUpdatedCheck(); // Called when "checked" changes. Updates the displayed value for the checkbox, or you could override it for special behaviors.
+virtual void uncheck(); // Unchecks the box; CheckGroup uses this (as does the CheckControl destructor) when it's taking away a button's "checked" status. It's useful to override this if there's something special you want to do when the CheckGroup deselects you.
+}}}
+
+===CheckGroup===
+
+Tracks a number of CheckControls such that (a) it enforces only one of the controls added to it may be checked at a time and (b) at any time you can find out which checkbox in the group is selected, if any.
+
+====Fields====
+
+{{{
+CheckControl *checked; // Which button (if any) is selected?
+}}}
+
+====Methods====
+
+{{{
+void check(CheckControl *me); // Hands check status over to the selected button.
+}}}
+
+==An example==
+
+Here's a fairly short piece of sample code that makes use of basically every single feature in ControlBase:
+{{{
+
+	// A normal-type column of controls, in this case serving as a dubious little calculator app:
+	ContainerBase *basicWidgets = new ContainerBase(uiSpace, CRIGHT);
+	columns.push_back(basicWidgets);
+
+	// A custom "button":
+	class CalculatorControl : public ControlBase { public:
+		CalculatorControl(string _text) : ControlBase(_text, true) {}
+		KeyboardControl *in1;
+		SelectControl *op;
+		WheelControl *in2;
+		ControlBase *out1;
+		virtual void click() {
+			float v1 = atof(in1->text.c_str());
+			float v2 = in2->is;
+			int selected = op->is + 0.5; // Round to index
+			float result = 0;
+			switch(selected) {
+				case 0: result = v1 + v2; break;
+				case 1: result = v1 - v2; break;
+				case 2: result = v1 * v2; break;
+				case 3: result = v1 / v2; break;
+			}
+			ostringstream s; s.precision(3);
+			s << result; out1->text = s.str();
+
+			ERR("%f, %f = %f\n", v1, v2, result);
+		}
+	};
+	CalculatorControl *go = new CalculatorControl("click me");
+
+	// And what the heck, let's give the "click me" button an icon:
+	go->img = new texture_slice();
+	go->img->init(8,8); // Normally you'd load an image out of a file. I'm just gonna draw one right here:
+	for(int y = 0; y < 8; y++) {
+		for(int x = 0; x < 8; x++) {
+			bool there = y > 0 && y < 7 && x > 0 && x < 7 && y != 3 && y != 4; // Trace an = sign
+			go->img->pixel[x][y] = there ? 0xFF : 0; // 0xFF for opaque black, 0 for transparent
+		}
+	}
+	go->img->construct();
+
+	// A text field:
+	go->in1 = new TextControl("0");
+
+	// A "select control" / menu:
+	vector<string> ops; ops.push_back("+"); ops.push_back("-"); ops.push_back("*"); ops.push_back("/");
+	go->op = new SelectControl(ops, 0, false);
+
+	// A wheel control:
+	go->in2 = new WheelControl(0, -200, 200, 1);
+
+	// A simple text label:
+	go->out1 = new ControlBase();
+
+	basicWidgets->add(go->in1);
+	basicWidgets->add(go->op);
+	basicWidgets->add(go->in2);
+	basicWidgets->add(go);
+	basicWidgets->add(go->out1);
+
+	basicWidgets->commit();
+
+	// A two-column block of buttons, acting like a palette of some kind.
+	ContainerBase *palette = new ColumnContainer(uiSpace, CLEFT);
+	columns.push_back(palette);
+
+	static CheckGroup checkGroup;
+
+	// Some toggle-button-type checkboxes-- six of them, in a group, so that only one can be picked at once.
+	for(int c = 0; c < 8; c++) {
+		string label; label += ('a' + c);
+		palette->add( new CheckControl( label, false, &checkGroup ) );
+	}
+
+	palette->commit();
+
+	// A container with a scrollbutton and too many buttons to fit on screen at once
+	ContainerBase *scroll = new ScrollContainer(uiSpace, CMIDL);
+	columns.push_back(scroll);
+
+	// Some text labels:
+	for(int c = 0; c < 26; c++) {
+		string label = "| "; label += ('a' + c); label += " |";
+		scroll->add( new ControlBase(label) );
+	}
+	scroll->commit();
+
+}}}

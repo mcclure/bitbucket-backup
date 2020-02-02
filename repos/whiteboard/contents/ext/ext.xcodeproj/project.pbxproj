@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		445533DB17DC128A000F800E /* app.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.yaml; path = ../app.yaml; sourceTree = SOURCE_ROOT; };
+		445533DD17DC128A000F800E /* index.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = index.yaml; path = ../index.yaml; sourceTree = SOURCE_ROOT; };
+		445533DE17DC128A000F800E /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = main.py; path = ../main.py; sourceTree = SOURCE_ROOT; };
+		445533E917DC15FC000F800E /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = content; path = ../content; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		445533CF17DC1262000F800E = {
+			isa = PBXGroup;
+			children = (
+				445533DB17DC128A000F800E /* app.yaml */,
+				445533DD17DC128A000F800E /* index.yaml */,
+				445533DE17DC128A000F800E /* main.py */,
+				445533E917DC15FC000F800E /* content */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		445533D117DC1262000F800E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 445533D417DC1262000F800E /* Build configuration list for PBXProject "ext" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 445533CF17DC1262000F800E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		445533D217DC1262000F800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		445533D317DC1262000F800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445533D417DC1262000F800E /* Build configuration list for PBXProject "ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445533D217DC1262000F800E /* Debug */,
+				445533D317DC1262000F800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445533D117DC1262000F800E /* Project object */;
+}

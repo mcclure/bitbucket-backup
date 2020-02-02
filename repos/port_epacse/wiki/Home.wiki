@@ -1,0 +1,5 @@
+This is a quick mac port of a game called "epacse" by Marach. I do not know if the way I redistribute fmod.dylib is allowed.
+
+For binaries and more information on epacse, see [[http://www.ludumdare.com/compo/ludum-dare-21/?action=preview&uid=1555|here]].
+
+Any changes to the project made by me (Andi McClure) in the process of porting are under the [[http://creativecommons.org/publicdomain/zero/1.0/legalcode.txt|Creative Commons Zero]] license (may be used by anyone for any purpose without limitation).

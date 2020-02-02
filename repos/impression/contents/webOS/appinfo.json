@@ -1,0 +1,10 @@
+{
+	"title": "Jumpcore Demo",
+	"type": "pdk",
+	"main": "jumpcore.exe",
+    "icon": "icon.png",
+	"id": "com.andrewmcclure.jumpcoredemo",
+	"version": "1.0.0",
+	"vendor": "Andrew McClure",
+    "requiredMemory": 32
+}

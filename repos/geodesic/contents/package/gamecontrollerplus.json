@@ -1,0 +1,138 @@
+{
+    "version": "1.0b",
+    "db":[
+        {
+            "name": "PS3 Controller",
+            "labels": {
+                "x": "square",
+                "y": "triangle",
+                "a": "X",
+                "b": "circle",
+                "lefttrigger" : "L2",
+                "righttrigger" : "R2",
+                "leftshoulder" : "L1",
+                "rightshoulder" : "R1",
+                "rightstick" : "right stick down",
+                "leftstick"  : "left stick down"
+            }
+        },
+        {
+            "name": "X360 Controller",
+            "labels": {
+                "x": "X",
+                "y": "Y",
+                "a": "A",
+                "b": "B",
+                "back" : "Back"
+            }
+        },
+        {
+            "name": "OUYA Controller",
+            "labels": {
+                "x": "U",
+                "y": "Y",
+                "a": "O",
+                "b": "A"
+            }
+        },
+        {
+            "name": "Logitech Dual Action",
+            "labels": {
+                "x": "1",
+                "y": "4",
+                "a": "2",
+                "b": "3"
+            }
+        },
+        {
+            "name": "Gravis GamePad Pro",
+            "labels": {
+                "x": "Red",
+                "y": "Blue",
+                "a": "Yellow",
+                "b": "Green"
+            }
+        }
+    ],
+    "defaultlabels": {
+        "x": "left face button",
+        "y": "top face button",
+        "a": "bottom face button",
+        "b": "right face button",
+        "dpleft" : "Left button",
+        "dpright" : "Right button",
+        "dpup" : "Up button",
+        "dpdown" : "Down button",
+        "leftx" : "left analog",
+        "lefty" : "left analog",
+        "rightx" : "right analog",
+        "righty" : "right analog",
+        "lefttrigger" : "left trigger",
+        "righttrigger" : "right trigger",
+        "leftshoulder" : "left shoulder",
+        "rightshoulder" : "right shoulder",
+        "rightstick" : "right stick click",
+        "leftstick"  : "left stick click",
+        "back": "Select",
+        "start": "Start",
+        "guide" : "Home button"
+    },
+    "meta": {
+        "inherit": {
+            "Afterglow PS3 Controller": "PS3 Controller",
+            "PS3 DualShock": "PS3 Controller",
+            "PS4 Controller": "PS3 Controller",
+            "Sony DualShock 4" : "PS3 Controller",
+            "Rock Candy Gamepad for PS3" : "PS3 Controller",
+            "PS4 Controller (Bluetooth)" : "PS3 Controller",
+            "PS3 Controller (Bluetooth)" : "PS3 Controller",
+            "Twin USB PS2 Adapter": "PS3 Controller",
+            "Saitek Cyborg V.1 Game Pad": "PS3 Controller",
+            "Sony PS2 pad with SmartJoy adapter": "PS2 Controller",
+            "X360 Wireless Controller": "X360 Controller",
+            "Generic X-Box pad": "X360 Controller",
+            "Microsoft X-Box pad v2 (US)": "X360 Controller",
+            "Logitech F710 Gamepad": "X360 Controller",
+            "Logitech F310 Gamepad (DInput)": "X360 Controller",
+            "Logitech F510 Gamepad (DInput)": "X360 Controller",
+            "Logitech F710 Gamepad (XInput)": "X360 Controller",
+            "Logitech F310 Gamepad (XInput)": "X360 Controller",
+            "Logitech F510 Gamepad (XInput)": "X360 Controller",
+            "Logitech F710 Gamepad (DInput)": "X360 Controller",
+            "GameStop Gamepad": "X360 Controller",
+            "Razer Onza Tournament": "X360 Controller",
+            "Moga Pro": "X360 Controller",
+            "Hori Pad EX Turbo 2": "X360 Controller",
+            "Logitech RumblePad 2 USB": "Logitech Dual Action"
+        },
+        "bettername": {
+			"Logitech Logitech Dual Action": "Logitech Dual Action",
+            "Logitech Logitech RumblePad 2 USB": "Logitech RumblePad 2 USB",
+            "DragonRise Inc.   Generic   USB  Joystick  ": "DragonRise Inc. Generic USB Joystick",
+            "GameCube {WiseGroup USB box}": "GameCube (WiseGroup USB box)",
+            "GreenAsia Inc.    USB Joystick     ": "GreenAsia Inc. USB Joystick",
+            "GreenAsia Inc.      USB  Joystick  ": "GreenAsia Inc. USB Joystick (Driver 2)",
+            "Thrustmaster Run N Drive  Wireless": "Thrustmaster Run N Drive Wireless",
+            "Thrustmaster Run N Drive Wireless PS3": "Thrustmaster Run N Drive Wireless (Driver 2)",
+            "GamePad Pro USB ": "Gravis GamePad Pro",
+            "Gravis GamePad Pro USB ": "Gravis GamePad Pro"
+        },
+        "simplername": {
+            "Logitech F310 Gamepad (DInput)": "Logitech F310 Gamepad",
+            "Logitech F510 Gamepad (DInput)": "Logitech F510 Gamepad",
+            "Logitech F710 Gamepad (XInput)": "Logitech F710 Gamepad",
+            "Logitech F310 Gamepad (XInput)": "Logitech F310 Gamepad",
+            "Logitech F510 Gamepad (XInput)": "Logitech F510 Gamepad",
+            "Logitech F710 Gamepad (DInput)": "Logitech F710 Gamepad",
+            "Sony PS2 pad with SmartJoy adapter": "PS2 Controller",
+            "Twin USB PS2 Adapter": "PS2 Controller",
+            "GameCube (WiseGroup USB box)": "GameCube Controller",
+            "Logitech Wireless Gamepad (DInput)": "Logitech Wireless Gamepad",
+            "GreenAsia Inc. USB Joystick (Driver 2)": "GreenAsia Inc. USB Joystick",
+            "Thrustmaster Run N Drive Wireless (Driver 2)": "Thrustmaster Run N Drive Wireless"
+        },
+        "comments": {
+            "GameStop Gamepad": "There have been multiple pads with different layouts released by GameStop at different times. This file assumes the SDL2 database entry to be the 360 pad clone."
+        }
+    }
+}

@@ -1,0 +1,23 @@
+Emily 0.1 - dev
+
+Overall goal:
+
+Emily is a programming language exploring the idea of unifying pattern-matched functions with objects. A description of the planned language is at http://emilylang.org/ .
+
+Current goal:
+
+Create the quickest minimally functioning prototype of a language resembling Emily's intended semantics, so that I can play around with syntax ideas and have a basis for LLVM experiments.
+
+Next steps following current prototype:
+
+- Pull in LLVM so that I can start experimenting with C++ FFI
+- Probably want to remove Objective-C, the portability implications can't be good.
+
+Known bad elements of current prototype:
+
+- No TCO
+- Emily stack is C stack, so unrolling (say for TCO) will be pretty much impossible
+- Overall inefficient
+- Spaces are generally ignored by lexer. "& &" is one token, "1 000 000" is one million.
+- No attempt has been made to compile on anything but XCode 3.2.6 for OS X
+- Known memory leaks

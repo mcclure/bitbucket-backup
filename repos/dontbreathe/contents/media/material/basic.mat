@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<polycode>	
+	<shaders>
+		<shader type="glsl" name="FlatShader" numAreaLights="4" numSpotLights="2">		
+			<vp source="media/material/FlatShader.vert" />
+			<fp source="media/material/FlatShader.frag" />
+		</shader>
+	</shaders>
+	<materials>
+		<material name="TestParticle">
+			<shader name="DefaultParticleShader">
+				<textures>
+					<texture name="diffuse">particle.png</texture>
+				</textures>
+			</shader>
+		</material>	
+		<material name="CubeMaterial">
+			<shader name="FlatShader">
+				<textures>
+					<texture name="diffuse">box_texture.png</texture>
+				</textures>
+			</shader>
+		</material>			
+	</materials>
+</polycode>

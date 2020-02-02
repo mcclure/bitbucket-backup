@@ -1,0 +1,50 @@
+width.txt:  Integer // window width
+height.txt: Integer // window height
+fsaa.txt:   Decimal // ratio of window size to saved image size -- suggest 1 or 2
+
+mode.txt: Integer
+	1: Game + filters
+	2: Game + filters + attract
+	3: Vanilla game
+	4: Testdiamond
+	5: Postprocess test
+	6: Splatter texture test
+	7: Boxer test
+	-1: Input tester
+
+face.txt: Integer // How is iso drawn?
+	0: Solid
+	1: Solid uniform-side
+	2: Wireframe
+	
+color.txt: Integer // How is iso colored?
+	0: Random
+	1: Random but sometimes black
+	2. Tetrahedron-aware random
+	3. Tetrahedron-aware but sometimes black
+	4: Uniform-side-aware
+	5: Uniform-side-aware but sometimes solid
+	
+filter.txt: Integer // What do i and p do?
+	0: No filter
+	1. Interlace filter
+	2. Brightness filter
+
+mirror.txt: Integer // Mirror type
+	0: None
+	1: Flat inner mirror
+	2. Inner iso is mirror
+	3. Outer iso is mirror
+
+mirrorcolor.txt: Integer
+	0: Uncolored mirror
+	1: Colored mirror
+	
+mirrorskin.txt: Integer // How is the mirorr tetrahedron textured?
+	1: Random
+	2: Tetrahedron-based (x axis)
+	2: Tetrahedron-based (xy axes)
+	
+mutate.txt: Integer // What do k and ; keys do?
+	1: Mutate outer
+	2: Mutate inner

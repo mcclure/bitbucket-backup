@@ -1,0 +1,19 @@
+package = "loopfriend"
+version = "scm-1"
+source = {
+   url = "file:///."
+}
+description = {
+   summary = "Loopfriend makefile",
+   license = "Private"
+}
+dependencies = {
+   "lua ~> 5.1",
+   "luigi = local-1"
+}
+build = {
+   type = "builtin",
+   modules = {
+      ["main"] = "src/main.lua"
+   }
+}

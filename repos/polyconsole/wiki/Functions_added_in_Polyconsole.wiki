@@ -1,0 +1,281 @@
+Polycode's Lua support has a number of limitations. Most of the stuff added in Polyconsole exists to work around this.
+
+<<toc>>
+
+=In project_util.lua=
+
+These functions can be found in a file named project_util.lua that gets included before any other lua stuff runs. I suggest not adding anything to project_util.lua itself because it's loaded clumsily and only at program launch. Instead, make an [[How to write an overlay|overlay]] which gets loaded before any of the others and put your own utility functions there.
+
+==Printing==
+
+{{{stringversion = to_string( anything )}}}\\
+{{{print( anything )}}}
+
+This is a replacement for the standard print(). It's smart enough you can pass in tables and Polycode objects, and it will print something usually sensible.
+
+==Scene management==
+
+{{{s = scene()}}}\\
+{{{s = screen()}}}
+
+Quick access to the Scene and Screen objects for the currently loaded Room.
+
+{{{obj_list = objs()}}}\\
+{{{ball = id("ball")}}}
+
+The first prints a list of object IDs in the current room, the second takes an ID string and returns the corresponding object. Try {{{print(objs())}}}.
+
+==Terminal management==
+
+{{{clear()}}}
+
+Clears the terminal.
+
+{{{help()}}}\\
+{{{help(ScreenShape)}}}\\
+{{{help("ScreenShape:setStrokeColor")}}}
+
+Online Polycode API reference. Enter the name of a class or method. Note, this will only work if you have run {{{package/make_doxygen.py}}} from the Polyconsole directory to generate the help files.
+
+==Memory management==
+
+In Polycode, if you have an object which corresponds to a C++ object-- say, Vector3(), or any other "Polycode API object"-- and the object isn't already getting freed by some other part of the system, you must call delete(object) or the C++ part of the object will leak. This isn't documented anywhere. Littering your code with delete()s gets super obnoxious, so I use these:
+
+{{{obj = a(obj)}}}\\
+{{{obj = r(obj)}}}\\
+{{{obj = i(obj)}}}
+
+a for "autorelease": Adds the object to a list to be deleted at the end of the current frame, then returns the object.
+r for "retain": Adds the object to a list to be deleted when the room is torn down, then returns the object.
+i for "identity": Does nothing. Just returns whatever object you pass to it.
+
+So if you allocate an object which is temporary for this frame, a() it, and if you have an object which needs to be kept around but not longer than the current room, r() it.
+
+In order for this to work, you need to use the "startup" and "shutdown" overlays as part of your room specification. 
+
+TRIVIA: You can also approximate the startup/shutdown overlays by calling {{{memory_setup}}} at the start of your onLoad, {{{memory_drain}}} at the end of your onUpdate, and {{{memory_teardown}}} at the end of your onClose. However again if you use the startup/shutdown overlays this is not necessary. Also, there's a method {{{resetPtrLookup()}}} that can be used to forcibly GC wrapper objects which have been deleted on the C++ side without their corresponding Lua objects being deleted-- hopefully you will never need to use that.
+
+==Shader management==
+
+Let's say you have something-- either a Screen, or the camera associated with a Scene (call {{{scene():displayScene():getDefaultCamera()}}}), which you have attached a [[http://polycode.org/learning/screen_shaders|screen shader]] to. Let's say the shader has parameters you want to set. Call this:
+
+{{{shader = shaderBindings(screen(), {a=4,b=10,c=Vector3(4,2,3)})}}}
+
+The first argument should be the screen/camera, the second argument should be a table with parameter names as keys and desired parameter defaults (Numbers or Vector3s only) as values. This will set "shader" to a table containing one ShaderWrapper object for each parameter you named. Once you have the ShaderWrapper object, you can get the current value of a shader parameter with (assume the parameter is named "a"):
+
+{{{a_value = shader.a.get()}}}
+
+And set it with:
+
+{{{shader.a.set(43)}}}
+
+Again you can pass in only Numbers and Vector3s.
+
+==Vector stuff==
+
+{{{setPosition(entity, x, y)}}}
+
+Changes the x and y position of a 2D physics screen object, jumping through some hoops you have to do for that to work. Warning: Don't use if you aren't using 2D physics.
+
+{{{v2 = vDup(v)}}}
+
+Duplicate a Vector3. Useful if you have a vector which you know will be deleted soon (vectors passed into event handlers fit this description).
+
+{{{v3 = vAdd(v1,v2)}}}
+
+Adds two Vector3s. Same as "v3 = v1 + v2" in c++. Returned vector is autoreleased.
+
+{{{v3 = vSub(v1,v2)}}}
+
+Subtracts two Vector3s. Same as "v3 = v1 - v2" in c++. Returned vector is autoreleased.
+
+{{{v2 = vMult(v,s)}}}
+
+Multiples a Vector3 v by a scalar s. Same as "v2 = v * s" in c++. Returned vector is autoreleased.
+
+{{{s = vNorm(v)}}}
+
+Returns the absolute length of a Vector3.
+
+{{{v2 = vNormalize(v, s)}}}
+
+Return a normalized (unit length) version of Vector3 v, optionally postmultiplied by a scalar s (s can be omitted).
+
+{{{vSet(v1, v2)}}}
+
+Sets v1 to be equal to v2, in place.
+
+{{{vSetPosition(entity,v)}}}
+
+Sets the position of an entity to a Vector3. Same as e->setPosition(v) in c++.
+
+==Table management==
+
+{{{pull(dst,src)}}}
+
+Takes all key, value pairs in src and adds them also to dst.
+
+{{{n = tableCount(t)}}}
+
+Returns the number of key, value pairs in the table (remember #t only counts values with numeric keys).
+
+==Queues==
+
+{{{q = Queue()}}}\\
+{{{q:push(obj)}}}\\
+{{{obj = q:pop()}}}\\
+{{{obj = q:peek()}}}\\
+
+I also just threw in a generic Queue object. It works the way you'd expect. "Peek" looks at the next value to be popped without actually popping.
+
+=In the bridge=
+
+These are C++-backed functions that live in bridge.h and are invoked by calling methods on a singleton object named "bridge". These are mostly things from the C++ Polycode API that are broken in the Lua Polycode API. If you want to add functions to the bridge, see [[How to add new C++ functions when using Polyconsole]]
+
+==Room and object management==
+
+{{{bridge:load_room(spec)}}}
+
+Loads a room given a "spec", which is a comma-separated (or newline-separated) list of overlays to combine into a room. For example {{{bridge:load_room("media/overlay/game,media/example.svg")}}}
+
+{{{bridge:fake()}}}
+
+Loads "nothing". Let's say rendering your current room is taking up 90% CPU or something and you just want to do something in Firefox for a minute. Calling fake() will blank the screen totally and halt all dynamics (but if you hit "esc", you will will correctly reload whatever you had up before you ran fake()).
+
+{{{name = bridge:room_name(entity)}}}
+
+The reverse of id(). Given an entity, returns its name in the current room.
+
+{{{room_remove_scene(SceneEntity *obj)}}}\\
+{{{room_remove_screen(ScreenEntity *obj)}}}
+
+Given an entity, removes it from the scene or screen as appropriate and also removes it from the objs()/id() array.
+
+==Missing methods==
+
+{{{str = bridge:charCode(inputevent)}}}
+
+Given an InputEvent, returns a string containing its charCode.
+
+{{{screenmesh = bridge:meshFor(polygon)}}}
+
+Constructs a ScreenMesh given a polygon.
+
+{{{matrix3 = mmult(matrix1,matrix2)}}}
+
+Matrix multiply. Same as "matrix3 = matrix1 * matrix2" in C++.
+
+{{{q3 = qmult(q1, q2)}}}
+
+Quaternion multiply. Same as "q3 = q1 * q2" in C++.
+
+{{{v2 = qapply(q, v)}}}
+
+Makes a Quaternion act on a vector (i.e. rotates the vector by the quaternion).
+
+{{{q = bridge:Slerp(fT, rkP, rkQ, shortestPath)}}}\\
+{{{q = bridge:Squad(fT, rkP, rkA, rkB, rkQ, shortestPath)}}}
+
+Exposes [[http://polycode.org/docs/polycore/class_polycode_1_1_quaternion.html|Quaternion::Slerp() and Quaternion::Squad()]].
+
+{{{v = bridge:bbox(entity)}}}
+
+Returns the bounding box (bbox field) of an entity.
+
+{{{str = brige:custEntityType(entity)}}}
+
+Returns the custom entity type (custEntityType field) of an entity.
+
+{{{bridge:setSceneClearColor(scene(), r, g, b, a)}}}
+
+Sets the background color of the given scene to (r,g,b,a).
+
+{{{bridge:getChildAtScreenPosition(screen(), x, y)}}}
+
+Given mouse coordinates x, y, returns a list (as a lua table) of the screen entities overlapping that coordinate.
+
+==XML==
+
+The following methods will currently misbehave if passed self-referential tables.
+
+{{{saveTableIntoObject(o, t)}}}
+
+Takes an ObjectEntry object o and a table (or other lua variable) t. Copies the Lua item into the ObjectEntry.
+
+{{{t = loadTableFromObject(o)}}}
+
+Takes an ObjectEntry object o and returns the Lua table equivalent.
+
+{{{saveTableIntoFile(filename, rootname, t)}}}
+
+Serializes the table (or other lua variable) t to XML at the path "filename" and with the root XML element "rootname".
+
+{{{t = loadTableFromFile(filename, externalp)}}}
+
+Given a path "filename", loads an XML document and returns the parsed Lua table equivalent. If optional argument "externalp" is true, the XML document will be loaded from the hard disk only rather than from potentially inside the application package.
+
+{{{s = saveTableIntoXml(rootname, t)}}}
+
+Serializes the table (or other lua variable) t to XML with the root XML element "rootname", then returns the XML string.
+
+{{{t = loadTableFromXml(s)}}}
+
+Given an XML string s, returns the parsed Lua table equivalent.
+
+==Physics==
+
+{{{a = bridge:room_a()}}}\\
+{{{b = bridge:room_b()}}}
+
+When inside of an onCollide handler: Returns the "a" and "b" objects from the collision. When not inside of an onCollide handler: Don't call these
+
+==Misc utility==
+
+{{{str = filedump(path)}}}
+
+Loads a file, returns its contents as a string.
+
+{{{str = filedump_external(path)}}}
+
+Loads a file, returns its contents as a string-- but will *only* load files that exist outside the program on the hard disk, not inside the application package.
+
+{{{sound = bridge:soundFromValues(numberarray, channels_num, freq, bits_per_sample)}}}
+
+Returns a Sound given a NumberArray containing sample values (between -1 and 1). All arguments except the first are optional. See "NumberArray" below.
+
+{{{bridge:Quit()}}}
+
+Quits.
+
+{{{str = saved_level()}}}\\
+{{{set_saved_level(integer)}}}
+
+Uh... manages a save file. I don't know if this even still works.
+
+{{{bridge:playback_index()}}}
+{{{bridge:playback_from(int idx)}}}
+
+See [[How to use the playtest record/playback feature]].
+
+==Stuff you don't care about==
+
+{{{s = bridge:room_screen()}}} {{{bridge:room_scene()}}} {{{bridge:room_objs()}}}  {{{obj = bridge:room_id(name)}}} {{{bridge:clear()}}} {{{bridge:help()}}}
+
+You don't need these because there are Lua wrappers (see the project_util stuff above) that call them without needing the bridge:.
+
+{{{typeauto = bridge:col40()}}}
+
+Returns the current DOS singleton. See dos.h, which I don't currently intend to document. If you really care, email me.
+
+==Additional classes==
+
+{{{a = NumberArray()}}} {{{s = a:size()}}} {{{v = a:get(1)}}} {{{a:push_back(v)}}}\\
+{{{a = VectorArray()}}} {{{s = a:size()}}} {{{v = a:get(1)}}} {{{a:push_back(v)}}}\\
+{{{a = StringArray()}}} {{{s = a:size()}}} {{{v = a:get(1)}}} {{{a:push_back(v)}}}\\
+{{{a = EntityArray()}}} {{{s = a:size()}}} {{{v = a:get(1)}}} {{{a:push_back(v)}}}
+
+Currently, it's tricky to pass arrays (stl vector<>s can't be passed, "Object"s have problems, tables are possible now but have additional overhead) across Polycode's Lua bridge, so these are used whenever an array needs to go between C++ and Lua.
+
+{{{s = SceneEcho(entity)}}} {{{entity = s:getEntity()}}}
+
+This is a simple class that lets you add a single thing to a Scene multiple times without having to duplicate resources inside of it (like textures). The object to be rendered will inherit the positioning, rotation, color etc. of the echo object.
